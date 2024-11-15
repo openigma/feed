@@ -52,7 +52,7 @@ Size: 11124
 MD5Sum: 1120e6be3e6f1e4c98102558ff23166a
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
-Version: 1.9.0
+Version: 1.9.1
 Description: e2m3u 2bouquet
 Section: extra
 Priority: optional
@@ -63,10 +63,10 @@ OE: enigma2-plugin-extensions-e2m3u2bouquet
 Homepage: https://www.suls.co.uk/
 Depends: python3-image, python3-pillow
 Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
-Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.9.0_all.ipk
-Size: 2360310
-MD5Sum: e88588cd3ba03b2967c6c0aa6597c75f
-SHA256sum: 1cf91030d68b68fbc5023a4ce52ae7abcfcea03bf67d26dabf6c1a7c959bfe93
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.9.1_all.ipk
+Size: 2369810
+MD5Sum: f8f06a43703fad456891f2225d769587
+SHA256sum: c5b9d2c5562687da806e7dc5c04d8aaafb28103334565d3732fd919b0cd362a1
 
 Package: enigma2-plugin-extensions-embydream
 Version: 1.3.7+git49+12c25be0+12c25be4c9-r74
@@ -200,15 +200,15 @@ Size: 9286320
 MD5Sum: 8f8d6eba38988839a78c2467e63c5beb
 
 Package: enigma2-plugin-extensions-hdfradio
-Version: 2.16.5
+Version: 2.16.6
 Description: Webradio Plugin
 Section: base
 Priority: required
 Maintainer: koivo & oerlgrey
-MD5Sum: e72a2c07423556a04a3fb3bafd381369
-SHA256sum: e72f0e8dcee5158a8b45ad89ba8d13b7b8964be83ecb5309f82b1c14ef9efc51
-Size: 3944200
-Filename: enigma2-plugin-extensions-hdfradio_2.16.5_py3_3.12.6_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a3df6c5c8145d4f526d5dfc08e3c4cd4
+SHA256sum: 7b112f07995e15efe88a7dda452fd55c06bcffb8ba03cabbdbe7148c9818b97f
+Size: 3938280
+Filename: enigma2-plugin-extensions-hdfradio_2.16.6_py3_3.12_cortexa15hf-neon-vfpv4.ipk
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions
@@ -216,8 +216,9 @@ Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, pytho
 Source: enigma2-plugin-extensions-hdfradio.bb
 
 Package: enigma2-plugin-extensions-ipaudiopro
-Version: 1.3+git124
-Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the background while watching something else
+Version: 1.4
+Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the
+ background while watching something else
 Section: base
 Priority: optional
 Maintainer: zKhadiri
@@ -225,12 +226,12 @@ License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-ipaudiopro
 Homepage: https:\\www.open.tv
-Depends: alsa-conf, alsa-plugins, alsa-state, enigma2, libasound2 (>= 1.2.11), libavcodec60 (>= 6.1.1), libavformat60 (>= 6.1.1), libc6 (>= 2.40), libgcc1 (>= 14.2.0), libpython3.12-1.0 (>= 3.12.3), libstdc++6 (>= 14.2.0), python3-cryptography
+Depends: alsa-plugins, enigma2, libasound2, libavcodec61, libavformat61, libc6, libgcc1, libpython3.13-1.0, libstdc++6, python3-cryptography
 Source: enigma2-plugin-extensions-ipaudiopro.bb
-Filename: enigma2-plugin-extensions-ipaudiopro_1.3+git124+cd654700+cd6547059e-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 1071562
-MD5Sum: 816c93df3034bf37d14afe08f42e89f3
-SHA256sum: 74b25c1c0377073dccb47c01e9aee0ebdb3556c5a1524edf88b2128e8bdee2e9
+Filename: enigma2-plugin-extensions-ipaudiopro_1.4_cortexa15hf-neon-vfpv4.ipk
+Size: 885378
+MD5Sum: 200ad7d6494654ca696bf5338f130e93
+SHA256sum: 3d1230bc7883545f0d0132899b6a3f54c047e4159ce4b7c9c02781c7d5185d30
 
 Package: enigma2-plugin-extensions-iptvarchive
 Version: 2.0.87
