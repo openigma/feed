@@ -68,107 +68,6 @@ Size: 2369810
 MD5Sum: f8f06a43703fad456891f2225d769587
 SHA256sum: c5b9d2c5562687da806e7dc5c04d8aaafb28103334565d3732fd919b0cd362a1
 
-Package: enigma2-plugin-extensions-embydream
-Version: 1.3.7+git49+12c25be0+12c25be4c9-r74
-Description: Streaming service for music, films and photos.
- enigma2-plugin-extensions-embydream
-Section: extra
-Priority: optional
-Maintainer: murxer <support@boxpirates.to>
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-embydream
-Homepage: https://emby.media/
-Depends: libc6 (>= 2.40), python3-core, python3-imaging, python3-json, python3-requests
-Source: enigma2-plugin-extensions-embydream.bb
-Filename: enigma2-plugin-extensions-embydream_1.3.7+git49+12c25be0+12c25be4c9-r74_cortexa15hf-neon-vfpv4.ipk
-Size: 16463202
-MD5Sum: 684f9f9f56d5f1db172e2d0c878a07c3
-
-Package: enigma2-plugin-extensions-embydreamserver
-Version: 1.0.5+git11+eaa036d0+eaa036d4de-r74
-Description: Emby-Server on Enigma
- enigma2-plugin-extensions-embydreamserver
-Section: extra
-Priority: optional
-Maintainer: murxer <support@boxpirates.to>
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions
-Homepage: https://emby.media/
-Depends: bash, python3-beautifulsoup4, python3-json, python3-xml, tar, xz
-Recommends: update-rc.d
-Source: enigma2-plugin-extensions-embydreamserver.bb
-Filename: enigma2-plugin-extensions-embydreamserver_1.0.5+git11+eaa036d0+eaa036d4de-r74_cortexa15hf-neon-vfpv4.ipk
-Size: 271440
-MD5Sum: 7aacd19e4d93727add633cbeaa4391f8
-
-Package: enigma2-plugin-extensions-emission
-Version: 8.0-r8
-Description: extensions-emission
- basic frontend to the transmission bittorrent client
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://www.open.tv
-Depends: python3-transmission-rpc, transmission, transmission-client
-Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-emission_7.5+gitr7750+4b925470+4b925474e1-r8_dm920.ipk
-Size: 24758
-MD5Sum: 0283907514206bf5052da2eb70d89b01
-
-Package: enigma2-plugin-extensions-enhancedmoviecenter
-Version: 4.0-r0
-Description: Filemanager MoviePlayer Extentions
- Filemanager MoviePlayer Extentions.
-Section: extra
-Priority: optional
-Maintainer: Coolman, Betonme & Swiss-MAD
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-enhancedmoviecenter
-Homepage: https://www.open.tv
-Depends: gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-good-flv, python3-chardet, python3-html, python3-json, python3-mutagen, python3-requests, python3-tmdbsimple, rtmpdump
-Source: enigma2-plugin-extensions-enhancedmoviecenter.bb
-Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0.+git1767+fb6789a0+fb6789aa45-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 691504
-MD5Sum: 1936ea21f62b72b92c4915b6125d3c1d
-
-Package: enigma2-plugin-extensions-epgtranslator
-Version: 8.0-r2
-Description: extensions-epgtranslator
- extensions-epgtranslator
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-oe-alliance-plugins
-Homepage: https://www.open.tv
-Source: enigma2-oe-alliance-plugins.bb
-Filename: enigma2-plugin-extensions-epgtranslator_7.5+gitr3681+a7f0c680+a7f0c68a9c-r2_dm920.ipk
-Size: 1618254
-MD5Sum: c49904f5ad231a99d52a63038eed7cf5
-
-Package: enigma2-plugin-extensions-esame
-Version: 8.0-r8
-Description: extensions-esame
- eSame game for enigma2
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://www.open.tv
-Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-esame_7.5+gitr7750+4b925470+4b925474e1-r8_dm920.ipk
-Size: 20400
-MD5Sum: 8c40fc8c176d1b46381fb81b2537d660
-
 Package: enigma2-plugin-extensions-filmon
 Version: 2.0
 Section: base
@@ -198,22 +97,6 @@ License: free
 Filename: enigma2-plugin-extensions-hasbahca_1.7_all.ipk
 Size: 9286320
 MD5Sum: 8f8d6eba38988839a78c2467e63c5beb
-
-Package: enigma2-plugin-extensions-hdfradio
-Version: 2.16.6
-Description: Webradio Plugin
-Section: base
-Priority: required
-Maintainer: koivo & oerlgrey
-MD5Sum: a3df6c5c8145d4f526d5dfc08e3c4cd4
-SHA256sum: 7b112f07995e15efe88a7dda452fd55c06bcffb8ba03cabbdbe7148c9818b97f
-Size: 3938280
-Filename: enigma2-plugin-extensions-hdfradio_2.16.6_py3_3.12_cortexa15hf-neon-vfpv4.ipk
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions
-Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
-Source: enigma2-plugin-extensions-hdfradio.bb
 
 Package: enigma2-plugin-extensions-ipaudiopro
 Version: 1.4
@@ -267,21 +150,6 @@ HomePage: https://github.com/kiddac
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-lottoextended
-Version: 8.0
-Description: Lotto Extended
-Section: base
-Priority: optional
-Maintainer: oe-alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugin-extensions
-Homepage: https://github.com/oe-mirrors
-Source: enigma2-plugin-extensions-lottoextended.bb
-Filename: enigma2-plugin-extensions-lottoextended_7.5+gitr3653+a0bc4490+a0bc4497c2-r2_dm920.ipk
-Size: 47998
-MD5Sum: 52d11fb11ae368863e98473b0f52381d
-
 Package: enigma2-plugin-extensions-multi-stalkerpro
 Version: 1.2+git168
 Description: Multi-StalkerPro Plugin
@@ -296,29 +164,8 @@ License: Proprietary
 Architecture: all
 OE: enigma2-plugin-extensions
 Homepage: https://github.com/zKhadiri/MultiStalkerPro-releases
-Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, libc6 (>= 2.40), libgcc1 (>= 13.2.0), libpython3.12-1.0 (>= 3.12.3), libstdc++6 (>= 13.2.0), python3-cryptography, python3-dateutil, python3-fuzzywuzzy, python3-levenshtein, python3-pillow, python3-rarfile, python3-requests, python3-six, python3-sqlite3, python3-zoneinfo, uchardet
+Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, libc6 (>= 2.40), libgcc1, libpython3.13-1.0, libstdc++6, python3-cryptography, python3-dateutil, python3-fuzzywuzzy, python3-levenshtein, python3-pillow, python3-rarfile, python3-requests, python3-six, python3-sqlite3, python3-zoneinfo, uchardet
 Source: enigma2-plugin-extensions-multi-stalkerpro.bb
-
-Package: enigma2-plugin-extensions-mediastream
-Version: 20231131-python3.12-r0
-Description: MediaStream-MediaPortal-Free IPTV, ARD, ZDF, ARTE, MTV and more
-Section: base
-Priority: optional
-Maintainer: MS
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions
-Homepage: http://mediastream.medianewsonline.com/
-Depends: libc6 (>= 2.40), nodejs, python3-compression, python3-core, python3-db, python3-email, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
-Recommends: gstreamer1.0-plugins-base-opus, python3-pycryptodome
-Provides: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Replaces: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Conflicts: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Source: enigma2-plugin-extensions-mediastream.bb
-Filename: enigma2-plugin-extensions-mediastream_20231131-python3.12-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 13298492
-MD5Sum: 44d851e7406fc7334ed0045d2249f166
-SHA256sum: b306c2fcd31878229f6f683ddbbd685d7b65cadca1eccb44c61d84581c2a58a2
 
 Package: enigma2-plugin-extensions-ngsetting-fhd
 Version: 2.7
@@ -348,23 +195,6 @@ Description: OAWeather Converter and Renderer to display Weather in Skin.
 OE: enigma2-plugin-extensions
 License: GPL-3.0-only
 Priority: optional
-
-Package: enigma2-plugin-extensions-plexdream
-Version: 1.2.1+git13+5c362120+5c36212e6e-r74
-Description: Streaming service for music, films and photos.
- enigma2-plugin-extensions-plexdream
-Section: extra
-Priority: optional
-Maintainer: murxer <support@boxpirates.to>
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions
-Homepage: https://www.plex.tv/
-Depends: libc6 (>= 2.40), python3-core, python3-db, python3-imaging, python3-multiprocessing, python3-requests, python3-unixadmin
-Source: enigma2-plugin-extensions-plexdream.bb
-Filename: enigma2-plugin-extensions-plexdream_1.2.1+git13+5c362120+5c36212e6e-r74_cortexa15hf-neon-vfpv4.ipk
-Size: 10349974
-MD5Sum: ae569e716d2bdda1feca349c976d4d65
 
 Package: enigma2-plugin-extensions-plutotv
 Version: 20240831
@@ -421,27 +251,11 @@ Maintainer: Billy2011
 Description: Samsung TV Plus Live TV Channels
 Depends: enigma2-plugin-extensions-epgimport
 Recommends: enigma2-plugin-systemplugins-serviceapp
-Source: 
+Source: enigma2-plugins.bb
 Homepage: 
 Filename: enigma2-plugin-extensions-samsungtvplus_20241116_all.ipk
 Size: 174454
 MD5Sum: b8b6014c0470ca704f8d4daec004aaed
-
-Package: enigma2-plugin-extensions-schiffe
-Version: 8.0-r8
-Description: extensions-schiffe
- Schiffe Battleship Game FHD Modded by Lululla
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://www.open.tv
-Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-schiffe_7.5+gitr7750+4b925470+4b925474e1-r8_dm920.ipk
-Size: 169950
-MD5Sum: 7171573269668977977a148538df1489
 
 Package: enigma2-plugin-extensions-streamlinkproxy
 Version: 7.0.0
@@ -508,22 +322,6 @@ Filename: enigma2-plugin-extensions-surfsharkvpn_1.0.9-py3_all.ipk
 Size: 927526
 MD5Sum: fda0075fe5f6ada0bc7c2fc43df1b725
 
-Package: enigma2-plugin-extensions-tetris
-Version: 8.0-r8
-Description: extensions-tetris
- Tetris-Clone HD/FHD modded by Lululla
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://www.open.tv
-Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-tetris_7.5+gitr7750+4b925470+4b925474e1-r8_dm920.ipk
-Size: 136562
-MD5Sum: c03bf6a98ceaf458dc65362cf2b13ba3
-
 Package: enigma2-plugin-extensions-tvaddon
 Version: 2.1.5
 Description: TiVuPanel Addon
@@ -571,22 +369,6 @@ HomePage: https://forums.openpli.org/topic/82327-video-player-simple/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-vierg
-Version: 8.0-r8
-Description: extensions-vierg
- Four wins game
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://www.open.tv
-Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-vierg_7.5+gitr7750+4b925470+4b925474e1-r8_dm920.ipk
-Size: 38550
-MD5Sum: 9e131a3176a579a310a6c158c60320c6
-
 Package: enigma2-plugin-extensions-vpnmanager
 Version: 1.1.7-py3
 Description: Manage OpenVPN connections
@@ -632,40 +414,6 @@ OE: enigma2-plugin-extensions
 Filename: enigma2-plugin-extensions-worldcam_4.5_all.ipk
 Size: 2925430
 MD5Sum: 3f36f07b2e59dd8e94a914d148f94666
-
-Package: enigma2-plugin-extensions-xklass
-Version: 1.19.20241112
-Depends: python3-pillow, python3-requests, wget
-Section: base
-Architecture: all
-Maintainer: kiddac
-MD5Sum: 9a7b053b1edd4b82bb8253fb95bef43a
-SHA256sum: 8cc0e45d11ac690342a90b29f05c481a2e1fc8db75f146191138c349833ecc57
-Size: 5634346
-Filename: enigma2-plugin-extensions-xklass_1.19.20241112_all.ipk
-Source: enigma2-plugin-extensions-xklass.bb
-Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
-OE: enigma2-plugin-extensions-xklass
-HomePage: https://github.com/kiddac/XKlass
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-xstreamity
-Version: 4.64.20241112
-Depends: python3-multiprocessing, python3-pillow, python3-requests
-Section: base
-Architecture: all
-Maintainer: kiddac
-MD5Sum: 913f35e5abe754d23d39ea9b6b9c8b4b
-SHA256sum: d873b4ada4025637a0a20f97bde8658de36bae009dff9e6847d699410f04230b
-Size: 4495302
-Filename: enigma2-plugin-extensions-xstreamity_4.64.20241112_all.ipk
-Source: enigma2-plugin-extensions-xstreamity.bb
-Description: IPTV Xtream Codes playlists player by KiddaC
-OE: enigma2-plugin-extensions-xstreamity
-HomePage: https://github.com/kiddac/XStreamity
-License: GPL-2.0-or-later
-Priority: optional
 
 Package: enigma2-plugin-extensions-xtraevent
 Version: 6.79
