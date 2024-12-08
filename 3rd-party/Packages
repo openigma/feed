@@ -1363,6 +1363,23 @@ Filename: nodejs_20.17.0-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 8049718
 MD5Sum: 34d071e6f2233d25da11ec12a7217e72
 
+Package: streamlinksrv
+Version: 1.8.5
+Depends: python3-core, streamlink
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR
+MD5Sum: e98add283ecffb3b8ebba7d0fc226992
+SHA256sum: d916cdc4e7214f6ddf22e4af83967d83ca8d4e707d49480e919f29c15d64c349
+Size: 4336
+Filename: streamlinksrv_1.8.5_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv is a helper deamon for streamlink
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: tsniv2ni
 Version: 1.0
 Depends: libc6 (>= 2.40), libgcc1 (>= 14.1.0), libstdc++6 (>= 14.1.0)

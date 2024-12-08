@@ -9806,56 +9806,6 @@ OE: softcam-support
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: streamlinksrv-dbg
-Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
-Section: devel
-Architecture: all
-Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
-Size: 608
-Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
-Source: streamlinksrv.bb
-Description: streamlinksrv version 1.8.4+git-r0 - Debugging files
-OE: streamlinksrv
-HomePage: www.satdreamgr.com
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: streamlinksrv-dev
-Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
-Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0)
-Section: devel
-Architecture: all
-Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
-Size: 658
-Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
-Source: streamlinksrv.bb
-Description: streamlinksrv version 1.8.4+git-r0 - Development files
-OE: streamlinksrv
-HomePage: www.satdreamgr.com
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: streamlinksrv
-Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
-Depends: python3-core, streamlink
-Section: devel/python
-Architecture: all
-Maintainer: SatDreamGR Billy2011
-MD5Sum: e130fd9f1440c718f3e5c1571ac56f23
-SHA256sum: 8eabc595da415e4c688a65adb665bf2eb16575cffda783d428f845fecc9f6dac
-Size: 85900
-Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
-Source: streamlinksrv.bb
-Description: streamlinksrv version 1.8.4+git-r0
-OE: streamlinksrv
-HomePage: www.satdreamgr.com
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: tuxbox-common-dbg
 Version: 2+git860+8d19da00+8d19da0675-3
 Section: devel
