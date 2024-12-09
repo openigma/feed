@@ -324,6 +324,23 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-bouquetmakerxtream
+Version: 1.38.20241208
+Depends: python3, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: b52d5dd425f641f7c49cabbca9f5a2b5
+SHA256sum: a521872f55fcd5922e13ed3ec57a9fc96cc140cb43f416005d46266f00de8f90
+Size: 1453410
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.38.20241208_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-chefkoch
 Version: git3681+a7f0c680+a7f0c68a9c-r0
 Section: base
@@ -553,14 +570,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream
-Version: 6.37.20240530
+Version: 6.38.20241030
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: ef891d24ce0e9cf72670d0b74de091cb
-SHA256sum: 42eb311d72b4b347ec5b0f746b8a390d4a7f083972a80d46d6782acba6f02fca
-Size: 3693386
-Filename: enigma2-plugin-extensions-jedimakerxtream_6.37.20240530_all.ipk
+MD5Sum: ffdf3e874a7c7bfd0bd298419bf4f9c3
+SHA256sum: aa16241a0e03022f84e542d37841a963798024efa20d1dc9b2563c1a2bad52bd
+Size: 3693448
+Filename: enigma2-plugin-extensions-jedimakerxtream_6.38.20241030_all.ipk
 Depends: python3, python3-pillow, python3-requests
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
 Description: Jedi Maker Xtream - Enigma2 IPTV Bouquet Creator
