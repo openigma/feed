@@ -1030,7 +1030,7 @@ Section: base
 Architecture: all
 Maintainer: madhouse
 Description: Skin MadMax Impossible
-Depends: enigma2-plugin-extensions-oaweather
+Recommends: enigma2-plugin-extensions-oaweather
 Source: enigma2-plugin-skins-madmax-impossible.bb
 Homepage: https://github.com/m4dhouse
 OE: enigma2-plugin-skins
@@ -1116,6 +1116,22 @@ Filename: enigma2-plugin-skins-slyk-toppicks_7.6.20240529_all.ipk
 Size: 646578
 MD5Sum: 835019ee4c25046c34c17e8ae7249adc
 SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
+Priority: optional
+
+Package: enigma2-plugin-skins-xDreamy
+Version: 4.5.1
+Section: base
+Architecture: all
+Maintainer: Mahmoud Hussein
+MD5Sum: 97b6e50d1820c4975dc55282d98240f2
+SHA256sum: ad2af63e8954f67c7f6340f3c768eeef471de9ec2d5994230b6595f2aa476b61
+Size: 16894626
+Filename: enigma2-plugin-skins-xDreamy_4.5.1_all.ipk
+Source: enigma2-plugin-skins-xDreamy.bb
+Recommends: enigma2-plugin-extensions-oaweather
+Description: Skin xDreamy FHD - New Vision Skin By Inspiron
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-softcams-cccam
