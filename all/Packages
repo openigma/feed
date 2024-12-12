@@ -1294,14 +1294,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.6.5+git219+ee393940+ee393949d8-r0
+Version: 2.6.5+git220+c443d740+c443d74c75-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: f04d8748211c0bf3cbb1069c3ad8c849
-SHA256sum: aad401989603f607877d5565ed563525ba15739c61c7f34cfa026dc9cd107840
-Size: 596
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.6.5+git219+ee393940+ee393949d8-r0_all.ipk
+MD5Sum: a8d8a1eb78e13c92020aefbbbaed0850
+SHA256sum: 8a512ccc4cce663b7b43ce50be50aad643f27e5da1c4a508197557e4f46c9fb9
+Size: 594
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.6.5+git220+c443d740+c443d74c75-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1309,15 +1309,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.6.5+git219+ee393940+ee393949d8-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.6.5+git219+ee393940+ee393949d8-r0)
+Version: 2.6.5+git220+c443d740+c443d74c75-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.6.5+git220+c443d740+c443d74c75-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 49b08d24e29a07cd7abb66cf6e2afbd1
-SHA256sum: 408c97525d389a40fdfdc2fb3b0ba4924ab2df16767543b121ad091c8ff22ef0
-Size: 630
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.6.5+git219+ee393940+ee393949d8-r0_all.ipk
+MD5Sum: 1f6773db5fe891b4e7def42202106698
+SHA256sum: 0473425618125a51b2316fabed71786fbdf501fe084bdf79cb704f3c91ff506f
+Size: 628
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.6.5+git220+c443d740+c443d74c75-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1325,14 +1325,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.6.5+git219+ee393940+ee393949d8-r0
+Version: 2.6.5+git220+c443d740+c443d74c75-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: d327d1553e7c3fd0878478033a6b8a27
-SHA256sum: 17336b927a718b82bb8fe423404988bce79429aa059b375fdebf09005c0a8098
-Size: 8723904
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.6.5+git219+ee393940+ee393949d8-r0_all.ipk
+MD5Sum: b0bf1c848db7be86329619d5effcd9a7
+SHA256sum: a595c0ba58240e8220d7ebb56232b798c5683ad44ca668001d3b7ba8a75c4f5e
+Size: 8724102
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.6.5+git220+c443d740+c443d74c75-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -5044,8 +5044,8 @@ Version: 1.0+git250+adc0b450+adc0b45a07-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2387f07a4cd720d3492f048fce68c801
-SHA256sum: f2cf9823f9359d12f8ec65a472bc745fa2b4edaeb86d0e405c0f0f78e3d895ef
+MD5Sum: bef4e2f6e94d9b380ea711621c20992e
+SHA256sum: 62729c876078e1b5d4e7989f860bbb77040b49e2b14216f0afe8c23f379e4697
 Size: 596
 Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git250+adc0b450+adc0b45a07-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
@@ -5060,8 +5060,8 @@ Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git250+adc0b450+adc0b45a07-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: c8e4ecb9b0e64148d6831f5e799709f5
-SHA256sum: fe72978d4807d76ddb12846bf7d07b2294d34758b5175849f1984622d96c2e0c
+MD5Sum: dad1f0e8f5a9b609b4916a8a25cfcbb6
+SHA256sum: 4f5d577dc979d5f41d84f9e90dccbf9b3ec88220ae61694d5e10391c17367c1d
 Size: 632
 Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git250+adc0b450+adc0b45a07-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
@@ -5076,9 +5076,9 @@ Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 62867a3e4b5cdd0cb537fbb3ea52e2d1
-SHA256sum: 840c039bd881142470c5385eae0b56a9c13d2739fbf615ceab98c3bb9f32750d
-Size: 3120298
+MD5Sum: 3130d00171311839c2dca98df8b56a5e
+SHA256sum: 80d1605d753222d773b9ea2f11e20890cfd71df35abd2d23da64bada72cc016b
+Size: 3121054
 Filename: enigma2-plugin-skins-e2darkos_1.0+git250+adc0b450+adc0b45a07-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
@@ -9566,15 +9566,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: openresolv-dbg
-Version: 3.13.1-r0
+Version: 3.13.2-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a208c42d8efee452efa2cb459b1091c5
-SHA256sum: 4eb73166c17c789feb35d50ee387457a880ee786068b5ab58e989cd39d7b501b
+MD5Sum: c0fd56f7f82f517b4d330ffb3b25f87c
+SHA256sum: 3585040f502e391e384c8bd21b081269aa301b5a3c9973f6fbc03631f6c17549
 Size: 626
-Filename: openresolv-dbg_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+Filename: openresolv-dbg_3.13.2-r0_all.ipk
+Source: openresolv_3.13.2.bb
 Description: management framework for resolv.conf - Debugging files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9582,16 +9582,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-dev
-Version: 3.13.1-r0
-Recommends: openresolv (= 3.13.1-r0)
+Version: 3.13.2-r0
+Recommends: openresolv (= 3.13.2-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd415a76318b71d02773069b22efd26c
-SHA256sum: 2ead806b23bd64c64fe831e8e6951378feaa49480c719433763df530ee622c30
+MD5Sum: e225e2521808cdd10a36fcc924264b8b
+SHA256sum: 08abe0aec75ba90a9b2eba5106a68ca0c15f7c4145b110add9961197fd36b453
 Size: 654
-Filename: openresolv-dev_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+Filename: openresolv-dev_3.13.2-r0_all.ipk
+Source: openresolv_3.13.2.bb
 Description: management framework for resolv.conf - Development files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9599,15 +9599,15 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-doc
-Version: 3.13.1-r0
+Version: 3.13.2-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a89fcdd4ceedc5cc2b79b90306dea996
-SHA256sum: 30f91c1a8e19c1815023417235fcf1681a7298792aeacac26039cd317f4a92fe
+MD5Sum: fb8c0ae2aef5e25160aed7f76b1ca48f
+SHA256sum: 6968c4579c691319f58ff9003e57e41de14a4ed73aaccd4617d1c079a469280f
 Size: 7768
-Filename: openresolv-doc_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+Filename: openresolv-doc_3.13.2-r0_all.ipk
+Source: openresolv_3.13.2.bb
 Description: management framework for resolv.conf - Documentation files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9615,17 +9615,17 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv
-Version: 3.13.1-r0
+Version: 3.13.2-r0
 Provides: resolvconf
 Conflicts: resolvconf
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89e7026a205746cd2137483f39ebb7b1
-SHA256sum: 9b2cddebac79b17686ee75c9c781d1374cd656caf048e490a37775023cac4628
-Size: 15494
-Filename: openresolv_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+MD5Sum: eceed3e449348462fb9e371914a8c977
+SHA256sum: ac2f8323158623bb2f7ff94b7734e0e6fda9432104db418935c05cea101508ed
+Size: 15496
+Filename: openresolv_3.13.2-r0_all.ipk
+Source: openresolv_3.13.2.bb
 Description: management framework for resolv.conf
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9857,14 +9857,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git867+ce69a600+ce69a60012-3
+Version: 2+git868+5c5f1bf0+5c5f1bffc0-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 5d721a70f73c36ca260fd511a9306665
-SHA256sum: fcd542354a1fe049a8d80042ea15e2d78943c7897891fe9d0f6f888bf9517324
+MD5Sum: 38ee88aaed245494ee17ca09cdd83dc5
+SHA256sum: 5fcd6eec84b5d9cab942ac0dab6917e3e000ec2c07d1855e89636bf62d92e4dc
 Size: 568
-Filename: tuxbox-common-dbg_2+git867+ce69a600+ce69a60012-3_all.ipk
+Filename: tuxbox-common-dbg_2+git868+5c5f1bf0+5c5f1bffc0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9872,15 +9872,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git867+ce69a600+ce69a60012-3
-Recommends: tuxbox-common (>= 2+git867+ce69a600+ce69a60012-3), tuxbox-common (<< 2+git867+ce69a600+ce69a60012-3.0), xz-dev
+Version: 2+git868+5c5f1bf0+5c5f1bffc0-3
+Recommends: tuxbox-common (>= 2+git868+5c5f1bf0+5c5f1bffc0-3), tuxbox-common (<< 2+git868+5c5f1bf0+5c5f1bffc0-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 156423ee32ffb059f882260c32fbd3f6
-SHA256sum: adbc6812cc87d3120ef7fa1948d545ed2aff79fec802d1fb9c82058a552033a9
+MD5Sum: 597ea8d2dd8ccc0e117960b9b2b10cba
+SHA256sum: 917996af7a315d55d9fa637d806b40a91dfa604e7be4e0174dd8fee3b188bb35
 Size: 620
-Filename: tuxbox-common-dev_2+git867+ce69a600+ce69a60012-3_all.ipk
+Filename: tuxbox-common-dev_2+git868+5c5f1bf0+5c5f1bffc0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9888,15 +9888,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git867+ce69a600+ce69a60012-3
+Version: 2+git868+5c5f1bf0+5c5f1bffc0-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7bedb016cb509fcea682fd4f806810d4
-SHA256sum: efbbd4668e4cb2a7711630c5b21121c8e5e55407f60054f1f831b0c47dce8341
-Size: 72540
-Filename: tuxbox-common_2+git867+ce69a600+ce69a60012-3_all.ipk
+MD5Sum: 35f8c9d17387673eeda6cbba4ac4859e
+SHA256sum: 62e3126125710a87e68856f828a1ba7bb09c20ce4c582e704e5ad43dc07d0238
+Size: 72526
+Filename: tuxbox-common_2+git868+5c5f1bf0+5c5f1bffc0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
