@@ -350,9 +350,9 @@ Version: py3.13-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 9236dc91b4bbfc9b610f4bd742fa720f
-SHA256sum: f3ec4cee1a1e5809f682ff004baeada008488e6814b682b31ce7b0c77f49f9de
-Size: 1274
+MD5Sum: e2a7b080a4de63fc588d53fd5ada38b2
+SHA256sum: 9763a0cc3e7ee02d8f3da91c68ff3361ae900ce5428efeea5e885f8b211fa9e1
+Size: 1272
 Filename: enigma-info_py3.13-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -21364,13 +21364,13 @@ Priority: optional
 
 Package: packagegroup-core-boot-dbg
 Version: 1.0-r0
-Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, dreambox-dvb-modules-dm920-dbg, eudev-dbg, initscripts-dbg, libpagecache-dbg, libpassthrough-dbg, modutils-initscripts-dbg, netbase-dbg, sysvinit-dbg, update-alternatives-opkg-dbg
+Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, busybox-mdev-dbg, dreambox-dvb-modules-dm920-dbg, initscripts-dbg, libpagecache-dbg, libpassthrough-dbg, modutils-initscripts-dbg, netbase-dbg, sysvinit-dbg, update-alternatives-opkg-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c9aa629830ded927a91859e2670e0d9
-SHA256sum: bd964b39ae93a32785800ae81a97ca99261166773848baad0723e19221ffebd7
-Size: 718
+MD5Sum: e03e13d86d778de99e2234a04dafdd76
+SHA256sum: 0b022c28e0f7abd68580bac5a1dc4bb918cef5d285a1e4c39ad2d9faa2ae3d4d
+Size: 720
 Filename: packagegroup-core-boot-dbg_1.0-r0_dm920.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Debugging files
@@ -21380,13 +21380,13 @@ Priority: optional
 
 Package: packagegroup-core-boot-dev
 Version: 1.0-r0
-Recommends: base-files-dev, base-passwd-dev, busybox-dev, dreambox-dvb-modules-dm920-dev, eudev-dev, initscripts-dev, libpagecache-dev, libpassthrough-dev, modutils-initscripts-dev, netbase-dev, packagegroup-core-boot (= 1.0-r0), sysvinit-dev, update-alternatives-opkg-dev
+Recommends: base-files-dev, base-passwd-dev, busybox-dev, busybox-mdev-dev, dreambox-dvb-modules-dm920-dev, initscripts-dev, libpagecache-dev, libpassthrough-dev, modutils-initscripts-dev, netbase-dev, packagegroup-core-boot (= 1.0-r0), sysvinit-dev, update-alternatives-opkg-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d31ff758737d4a9fb803dc9aec26fcac
-SHA256sum: 3d9e6258df42929e60162c43e9aec99aeab94753e53917565d90ddf6719e0fbc
-Size: 740
+MD5Sum: 57ec9f1e9ce7d92c03eabbc64d7c71e3
+SHA256sum: 8284426896c5ba5a37143f6578f82858ebd7006c3c890dc7f8d9eab81e078ab4
+Size: 742
 Filename: packagegroup-core-boot-dev_1.0-r0_dm920.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -21396,14 +21396,14 @@ Priority: optional
 
 Package: packagegroup-core-boot
 Version: 1.0-r0
-Depends: base-files, base-passwd, busybox, dreambox-dvb-modules-dm920, eudev, initscripts, libpagecache, libpassthrough, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg
+Depends: base-files, base-passwd, busybox, busybox-mdev, dreambox-dvb-modules-dm920, initscripts, libpagecache, libpassthrough, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg
 Recommends: busybox-syslog, init-ifupdown
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c526ba33d33caefd7cb599142fa52a6
-SHA256sum: 32044c172614841c58c8990ea59648b6c02b1142cb69ad428900553e4dbf959b
-Size: 672
+MD5Sum: 25b7cfe8e36b16d93860b1bce47ed09f
+SHA256sum: 885e254d4edd27c9205253b26e4ec7fe5b6d70fd4629adcc382a85e474a24473
+Size: 670
 Filename: packagegroup-core-boot_1.0-r0_dm920.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements
