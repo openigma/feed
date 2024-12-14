@@ -1294,14 +1294,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.6.5+git225+bba50ac0+bba50acec4-r0
+Version: 2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 9d980564e93b7f5a158f67e81d9e005a
-SHA256sum: d32a3ec9fbc6af0d02c7656be57deb483569e0ad1c57009b4e301c6e406cd958
+MD5Sum: 2e0a4b3caffb53f4459268a3c292b3d7
+SHA256sum: 9c91fbbe6251f63585fd86bd6238220a04238f85d409c66fcbd0e5319906df5a
 Size: 594
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.6.5+git225+bba50ac0+bba50acec4-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1309,15 +1309,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.6.5+git225+bba50ac0+bba50acec4-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.6.5+git225+bba50ac0+bba50acec4-r0)
+Version: 2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 199d5afe9d47f9b678749b8cc27d4c2d
-SHA256sum: b2f454b061da9f09b009fd935e5295b0731e4ac38ff8038031ab3dfeb5ca6482
+MD5Sum: ef966cce1cdcab73958606c07fb1976a
+SHA256sum: 0b910a7367d2c523499c9263a70da23927cb044ddafd68558021399babab4d86
 Size: 628
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.6.5+git225+bba50ac0+bba50acec4-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1325,14 +1325,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.6.5+git225+bba50ac0+bba50acec4-r0
+Version: 2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 15000d82d8170f5891ce644312e4420b
-SHA256sum: e7020f96845114284f3f4dd1af08b6062ae58b515176cc66ef8eefea1041a2de
-Size: 8726942
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.6.5+git225+bba50ac0+bba50acec4-r0_all.ipk
+MD5Sum: deaeb890b8988b0be9e11a9ca5d463a9
+SHA256sum: c50f383602625bb550907e0565067c1d65f0dcac80f704f7da38d001f463ef3d
+Size: 8727192
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.6.5+git227+1ebe1f00+1ebe1f0b6d-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -9857,14 +9857,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git869+a3769570+a376957ff6-3
+Version: 2+git870+a6c3b680+a6c3b68e29-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7c45f7a272d15728b0f98ceb46b3242e
-SHA256sum: 7a526885bff0ca388f029735c8a87588667260f4309e9773b2db6f72bb206f09
-Size: 568
-Filename: tuxbox-common-dbg_2+git869+a3769570+a376957ff6-3_all.ipk
+MD5Sum: cd95bc60b653ad1279d54b9c557ab6ac
+SHA256sum: 391825d49f08aa58ba9fd3d19c59a5cf0f55dae5fbb27b8e3fc3c1f11d742212
+Size: 566
+Filename: tuxbox-common-dbg_2+git870+a6c3b680+a6c3b68e29-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9872,15 +9872,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git869+a3769570+a376957ff6-3
-Recommends: tuxbox-common (>= 2+git869+a3769570+a376957ff6-3), tuxbox-common (<< 2+git869+a3769570+a376957ff6-3.0), xz-dev
+Version: 2+git870+a6c3b680+a6c3b68e29-3
+Recommends: tuxbox-common (>= 2+git870+a6c3b680+a6c3b68e29-3), tuxbox-common (<< 2+git870+a6c3b680+a6c3b68e29-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 409614c5f0bc75c1727c261546d8993b
-SHA256sum: c296f31be03ad31cb7361a459045611f968fc7be6a173dc02f2a0b7766fe265f
+MD5Sum: 9155a0869f2af932f215baa19015fefa
+SHA256sum: 23ed5ba1dff720b553fa157a804414458904b3e20de4c86b9bfe8ba21ae36e45
 Size: 620
-Filename: tuxbox-common-dev_2+git869+a3769570+a376957ff6-3_all.ipk
+Filename: tuxbox-common-dev_2+git870+a6c3b680+a6c3b68e29-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9888,15 +9888,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git869+a3769570+a376957ff6-3
+Version: 2+git870+a6c3b680+a6c3b68e29-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d9fd9df398dc15a3620bdfd42483a451
-SHA256sum: 10332fba14f08c0b1f1d6f95fdfa7bb3e315a6ac16cab2c0ee04cd8f60cfea5b
-Size: 72526
-Filename: tuxbox-common_2+git869+a3769570+a376957ff6-3_all.ipk
+MD5Sum: b0fce2f27b6d3e88f5199b1650fcf34e
+SHA256sum: 4f23d21c7b848316784970769cffc3c1b5a89b1b470665d9e440a4877a9026f1
+Size: 72542
+Filename: tuxbox-common_2+git870+a6c3b680+a6c3b68e29-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
