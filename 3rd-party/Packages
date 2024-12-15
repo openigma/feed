@@ -697,6 +697,22 @@ Size: 157686
 MD5Sum: f7acda5580857cf5b33acd4fc3ad2c22
 SHA256sum: 58a2e00b726128f32c6552c9723e5effb42dc4f2a1d14d2241f8fba57cb0558b
 
+Package: enigma2-plugin-extensions-oscamncamstatus
+Version: 6.4
+Description: OscamNcamStatus shows status of your OScam and Ncam server
+Section: base
+Priority: optional
+Maintainer: oscamncamstatus
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions
+Depends: python3-core
+Source: enigma2-plugin-extensions-oscamncamstatus.bb
+Filename: enigma2-plugin-extensions-oscamncamstatus_6.4_all.ipk
+Size: 166352
+MD5Sum: 1b0234da5443a32edb4bf0c2589fd4c7
+SHA256sum: 3346b92f6d623195ecf29c66a3e9f7e8d3ab816731a1c529a2767459110899b4
+
 Package: enigma2-plugin-extensions-plutotv
 Version: 20240831
 Section: enigma2-plugin-extensions
