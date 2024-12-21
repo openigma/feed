@@ -5559,14 +5559,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet-dbg
-Version: 1.0+git10+c1a67640+c1a6764fb3-r0
+Version: 1.0+git11+564df070+564df07777-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 04839b35da9bb4487f230051d040a54c
-SHA256sum: 1da7189a23d2f237517dbd877382a4094d3181c4b3bfe5107351a0299d82cdc5
-Size: 648
-Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dbg_1.0+git10+c1a67640+c1a6764fb3-r0_all.ipk
+MD5Sum: 824629f3c4a0c41adb85fec4ae39988e
+SHA256sum: 4d4a9ee9b3cb5b6f15e91dd940314b0ff19a8d750ae4d4bcdd3a538e60e65f58
+Size: 646
+Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dbg_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
 Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
@@ -5575,15 +5575,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet-dev
-Version: 1.0+git10+c1a67640+c1a6764fb3-r0
-Recommends: enigma2-plugin-systemplugins-terrestrialbouquet (= 1.0+git10+c1a67640+c1a6764fb3-r0)
+Version: 1.0+git11+564df070+564df07777-r0
+Recommends: enigma2-plugin-systemplugins-terrestrialbouquet (= 1.0+git11+564df070+564df07777-r0)
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 6971fe6f09af6f763e607bf4d8e2fc33
-SHA256sum: 77dfa176953cf8b7aee3e689874b41ac1912e7aa2f88db1e6d98ffce0abbd908
+MD5Sum: 62851101473a1b652fd143d26f4f8977
+SHA256sum: d140a8f3c47f8872376dae95845232a4b0646ae351e6f0509ddd07a245d3ab05
 Size: 684
-Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dev_1.0+git10+c1a67640+c1a6764fb3-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dev_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
 Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
@@ -5592,14 +5592,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-terrestrialbouquet
-Version: 1.0+git10+c1a67640+c1a6764fb3-r0
+Version: 1.0+git11+564df070+564df07777-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 8cd60b01e52ff2318e1393d50bfdf012
-SHA256sum: 5346a0783a5b331b180a6d149589c60d87bff651d8649aa93ce7e1f01ebb104c
+MD5Sum: 150de8303b360b7d4cd9a091906af6e5
+SHA256sum: 30b368de526489bce70a9ddb7f93366e68942bfd3e22a7c25edbaae4fa25b7e6
 Size: 14764
-Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git10+c1a67640+c1a6764fb3-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
 Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
@@ -9857,14 +9857,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git876+b2896f80+b2896f8c8b-3
+Version: 2+git877+f123e2e0+f123e2e137-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 18cd304a62679db84a961e4d474e92b3
-SHA256sum: 666067b07eac1342f70efbd9f9ed07cff46c2ed5ee7a4529d6ca5e815e5a3e9e
+MD5Sum: a1a5ec44c10702da068f687a27c8ac78
+SHA256sum: 98adacd8965ffcf41fd4683b7bd51003e2c1006844946a843f265326ac64f6e7
 Size: 570
-Filename: tuxbox-common-dbg_2+git876+b2896f80+b2896f8c8b-3_all.ipk
+Filename: tuxbox-common-dbg_2+git877+f123e2e0+f123e2e137-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9872,15 +9872,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git876+b2896f80+b2896f8c8b-3
-Recommends: tuxbox-common (>= 2+git876+b2896f80+b2896f8c8b-3), tuxbox-common (<< 2+git876+b2896f80+b2896f8c8b-3.0), xz-dev
+Version: 2+git877+f123e2e0+f123e2e137-3
+Recommends: tuxbox-common (>= 2+git877+f123e2e0+f123e2e137-3), tuxbox-common (<< 2+git877+f123e2e0+f123e2e137-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0e76e7ca90dff5dccd4c9d4d600e344a
-SHA256sum: 76f7a7fb4cd6028ecfc6a91fe31a354fac824b922602c78553679f42c8141cc5
-Size: 620
-Filename: tuxbox-common-dev_2+git876+b2896f80+b2896f8c8b-3_all.ipk
+MD5Sum: 693e1b2d4efe07e60613e7738ec0452c
+SHA256sum: 688403dc73c50ccd542b39356fb16880dd3fbc227f37744b16965431994637d4
+Size: 618
+Filename: tuxbox-common-dev_2+git877+f123e2e0+f123e2e137-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9888,15 +9888,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git876+b2896f80+b2896f8c8b-3
+Version: 2+git877+f123e2e0+f123e2e137-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a35d5b6f7aaa0a55fed25432731fe834
-SHA256sum: ccc6f0dcd070ffaa5839751d982c2f12349e8dfe267894c2e66696a1fc209615
-Size: 72384
-Filename: tuxbox-common_2+git876+b2896f80+b2896f8c8b-3_all.ipk
+MD5Sum: 8755776cf327c0bb48dcc8e1bfec7fe2
+SHA256sum: 453f3627d25d6fa6b7e9a9042555cadd49b3209eeed864ba9c6597988b798e50
+Size: 72446
+Filename: tuxbox-common_2+git877+f123e2e0+f123e2e137-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
