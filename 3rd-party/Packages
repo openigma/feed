@@ -443,22 +443,6 @@ OE: enigma2-plugin-extensions
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-dreamosat-downloader
-Version: git50
-Depends: curl, libc6 (>= 2.40), python3-core
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: audi06
-MD5Sum: a6c88306d1082aa76c4f2161101d8c2e
-SHA256sum: 0839ca72e5e39ccbf076c24ec1348c4cad91f413129216d81778904d4476d661
-Size: 573942
-Filename: enigma2-plugin-extensions-dreamosat-downloader_git45+24ef1e40+24ef1e4634-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-dreamosat-downloader_git.bb
-Description: Enigma2 Plugin DreamOSat Downloader
-OE: enigma2-plugin-extensions
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-extensions-emission
 Version: gitr7749
 Depends: python3-transmission-rpc, transmission, transmission-client
