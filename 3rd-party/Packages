@@ -428,21 +428,6 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-dreamosat-cammanager
-Version: git50
-Section: base
-Architecture: all
-Maintainer: audi06
-MD5Sum: 49a50b253812ca948d14ff997d8e836a
-SHA256sum: 90aa619ab3985def6c4f461bc32c462e1de63b7450d17a1973ec8028f9bee907
-Size: 88586
-Filename: enigma2-plugin-extensions-dreamosat-cammanager_git45+24ef1e40+24ef1e4634-r0_all.ipk
-Source: enigma2-plugin-extensions-dreamosat-cammanager_git.bb
-Description: Enigma2 Plugin DreamOSat camManager
-OE: enigma2-plugin-extensions
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-extensions-emission
 Version: gitr7749
 Depends: python3-transmission-rpc, transmission, transmission-client
