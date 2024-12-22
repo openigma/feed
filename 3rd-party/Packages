@@ -516,22 +516,6 @@ Filename: enigma2-plugin-extensions-freeserver_8.3.8.r1_all.ipk
 Size: 2090678
 MD5Sum: 8f8f27d1beddfd9535baa342940b76af
 
-Package: enigma2-plugin-extensions-hdfradio
-Version: 2.17.0
-Description: Webradio Plugin
-Section: base
-Priority: required
-Maintainer: koivo & oerlgrey
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-hdfradio
-Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
-Source: enigma2-plugin-extensions-hdfradio.bb
-Filename: enigma2-plugin-extensions-hdfradio_2.17.0_py3_3.12.6_cortexa15hf-neon-vfpv4.ipk
-Size: 3931398
-MD5Sum: 29b0b34de806fe814ae8d268d188c16d
-SHA256sum: 05d3f3eaed4e970042cd4744d7b7554c3e072b7765af4deaa4f80cb70969d3f3
-
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
 Depends: python3-core
@@ -613,44 +597,6 @@ Description:  extensions-lottoextended
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
-
-Package: enigma2-plugin-extensions-mediastream
-Version: 20231131-python3.12-r0
-Description: MediaStream - MediaPortal - IPTV Stream for Free
-Section: base
-Priority: optional
-Maintainer: MS
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-mediastream
-Homepage: http://mediastream.medianewsonline.com/
-Depends: libc6 (>= 2.40), nodejs, python3-compression, python3-core, python3-db, python3-email, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
-Recommends: gstreamer1.0-plugins-base-opus, python3-pycryptodome
-Provides: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Replaces: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Conflicts: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
-Source: enigma2-plugin-extensions-mediastream.bb
-Filename: enigma2-plugin-extensions-mediastream_20231131-python3.12-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 13298492
-MD5Sum: 44d851e7406fc7334ed0045d2249f166
-SHA256sum: b306c2fcd31878229f6f683ddbbd685d7b65cadca1eccb44c61d84581c2a58a2
-
-Package: enigma2-plugin-extensions-multi-stalkerpro
-Version: 1.2+git168
-Description: Multi-StalkerPro Plugin
-Section: multimedia
-Priority: optional
-Maintainer: zKhadiri
-MD5Sum: 81634b0b2c9e7cd47ef07e37e39934eb
-SHA256sum: a363486ac0f01230d49d97a1dee2b8c85aed5a0bf98806246e4a6b7c3b635d83
-Size: 3244668
-Filename: enigma2-plugin-extensions-multi-stalkerpro_1.2+git168+7c67a590+7c67a59089-r0_all.ipk
-License: Proprietary
-Architecture: all
-OE: enigma2-plugin-extensions
-Homepage: https://github.com/zKhadiri/MultiStalkerPro-releases
-Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, libc6 (>= 2.40), libgcc1, libstdc++6, python3-cryptography, python3-dateutil, python3-fuzzywuzzy, python3-levenshtein, python3-pillow, python3-rarfile, python3-requests, python3-six, python3-sqlite3, python3-zoneinfo, uchardet
-Source: enigma2-plugin-extensions-multi-stalkerpro.bb
 
 Package: enigma2-plugin-extensions-ngsetting-fhd
 Version: 2.7
