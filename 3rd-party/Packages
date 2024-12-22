@@ -1178,6 +1178,27 @@ Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 349904
 MD5Sum: 4e340aaa7a0bd5702749e43029c259ad
 
+Package: enigma2-plugin-softcams-oscam-emu
+Version: 11845-git10760
+Description: OSCam-emu 11845-git10760+44d9b860+44d9b86ca0 (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+ - with emu support
+ - latest master
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: oscam-emu
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-oscam-emu
+Homepage: https://github.com/
+Depends: libc6 (>= 2.40), libcrypto3 (>= 3.3.1), libdvbcsa1 (>= 1.1.0), libssl3 (>= 3.3.1), libusb-1.0-0 (>= 1.0.27)
+Provides: oscam-emu
+Replaces: oscam-emu-ipv4only
+Conflicts: oscam-emu-ipv4only
+Source: enigma2-plugin-softcams-oscam-emu.bb
+
 Package: enigma2-plugin-softcams-oscam-smod
 Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r2
 Description: OSCam-smod 1.20+git2389+01bc9cd0+01bc9cdbdc (IPv6/IPv4 Dual-Stack support)
