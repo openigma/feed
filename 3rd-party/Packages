@@ -15,16 +15,16 @@ MD5Sum: 14941b49f6c0bc840c0f82e85c5951e5
 SHA256sum: 641ee9dfbdba4f4a65e49c455b250724c17ec26c87a590ff98559d57919f7d96
 
 Package: enigma2-plugin-extensions-ajpanel
-Version: v10.5.1
+Version: v10.6.0
 Section: base
 Architecture: all
 Maintainer: AMAJamry
-MD5Sum: 4714390db259e8c876cf9049559064b0
-SHA256sum: ac6ead124e46a0b7fe5c713b9c5fd097ebc73d9ab5c37eff8791199398ddefab
-Size: 529222
-Filename: enigma2-plugin-extensions-ajpanel_v10.5.1_all.ipk
+MD5Sum: cb8f3a7fdf8dd15d6877743c36f4aec7
+SHA256sum: a31fefe1c75246747d628b87e46b456688f46078eab8adb0f8064d73ab2d346a
+Size: 529846
+Filename: enigma2-plugin-extensions-ajpanel_v10.6.0_all.ipk
 Depends: python3, python3-requests, python3-imaging, python3-pillow
-Recommends: xz, zip, p7zip, unrar, bzip2, ffmpeg
+Recommends: xz, zip, 7zip, unrar, bzip2, ffmpeg
 Source: enigma2-plugin-extensions-ajpanel.bb
 Description: Panel Tools 4 enigma2
 OE: enigma2-plugin-extensions
@@ -338,6 +338,22 @@ Size: 20468
 MD5Sum: b5543a99167b39f78084611a075c0749
 SHA256sum: d729875d970ca8b4e12950f31881d2acbc75afc38001bab4086de33f612413c0
 
+Package: enigma2-plugin-extensions-hdfradio
+Version: 2.20.3+git464+c2665d70+c2665d7513-r2
+Description: Webradio Plugin
+Section: base
+Priority: required
+Maintainer: koivo & oerlgrey
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-hdfradio
+Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
+Source: enigma2-plugin-extensions-hdfradio.bb
+Filename: enigma2-plugin-extensions-hdfradio_2.20.3+git464+c2665d70+c2665d7513-r2_cortexa15hf-neon-vfpv4.ipk
+Size: 4347706
+MD5Sum: f8920ea888195997a789243a9b895eca
+SHA256sum: 0e05e77bcd2ef22e2a495ac1551d0be49c4799ea014f16ffbfc071e60d08706b
+
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
 Depends: python3-core
@@ -649,15 +665,15 @@ MD5Sum: 5ad0015a118a9f50797d6a79e056d09d
 SHA256sum: ae6f46ce89ec1234c8447993860866e681ae9f09e1cc05ddf621fd5db7af5162
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r11
+Version: 1.7.0-r15
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 405b6445bc4cffde2b51dddf25a443dc
-SHA256sum: 5cd652c8f7ccf82206bcc0244a9ea8fe7afeac80e08fa175d8d9f4ed4e4a7fa7
-Size: 812710
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r11-py3_all.ipk
+MD5Sum: 4a825944f050e58182f3bfe4a566d469
+SHA256sum: 6963fa5219d4e517cbf9a81629627d7d560c50b81b3348afe3377431fa359b8e
+Size: 783110
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r15-py3_all.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions
@@ -837,14 +853,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-aglare-fhd-pli
-Version: 5.1
+Version: 5.2
 Section: base
 Architecture: all
 Maintainer: mnasr
-MD5Sum: 5efeae12c24b5c19425c2be29bf0eb30
-SHA256sum: 3e11c01b597277ecf1ad42aa7c9775ba39e5e98ea2b115f93955317e777f6f24
-Size: 7938522
-Filename: enigma2-plugin-skins-aglare-fhd-pli_5.1_all.ipk
+MD5Sum: 5e856bbdd22c081c84e96b7450e68053
+SHA256sum: 5b6948b1a9b46e36f358897958da2817188f5b5629f9d7d8016c78b2f97ea769
+Size: 8960134
+Filename: enigma2-plugin-skins-aglare-fhd-pli_5.2_all.ipk
 Source: enigma2-plugin-skins-aglare-fhd-pli.bb
 Depends: enigma2-plugin-extensions-bitrate
 Recommends: enigma2-plugin-extensions-oaweather, python3-image, python3-imaging, python3-pillow, python3-requests
@@ -1008,17 +1024,17 @@ SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
 Priority: optional
 
 Package: enigma2-plugin-skins-xDreamy
-Version: 5.6.0
+Version: 5.8.0
 Section: base
 Architecture: all
 Maintainer: Mahmoud Hussein
-MD5Sum: ea740eeefad47e0fb91d511679382dda
-SHA256sum: 3c7d4cc13d6f9e506dff71a49508cf2951147b3331f90d67f71646bad89c8d24
-Size: 17871904
-Filename: enigma2-plugin-skins-xDreamy_5.6.0_all.ipk
+MD5Sum: 3a80fd1a60d875bd2b4abfffb0e3b8e8
+SHA256sum: f92f1974020ec988c95ab3c74384c64318886463bba30a81be55942e61e30c3d
+Size: 17157510
+Filename: enigma2-plugin-skins-xDreamy_5.8.0_all.ipk
 Source: enigma2-plugin-skins-xDreamy.bb
 Recommends: enigma2-plugin-extensions-oaweather
-Depends: python3-pillow, python3-requests, python3-urllib3
+Depends: python3-image, python3-imaging, python3-pillow, python3-requests, python3-urllib3
 Description: Skin xDreamy FHD - New Vision Skin By Inspiron
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
@@ -1167,6 +1183,22 @@ Source: eti-tools.bb
 Description: ETI conversion software
 OE: eti-tools
 License: MPL-2.0
+Priority: optional
+
+Package: gstreamer1.0-plugin-subsink
+Version: 1.0+git7+2c4288b0+2c4288bb29-r0
+Depends: gstreamer1.0 (>= 1.24.12), libglib-2.0-0 (>= 2.82.4)
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 05496f154cb568e16e30cf6ed0257bf1
+SHA256sum: 087247ed783d632dd2f96bb278f01ca6e92d9888503194abf94e4a93836c493b
+Size: 5380
+Filename: gstreamer1.0-plugin-subsink_1.0+git7+2c4288b0+2c4288bb29-r0_cortexa15hf-neon-vfpv4.ipk
+Source: gstreamer1.0-plugin-subsink.bb
+Description: gstreamer1.0-plugin-subsink version 1.0+git-r0
+OE: gstreamer1.0-plugin-subsink
+License: LGPL-2.1-only
 Priority: optional
 
 Package: libavcodec60
