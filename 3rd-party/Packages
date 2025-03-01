@@ -487,21 +487,6 @@ Filename: enigma2-plugin-extensions-ngsetting-fhd_2.7_all.ipk
 Size: 502620
 MD5Sum: 62ffe8c5cc1dd37cfff7ea67644cb61f
 
-Package: enigma2-plugin-extensions-oaweather
-Version: 4.0
-Section: extra
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: jbleyel, me
-MD5Sum: e34c44c0974f9714cbd04c33919ac022
-SHA256sum: b3949698a9bf0f13bb1cfadf353a790f79e00cd98287f3cec82cfc3e780773a5
-Size: 1086006
-Filename: enigma2-plugin-extensions-oaweather_4.0_all.ipk
-Source: enigma2-plugin-extensions-oaweather.bb
-Description: OAWeather Converter and Renderer to display Weather in Skin.
-OE: enigma2-plugin-extensions
-License: GPL-3.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-oscambutler
 Version: 2.0
 Description: Create basic configuration files for OScam
@@ -836,22 +821,6 @@ Size: 1224
 MD5Sum: 141d0907a3026b3cce3fd0e4ad47ae86
 SHA256sum: 6332d8afe6c1e3bf31f65ce1d642205fd60171a3005fc12b289764e7bc45d489
 
-Package: enigma2-plugin-extensions-xtraevent
-Version: 6.806
-Depends: python3-core, python3-image, python3-imaging, python3-pillow, python3-requests
-Section: base
-Architecture: all
-Maintainer: digiteng, kitte888
-MD5Sum: 80eb71ea616cadd3888c2719436ffd09
-SHA256sum: 2198368ad577c3a88224f0820e404bbc4560748bbd8af44671351ad534564261
-Size: 778124
-Filename: enigma2-plugin-extensions-xtraevent_6.806_all.ipk
-Source: enigma2-plugin-extensions-xtraevent.bb
-Description: Poster, background, banner, info support for enigma2
-OE: enigma2-plugin-extensions
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-skins-aglare-fhd-pli
 Version: 5.2
 Section: base
@@ -862,8 +831,8 @@ SHA256sum: 5b6948b1a9b46e36f358897958da2817188f5b5629f9d7d8016c78b2f97ea769
 Size: 8960134
 Filename: enigma2-plugin-skins-aglare-fhd-pli_5.2_all.ipk
 Source: enigma2-plugin-skins-aglare-fhd-pli.bb
-Depends: enigma2-plugin-extensions-bitrate
-Recommends: enigma2-plugin-extensions-oaweather, python3-image, python3-imaging, python3-pillow, python3-requests
+Recommends: enigma2-plugin-extensions-oaweather
+Depends: enigma2-plugin-extensions-bitrate, python3-image, python3-imaging, python3-pillow, python3-requests
 Description: Skin Aglare-FHD
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
