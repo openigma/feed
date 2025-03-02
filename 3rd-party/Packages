@@ -1154,22 +1154,6 @@ OE: eti-tools
 License: MPL-2.0
 Priority: optional
 
-Package: gstreamer1.0-plugin-subsink
-Version: 1.0+git7+2c4288b0+2c4288bb29-r0
-Depends: gstreamer1.0 (>= 1.24.12), libglib-2.0-0 (>= 2.82.4)
-Section: multimedia
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 05496f154cb568e16e30cf6ed0257bf1
-SHA256sum: 087247ed783d632dd2f96bb278f01ca6e92d9888503194abf94e4a93836c493b
-Size: 5380
-Filename: gstreamer1.0-plugin-subsink_1.0+git7+2c4288b0+2c4288bb29-r0_cortexa15hf-neon-vfpv4.ipk
-Source: gstreamer1.0-plugin-subsink.bb
-Description: gstreamer1.0-plugin-subsink version 1.0+git-r0
-OE: gstreamer1.0-plugin-subsink
-License: LGPL-2.1-only
-Priority: optional
-
 Package: libavcodec60
 Version: 6.1.1-r3
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
