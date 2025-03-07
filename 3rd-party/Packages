@@ -349,10 +349,10 @@ Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-hdfradio
 Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
 Source: enigma2-plugin-extensions-hdfradio.bb
-Filename: enigma2-plugin-extensions-hdfradio_2.20.3+git464+c2665d70+c2665d7513-r2_cortexa15hf-neon-vfpv4.ipk
-Size: 4347706
-MD5Sum: f8920ea888195997a789243a9b895eca
-SHA256sum: 0e05e77bcd2ef22e2a495ac1551d0be49c4799ea014f16ffbfc071e60d08706b
+Filename: enigma2-plugin-extensions-hdfradio_2.20.5_py3_3.13_cortexa15hf-neon-vfpv4.ipk
+Size: 4477078
+MD5Sum: 44abfc4811eddb2318795d05a97a4ea1
+SHA256sum: d9d3b91f9b793fcf62be63ecdfcb7812541005baf94120a89603dfe9680d147f
 
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
@@ -990,14 +990,14 @@ SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
 Priority: optional
 
 Package: enigma2-plugin-skins-xDreamy
-Version: 5.8.0
+Version: 5.8.1
 Section: base
 Architecture: all
 Maintainer: Mahmoud Hussein
-MD5Sum: 3a80fd1a60d875bd2b4abfffb0e3b8e8
-SHA256sum: f92f1974020ec988c95ab3c74384c64318886463bba30a81be55942e61e30c3d
-Size: 17157510
-Filename: enigma2-plugin-skins-xDreamy_5.8.0_all.ipk
+MD5Sum: b1b7bd7386a4789885e607e6662ef948
+SHA256sum: c346dae41ec86a4d8d5ecd744c605ee569bc448fbffef641215b39f080c177fd
+Size: 17722726
+Filename: xDreamy.ipk
 Source: enigma2-plugin-skins-xDreamy.bb
 Depends: python3-image, python3-imaging, python3-pillow, python3-requests, python3-urllib3
 Description: Skin xDreamy FHD - New Vision Skin By Inspiron
