@@ -77,22 +77,6 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-bmediacenter
-Version: gitr7764
-Description: Make your Receiver to a MediaCenter
-Section: base
-Priority: optional
-Maintainer: OE-Alliance team
-License: Proprietary
-Architecture: dm920
-OE: enigma2-plugins
-Homepage: https://github.com/
-Depends: libshowiframe0, python3-tmdbsimple
-Source: enigma2-plugin-extensions-bmediacenter.bb
-Filename: enigma2-plugin-extensions-bmediacenter_7.6-alpha+gitr7764+123df200+123df20303-r8_dm920.ipk
-Size: 5536264
-MD5Sum: 6e6fcc1b9eee2f2372206efa29b991db
-
 Package: enigma2-plugin-extensions-chefkoch
 Version: git3681+a7f0c680+a7f0c68a9c-r0
 Section: base
