@@ -542,55 +542,6 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-apsattv-dbg
-Version: 1.3+git77+7344f570+7344f5796e-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: c31966762b30321aa70e39935ae2a477
-SHA256sum: 7919b10376dac2a8e8a4377b2163f41043ff0b7025ea4ea48f22936812b5c461
-Size: 634
-Filename: enigma2-plugin-extensions-apsattv-dbg_1.3+git77+7344f570+7344f5796e-r0_all.ipk
-Source: enigma2-plugin-extensions-apsattv.bb
-Description: Apsattv free link stream - Debugging files
-OE: enigma2-plugin-extensions-apsattv
-HomePage: https://github.com/Belfagor2005
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-apsattv-dev
-Version: 1.3+git77+7344f570+7344f5796e-r0
-Recommends: enigma2-plugin-extensions-apsattv (= 1.3+git77+7344f570+7344f5796e-r0)
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 0284d36bb04b3b65cd2c6d3790fb839c
-SHA256sum: 00433c02b0b01a29c6208cb2170af3b6626f0b80e18eef9f3e78576412cd423e
-Size: 668
-Filename: enigma2-plugin-extensions-apsattv-dev_1.3+git77+7344f570+7344f5796e-r0_all.ipk
-Source: enigma2-plugin-extensions-apsattv.bb
-Description: Apsattv free link stream - Development files
-OE: enigma2-plugin-extensions-apsattv
-HomePage: https://github.com/Belfagor2005
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-apsattv
-Version: 1.3+git77+7344f570+7344f5796e-r0
-Section: base
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 533c9f92486649297609a63ab4e3e6d3
-SHA256sum: 2ecdd097f6059dcef594a7ca2471f891c6420a861ac8005a43462de0cd1abf7d
-Size: 717768
-Filename: enigma2-plugin-extensions-apsattv_1.3+git77+7344f570+7344f5796e-r0_all.ipk
-Source: enigma2-plugin-extensions-apsattv.bb
-Description: Apsattv free link stream
-OE: enigma2-plugin-extensions-apsattv
-HomePage: https://github.com/Belfagor2005
-License: GPL-2.0-or-later
-Priority: required
-
 Package: enigma2-plugin-extensions-ardmediathek
 Version: 2.0-git5822+cd9f2510+cd9f251374-r0
 Depends: python3-requests, python3-twisted-web
@@ -676,8 +627,8 @@ Version: 1.53-20250517-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 774c14245a9477970478dcb7742ee37e
-SHA256sum: 74263decbfe92dd82ee13a9b429ca447a35941530233c3fdea143e9b939945e7
+MD5Sum: fb3d3ae2749e461b21faa538079914b9
+SHA256sum: 01733882ca58836711a900dcdf1f0b47e8550c209b8e26a8cf63536fb816e048
 Size: 616
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.53-20250517-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
@@ -693,8 +644,8 @@ Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.53-20250517-r3), p
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b878675ace4138ab6c6bb85f637168cf
-SHA256sum: 6d7d60657baa723ddf9b1f52cda8ed92a6a77d6aaa43c3b91d6c28fddf51e290
+MD5Sum: 29d2d9916fcf28097ca041fc90179ece
+SHA256sum: b80afc7b710f290cffd5d6a6eb0d61b670182e8d6c29cc4e65c67de0322a80d5
 Size: 676
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.53-20250517-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
@@ -710,9 +661,9 @@ Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: aec6a2d62c33d3172d162ec6ffd950f1
-SHA256sum: 55c5a80a8a1d5d64b03f2ec11946e45f9cbbeafc768cb3eb0a8810a280110b67
-Size: 1294634
+MD5Sum: 54768d477e882c8e67ea25a5ac967e40
+SHA256sum: b87213a99f6fae770278636c4b8c99668d8f54c0c3d890a37252b9bd422332af
+Size: 1294738
 Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.53-20250517-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
@@ -821,8 +772,8 @@ Version: 1+git4557+825a1870+825a18745d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfdd14d884f82b456eb2bcd933cde551
-SHA256sum: 8043f6cdd1b28fc88d06a69bf8bea07de5636f78247c6af0f037919f19a5cd66
+MD5Sum: 8e4358b30bc3efc2e00c59482ff15360
+SHA256sum: 8f2993a9497b1cee8f1a567f20e68456d91a1cbb2978d8d4f4f17575f076b486
 Size: 638
 Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4557+825a1870+825a18745d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
@@ -838,8 +789,8 @@ Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2i
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4566446b1548bd1876757ed374c9aa64
-SHA256sum: b0987e280e3d64049ae2a52415db51d4128f4e58f7b2421f882ed49839cab78b
+MD5Sum: 58c05386e860a0e354465d81ec744181
+SHA256sum: 7bba1b843de41e33a3ddfab014700ea3fcc2ca8026b0a7cfd4480a9aba9a6fcd
 Size: 782
 Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4557+825a1870+825a18745d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
@@ -855,9 +806,9 @@ Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12e482b0b4a51e4d1d4d12ac6ae3a870
-SHA256sum: 9c5e9a9facdf15da1c60f395e7a1aa69d2d17eb3449fb80983aede9c1e4c66e4
-Size: 12248796
+MD5Sum: b2fce7506a94e1efff8c623933c81784
+SHA256sum: e11922f6e3df77a5f844a0d1f01a51dc51f072bbcd02f4034966fdee5309c0a2
+Size: 12248992
 Filename: enigma2-plugin-extensions-e2iplayer_1+git4557+825a1870+825a18745d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
@@ -1269,8 +1220,8 @@ Version: 1.0+git10+4d0456a0+4d0456a218-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: b8f7936291e696e98956f393daa474df
-SHA256sum: 6f7987f996f8b3456666b1ab8edaf2788be93d13285a7fe670ca5f28b84b6997
+MD5Sum: 4f2ef125c45788a4b22020d5bc952179
+SHA256sum: d53a0843c4cc479991faa50ae476a5ae7212f63b900f94437d640301ebd46c26
 Size: 646
 Filename: enigma2-plugin-extensions-iptv-org-playlists-dbg_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
@@ -1286,8 +1237,8 @@ Recommends: enigma2-plugin-extensions-iptv-org-playlists (= 1.0+git10+4d0456a0+4
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 467d643fcf7748517aa3c2998e21c98b
-SHA256sum: 563b9ad6aa6597dfaa882e34eec6fe0b2ba8f38b988997b949f79fa3500433a4
+MD5Sum: 7d3c48f63734a7750e192092acbcd624
+SHA256sum: 08046216bc33e6c267075e6999ed69a4d34836f79bfb9aa4b6730b386b2a781a
 Size: 696
 Filename: enigma2-plugin-extensions-iptv-org-playlists-dev_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
@@ -1303,8 +1254,8 @@ Depends: python3-requests
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: befbfafb905e834d49b345b871dffaf9
-SHA256sum: 232be5c1c3a082a71b5e4660790b23565a715b977bbbae0834b5eaab6e63ab42
+MD5Sum: f2e6c9f0134a2c29de087ddff148753e
+SHA256sum: 33cfa18f015eaa2912951f30d58a203d96d51813c4cfb500e61c38c119f3353e
 Size: 23214
 Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
@@ -1319,8 +1270,8 @@ Version: git19+81988420+81988420c8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f7d9f9e447e256a0f85c108f37a76bd7
-SHA256sum: bdce2b5e7fb014e97f7370da80777b818db1c70b0607825cc0b929f2a14828c2
+MD5Sum: 42783932e70327a7587f57cbe3400f4c
+SHA256sum: 9ec9d866c257987146734e75713aef385a06796559296a8a29edc8490982b359
 Size: 638
 Filename: enigma2-plugin-extensions-jediepgxtream-dbg_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
@@ -1336,8 +1287,8 @@ Recommends: enigma2-plugin-extensions-jediepgxtream (= git19+81988420+81988420c8
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d0755de36406e4a6cc50d628124a3dc8
-SHA256sum: 31cd571046aac3492c7e68f8b77b84f51a228a7ff1a0e1a294a393b4f2f8fba5
+MD5Sum: 8bb30799bec260999279ac8cdd2f396e
+SHA256sum: 7cff3efe16732516af494c84868242e93ab587309d4f6e125d71916f78862fbe
 Size: 704
 Filename: enigma2-plugin-extensions-jediepgxtream-dev_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
@@ -1353,9 +1304,9 @@ Depends: python3-difflib, python3-requests, python3-thefuzz
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e8c7afb3a04a58ffbc3068676dc9df90
-SHA256sum: 8873c85d0bead8742ae8e0bed1fc63504fe8fbdc7fe329b1a653c71f03e67081
-Size: 304292
+MD5Sum: 5b16d0ec7cd4bd14d8cbd61e83d35bbb
+SHA256sum: 4df8caa160aab9141a4c3a379422888d8a557b2b789bb9cb510ce509dcb948f5
+Size: 304270
 Filename: enigma2-plugin-extensions-jediepgxtream_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
 Description: enigma2-plugin-extensions-jediepgxtream version git-r0
@@ -1914,8 +1865,8 @@ Version: 2.2.5+git17+c5301ba0+c5301ba6be-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: e958ce708a0a1aa5c94d71dec57f61ad
-SHA256sum: 5250006038c7e838da77219c32735bf90d7090c56a2d6112ceb8f2593d9d97a3
+MD5Sum: 926364ed2e051fc9b9949aea2598db8e
+SHA256sum: 7e5d2ef7d6fdc19b03566ff0e2a1bdb22fd1970bc89cd3265ba5679dd7536031
 Size: 688
 Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.5+git17+c5301ba0+c5301ba6be-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
@@ -1931,8 +1882,8 @@ Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.5+git17+c5301ba0+
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: d33cb722a0474d2da9b91ef08b01fb11
-SHA256sum: d4fbc04c89b7a910cdd1ab04baecc2ebac9623e8571a96ef5be4308c1e6b9f89
+MD5Sum: 951e1329d76799d8007325bddc4babea
+SHA256sum: 60442e3b89e01db3507609a3b188cd0bea0e297b8bf9c730efc3b74ab970132a
 Size: 738
 Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.5+git17+c5301ba0+c5301ba6be-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
@@ -1947,8 +1898,8 @@ Version: 2.2.5+git17+c5301ba0+c5301ba6be-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 42f5f83bd75ad27246568a5f6bd91af3
-SHA256sum: 426f70d75e2ac395ec09d1a45aab2e584c9b151e1086995c25f99a337c285aba
+MD5Sum: 8324972de22b317a440a6a0c88a37ee7
+SHA256sum: 51053cd7b38224c42ba19c40b307178f7378913f5b759c13f84ec591bc89b12f
 Size: 11438
 Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.5+git17+c5301ba0+c5301ba6be-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
@@ -1964,9 +1915,9 @@ Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 9ce447fa6fcc478d92066df290bc0077
-SHA256sum: 67af79a6e1e7fc45f326650d10ff11e31cf33ce6033543a75eb3b778d2100c8a
-Size: 196254
+MD5Sum: eb340057233ea146450067c8f84c2985
+SHA256sum: d9b514bd852db747b683fcbfd788004dea40fb1efd1d793e883a462fc8df66eb
+Size: 196252
 Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.5+git17+c5301ba0+c5301ba6be-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2
@@ -2332,8 +2283,8 @@ Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 025d747022bd512f8ad785530284542f
-SHA256sum: d71f2a7319231a18cbc9baa81a688aefd84c9638d5700ff150667b263d942b4b
+MD5Sum: 4b07de68f363a4e2e92fcb4071e502f6
+SHA256sum: 088d4aab6fc1e072643f8bcbfbd2542c2f459b69a565ef355ee4199b2e5ebffa
 Size: 640
 Filename: enigma2-plugin-extensions-xklass-dbg_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
@@ -2349,9 +2300,9 @@ Recommends: enigma2-plugin-extensions-xklass (= 1.52-20250517-git100+afb3e030+af
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f41608ed21a968c4b80d1cfbec714342
-SHA256sum: 7389c1180cdf966e1edd27eafdbebb5456f823cdd22edac22fbf3971dec86605
-Size: 706
+MD5Sum: a61395882a5164ac0cfc65bf50038366
+SHA256sum: 9c8decf7b7e2e97e1cf0779165fc0da4bc2b22e5f4581e7696c83d9d7abec48f
+Size: 704
 Filename: enigma2-plugin-extensions-xklass-dev_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Development files
@@ -2365,9 +2316,9 @@ Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1f8c5eca5b71c3a428097c0b7d58f7f4
-SHA256sum: 4a36d0cc9039537046042fb34b0c93747dcce6b6759e1198c9c5bf5dd84f408e
-Size: 102978
+MD5Sum: 91aef500b1e2668a0a8f979b130d5293
+SHA256sum: cbc6deeea5d95da76978b09194961fd7cc1844dda0eec8e1f1b8ae478232987e
+Size: 102952
 Filename: enigma2-plugin-extensions-xklass-src_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
@@ -2382,9 +2333,9 @@ Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 05002e3918b875cb28f190b38626bf04
-SHA256sum: edc059340c0d6bcb86758df90e656d6e12a17464f48a31092ee30a71ab77592c
-Size: 5776462
+MD5Sum: 182589e913320c2a3f6d810e75a118d2
+SHA256sum: 2af7cebb3bd2fb3b55b72930ae702ea857485820249fe46563941a7e89941559
+Size: 5776582
 Filename: enigma2-plugin-extensions-xklass_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
@@ -2414,8 +2365,8 @@ Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6216c218407f670d650b84513a28d04f
-SHA256sum: 852eee16270067d74be462da589104be0b04d89f2cb1083a2eb1f6179281d42a
+MD5Sum: ccac1c6e156f85a991b0484d0f89a107
+SHA256sum: 96585754a9b807837f6f28c945782e7a7bca2fe75dfc5ce3d4e7b127802abb9e
 Size: 634
 Filename: enigma2-plugin-extensions-xstreamity-dbg_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
@@ -2431,8 +2382,8 @@ Recommends: enigma2-plugin-extensions-xstreamity (= 5.00-20250517-git565+2cc5594
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7733d816e7a0e3608e21f59933367cb6
-SHA256sum: 86aeb49fa13a99ab5de346bed56e0e2cdb2e53ad12ef6b786eb9a636f2555360
+MD5Sum: 82eb247cf4d89b2ec23c36fdca77e274
+SHA256sum: 801e0547d6c57577185cb2c551f7af85fb039f2169cb198f50d8a3ec545a66e6
 Size: 706
 Filename: enigma2-plugin-extensions-xstreamity-dev_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
@@ -2447,9 +2398,9 @@ Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 75014f510f20043700bd42dd6287fd75
-SHA256sum: 7c3c9b805bd1369e72875c32d3f09687a8cd386429bd2521dc8434321d334ff4
-Size: 99204
+MD5Sum: 734e4cc52c3c8be89c00e40c09f7bb97
+SHA256sum: 8b79be70c77c4a565c1e011018a3abddd96522a86f899ff44a6d14d4faaad02a
+Size: 99200
 Filename: enigma2-plugin-extensions-xstreamity-src_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
@@ -2464,9 +2415,9 @@ Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a8690823b5bafc168015ddeb55f3d843
-SHA256sum: 871610a0201e0029d60aa07c1c4e94783c5639bc0d0e31f93e57df49652529b9
-Size: 4507846
+MD5Sum: a99e3c1033f48b31413467e498177892
+SHA256sum: 6897c1946628f469f01fc204863c38db47c9119d989738c2fa46bcdd05980b70
+Size: 4507728
 Filename: enigma2-plugin-extensions-xstreamity_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
