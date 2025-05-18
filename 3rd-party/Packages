@@ -1251,3 +1251,20 @@ Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
 
+Package: streamlinksrv
+Version: 1.8.6
+Depends: python3-core, streamlink
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR
+MD5Sum: 77b5bb6f63a267b949f49bcc95fae43c
+SHA256sum: 3bd83a7c5a74043e0b07416005f3f813724c21cd868112e3f0d681b2e6ddcba9
+Size: 4504
+Filename: streamlinksrv_1.8.6_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv is a helper deamon for streamlink
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
