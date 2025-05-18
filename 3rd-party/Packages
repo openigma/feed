@@ -690,14 +690,14 @@ Size: 491660
 MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
 
 Package: enigma2-plugin-extensions-wireguard-vpn
-Version: 15.1
+Version: 15.2
 Section: enigma2
 Architecture: all
 Maintainer: madhouse
-MD5Sum: 3e907b9437692debbdc5036198404c1d
-SHA256sum: 185c905b2c3431037a3e873c97afaea3b31e7c3bfa6f3ad1a5ec50cc8ee7f0e9
-Size: 2899562
-Filename: enigma2-plugin-extensions-wireguard-vpn_15.1_all.ipk
+MD5Sum: e6288b5cda211237fd630f98d7bdf415
+SHA256sum: a0aa9d5d1bc0fec74c7be70aa17e298af987665396401b775e44598f9c78d291
+Size: 2848898
+Filename: enigma2-plugin-extensions-wireguard-vpn_15.2_all.ipk
 Depends: wireguard-module, wireguard-tools, wireguard-tools-bash-completion, openresolv, python3-requests, iptables
 Source: enigma2-plugin-extensions-wireguard-vpn.bb
 Description: Wireguard Vpn for enigma2 boxes
@@ -933,6 +933,24 @@ Size: 572340
 MD5Sum: b3e46dd904708082b000cc7dddc51607
 SHA256sum: b5d12488d5baa0986fe3948293d85fdfe6aad87698294d7bf41eb61b92d9c272
 
+Package: enigma2-plugin-skins-slyk-qk-1080-ovix
+Version: 2.0
+Description: Skin-Slyk-Q-Xklass FHD Mod
+Section: base
+Priority: optional
+Maintainer: Kiddac
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-skins-slyk-qk-1080-ovix
+Homepage: https://github.com/
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Source: enigma2-plugin-skins-slyk-qk-1080-ovix.bb
+Filename: enigma2-plugin-skins-slyk-qk-1080-ovix_2.0_all.ipk
+Size: 12139554
+MD5Sum: a0307571a3aa6ff98420679d6ab31a35
+SHA256sum: 67b08ff638d3199a14a60eedd608088af76ffc460b914949ac88ad333a880fdc
+Priority: optional
+
 Package: enigma2-plugin-skins-slyk-toppicks
 Version: 7.6.20240529
 Section: misc
@@ -1137,24 +1155,6 @@ Source: ffmpeg_6.1.1.bb
 Filename: libavutil58_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 339958
 MD5Sum: 187db2b911b4a313b0d8efc4e72ec0f7
-
-Package: libcares2
-Version: 1.27.0-r0
-Description: c-ares is a C library that resolves names asynchronously.
- c-ares is a C library that resolves names asynchronously..
-Section: libs
-Priority: optional
-Maintainer: ok
-License: MIT
-Architecture: cortexa15hf-neon-vfpv4
-OE: c-ares
-Homepage: http://daniel.haxx.se/projects/c-ares/
-Depends: libc6 (>= 2.41)
-Provides: c-ares
-Source: c-ares_1.27.0.bb
-Filename: libcares2_1.27.0-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 67938
-MD5Sum: 2b5dac0da80fccbad1bd279f3382aaa6
 
 Package: libcrypto-compat
 Version: 3.4.0
