@@ -95,9 +95,9 @@ Version: 3.0.14-r0
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: faa27ae70515be447688fdee09e9978a
-SHA256sum: 9b07e449f0de7ec3c721d1b7dd8243c8389c17cb92b3c867fb24bfabec2b8780
-Size: 3558
+MD5Sum: c3bbb1f81bcad5f2e707370839e50809
+SHA256sum: be113d00b69707e6a1ce3f6ea4a60e4bae44e6b7a65a45dac97eb7e84d6b7a3d
+Size: 3566
 Filename: base-files_3.0.14-r0_dm920.ipk
 Source: base-files_3.0.14.bb
 Description: Miscellaneous files for the base system
@@ -150,6 +150,74 @@ Source: boxmodel.bb
 Description: BoxModel proc Helper
 OE: boxmodel
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: directfb-dbg
+Version: 1.7.7-r0
+Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, libstdc++-dbg, zlib-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a712a7944a5a5744f71eb6e04325bc2f
+SHA256sum: 5bb41efc9bc2e79229c5e67c5f821377e6b6a57b29f3984e7274d06f8fe1aa13
+Size: 5279686
+Filename: directfb-dbg_1.7.7-r0_dm920.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPL-2.1-only
+Priority: optional
+
+Package: directfb-dev
+Version: 1.7.7-r0
+Depends: directfb
+Recommends: directfb (= 1.7.7-r0), freetype-dev, glibc-dev, jpeg-dev, libgcc-dev, libjpeg-turbo-dev, libpng-dev, libstdc++-dev, sysfsutils-dev, zlib-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 568bcf01022fad7dfd494f74b62e686d
+SHA256sum: 0c823ddc651dacb02b20ead6e4acd7428ab833ce45f86aea3d068e4e7ba39b38
+Size: 253458
+Filename: directfb-dev_1.7.7-r0_dm920.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Development files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPL-2.1-only
+Priority: optional
+
+Package: directfb-doc
+Version: 1.7.7-r0
+Section: doc
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7e103752f1a561a98f163b24cbf8c22
+SHA256sum: 752f51f09f52d4c36c27182e1e01d05a7531dc366e1f770640adf5c5d92c5c23
+Size: 8624
+Filename: directfb-doc_1.7.7-r0_dm920.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Documentation files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPL-2.1-only
+Priority: optional
+
+Package: directfb
+Version: 1.7.7-r0
+Depends: libc6 (>= 2.41+git0+5b4c461701), libfreetype6 (>= 2.13.3), libgcc1 (>= 15.1.0), libjpeg62 (>= 3.1.0), libpng16-16 (>= 1.6.48), libstdc++6 (>= 15.1.0), libz1 (>= 1.3.1)
+Section: libs
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb12361f637fa7d73e08c5a1f770dc5d
+SHA256sum: 99b681318ca260bacf04677cdc5443b52d7d53eb35982cb64d22ce6e8773d9c8
+Size: 1292728
+Filename: directfb_1.7.7-r0_dm920.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device
+OE: directfb
+HomePage: http://directfb.org
+License: LGPL-2.1-only
 Priority: optional
 
 Package: distro-feed-configs-dbg
@@ -278,14 +346,14 @@ License: CLOSED
 Priority: required
 
 Package: enigma-info
-Version: 15.1-r0
+Version: GCC-15.1.0-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 5c15070f6b44ae4feb1b49845ccaa277
-SHA256sum: 9f227a6fc077df61de5ed68d05762012c650822aae9fb30486e03d702b1e1bea
-Size: 1272
-Filename: enigma-info_15.1-r0_dm920.ipk
+MD5Sum: 9e2ec81ec2471cb674e04ee3901812fb
+SHA256sum: 019a0024917ad975be5149ca60f7039a3aec92e7096c184f26046a62e7d54520
+Size: 1290
+Filename: enigma-info_GCC-15.1.0-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
@@ -512,14 +580,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: 0.0-231-g25d88bd-r0
+Version: 0.0-233-gaba9b6e-r0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: f78dbf16470fcbdd0a1ed8ad8b3fe22c
-SHA256sum: 8cbf7215230f1836d7cb626a26388ebe34247490dfd6a616d89874cff9f7e2ee
+MD5Sum: 32ef48738d50ed95c0f5805f7251634b
+SHA256sum: 1355474c6c3bfd3ee4eaaf8c05fdd8dede6fd67c6a10a09604efe7ee05f13b42
 Size: 600
-Filename: enigma2-plugin-extensions-openwebif-dbg_0.0-231-g25d88bd-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-openwebif-dbg_0.0-233-gaba9b6e-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Debugging files
 OE: enigma2-plugin-extensions-openwebif
@@ -527,15 +595,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: 0.0-231-g25d88bd-r0
-Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 0.0-231-g25d88bd-r0), python3-cheetah-dev, python3-compression-dev, python3-core-dev, python3-dev, python3-ipaddress-dev, python3-json-dev, python3-misc-dev, python3-numbers-dev, python3-pyopenssl-dev, python3-shell-dev, python3-unixadmin-dev
+Version: 0.0-233-gaba9b6e-r0
+Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 0.0-233-gaba9b6e-r0), python3-cheetah-dev, python3-compression-dev, python3-core-dev, python3-dev, python3-ipaddress-dev, python3-json-dev, python3-misc-dev, python3-numbers-dev, python3-pyopenssl-dev, python3-shell-dev, python3-unixadmin-dev
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 9ba1b5f9d0cba1c7de518afde1fd00d4
-SHA256sum: baee561e931d9755bcdc55b030e46892e3f4fc7ec7347dd11f05c6458875ba68
+MD5Sum: 1cb30fa5c3228c7e0b8263a52b511c19
+SHA256sum: fceb24f2787218f93d0386afc0a116dcb5c4e748732f3edf000e169582da2124
 Size: 716
-Filename: enigma2-plugin-extensions-openwebif-dev_0.0-231-g25d88bd-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-openwebif-dev_0.0-233-gaba9b6e-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Development files
 OE: enigma2-plugin-extensions-openwebif
@@ -543,16 +611,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 0.0-231-g25d88bd-r0
+Version: 0.0-233-gaba9b6e-r0
 Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pyopenssl, python3-shell, python3-unixadmin
 Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 5c541ebf3f92153b2eedc801ac13a0c9
-SHA256sum: 5ebdcb6a8e84a99394a38f3be183638a1658eb4088f81e7287296042b3f52551
-Size: 3254066
-Filename: enigma2-plugin-extensions-openwebif_0.0-231-g25d88bd-r0_dm920.ipk
+MD5Sum: 746ed29bd68ee46d30f7c9ea2ff29f96
+SHA256sum: 711d3c705242be9e3d167d4258ea836301c09c395627f471e3ad3c6cf42a1690
+Size: 3253690
+Filename: enigma2-plugin-extensions-openwebif_0.0-233-gaba9b6e-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
 OE: enigma2-plugin-extensions-openwebif
@@ -1090,8 +1158,8 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 61d2bf4f39fe7bc00513215ed6b47316
-SHA256sum: 11952f93fc9f49835ad489f1ca366a30c1d824b36bfa3ebf44bb3e121aabd1f1
+MD5Sum: 654e4e5d02bcdfc7fe4857ead5d675b0
+SHA256sum: d770c8d3c2635a6f81deb3f3c21788c9e6e19c494371a9d20acde5d3ee16066e
 Size: 2370100
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -1106,8 +1174,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a2b378fad64f787432a9be0b1fd501f
-SHA256sum: e60609db0fcdd48e9fefd258b466a5a31004179f70b7f246f118547062b80da0
+MD5Sum: 0f9baf652430efd55fee8fed0f9c27cd
+SHA256sum: ed17bf40b4e2a046908e43c8ec445e7cabdc845bf40d23c0ea45e027e0f4f0a9
 Size: 706
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -1118,14 +1186,14 @@ Priority: optional
 
 Package: enigma2-plugin-systemplugins-serviceapp
 Version: git176+947f62e0+947f62ed5c-r0
-Depends: enigma2, libc6 (>= 2.41+git0+5b4c461701), libcrypto3 (>= 3.5.0), libgcc1 (>= 15.1.0), libssl3 (>= 3.5.0), libstdc++6 (>= 15.1.0), openssl, python3-json, uchardet (>= 0.0.8)
+Depends: enigma2, libc6 (>= 2.41+git0+5b4c461701), libcrypto3 (>= 3.5.0), libgcc1 (>= 15.1.0), libssl3 (>= 3.5.0), libstdc++6 (>= 15.1.0), openssl, python3-json, uchardet (>= 0.0.8-r1+git383+ab1d2f10+ab1d2f1120)
 Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7d1b9a0a1aa8f3452e01c9c8c8a55de
-SHA256sum: 65b1b0c6006f08152cd36c679d03d09d111772a3ce75fe04365728282b37ce0d
-Size: 178472
+MD5Sum: 6ff0e19c9e514af49a50cdee95cef976
+SHA256sum: 0345323f9b3f58a21e3daded29382740e5f1ae4caca386a05f066541bbedcbd5
+Size: 178484
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0
@@ -21431,6 +21499,52 @@ Filename: packagegroup-machine-base_1.0-r0_dm920.ipk
 Source: packagegroup-base.bb
 Description: Extra packages required to fully support dm920 hardware
 OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: pointercal-dbg
+Version: 0.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 180cb1471d2a8da5f174e746ef36c3b8
+SHA256sum: 128d5dba9c5a5af02d0848b327086e8cb89734d71d82c50c2b1e7f5354853def
+Size: 576
+Filename: pointercal-dbg_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Debugging files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal-dev
+Version: 0.0-r0
+Recommends: pointercal (= 0.0-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c16bef59827c0bded37b03a800ff41b0
+SHA256sum: 5b76d2c68658ea8c0e285a4227926921a94e9cbc4a5905b8e43c6d520651fb31
+Size: 612
+Filename: pointercal-dev_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Development files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal
+Version: 0.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 649628eedb65f581845bc68c199134bd
+SHA256sum: 8323453888dc658ceb944b7af63cca099732e6367f98bf42ad8fa0582fc1f4dd
+Size: 512
+Filename: pointercal_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data
+OE: pointercal
 License: MIT
 Priority: optional
 

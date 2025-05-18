@@ -8981,6 +8981,72 @@ HomePage: http://roy.marples.name/projects/openresolv
 License: BSD-2-Clause
 Priority: optional
 
+Package: os-release-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 839d4d1930800eb92d442744e7697a47
+SHA256sum: 573a320962e86ae12dfb9c30a6486fa154d74d255ae5d168d2a5b21b43b57a09
+Size: 636
+Filename: os-release-dbg_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Debugging files
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release-dev
+Version: 1.0-r0
+Recommends: os-release (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2bfeec6b3537b3be955d4c89d394d84f
+SHA256sum: f2c92ffef981e2153c5af5694487bb94be35a17e1b593451207ed231125438ce
+Size: 668
+Filename: os-release-dev_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Development files
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release-initrd
+Version: 1.0-r0
+Depends: os-release
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 536507d2dfe9840cf5700a33d035cebe
+SHA256sum: b9d0301cc97c3dac3282acac3e77622374eb87265c9119e7e7a73eca8008b35d
+Size: 698
+Filename: os-release-initrd_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9a05c471908554ea2c24c0130c38645
+SHA256sum: 5948f6cbbb3ae6f0e3585d5dca79d515d5d59efa5f9a394272fcc4acc487d3f9
+Size: 818
+Filename: os-release_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
 Package: packagegroup-openplugins-dbg
 Version: 1.0-r0
 Section: devel
@@ -9025,6 +9091,55 @@ Source: packagegroup-openplugins.bb
 Description: packagegroup-openplugins version 1.0-r0
 OE: packagegroup-openplugins
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: poppler-data-dbg
+Version: 0.4.12-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29005086908e70a1abc15597db8fefdb
+SHA256sum: 5c341769704fa77ffe06b477c5b368efdbe8f2c29a159b5ff380d390a9121c41
+Size: 672
+Filename: poppler-data-dbg_0.4.12-r0_all.ipk
+Source: poppler-data_0.4.12.bb
+Description: Encoding files for Poppler - Debugging files
+OE: poppler-data
+HomePage: https://poppler.freedesktop.org/
+License: BSD-3-Clause & GPL-2.0-only & GPL-3.0-or-later
+Priority: optional
+
+Package: poppler-data-dev
+Version: 0.4.12-r0
+Recommends: poppler-data (= 0.4.12-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d487a73f9796c7c19c99f448c4575bda
+SHA256sum: 66de15f69b421aa32ae485264064bcc671d7af13e7b930aff0763dabfaed30b9
+Size: 938
+Filename: poppler-data-dev_0.4.12-r0_all.ipk
+Source: poppler-data_0.4.12.bb
+Description: Encoding files for Poppler - Development files
+OE: poppler-data
+HomePage: https://poppler.freedesktop.org/
+License: BSD-3-Clause & GPL-2.0-only & GPL-3.0-or-later
+Priority: optional
+
+Package: poppler-data
+Version: 0.4.12-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 825ed18bc01b6c1964a713add98496b3
+SHA256sum: 1a42ce424dd14a039e9059c9a7577cb866c5a3ef4b3a3c156e837af048a88bac
+Size: 3452060
+Filename: poppler-data_0.4.12-r0_all.ipk
+Source: poppler-data_0.4.12.bb
+Description: Encoding files for Poppler
+OE: poppler-data
+HomePage: https://poppler.freedesktop.org/
+License: BSD-3-Clause & GPL-2.0-only & GPL-3.0-or-later
 Priority: optional
 
 Package: run-postinsts-dbg
