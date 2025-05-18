@@ -741,7 +741,7 @@ Package: enigma2-plugin-skins-aeonfhd
 Version: 3.4
 Section: base
 Architecture: all
-Maintainer: sharp
+Maintainer: sharp987
 MD5Sum: 88fc423020b7c312f2353b2624a70bf7
 SHA256sum: 24a3d7a968a1d234edcd0d8a7a8fd692bd55479a8c8ec1e0fda2110cfec82d04
 Size: 10411742
@@ -840,6 +840,21 @@ Size: 5794160
 Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
 Source: enigma2-plugin-skins-maxy-fhd-pli.bb
 Description: Skin Maxy-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-moderonfhd
+Version: 2.0
+Section: base
+Architecture: all
+Maintainer: sharp987
+MD5Sum: 58292bccad316896337776301ae10224
+SHA256sum: e82daaf4b8b8b654376c2bd42e2dd882cf295efd8eb876b3e6d19c77d73561ff
+Size: 7578422
+Filename: enigma2-plugin-skins-moderonfhd_2.0_all.ipk
+Source: enigma2-plugin-skins-moderonfhd.bb
+Description: Skin Moderon-FHD
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
