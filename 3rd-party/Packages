@@ -1002,18 +1002,19 @@ Priority: optional
 Package: enigma2-plugin-softcams-gbox-811k
 Version: 811k-r0
 Description: gbox 811k softcam
+ enigma2-plugin-softcams-gbox-811k version 811k-r0.
 Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-softcams
-Homepage: https://github.com/
-Depends: libc6 (>= 2.41), libgcc1 (>= 14.2.0), softcam-support
+OE: enigma2-plugin-softcams-gbox-811k
+Homepage: https://www.open.tv
+Depends: libc6 (>= 2.41), libgcc1 (>= 15.1.0), softcam-support
 Source: enigma2-plugin-softcams-gbox-811k.bb
 Filename: enigma2-plugin-softcams-gbox-811k_811k-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 330906
-MD5Sum: 8e1e34269f57f53f1fbddbd37ef80461
+Size: 327780
+MD5Sum: fe905202d2a03e9ca8394527ead7bfa5
 
 Package: enigma2-plugin-softcams-mgcamd-1.46
 Version: 1.46-r0
@@ -1032,27 +1033,29 @@ Size: 349904
 MD5Sum: 4e340aaa7a0bd5702749e43029c259ad
 
 Package: enigma2-plugin-softcams-oscam-master
-Version: 11866-git10781
+Version: 11884-git10799+76c92a20+76c92a2cb7-r2
 Description: (IPv6/IPv4 Dual-Stack support)
-- IPv6 support. This version can connect to servers using IPv6 and/or IPv4.
+  .
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
 Section: base
 Priority: optional
-Maintainer: ok
+Maintainer: open
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-master
-Homepage: https://github.com/
+Homepage: https://www.open.tv
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Provides: enigma2-plugin-softcams-oscam-atv, oscam-master
 Replaces: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
 Conflicts: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
 Source: enigma2-plugin-softcams-oscam-master.bb
-Filename: enigma2-plugin-softcams-oscam-master_11866-git10781+14b7ac70+14b7ac7123-r2_cortexa15hf-neon-vfpv4.ipk
-Size: 623774
-MD5Sum: 38938e1e2cc8757db4575f6104061075
+Filename: enigma2-plugin-softcams-oscam-master_11884-git10799+76c92a20+76c92a2cb7-r2_cortexa15hf-neon-vfpv4.ipk
+Size: 630882
+MD5Sum: bf6d9ab4dbea4bb626820076f631650f
 
 Package: enigma2-plugin-softcams-oscam-smod
-Version: 1.20+git2399+01bc9cd0+01bc9cdbdc-r2
+Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r2
 Description: OSCam-smod 1.20+git2389+01bc9cd0+01bc9cdbdc (IPv6/IPv4 Dual-Stack support)
  Combining the benefits of
  - latest trunk
@@ -1066,15 +1069,15 @@ Maintainer: smod
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-smod
-Homepage: https://github.com/
-Depends: libc6 (>= 2.41), libcrypto3 (>= 3.4.0), libcurl, libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.4.0), libudev1 (>= 3.2.14), libusb1, pcsc-lite, softcam-support
+Homepage: https://www.open.tv
+Depends: libc6 (>= 2.41), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0+git60+f25351d0+f25351d705), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.0), libusb-1.0-0 (>= 1.0.28), softcam-support
 Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
 Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
 Conflicts: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
 Source: enigma2-plugin-softcams-oscam-smod.bb
 Filename: enigma2-plugin-softcams-oscam-smod_1.20+git2389+01bc9cd0+01bc9cdbdc-r2_cortexa15hf-neon-vfpv4.ipk
-Size: 1111652
-MD5Sum: 707c543ea250c20aa977ae8e6745c8aa
+Size: 1158616
+MD5Sum: 48ee2d3c158191731533196502a8c574
 
 Package: enigma2-plugin-softcams-wicardd-1.19
 Version: r1
@@ -1247,21 +1250,4 @@ Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
 Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
-
-Package: streamlinksrv
-Version: 1.8.6
-Depends: python3-core, streamlink
-Section: devel/python
-Architecture: all
-Maintainer: SatDreamGR
-MD5Sum: 77b5bb6f63a267b949f49bcc95fae43c
-SHA256sum: 3bd83a7c5a74043e0b07416005f3f813724c21cd868112e3f0d681b2e6ddcba9
-Size: 4504
-Filename: streamlinksrv_1.8.6_all.ipk
-Source: streamlinksrv.bb
-Description: streamlinksrv is a helper deamon for streamlink
-OE: streamlinksrv
-HomePage: www.satdreamgr.com
-License: GPL-2.0-or-later
-Priority: optional
 
