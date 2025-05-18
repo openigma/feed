@@ -1,3 +1,49 @@
+Package: 3rd-party-feed-configs-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef73cb2dcd50c652dd438022b59b9f92
+SHA256sum: c0173fc5c5b2bab5dd35fc75381573249554fccfc0c45561b67ebbce2390e511
+Size: 592
+Filename: 3rd-party-feed-configs-dbg_1.0-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: Configuration files for 3rd-party feeds - Debugging files
+OE: 3rd-party-feed-configs
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: 3rd-party-feed-configs-dev
+Version: 1.0-r0
+Recommends: 3rd-party-feed-configs (= 1.0-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14d582b8f02c8fe32209ae34fcc4e44c
+SHA256sum: 852e2b55beb6dcc1ebbbbc253f45ebfed3cc3b2d512418dd0b0a07a8b6afdc9c
+Size: 624
+Filename: 3rd-party-feed-configs-dev_1.0-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: Configuration files for 3rd-party feeds - Development files
+OE: 3rd-party-feed-configs
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: 3rd-party-feed-configs
+Version: 1.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac782c8f0b86da53e63ecf5e15c1b45c
+SHA256sum: 150e3c93582c06986f1c0ee68e02a9cc038ac59855131750017d3428cb6bb78a
+Size: 746
+Filename: 3rd-party-feed-configs_1.0-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: Configuration files for 3rd-party feeds
+OE: 3rd-party-feed-configs
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: base-files-dbg
 Version: 3.0.14-r0
 Section: devel
@@ -1044,9 +1090,9 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c0fdebb40b402a7a78b2b7adc372dc91
-SHA256sum: 5e9f1d1e54b3fbd5b58386a32288c4844d7685fb899b1308f13e21f87b688d1a
-Size: 2370096
+MD5Sum: 61d2bf4f39fe7bc00513215ed6b47316
+SHA256sum: 11952f93fc9f49835ad489f1ca366a30c1d824b36bfa3ebf44bb3e121aabd1f1
+Size: 2370100
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0 - Debugging files
@@ -1060,8 +1106,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0f9baf652430efd55fee8fed0f9c27cd
-SHA256sum: ed17bf40b4e2a046908e43c8ec445e7cabdc845bf40d23c0ea45e027e0f4f0a9
+MD5Sum: 0a2b378fad64f787432a9be0b1fd501f
+SHA256sum: e60609db0fcdd48e9fefd258b466a5a31004179f70b7f246f118547062b80da0
 Size: 706
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -1077,9 +1123,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f8ca919b4e46d57181047368540e478
-SHA256sum: 83037fbf590e54ac88b19c7d0534cecf58cdf4efbd977594a79d42ccf51a0473
-Size: 178466
+MD5Sum: a7d1b9a0a1aa8f3452e01c9c8c8a55de
+SHA256sum: 65b1b0c6006f08152cd36c679d03d09d111772a3ce75fe04365728282b37ce0d
+Size: 178472
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0

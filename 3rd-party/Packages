@@ -582,15 +582,15 @@ MD5Sum: 5ad0015a118a9f50797d6a79e056d09d
 SHA256sum: ae6f46ce89ec1234c8447993860866e681ae9f09e1cc05ddf621fd5db7af5162
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r15
+Version: 1.7.0-r19
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a825944f050e58182f3bfe4a566d469
-SHA256sum: 6963fa5219d4e517cbf9a81629627d7d560c50b81b3348afe3377431fa359b8e
-Size: 783110
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r15-py3_all.ipk
+MD5Sum: 85a1d062d451dc716f977b39f1553d7d
+SHA256sum: 92fd34711c3fc01cf1b2b9b9040add1d01c86b22e14d74ddb5df40ec8e86b697
+Size: 830682
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r19-py3_all.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions
@@ -657,22 +657,6 @@ OE: enigma2-plugin-extensions
 Size: 1971008
 MD5Sum: c87ca5fd626b329f554ae32c89f3bb9d
 SHA256sum: 29e1ea704bf2a3bec3c74076b1ab33d179e4bbd26dfb26dde0532a534d6446da
-
-Package: enigma2-plugin-extensions-vavoo
-Version: 1.20
-Section: base
-Priority: optional
-Architecture: all
-Maintainer: lululla
-Description: Vavoo stream (1.20 mod)
-Source: enigma2-plugin-extensions-vavoo.bb
-Homepage: https://github.com/Belfagor2005/vavoo
-OE: enigma2-plugin-extensions
-License: free
-Filename: enigma2-plugin-extensions-vavoo_1.20_all.ipk
-Size: 5270696
-MD5Sum: 2f9211f1e8e9bade8fd7c42d82e2fa10
-SHA256sum: 03508d93318866e0034e6a118143a2f5c2825cfe49506c732474c15a4ccc8efd
 
 Package: enigma2-plugin-extensions-videoplayersimple
 Version: 2.0+git1+52f4e2c0+52f4e2c177-r0
