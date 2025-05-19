@@ -391,6 +391,20 @@ Size: 13991596
 MD5Sum: 6a5937974795f8478b387a8b1b3d7b59
 SHA256sum: b0a2fca3c7b8307e2df12a94f9b51a9a2212f332cea42a0338ddb07d51da8226
 
+Package: enigma2-plugin-extensions-mosaic
+Version: 2.1
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: mod @lululla
+Description: Take mosaic screen of enigma2 box screen
+Source: enigma2-plugin-extensions-mosaic.bb
+Homepage: https://github.com/Belfagor2005/mosaic
+Filename: enigma2-plugin-extensions-mosaic_2.1_all.ipk
+Size: 40584
+MD5Sum: 046a25262d7cf13e0538cb690f59afdc
+SHA256sum: 0606e963adbe489f3fdeb133b7ba3d2db28542ee3ce7b457d4a06c9783fa97d1
+
 Package: enigma2-plugin-extensions-ngsetting-fhd
 Version: 2.7
 Section: extra
@@ -1098,7 +1112,7 @@ License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-smod
 Homepage: https://www.open.tv
-Depends: libc6 (>= 2.41), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0+git60+f25351d0+f25351d705), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.0), libusb-1.0-0 (>= 1.0.28), softcam-support
+Depends: libc6 (>= 2.41), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.0), libusb-1.0-0 (>= 1.0.28), softcam-support
 Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
 Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
 Conflicts: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
