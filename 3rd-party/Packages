@@ -1279,6 +1279,24 @@ Filename: libfmt11_11.1.1-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 39906
 MD5Sum: 0bb01742864f89c8bb5e360c804cebd7
 
+Package: libssl1.0.2
+Version: 1.0.2u-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: open
+License: OpenSSL
+Architecture: dm920
+OE: openssl10
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.41), libcrypto1.0.2 (>= 1.0.2u)
+Provides: libssl1.0.2, libssl10
+Source: openssl10_1.0.2u.bb
+Filename: libssl1.0.2_1.0.2u-r0_dm920.ipk
+Size: 140772
+MD5Sum: 9a9d334cf34409c65294df6e75f2ea0f
+
 Package: libswresample4
 Version: 6.1.1-r3
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
