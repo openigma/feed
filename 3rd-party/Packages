@@ -1201,6 +1201,65 @@ Filename: libavutil58_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 339958
 MD5Sum: 187db2b911b4a313b0d8efc4e72ec0f7
 
+Package: libcrypto1.0.2
+Version: 1.0.2u-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: open
+License: OpenSSL
+Architecture: dm920
+OE: openssl10
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.41)
+Recommends: openssl10-conf
+Provides: libcrypto1.0.2, libcrypto10
+Source: openssl10_1.0.2u.bb
+Filename: libcrypto1.0.2_1.0.2u-r0_dm920.ipk
+Size: 627686
+MD5Sum: 1845dfb64a7fc19879477ee2d7af721a
+
+Package: libcrypto-compat-0.9.7
+Version: 1.0-r0
+Description: Compatibility for packages that link to libcrypto or libssl 0.9.7
+ Compatibility for packages that link to libcrypto or libssl 0.9.7.
+Section: base
+Priority: optional
+Maintainer: open
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libcrypto-compat-0.9.7
+Homepage: https://www.open.tv
+Depends: libcrypto, libssl
+Provides: libcrypto.so.0.9.7, libssl.so.0.9.7
+Replaces: libcrypto-compat
+Conflicts: libcrypto-compat
+Source: libcrypto-compat-0.9.7.bb
+Filename: libcrypto-compat-0.9.7_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 730
+MD5Sum: e0e5331c2f5f2772d32cca62797e83a4
+
+Package: libcrypto-compat-1.0.0
+Version: 1.2-r0
+Description: Compatibility for packages that link to libcrypto or libssl 1.0.0
+ Compatibility for packages that link to libcrypto or libssl 1.0.0.
+Section: base
+Priority: optional
+Maintainer: open
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libcrypto-compat-1.0.0
+Homepage: https://www.open.tv
+Depends: libcrypto10, libssl10
+Provides: libcrypto1.0.0, libssl1.0.0
+Replaces: libcrypto1.0.0, libssl1.0.0
+Conflicts: libcrypto1.0.0, libssl1.0.0
+Source: libcrypto-compat-1.0.0.bb
+Filename: libcrypto-compat-1.0.0_1.2-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 724
+MD5Sum: 420abb05daccb7c1c3de004e5fbf15c7
+
 Package: libfmt11
 Version: 11.1.1-r0
 Description: open-source formatting library for C++
