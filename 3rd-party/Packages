@@ -917,6 +917,21 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-multibox-fhd
+Version: 2.0
+Section: base
+Architecture: all
+Maintainer: stein17
+MD5Sum: 21a74088b34756110c81853a6c13be16
+SHA256sum: 923ad71df4cd352eaf5628a41335c5afde0d396f3330ff47c70298938353a1ae
+Size: 24020212
+Filename: enigma2-plugin-skins-multibox-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-multibox-fhd.bb
+Description: Skin Multibox-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-nuitneonfhd
 Version: 1.2
 Section: base
@@ -1169,9 +1184,9 @@ Homepage: https://www.open.tv
 Depends: libc6 (>= 2.41), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.0), libusb-1.0-0 (>= 1.0.28), softcam-support
 Source: enigma2-plugin-softcams-oscam-smod.bb
 Filename: enigma2-plugin-softcams-oscam-samur_11878-802_cortexa15hf-neon-vfpv4.ipk
-Size: 779604
-MD5Sum: f53649ee1db715d8ff38a689001e3288
-SHA256sum: 3c0453590570d4d3e03a0a53137ecc651400416e8d3ae747100ca6e41942f272
+Size: 780520
+MD5Sum: eb50c92f85d11ecb2064b14f019c1f27
+SHA256sum: 09f75b9b7ae310ffa00ced7b72c38e0eafd36a9577344e1c216de9eb2e1a4ddb
 
 Package: enigma2-plugin-softcams-oscam-smod
 Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r2
