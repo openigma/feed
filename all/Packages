@@ -768,14 +768,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4572+b8dee7d0+b8dee7d804-r0
+Version: 1+git4574+6c2f9840+6c2f98460d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8af05f953d9c675cf20759394052522d
-SHA256sum: 7d3c37622e34a64921d1fcc1c2b6df989fe1497184cc9b4fc8f38b0464c7d7ed
-Size: 636
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4572+b8dee7d0+b8dee7d804-r0_all.ipk
+MD5Sum: d292ef0f47ab5ab20f9c25f36c747d99
+SHA256sum: 01085e38269e157678c43442a79b980549a8e3580fc3cd2fd0bbf373e64b89e4
+Size: 638
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -784,15 +784,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4572+b8dee7d0+b8dee7d804-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4572+b8dee7d0+b8dee7d804-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4574+6c2f9840+6c2f98460d-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4574+6c2f9840+6c2f98460d-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfc17619ff3d897e163ee25e33f4a67d
-SHA256sum: cc704ff1e33dd803e3d4e2daa1113a21b30e81d152eead0e9ca349d5732cd6b0
+MD5Sum: 6247902f716899d6bd237a30d67364d6
+SHA256sum: 351d201a43f6941d8ebb1ef8573a9336a8088442c053acc0d7de5d07ef777ef7
 Size: 782
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4572+b8dee7d0+b8dee7d804-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -801,15 +801,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4572+b8dee7d0+b8dee7d804-r0
+Version: 1+git4574+6c2f9840+6c2f98460d-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24a330219e99bcd6e753ec5c07ee1e6f
-SHA256sum: a539f8d7cde6e8224b1e8b1b36d2f582a696ba0e1b03f0ebfe85c8e13772c25d
-Size: 12256468
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4572+b8dee7d0+b8dee7d804-r0_all.ipk
+MD5Sum: 19d9234be2cab7b6104b25f636c2825a
+SHA256sum: 6dccf650257a389c45d7cdfa21f978ccf49ce40c899872d5e304ed18ef6f6b46
+Size: 12257318
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -5699,6 +5699,21 @@ OE: firmware-rtl8188fu
 License: CLOSED
 Priority: optional
 
+Package: firmware-rtl8192cu
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 491ad1f275f99ca07959d451e0466c41
+SHA256sum: 373658af6a7beb7f9b5de612d30399c94c235ac33cf3013c057a87e318f61168
+Size: 9000
+Filename: firmware-rtl8192cu_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-rtl8192cu.bb
+Description: firmware-rtl8192cu version 1.1+git-r0
+OE: firmware-rtl8192cu
+License: CLOSED
+Priority: optional
+
 Package: firmware-rtl8192eu
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -9223,8 +9238,8 @@ Version: 1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 6573ec32de9b955fcce7c5477e351a25
-SHA256sum: fb01ce8dcfcf1cb43651560fd085c0aa5e218b711874ef8b1c4a015c00e7831c
+MD5Sum: 887a4a4ebad1cc0cc4c246fced262ff3
+SHA256sum: f40186302aa2bcc04d585f3914843f60ed1c70eeabd1618277796fcc029945f7
 Size: 608
 Filename: streamlinksrv-dbg_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9240,8 +9255,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.2+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 01f520e71b36aeaf87293dd6229a8d41
-SHA256sum: d3ba67927b91ad222a5965a301382d76aca745ab069b23befc2cb2291ebcfbc2
+MD5Sum: 579c21c01d3d996db2fcdb684a030fc7
+SHA256sum: 6c54b1f52dd09ac8a4e9d1e4c7b3faf23e29578f0c028339570797d5c9b29db4
 Size: 658
 Filename: streamlinksrv-dev_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9257,8 +9272,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 0a0eaa74187a207ea5dcbe93e73c189c
-SHA256sum: e95083cb6aca870487580a5d71465cd2474cfa628580713a67f4af369f91d086
+MD5Sum: 84d2578790523193db72893c5ec63ff6
+SHA256sum: 2e41985b2af1b5f0aa471caee53080667fda529e21770244400cd38f6fcd04fd
 Size: 85882
 Filename: streamlinksrv_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9269,14 +9284,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1034+e5b672a0+e5b672a26f-3
+Version: 2+git1035+3dab2ff0+3dab2ffbc4-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: e5b9d4bed1a2395457959b00899ed0b1
-SHA256sum: 22a649136dd0a3677072d803476773405a13913f67519f6bb5a48c18ee4e40b0
-Size: 566
-Filename: tuxbox-common-dbg_2+git1034+e5b672a0+e5b672a26f-3_all.ipk
+MD5Sum: 797807ce20f22e001f8ab506250f09fa
+SHA256sum: bcfe8afe57fdb683dfa9ca994fe3767d4926054cd574fe56a0f281b0a8d41486
+Size: 568
+Filename: tuxbox-common-dbg_2+git1035+3dab2ff0+3dab2ffbc4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9284,15 +9299,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1034+e5b672a0+e5b672a26f-3
-Recommends: tuxbox-common (>= 2+git1034+e5b672a0+e5b672a26f-3), tuxbox-common (<< 2+git1034+e5b672a0+e5b672a26f-3.0), xz-dev
+Version: 2+git1035+3dab2ff0+3dab2ffbc4-3
+Recommends: tuxbox-common (>= 2+git1035+3dab2ff0+3dab2ffbc4-3), tuxbox-common (<< 2+git1035+3dab2ff0+3dab2ffbc4-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8a16fea4018578dfa8bf042ff975e1f3
-SHA256sum: 50c8d24a458d42cede3c5c64f68c589c33a44c49e70a0510b10d98a590eba5b1
+MD5Sum: f00700f7edb4705694cae251951c5a55
+SHA256sum: 67a6a4248240e87f2160233e51a8cca5cb31ce8218bf76f9121a2ca5193525ca
 Size: 620
-Filename: tuxbox-common-dev_2+git1034+e5b672a0+e5b672a26f-3_all.ipk
+Filename: tuxbox-common-dev_2+git1035+3dab2ff0+3dab2ffbc4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9300,15 +9315,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1034+e5b672a0+e5b672a26f-3
+Version: 2+git1035+3dab2ff0+3dab2ffbc4-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: db7c7e761ffd6cb1f7c65d2d2cf3e52a
-SHA256sum: a8aaf0d4a59045339886909c7fb70ac3329f818e3ace8ad9b4c8c1bbf807367d
-Size: 72194
-Filename: tuxbox-common_2+git1034+e5b672a0+e5b672a26f-3_all.ipk
+MD5Sum: 38b2f4f54d8c3bd3ec970ced0fb278ec
+SHA256sum: ed8ce0bb91fac0da5a46b71396b2675dc4d096ff49608e9f39cdbf9f8bed786b
+Size: 72192
+Filename: tuxbox-common_2+git1035+3dab2ff0+3dab2ffbc4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
