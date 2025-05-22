@@ -768,14 +768,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4574+6c2f9840+6c2f98460d-r0
+Version: 1+git4575+48d5f5c0+48d5f5ce2a-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d292ef0f47ab5ab20f9c25f36c747d99
-SHA256sum: 01085e38269e157678c43442a79b980549a8e3580fc3cd2fd0bbf373e64b89e4
-Size: 638
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
+MD5Sum: 8c346d2ea299f49bff2eb92286f9f2be
+SHA256sum: d650551b6c9c35515dd1811126e6d875e282c437ca8b50a5f6baa75b3ad67d3e
+Size: 636
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4575+48d5f5c0+48d5f5ce2a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -784,15 +784,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4574+6c2f9840+6c2f98460d-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4574+6c2f9840+6c2f98460d-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4575+48d5f5c0+48d5f5ce2a-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4575+48d5f5c0+48d5f5ce2a-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6247902f716899d6bd237a30d67364d6
-SHA256sum: 351d201a43f6941d8ebb1ef8573a9336a8088442c053acc0d7de5d07ef777ef7
-Size: 782
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
+MD5Sum: 7e7b04ec1d11606434c8d82cf9ed9dbd
+SHA256sum: fb47f9ee2142708c59027c41e94c54f66255f511655b6a77c03e7bc3d61fc383
+Size: 780
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4575+48d5f5c0+48d5f5ce2a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -801,15 +801,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4574+6c2f9840+6c2f98460d-r0
+Version: 1+git4575+48d5f5c0+48d5f5ce2a-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 19d9234be2cab7b6104b25f636c2825a
-SHA256sum: 6dccf650257a389c45d7cdfa21f978ccf49ce40c899872d5e304ed18ef6f6b46
-Size: 12257318
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4574+6c2f9840+6c2f98460d-r0_all.ipk
+MD5Sum: 097f31f5890abf7303e2a425932f634f
+SHA256sum: 37afea77091d255433275297345471932598bc9007fb6a24affb37d2ac452cea
+Size: 12256308
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4575+48d5f5c0+48d5f5ce2a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -2119,14 +2119,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.37+git259+3f7d4c70+3f7d4c7b02-r0
+Version: 1.37+git260+d0098640+d00986494d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7d77b78926769c11cfe02cbbe98d0e7a
-SHA256sum: f9df9e5f3c60dd440a6e7ea942ac7bf1cf86beea2b0a961608fa7f45a02fc101
-Size: 626
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.37+git259+3f7d4c70+3f7d4c7b02-r0_all.ipk
+MD5Sum: 50b51a35f107eaee77c81511267278e4
+SHA256sum: 3f98dea2bdf74724a085752cc0b897e9677e01c8fcabc0c2870339d61bd81d40
+Size: 628
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.37+git260+d0098640+d00986494d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -2135,15 +2135,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.37+git259+3f7d4c70+3f7d4c7b02-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.37+git259+3f7d4c70+3f7d4c7b02-r0)
+Version: 1.37+git260+d0098640+d00986494d-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.37+git260+d0098640+d00986494d-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 5c8a770ebaabb38161c1417d51fbc1b6
-SHA256sum: ace7f7e971f1c608c349968f908ba29e90c9500faced963089a19245457d7845
-Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.37+git259+3f7d4c70+3f7d4c7b02-r0_all.ipk
+MD5Sum: b98fbe3fcbca911cd3e654d32689698b
+SHA256sum: 27d3612a74b358abae3fbf9da2a6c9e0384cf400c80ae877d1d4580b32466088
+Size: 664
+Filename: enigma2-plugin-extensions-vavoo-dev_1.37+git260+d0098640+d00986494d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -2152,14 +2152,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.37+git259+3f7d4c70+3f7d4c7b02-r0
+Version: 1.37+git260+d0098640+d00986494d-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 6c9a8dfb764d089a84bcb75041cc7a27
-SHA256sum: aa138528e3337ead09a763b8193b9cbee6d8c21aab9d79a32d5c5b7241be14de
-Size: 5475914
-Filename: enigma2-plugin-extensions-vavoo_1.37+git259+3f7d4c70+3f7d4c7b02-r0_all.ipk
+MD5Sum: b9b17d71b7d4004f89ee96a55f24ca07
+SHA256sum: 639478d25937d3676e6138c38741a0e4e484a5e5a276849dd6b710a36de5c11e
+Size: 5475922
+Filename: enigma2-plugin-extensions-vavoo_1.37+git260+d0098640+d00986494d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream
 OE: enigma2-plugin-extensions-vavoo
@@ -9238,8 +9238,8 @@ Version: 1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 887a4a4ebad1cc0cc4c246fced262ff3
-SHA256sum: f40186302aa2bcc04d585f3914843f60ed1c70eeabd1618277796fcc029945f7
+MD5Sum: 6573ec32de9b955fcce7c5477e351a25
+SHA256sum: fb01ce8dcfcf1cb43651560fd085c0aa5e218b711874ef8b1c4a015c00e7831c
 Size: 608
 Filename: streamlinksrv-dbg_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9255,8 +9255,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.2+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 579c21c01d3d996db2fcdb684a030fc7
-SHA256sum: 6c54b1f52dd09ac8a4e9d1e4c7b3faf23e29578f0c028339570797d5c9b29db4
+MD5Sum: 01f520e71b36aeaf87293dd6229a8d41
+SHA256sum: d3ba67927b91ad222a5965a301382d76aca745ab069b23befc2cb2291ebcfbc2
 Size: 658
 Filename: streamlinksrv-dev_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9272,8 +9272,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 84d2578790523193db72893c5ec63ff6
-SHA256sum: 2e41985b2af1b5f0aa471caee53080667fda529e21770244400cd38f6fcd04fd
+MD5Sum: 0a0eaa74187a207ea5dcbe93e73c189c
+SHA256sum: e95083cb6aca870487580a5d71465cd2474cfa628580713a67f4af369f91d086
 Size: 85882
 Filename: streamlinksrv_1.8.2+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
