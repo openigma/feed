@@ -5309,6 +5309,21 @@ OE: firmware-dvb-demod-m88ds3103
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-demod-mn88472-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 505fa2fc9484d212095931e35045face
+SHA256sum: bf69406c9c06ec7435865cd74a7de0fe67cf450cd8c1ecc56cccbe967e0a4fc6
+Size: 1942
+Filename: firmware-dvb-demod-mn88472-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-demod-mn88472-02.bb
+Description: firmware-dvb-demod-mn88472-02 version 1.1+git-r0
+OE: firmware-dvb-demod-mn88472-02
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-demod-mn88473-01
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5399,6 +5414,21 @@ OE: firmware-dvb-fe-af9013
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-fe-cx24117
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b74259dc27eb1cf49a4226c2056a6423
+SHA256sum: ffe0797386e3be480efd5795562e3a5ab2c7c67f41491309f8fee14dd9765b33
+Size: 39470
+Filename: firmware-dvb-fe-cx24117_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-fe-cx24117.bb
+Description: firmware-dvb-fe-cx24117 version 1.1+git-r0
+OE: firmware-dvb-fe-cx24117
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-fe-ds3000
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5486,6 +5516,21 @@ Filename: firmware-dvb-siano_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-dvb-siano.bb
 Description: firmware-dvb-siano version 1.1+git-r0
 OE: firmware-dvb-siano
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-tuner-si2141-a10
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5539d8a46f37d06cb63b4ccee031a0ee
+SHA256sum: dc39d13f390d311dc4f55b49b7180619fee4a57b02aee4956720b5f4bd67b109
+Size: 2196
+Filename: firmware-dvb-tuner-si2141-a10_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-tuner-si2141-a10.bb
+Description: firmware-dvb-tuner-si2141-a10 version 1.1+git-r0
+OE: firmware-dvb-tuner-si2141-a10
 License: CLOSED
 Priority: optional
 
@@ -5879,6 +5924,21 @@ OE: firmware-dvb-usb-s660
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-usb-tbs5520
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e9fa52bbcd8991d02924db58003c13d3
+SHA256sum: 7b197fef133e0b662e4273e00941ff721807bf6eaa9533bcf49c8e3ef24e7a55
+Size: 2928
+Filename: firmware-dvb-usb-tbs5520_1.0-r0_all.ipk
+Source: firmware-dvb-usb-tbs5520.bb
+Description: firmware-dvb-usb-tbs5520 version 1.0-r0
+OE: firmware-dvb-usb-tbs5520
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-usb-tbs5925
 Version: 1.0-r0
 Section: base
@@ -6074,6 +6134,21 @@ OE: firmware-mt7601u
 License: CLOSED
 Priority: optional
 
+Package: firmware-mt7650
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e86c76e682ea72bcc321201b2c9d3836
+SHA256sum: cfe0b61a5328cb403b6c44456d9f82aba3cd98d3cb058b565e56fdcc9a42627e
+Size: 237890
+Filename: firmware-mt7650_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-mt7650.bb
+Description: firmware-mt7650 version 1.1+git-r0
+OE: firmware-mt7650
+License: CLOSED
+Priority: optional
+
 Package: firmware-rt2870
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -6179,6 +6254,21 @@ OE: firmware-rtl8712u
 License: CLOSED
 Priority: optional
 
+Package: firmware-rtl8723bs
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9c323b4155e97d82162ea9a74a100ff
+SHA256sum: 22586cb48e3123e27b0e5d08120b92891bb03dc342aadeaa6b4921cf146ca68a
+Size: 80168
+Filename: firmware-rtl8723bs_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-rtl8723bs.bb
+Description: firmware-rtl8723bs version 1.1+git-r0
+OE: firmware-rtl8723bs
+License: CLOSED
+Priority: optional
+
 Package: firmware-rtl8723bu
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -6191,6 +6281,21 @@ Filename: firmware-rtl8723bu_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-rtl8723bu.bb
 Description: firmware-rtl8723bu version 1.1+git-r0
 OE: firmware-rtl8723bu
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8822be
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24c115753e91e6e146c4125f5d7a7850
+SHA256sum: 8a949fe81382576f84276404af0bd3edc936cd06b7dc1ea890a087652a4e3eed
+Size: 101406
+Filename: firmware-rtl8822be_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-rtl8822be.bb
+Description: firmware-rtl8822be version 1.1+git-r0
+OE: firmware-rtl8822be
 License: CLOSED
 Priority: optional
 
