@@ -768,14 +768,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4577+68ce3a20+68ce3a20f1-r0
+Version: 1+git4578+0062cb20+0062cb223e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98288421ff2d971b467178da4b3615c8
-SHA256sum: 5550be2b3be4ec8976596f5359351e9f88227519f470091f0c81d5674502bd6e
+MD5Sum: 5d95dc89773ee11b0a77bcbd72c168d8
+SHA256sum: 4c74fef3d11bc7d44662f02b1baee4f38bc41e4022247ed262602759fb9c855a
 Size: 636
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4577+68ce3a20+68ce3a20f1-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4578+0062cb20+0062cb223e-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -784,15 +784,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4577+68ce3a20+68ce3a20f1-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4577+68ce3a20+68ce3a20f1-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4578+0062cb20+0062cb223e-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4578+0062cb20+0062cb223e-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 413362b66fa1849e948b3549806a183c
-SHA256sum: f8d0f9f0ba3cc05d45168356d9d40c36cad7653d93bf83e24631cc5aff365794
+MD5Sum: ab519c404d4ca455c323eb654ee2860e
+SHA256sum: 31fb06d97ac52bae762595618d6701b9066c60c1c86b119b69ea9829fe191f4b
 Size: 780
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4577+68ce3a20+68ce3a20f1-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4578+0062cb20+0062cb223e-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -801,15 +801,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4577+68ce3a20+68ce3a20f1-r0
+Version: 1+git4578+0062cb20+0062cb223e-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c52176806ecdd7eddfa1d22e976e7860
-SHA256sum: d4bcb197b7f018dd7700feea81de04800b3e1916d81827c5d8a02f87a01f8b98
-Size: 12256494
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4577+68ce3a20+68ce3a20f1-r0_all.ipk
+MD5Sum: db2e6397ee783f121740374eff5d5fcd
+SHA256sum: b3f19fc9926b511e6ca99f394be4c793df99d7c95c4adc670e47b6692ba99d24
+Size: 12256826
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4578+0062cb20+0062cb223e-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -5144,6 +5144,21 @@ OE: fakelocale
 License: CLOSED
 Priority: required
 
+Package: firmware-af9005
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc50f2e4818f9fc40b7af158f62f568f
+SHA256sum: 468d4ac1165eacb39ebf59fa857c7970ecbe0176f069b78c1cb720eba9340448
+Size: 20080
+Filename: firmware-af9005_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-af9005.bb
+Description: firmware-af9005 version 1.1+git-r0
+OE: firmware-af9005
+License: CLOSED
+Priority: optional
+
 Package: firmware-as102-data1-st
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5171,6 +5186,21 @@ Filename: firmware-as102-data2-st_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-as102-data2-st.bb
 Description: firmware-as102-data2-st version 1.1+git-r0
 OE: firmware-as102-data2-st
+License: CLOSED
+Priority: optional
+
+Package: firmware-atheros-ar9271
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7939f4a376760b77070e34d87e001c7
+SHA256sum: 236f2d826ecfe46a3e5af014b25692f3424537ccf7c209c52002a88e4666b11b
+Size: 37506
+Filename: firmware-atheros-ar9271_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-atheros-ar9271.bb
+Description: firmware-atheros-ar9271 version 1.1+git-r0
+OE: firmware-atheros-ar9271
 License: CLOSED
 Priority: optional
 
@@ -5204,6 +5234,66 @@ OE: firmware-cx231xx
 License: CLOSED
 Priority: optional
 
+Package: firmware-drx397xd.a2
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39eaf4be97ae71793098948af59af1e2
+SHA256sum: 7424bf529ee1bd4839bb8b515ee8d38a78f383ce0d00af0de60f3b5633a55d20
+Size: 1876
+Filename: firmware-drx397xd.a2_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-drx397xd.a2.bb
+Description: firmware-drx397xd.a2 version 1.1+git-r0
+OE: firmware-drx397xd.a2
+License: CLOSED
+Priority: optional
+
+Package: firmware-drx397xd.b1
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0fa06f15f6a292e42fab5ec1fd475d79
+SHA256sum: 45be63d36192b08ec790c01231c4dee7bbaa7d81159980265328bcc81fc44063
+Size: 1876
+Filename: firmware-drx397xd.b1_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-drx397xd.b1.bb
+Description: firmware-drx397xd.b1 version 1.1+git-r0
+OE: firmware-drx397xd.b1
+License: CLOSED
+Priority: optional
+
+Package: firmware-drxd-a2-1.1
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de5d311d4067718ac7622175144183ae
+SHA256sum: d5b9389070b8012cca101e4c6f614a8d43c21875cc48584f250fa9ddd0f80409
+Size: 7446
+Filename: firmware-drxd-a2-1.1_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-drxd-a2-1.1.bb
+Description: firmware-drxd-a2-1.1 version 1.1+git-r0
+OE: firmware-drxd-a2-1.1
+License: CLOSED
+Priority: optional
+
+Package: firmware-drxd-b1-1.1
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17523863245409f7b1e069d01031658a
+SHA256sum: 035969fe4e4462539a4db925c7f72bbb1f3dc409e9d88a63bac8ffe3dedb3c49
+Size: 7454
+Filename: firmware-drxd-b1-1.1_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-drxd-b1-1.1.bb
+Description: firmware-drxd-b1-1.1 version 1.1+git-r0
+OE: firmware-drxd-b1-1.1
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-demod-m88ds3103
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5234,6 +5324,36 @@ OE: firmware-dvb-demod-mn88473-01
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-demod-si2168-a20
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b1844f8adf0307b61334cef6fb7fe7a6
+SHA256sum: c97b656ea109d352f04e10a2d77569e54d2e9888344497c39a35af2381e60cdc
+Size: 28284
+Filename: firmware-dvb-demod-si2168-a20_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-demod-si2168-a20.bb
+Description: firmware-dvb-demod-si2168-a20 version 1.1+git-r0
+OE: firmware-dvb-demod-si2168-a20
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-si2168-a30
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0600385b2997687e28af0f230a3f38f
+SHA256sum: 3d66cb67086b497092c011c6c5c36381beeb78668e5c7d90ab8cb3541b156955
+Size: 17906
+Filename: firmware-dvb-demod-si2168-a30_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-demod-si2168-a30.bb
+Description: firmware-dvb-demod-si2168-a30 version 1.1+git-r0
+OE: firmware-dvb-demod-si2168-a30
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-demod-si2168-b40
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5246,6 +5366,21 @@ Filename: firmware-dvb-demod-si2168-b40_1.1+git296+4b2b1510+4b2b151e18-r0_all.ip
 Source: firmware-dvb-demod-si2168-b40.bb
 Description: firmware-dvb-demod-si2168-b40 version 1.1+git-r0
 OE: firmware-dvb-demod-si2168-b40
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-si2168-d60
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7478e1d0a6137ce4064b00f6f4bcac12
+SHA256sum: 7f444e4da44658269f5c99b5b40603fb926afba69b9c058ffe94780293b89f73
+Size: 816
+Filename: firmware-dvb-demod-si2168-d60_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-demod-si2168-d60.bb
+Description: firmware-dvb-demod-si2168-d60 version 1.1+git-r0
+OE: firmware-dvb-demod-si2168-d60
 License: CLOSED
 Priority: optional
 
@@ -5294,6 +5429,36 @@ OE: firmware-dvb-fe-tda10071
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-fe-xc5000-1.1
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6deb88b45f8954f0b2ce60592d51f86a
+SHA256sum: a3a176771e85dc510d97254e96070c56d38ad2b8e34a48bb2a77a510da5e44ba
+Size: 10070
+Filename: firmware-dvb-fe-xc5000-1.1_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-fe-xc5000-1.1.bb
+Description: firmware-dvb-fe-xc5000-1.1 version 1.1+git-r0
+OE: firmware-dvb-fe-xc5000-1.1
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-xc5000-1.6.114
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 865d131a815c93cbfa9a52dff4188c8d
+SHA256sum: 9aa233b197d94e034d16193265b589400ebd56d9df268b018e3155e144c7eae4
+Size: 10660
+Filename: firmware-dvb-fe-xc5000-1.6.114_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-fe-xc5000-1.6.114.bb
+Description: firmware-dvb-fe-xc5000-1.6.114 version 1.1+git-r0
+OE: firmware-dvb-fe-xc5000-1.6.114
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-nova-12mhz-b0
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5321,6 +5486,36 @@ Filename: firmware-dvb-siano_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-dvb-siano.bb
 Description: firmware-dvb-siano version 1.1+git-r0
 OE: firmware-dvb-siano
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-tuner-si2158-a20
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1bb3d69b02376f63a106729e22e8cef
+SHA256sum: 56ec082c6f54a55b45e7b95f67aa730264a4c4731f2a5be5b7d156becf177220
+Size: 4270
+Filename: firmware-dvb-tuner-si2158-a20_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-tuner-si2158-a20.bb
+Description: firmware-dvb-tuner-si2158-a20 version 1.1+git-r0
+OE: firmware-dvb-tuner-si2158-a20
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-adstech-usb2-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab86239cde7a1c6234fa3e9a872fc8bb
+SHA256sum: 8e49dc680ddcb9318e5f9fe7cbb6791a80fed2e7c59fb91f8cfc88b69cc7a762
+Size: 5326
+Filename: firmware-dvb-usb-adstech-usb2-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-adstech-usb2-02.bb
+Description: firmware-dvb-usb-adstech-usb2-02 version 1.1+git-r0
+OE: firmware-dvb-usb-adstech-usb2-02
 License: CLOSED
 Priority: optional
 
@@ -5366,6 +5561,96 @@ Filename: firmware-dvb-usb-af9035-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-dvb-usb-af9035-02.bb
 Description: firmware-dvb-usb-af9035-02 version 1.1+git-r0
 OE: firmware-dvb-usb-af9035-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-avertv-a800-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fdeca8bbd41ba43ecc92f344bd274709
+SHA256sum: a90ab5d11e2da27d843aed949a4078cbd0adf69051fae5f5377ac5aadc96c432
+Size: 8086
+Filename: firmware-dvb-usb-avertv-a800-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-avertv-a800-02.bb
+Description: firmware-dvb-usb-avertv-a800-02 version 1.1+git-r0
+OE: firmware-dvb-usb-avertv-a800-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-bluebird-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f03ad25c01249aa83fdcf352fce3f35a
+SHA256sum: ddf02eaea234accd0b9832ab7fcf35451d08c18359f7ca1155ad4c2b6f38ba13
+Size: 7328
+Filename: firmware-dvb-usb-bluebird-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-bluebird-01.bb
+Description: firmware-dvb-usb-bluebird-01 version 1.1+git-r0
+OE: firmware-dvb-usb-bluebird-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-bluebird-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d395e01dfd906e3cb15dbdf01dbcef9
+SHA256sum: a5322a8a4f915aba02818cc8a25545f7e0a0c6f399ceb05e3c968d751c7e2bf6
+Size: 5912
+Filename: firmware-dvb-usb-bluebird-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-bluebird-02.bb
+Description: firmware-dvb-usb-bluebird-02 version 1.1+git-r0
+OE: firmware-dvb-usb-bluebird-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dib0700-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5399d18cb49b3cbab42411dbc180856
+SHA256sum: 0978c4bf73c8020b41b951e53a9b898dde8602a3e761762eb058ab48fd70f4ca
+Size: 20832
+Filename: firmware-dvb-usb-dib0700-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-dib0700-01.bb
+Description: firmware-dvb-usb-dib0700-01 version 1.1+git-r0
+OE: firmware-dvb-usb-dib0700-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dib0700-03-pre1
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e9ee86d3df76d66fc7423401719d0ef
+SHA256sum: 75e4dfd7844a4227205eb42758fd621bfdc79714f94cd76aa9042109a4dad000
+Size: 23498
+Filename: firmware-dvb-usb-dib0700-03-pre1_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-dib0700-03-pre1.bb
+Description: firmware-dvb-usb-dib0700-03-pre1 version 1.1+git-r0
+OE: firmware-dvb-usb-dib0700-03-pre1
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dib0700-1.10
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a86d46076b1f94e87b560e2bb6d051f
+SHA256sum: b162aa999828f652c634081bfa6fc08ba5e8c29e0a167f384340acc197f76d9b
+Size: 24134
+Filename: firmware-dvb-usb-dib0700-1.10_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-dib0700-1.10.bb
+Description: firmware-dvb-usb-dib0700-1.10 version 1.1+git-r0
+OE: firmware-dvb-usb-dib0700-1.10
 License: CLOSED
 Priority: optional
 
@@ -5429,6 +5714,51 @@ OE: firmware-dvb-usb-dibusb-an2235-01
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-usb-digitv-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8437a0854be88a91808ad86828cf4d33
+SHA256sum: 97b6c3c5f95348f4f0e01f45ec93b85461a96ec9237edad24c58ce6326d7482d
+Size: 4250
+Filename: firmware-dvb-usb-digitv-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-digitv-02.bb
+Description: firmware-dvb-usb-digitv-02 version 1.1+git-r0
+OE: firmware-dvb-usb-digitv-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-digivox-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5fb74f03d2ab99a485168ad87149c3f
+SHA256sum: b89c55be6fac13fb942c4deca82162f5a27b652da7058f2763dd040cad7cd595
+Size: 2980
+Filename: firmware-dvb-usb-digivox-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-digivox-02.bb
+Description: firmware-dvb-usb-digivox-02 version 1.1+git-r0
+OE: firmware-dvb-usb-digivox-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dposh-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5631df6382ab65cc98bc5d6c1fa70bff
+SHA256sum: 5d70bf7a2864a796e5f69fffe3c48f62e183c407f0be4856c7b945c820d3eb1a
+Size: 3046
+Filename: firmware-dvb-usb-dposh-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-dposh-01.bb
+Description: firmware-dvb-usb-dposh-01 version 1.1+git-r0
+OE: firmware-dvb-usb-dposh-01
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-usb-dtt200u-01
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5444,6 +5774,36 @@ OE: firmware-dvb-usb-dtt200u-01
 License: CLOSED
 Priority: optional
 
+Package: firmware-dvb-usb-ec168
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12d5c74655fe42de8f8e1fd324608116
+SHA256sum: 923dd2b56ed50442f5cc70dab71909e35db257b3bb47cbb9f9f490108c366875
+Size: 41486212
+Filename: firmware-dvb-usb-ec168_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-ec168.bb
+Description: firmware-dvb-usb-ec168 version 1.1+git-r0
+OE: firmware-dvb-usb-ec168
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-it9135
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d223bbc56b7297e5c753391121e3e925
+SHA256sum: bc0abe1fd90225dfeb65332a385cea84673384b61818e1cc4899bc3334db920e
+Size: 11048
+Filename: firmware-dvb-usb-it9135_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-it9135.bb
+Description: firmware-dvb-usb-it9135 version 1.1+git-r0
+OE: firmware-dvb-usb-it9135
+License: CLOSED
+Priority: optional
+
 Package: firmware-dvb-usb-it913x
 Version: 1.1+git296+4b2b1510+4b2b151e18-r0
 Section: base
@@ -5456,6 +5816,51 @@ Filename: firmware-dvb-usb-it913x_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-dvb-usb-it913x.bb
 Description: firmware-dvb-usb-it913x version 1.1+git-r0
 OE: firmware-dvb-usb-it913x
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-megasky-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d481c5e5ae93cd0c9cf0889b7cacbf06
+SHA256sum: e4d5a52e442b33843ce51678e19933eee661c5c5aa91cb042b953005f40ee07b
+Size: 2982
+Filename: firmware-dvb-usb-megasky-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-megasky-02.bb
+Description: firmware-dvb-usb-megasky-02 version 1.1+git-r0
+OE: firmware-dvb-usb-megasky-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-nova-t-usb2-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dec405b3d39db82ff05f35ac80cf10a9
+SHA256sum: 8df18ee212c42deafa688d9e284fd043b8db9b40d08175ccc292bf49a438096f
+Size: 5678
+Filename: firmware-dvb-usb-nova-t-usb2-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-nova-t-usb2-01.bb
+Description: firmware-dvb-usb-nova-t-usb2-01 version 1.1+git-r0
+OE: firmware-dvb-usb-nova-t-usb2-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-nova-t-usb2-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af703f045edcbbe64d31eafa74caf133
+SHA256sum: 5a9e945b1d150481b121abceb01e028eb6f44b50da90d0e3fa414ed853e85d73
+Size: 7900
+Filename: firmware-dvb-usb-nova-t-usb2-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-nova-t-usb2-02.bb
+Description: firmware-dvb-usb-nova-t-usb2-02 version 1.1+git-r0
+OE: firmware-dvb-usb-nova-t-usb2-02
 License: CLOSED
 Priority: optional
 
@@ -5516,6 +5921,36 @@ Filename: firmware-dvb-usb-technisat-skystar_1.1+git296+4b2b1510+4b2b151e18-r0_a
 Source: firmware-dvb-usb-technisat-skystar.bb
 Description: firmware-dvb-usb-technisat-skystar version 1.1+git-r0
 OE: firmware-dvb-usb-technisat-skystar
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-tvwalkert
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e0a0a2165c7b766a875e33abc5ca3f5
+SHA256sum: 85a9a2052c27c40701ad8bb8155a744b999c7843b8aff814692b7c16715d40af
+Size: 41491250
+Filename: firmware-dvb-usb-tvwalkert_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-tvwalkert.bb
+Description: firmware-dvb-usb-tvwalkert version 1.1+git-r0
+OE: firmware-dvb-usb-tvwalkert
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-umt-010-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f810c91bf91a2a13467de16329b61535
+SHA256sum: ad239aa88b42a15d03331f04566c6b29246ac080f475d633d63bb17d73cca753
+Size: 3872
+Filename: firmware-dvb-usb-umt-010-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-dvb-usb-umt-010-02.bb
+Description: firmware-dvb-usb-umt-010-02 version 1.1+git-r0
+OE: firmware-dvb-usb-umt-010-02
 License: CLOSED
 Priority: optional
 
@@ -5756,6 +6191,156 @@ Filename: firmware-rtl8723bu_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
 Source: firmware-rtl8723bu.bb
 Description: firmware-rtl8723bu version 1.1+git-r0
 OE: firmware-rtl8723bu
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8xxxu
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 04116cfda1b78113fea136c98e34fa87
+SHA256sum: 716f971a3b5d8964280fa37992c6f2169258e7e16a4a731ab82198121cf6f635
+Size: 10030
+Filename: firmware-rtl8xxxu_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-rtl8xxxu.bb
+Description: firmware-rtl8xxxu version 1.1+git-r0
+OE: firmware-rtl8xxxu
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-114xxx-cmmb-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8580e13ca23f1169c814d5833ff04f74
+SHA256sum: 15d47a84167095b55cf56f5649494fd60a966f895ba7ccab24994d41cd6d0e02
+Size: 42374
+Filename: firmware-sms1xxx-hcw-114xxx-cmmb-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-114xxx-cmmb-01.bb
+Description: firmware-sms1xxx-hcw-114xxx-cmmb-01 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-114xxx-cmmb-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-55xxx-dvbt-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b34a48f36bb9193b5280ac6e525db56
+SHA256sum: 77713577b3c4abadd7f333765a4e5f6bf809754c6a17a471ad17da0ed31facd8
+Size: 51016
+Filename: firmware-sms1xxx-hcw-55xxx-dvbt-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-55xxx-dvbt-01.bb
+Description: firmware-sms1xxx-hcw-55xxx-dvbt-01 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-55xxx-dvbt-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-55xxx-dvbt-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44417cfd2e3e67fdb6bcf2977e8b3bf0
+SHA256sum: 8aabff67077c0b9eba5c271d5d33c8c45fd3b6548c4eeb5b2e1dc194402ae803
+Size: 56558
+Filename: firmware-sms1xxx-hcw-55xxx-dvbt-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-55xxx-dvbt-02.bb
+Description: firmware-sms1xxx-hcw-55xxx-dvbt-02 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-55xxx-dvbt-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-55xxx-dvbt-03
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 96d25a16553efd7409d8fd64515a14a0
+SHA256sum: dd46619b2ee0119dbbe351da07274dbb11f518870c35b82eb06b8bfdbc4d73c8
+Size: 61316
+Filename: firmware-sms1xxx-hcw-55xxx-dvbt-03_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-55xxx-dvbt-03.bb
+Description: firmware-sms1xxx-hcw-55xxx-dvbt-03 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-55xxx-dvbt-03
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-55xxx-isdbt-02
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f04e922e005a13b2711dd7a0c63070cb
+SHA256sum: 96e3baa501c5d3a965c87d23a9f6cb1425b8a17b96cd4053d72ce6c125df5977
+Size: 46100
+Filename: firmware-sms1xxx-hcw-55xxx-isdbt-02_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-55xxx-isdbt-02.bb
+Description: firmware-sms1xxx-hcw-55xxx-isdbt-02 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-55xxx-isdbt-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-hcw-55xxx-isdbt-03
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 75790b837762a2dd314b70ab135124d5
+SHA256sum: 82d549d39fc007b0b7813176c856caa49c4722fdb647766e1beb89c21369b0b8
+Size: 68446
+Filename: firmware-sms1xxx-hcw-55xxx-isdbt-03_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-hcw-55xxx-isdbt-03.bb
+Description: firmware-sms1xxx-hcw-55xxx-isdbt-03 version 1.1+git-r0
+OE: firmware-sms1xxx-hcw-55xxx-isdbt-03
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-nova-a-dvbt-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3220bb52568d0f1d025e29aebdb16fe
+SHA256sum: 52a36766761e2ca67faf25ee709e4c47bf7c6ccb70afcb91cb51929b699d1684
+Size: 56554
+Filename: firmware-sms1xxx-nova-a-dvbt-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-nova-a-dvbt-01.bb
+Description: firmware-sms1xxx-nova-a-dvbt-01 version 1.1+git-r0
+OE: firmware-sms1xxx-nova-a-dvbt-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-sms1xxx-nova-b-dvbt-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b8b35a4235422db0a3fdba41282014a
+SHA256sum: ba6ad4c6f8ae4e448b6e60ecb8abcd97cc33d6b155e79929dd5f6813c4dd2b40
+Size: 51010
+Filename: firmware-sms1xxx-nova-b-dvbt-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-sms1xxx-nova-b-dvbt-01.bb
+Description: firmware-sms1xxx-nova-b-dvbt-01 version 1.1+git-r0
+OE: firmware-sms1xxx-nova-b-dvbt-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc3028-dvico-au-01
+Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3aa811ab2071558c20268c5ac9ee407b
+SHA256sum: 8d4836137342fa5c5034c87e33973d1187c846660b6b827446ad4c16a5b307ce
+Size: 6434
+Filename: firmware-xc3028-dvico-au-01_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+Source: firmware-xc3028-dvico-au-01.bb
+Description: firmware-xc3028-dvico-au-01 version 1.1+git-r0
+OE: firmware-xc3028-dvico-au-01
 License: CLOSED
 Priority: optional
 
@@ -9284,14 +9869,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1036+9125b4b0+9125b4b83f-3
+Version: 2+git1037+471b2700+471b270eef-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 479fab80e5fb2431202ad7d494f4b172
-SHA256sum: bcbc492c8aac2097b19935f052f64998239426b72b7532112a093923c0f9dfbb
-Size: 568
-Filename: tuxbox-common-dbg_2+git1036+9125b4b0+9125b4b83f-3_all.ipk
+MD5Sum: d1d28ebee71262a46a09fc914d53e69a
+SHA256sum: 3d86fcaa38fc324057a67e8e617d48b5b35088b1a43d9f9de7bc320c07a0ee47
+Size: 566
+Filename: tuxbox-common-dbg_2+git1037+471b2700+471b270eef-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9299,15 +9884,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1036+9125b4b0+9125b4b83f-3
-Recommends: tuxbox-common (>= 2+git1036+9125b4b0+9125b4b83f-3), tuxbox-common (<< 2+git1036+9125b4b0+9125b4b83f-3.0), xz-dev
+Version: 2+git1037+471b2700+471b270eef-3
+Recommends: tuxbox-common (>= 2+git1037+471b2700+471b270eef-3), tuxbox-common (<< 2+git1037+471b2700+471b270eef-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a3870afb4191a9f2529cef3857a1bf35
-SHA256sum: 916f5d690d4839066772c8e31c3c7b8568c6d14b02613ecf9e2458cc360ddb52
+MD5Sum: 947b2e6957dea3d4d33c83a2d2e1c50e
+SHA256sum: 21d335586e6691bba461b1339b10321cd62f516715d2b1ec8f5c9edd8babd109
 Size: 620
-Filename: tuxbox-common-dev_2+git1036+9125b4b0+9125b4b83f-3_all.ipk
+Filename: tuxbox-common-dev_2+git1037+471b2700+471b270eef-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9315,15 +9900,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1036+9125b4b0+9125b4b83f-3
+Version: 2+git1037+471b2700+471b270eef-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 3d768156d07a0dcb05654b0bfbd274f4
-SHA256sum: 263f63aea1fa68b53e4b5c9bebdcb35c16be32b1f7fbee6e0335558db341612d
-Size: 72170
-Filename: tuxbox-common_2+git1036+9125b4b0+9125b4b83f-3_all.ipk
+MD5Sum: f44a0ad59c4f23efd4222d58eea34342
+SHA256sum: 8c95d798bfc99735092947ec24e590af811d83340ec4dd7ccb07f2d7c16b42e1
+Size: 72182
+Filename: tuxbox-common_2+git1037+471b2700+471b270eef-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
