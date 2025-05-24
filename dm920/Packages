@@ -21793,15 +21793,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: wireguard-tools-bash-completion
-Version: 1.0.20210914-r1
+Version: 1.0.20210914-r2
 Depends: bash-completion
 Section: network
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b468296ec952e9c3af4e63f091d977a
-SHA256sum: 5a37fafa8830e1fc4bd4379d0ef9130944178fc08a12ad8317d866829b5de5f8
-Size: 2404
-Filename: wireguard-tools-bash-completion_1.0.20210914-r1_dm920.ipk
+MD5Sum: aa06d77d8519e8a88b28015b2a6b56e7
+SHA256sum: 7a4c7b515404d43e93c39998d3c57fcafcac3e39ac768f768a3f1857cbab0a3b
+Size: 2406
+Filename: wireguard-tools-bash-completion_1.0.20210914-r2_dm920.ipk
 Source: wireguard-tools_1.0.20210914.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN
 OE: wireguard-tools
@@ -21810,15 +21810,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: wireguard-tools-dbg
-Version: 1.0.20210914-r1
+Version: 1.0.20210914-r2
 Recommends: glibc-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b29249c571f696dd62862b9aa8cb9534
-SHA256sum: b844e0e48b9797feca693dfe04741a7e42a3050d326397b4f166c1b7888cf3ef
+MD5Sum: eb1644d21c9b2b2cc064f170039dc484
+SHA256sum: 4241da8c8716bb2f5f374dfa2fd687eb506c0ccf598b2ae0718041ad48efe809
 Size: 165990
-Filename: wireguard-tools-dbg_1.0.20210914-r1_dm920.ipk
+Filename: wireguard-tools-dbg_1.0.20210914-r2_dm920.ipk
 Source: wireguard-tools_1.0.20210914.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN - Debugging files
 OE: wireguard-tools
@@ -21827,15 +21827,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: wireguard-tools-dev
-Version: 1.0.20210914-r1
-Recommends: bash-completion-dev, bash-dev, glibc-dev, libmnl-dev, wireguard-tools (= 1.0.20210914-r1)
+Version: 1.0.20210914-r2
+Recommends: bash-completion-dev, bash-dev, glibc-dev, initscripts-dev, iproute2-ip-dev, libmnl-dev, openresolv-dev, update-rc.d-dev, wireguard-tools (= 1.0.20210914-r2)
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d241c3593d10bfa19869476d890bc09d
-SHA256sum: 24b4a63e2f4f0e694b955d6f05dd36b2f55142246e154e8b34d3864743250b2f
-Size: 872
-Filename: wireguard-tools-dev_1.0.20210914-r1_dm920.ipk
+MD5Sum: d2278cea2165334562e424f13b009915
+SHA256sum: b8ada4e6c88e76c275be71fe7516da4da6888eec2f1a2207934e0adfaa5eeead
+Size: 900
+Filename: wireguard-tools-dev_1.0.20210914-r2_dm920.ipk
 Source: wireguard-tools_1.0.20210914.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN - Development files
 OE: wireguard-tools
@@ -21844,14 +21844,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: wireguard-tools-doc
-Version: 1.0.20210914-r1
+Version: 1.0.20210914-r2
 Section: doc
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7fad0317e4a59a238497ada3f252a30
-SHA256sum: ec9262d0c0949f40441906f8991355f558d547363d6b714ae7b46b4db7cc5865
+MD5Sum: 676fe7060fc7218f34d730afccc04da3
+SHA256sum: 60dd2db569d4cd27409422e50c212e24a10a5df50ff22f077a7c0c8ef3051ca5
 Size: 8390
-Filename: wireguard-tools-doc_1.0.20210914-r1_dm920.ipk
+Filename: wireguard-tools-doc_1.0.20210914-r2_dm920.ipk
 Source: wireguard-tools_1.0.20210914.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN - Documentation files
 OE: wireguard-tools
@@ -21860,16 +21860,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: wireguard-tools
-Version: 1.0.20210914-r1
-Depends: bash, libc6 (>= 2.41+git0+5b4c461701)
-Recommends: wireguard-module
+Version: 1.0.20210914-r2
+Depends: bash, iproute2-ip, libc6 (>= 2.41+git0+5b4c461701), openresolv
+Recommends: update-rc.d, wireguard-module
 Section: network
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d21f218c99a6e77bb91049cc341aca71
-SHA256sum: 3a4d2995664fd3b96931e90eeec2a9311b816fd4b448bd16d0ab6ef14f01e6cb
-Size: 45348
-Filename: wireguard-tools_1.0.20210914-r1_dm920.ipk
+MD5Sum: 728def5832d8dccf27d2021956da3310
+SHA256sum: b8997179c375aa2a611d0aacb29810c813da319221d5f517d0bd05ed830b4d24
+Size: 46300
+Filename: wireguard-tools_1.0.20210914-r2_dm920.ipk
 Source: wireguard-tools_1.0.20210914.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN
 OE: wireguard-tools

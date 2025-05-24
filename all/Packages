@@ -117,9 +117,9 @@ Depends: openssl, openssl-bin
 Section: misc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae407ea4d57339183cde85d99928a736
-SHA256sum: 0c5c03669e79ee8fe94e408126cdd124d2a903990fbdbe3dd1bfe5a440de7c8f
-Size: 136322
+MD5Sum: 5646d0bde6f775c8b022e20154c72558
+SHA256sum: d2e9f0e421b76d1bb31ee1e1d35464cfcf6067d6dc206fa71e51c43ad56afe39
+Size: 136350
 Filename: ca-certificates_20250419-r0_all.ipk
 Source: ca-certificates_20250419.bb
 Description: Common CA certificates
@@ -768,14 +768,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4578+0062cb20+0062cb223e-r0
+Version: 1+git4580+460e0320+460e032f8f-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d95dc89773ee11b0a77bcbd72c168d8
-SHA256sum: 4c74fef3d11bc7d44662f02b1baee4f38bc41e4022247ed262602759fb9c855a
-Size: 636
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4578+0062cb20+0062cb223e-r0_all.ipk
+MD5Sum: 8fb5ca64a61cfb34b3c6e22fabaa143e
+SHA256sum: b9e81862266250cb176831d446fb640dd438446d6b599ea8c392ef66f2114c71
+Size: 634
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -784,15 +784,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4578+0062cb20+0062cb223e-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4578+0062cb20+0062cb223e-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4580+460e0320+460e032f8f-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4580+460e0320+460e032f8f-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab519c404d4ca455c323eb654ee2860e
-SHA256sum: 31fb06d97ac52bae762595618d6701b9066c60c1c86b119b69ea9829fe191f4b
+MD5Sum: 32d0f1e3fce861a4a33defd85bf5f5d7
+SHA256sum: 08aaa282b552d6470317e45cbb4b8251026a7b3e0acb1c8bba4eff3404456ff3
 Size: 780
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4578+0062cb20+0062cb223e-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -801,15 +801,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4578+0062cb20+0062cb223e-r0
+Version: 1+git4580+460e0320+460e032f8f-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db2e6397ee783f121740374eff5d5fcd
-SHA256sum: b3f19fc9926b511e6ca99f394be4c793df99d7c95c4adc670e47b6692ba99d24
-Size: 12256826
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4578+0062cb20+0062cb223e-r0_all.ipk
+MD5Sum: 3bdac178a9f341d6440b2dc27dff9498
+SHA256sum: 6cd5df8c75dc9bfb3f5c4d670fb93ccfa55f5aa9de8d8c9c635fb0a288a820ab
+Size: 12260056
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
