@@ -542,6 +542,55 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-apsattv-dbg
+Version: 1.4+git78+1913a800+1913a80e12-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 8ea97efebd7c714513b4af1c7f7a6360
+SHA256sum: 1d5c727394de420999428c9c0edee674ac99b07e7b4a8c81bb2e86ab747dabdc
+Size: 636
+Filename: enigma2-plugin-extensions-apsattv-dbg_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+Source: enigma2-plugin-extensions-apsattv.bb
+Description: Apsattv free link stream - Debugging files
+OE: enigma2-plugin-extensions-apsattv
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-apsattv-dev
+Version: 1.4+git78+1913a800+1913a80e12-r0
+Recommends: enigma2-plugin-extensions-apsattv (= 1.4+git78+1913a800+1913a80e12-r0)
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 8dcc536eb4ad69eb2b06130efd014dbb
+SHA256sum: 3176ccc7b23a258751c650ff48eaf83ee143d42b88de840a062755cf4bab581f
+Size: 670
+Filename: enigma2-plugin-extensions-apsattv-dev_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+Source: enigma2-plugin-extensions-apsattv.bb
+Description: Apsattv free link stream - Development files
+OE: enigma2-plugin-extensions-apsattv
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-apsattv
+Version: 1.4+git78+1913a800+1913a80e12-r0
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 7e2e532cd560cc9951f49472396399b9
+SHA256sum: 6609dedab2d5b728717826e8c846549b5e84d214d3965b5814c839d74657d9a9
+Size: 717334
+Filename: enigma2-plugin-extensions-apsattv_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+Source: enigma2-plugin-extensions-apsattv.bb
+Description: Apsattv free link stream
+OE: enigma2-plugin-extensions-apsattv
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-ardmediathek
 Version: 2.0-git5822+cd9f2510+cd9f251374-r0
 Depends: python3-requests, python3-twisted-web
@@ -772,9 +821,9 @@ Version: 1+git4580+460e0320+460e032f8f-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fb5ca64a61cfb34b3c6e22fabaa143e
-SHA256sum: b9e81862266250cb176831d446fb640dd438446d6b599ea8c392ef66f2114c71
-Size: 634
+MD5Sum: 261e71a9d81bdc2e8751badecb09ab9e
+SHA256sum: 35df5d0af14fbea3638ee20d480046de67684a8c6ec59f1578fbc5f38377fbfb
+Size: 636
 Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
@@ -789,9 +838,9 @@ Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2i
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32d0f1e3fce861a4a33defd85bf5f5d7
-SHA256sum: 08aaa282b552d6470317e45cbb4b8251026a7b3e0acb1c8bba4eff3404456ff3
-Size: 780
+MD5Sum: 2555947adbbecb554136c63f81255a43
+SHA256sum: cca4cfecbcee31596a9c378b35663e9f4dec54449e76f845a61d771b59e0ef0c
+Size: 782
 Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
@@ -806,9 +855,9 @@ Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bdac178a9f341d6440b2dc27dff9498
-SHA256sum: 6cd5df8c75dc9bfb3f5c4d670fb93ccfa55f5aa9de8d8c9c635fb0a288a820ab
-Size: 12260056
+MD5Sum: 1631a88f0a8d2cae96a9a6139d491506
+SHA256sum: b81ff214d813e07c6e5fc9536d03f8487ad0b0c9db1056530f2614c0fccf0159
+Size: 12260212
 Filename: enigma2-plugin-extensions-e2iplayer_1+git4580+460e0320+460e032f8f-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
