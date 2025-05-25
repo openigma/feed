@@ -817,14 +817,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4584+6cdf4dc0+6cdf4dcf36-r0
+Version: 1+git4589+90502860+9050286506-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 589190e050dce64b82b862aa0dfd7f50
-SHA256sum: 524ee8740b56d0006ed6793ba556c4a3cbc8745fc16c29aa92d1c6993a755c6c
+MD5Sum: 87748d7b746e4e9ed8fe9290124218ca
+SHA256sum: f67446b18f045d4f310b6b80b6f21b3f54001e818733197fb82bc9f3b8247dd0
 Size: 638
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4584+6cdf4dc0+6cdf4dcf36-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4589+90502860+9050286506-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -833,15 +833,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4584+6cdf4dc0+6cdf4dcf36-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4584+6cdf4dc0+6cdf4dcf36-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4589+90502860+9050286506-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4589+90502860+9050286506-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b80a939f2cfe2daca9aa75142fd23795
-SHA256sum: d2306043922fe425d328633de08c56133ba94d49b763c177815ea3ca05dd150a
-Size: 780
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4584+6cdf4dc0+6cdf4dcf36-r0_all.ipk
+MD5Sum: d058498f9e99e071584641480252806d
+SHA256sum: 1279e2718de15931d28092626915c1a7415d0d70cfb58143b5f4ee9e4215b604
+Size: 782
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4589+90502860+9050286506-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -850,15 +850,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4584+6cdf4dc0+6cdf4dcf36-r0
+Version: 1+git4589+90502860+9050286506-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd17e3056e529fa426a01916bc08803d
-SHA256sum: ecec631c8d4b44681510966ea3768375eec3d57312ff4d95362a4e23a356f40d
-Size: 12021356
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4584+6cdf4dc0+6cdf4dcf36-r0_all.ipk
+MD5Sum: e92cd7716d84f13805565ad23f80f4e0
+SHA256sum: f1d8b51ad9e48ca93125938bfee6b3c8a53379132527261fe4a07b4bfc689c9a
+Size: 12020948
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4589+90502860+9050286506-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10023,14 +10023,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1037+471b2700+471b270eef-3
+Version: 2+git1038+e2cb98e0+e2cb98ed10-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d1d28ebee71262a46a09fc914d53e69a
-SHA256sum: 3d86fcaa38fc324057a67e8e617d48b5b35088b1a43d9f9de7bc320c07a0ee47
-Size: 566
-Filename: tuxbox-common-dbg_2+git1037+471b2700+471b270eef-3_all.ipk
+MD5Sum: d708da94dece23c51026f34618ba0551
+SHA256sum: 4b80bb3f45f5a25b52794265dbb125a6852a9ad5c6dd757f153cd47522a73caf
+Size: 568
+Filename: tuxbox-common-dbg_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10038,15 +10038,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1037+471b2700+471b270eef-3
-Recommends: tuxbox-common (>= 2+git1037+471b2700+471b270eef-3), tuxbox-common (<< 2+git1037+471b2700+471b270eef-3.0), xz-dev
+Version: 2+git1038+e2cb98e0+e2cb98ed10-3
+Recommends: tuxbox-common (>= 2+git1038+e2cb98e0+e2cb98ed10-3), tuxbox-common (<< 2+git1038+e2cb98e0+e2cb98ed10-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 947b2e6957dea3d4d33c83a2d2e1c50e
-SHA256sum: 21d335586e6691bba461b1339b10321cd62f516715d2b1ec8f5c9edd8babd109
+MD5Sum: 370d95cd835d584e137e21b56216ea75
+SHA256sum: d45ba7d5368835596f8c264f55d0938ce8b286db1fff8cc6fde4ff048687447b
 Size: 620
-Filename: tuxbox-common-dev_2+git1037+471b2700+471b270eef-3_all.ipk
+Filename: tuxbox-common-dev_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10054,15 +10054,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1037+471b2700+471b270eef-3
+Version: 2+git1038+e2cb98e0+e2cb98ed10-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f44a0ad59c4f23efd4222d58eea34342
-SHA256sum: 8c95d798bfc99735092947ec24e590af811d83340ec4dd7ccb07f2d7c16b42e1
-Size: 72182
-Filename: tuxbox-common_2+git1037+471b2700+471b270eef-3_all.ipk
+MD5Sum: 6fc7024774113360053874bd34465e54
+SHA256sum: 4b6036cddf1e91de7c8c663e40efe5fe482813db8340a8b011d97037e62a0ecf
+Size: 72174
+Filename: tuxbox-common_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
