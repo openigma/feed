@@ -543,14 +543,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-apsattv-dbg
-Version: 1.4+git78+1913a800+1913a80e12-r0
+Version: 1.4+git82+1e552fc0+1e552fc6d5-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8ea97efebd7c714513b4af1c7f7a6360
-SHA256sum: 1d5c727394de420999428c9c0edee674ac99b07e7b4a8c81bb2e86ab747dabdc
-Size: 636
-Filename: enigma2-plugin-extensions-apsattv-dbg_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+MD5Sum: e5a2c2ed85cdd3f5b689a7a1bcecb066
+SHA256sum: 28a632bffebbd0ee63b2eb97fa71902586a4fd164bde7b0c4b37dab4428db9c2
+Size: 634
+Filename: enigma2-plugin-extensions-apsattv-dbg_1.4+git82+1e552fc0+1e552fc6d5-r0_all.ipk
 Source: enigma2-plugin-extensions-apsattv.bb
 Description: Apsattv free link stream - Debugging files
 OE: enigma2-plugin-extensions-apsattv
@@ -559,15 +559,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-apsattv-dev
-Version: 1.4+git78+1913a800+1913a80e12-r0
-Recommends: enigma2-plugin-extensions-apsattv (= 1.4+git78+1913a800+1913a80e12-r0)
+Version: 1.4+git82+1e552fc0+1e552fc6d5-r0
+Recommends: enigma2-plugin-extensions-apsattv (= 1.4+git82+1e552fc0+1e552fc6d5-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8dcc536eb4ad69eb2b06130efd014dbb
-SHA256sum: 3176ccc7b23a258751c650ff48eaf83ee143d42b88de840a062755cf4bab581f
-Size: 670
-Filename: enigma2-plugin-extensions-apsattv-dev_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+MD5Sum: 2cdce763a30ee808f450c65977e140f2
+SHA256sum: cbb25adb3f8121db18ec48edd9b0e6943975e4677bdb39aefacd9ea79df39d41
+Size: 668
+Filename: enigma2-plugin-extensions-apsattv-dev_1.4+git82+1e552fc0+1e552fc6d5-r0_all.ipk
 Source: enigma2-plugin-extensions-apsattv.bb
 Description: Apsattv free link stream - Development files
 OE: enigma2-plugin-extensions-apsattv
@@ -576,14 +576,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-apsattv
-Version: 1.4+git78+1913a800+1913a80e12-r0
+Version: 1.4+git82+1e552fc0+1e552fc6d5-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7e2e532cd560cc9951f49472396399b9
-SHA256sum: 6609dedab2d5b728717826e8c846549b5e84d214d3965b5814c839d74657d9a9
-Size: 717334
-Filename: enigma2-plugin-extensions-apsattv_1.4+git78+1913a800+1913a80e12-r0_all.ipk
+MD5Sum: 1a047d78aa19cf1b3839394fcc0907cf
+SHA256sum: 3cd1b6fd9e5248527a8298705dfe9983488401ced36cc5b6cfbc90d5c119bcd3
+Size: 717340
+Filename: enigma2-plugin-extensions-apsattv_1.4+git82+1e552fc0+1e552fc6d5-r0_all.ipk
 Source: enigma2-plugin-extensions-apsattv.bb
 Description: Apsattv free link stream
 OE: enigma2-plugin-extensions-apsattv
@@ -817,14 +817,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 1+git4590+81fe7c10+81fe7c1f4d-r0
+Version: 1+git4593+71e65ac0+71e65ac95a-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94376b695ba484850801efde29d1e778
-SHA256sum: 65edc0ee8a1e84ddf1b0215795f2d0e3c23a765117b1bffe29ddfe2bb42d7bfd
-Size: 636
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4590+81fe7c10+81fe7c1f4d-r0_all.ipk
+MD5Sum: c358ea8076a559e505eb6bd5da779229
+SHA256sum: 8e32ecbca4a404f4124f2e85e874c9695dcc87b8760daff54d5348607433cd7b
+Size: 638
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git4593+71e65ac0+71e65ac95a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -833,15 +833,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 1+git4590+81fe7c10+81fe7c1f4d-r0
-Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4590+81fe7c10+81fe7c1f4d-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Version: 1+git4593+71e65ac0+71e65ac95a-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1+git4593+71e65ac0+71e65ac95a-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb577deccc7b29907a863e09b49de3f2
-SHA256sum: 2489a274c1d81cb32a7d0a45a8c2caa6ba69b8c2c0778515a1275c1d6882386f
-Size: 778
-Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4590+81fe7c10+81fe7c1f4d-r0_all.ipk
+MD5Sum: 508865699eeb927d9f135d4929a22368
+SHA256sum: af0359e82186a927497cd35a7e03633d7b3779cacf9e28ce927e9a4bb570618f
+Size: 782
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git4593+71e65ac0+71e65ac95a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -850,15 +850,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 1+git4590+81fe7c10+81fe7c1f4d-r0
+Version: 1+git4593+71e65ac0+71e65ac95a-r0
 Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a2a6fea0af3ec3336e36e1281be84b3
-SHA256sum: 9a36a4da0c886a35a443fc339648d7209e7098259765c4bc8627391b9b350932
-Size: 12016806
-Filename: enigma2-plugin-extensions-e2iplayer_1+git4590+81fe7c10+81fe7c1f4d-r0_all.ipk
+MD5Sum: d792ed676f2f0b2c751f910c2126db91
+SHA256sum: 1378d79c1c205deb49edf4e83c10eef5c94f81dea40d47322bd7ef9880c73560
+Size: 12016952
+Filename: enigma2-plugin-extensions-e2iplayer_1+git4593+71e65ac0+71e65ac95a-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10023,14 +10023,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1038+e2cb98e0+e2cb98ed10-3
+Version: 2+git1039+788bf970+788bf97224-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d708da94dece23c51026f34618ba0551
-SHA256sum: 4b80bb3f45f5a25b52794265dbb125a6852a9ad5c6dd757f153cd47522a73caf
-Size: 568
-Filename: tuxbox-common-dbg_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
+MD5Sum: 0ef409768735fab09f3b9968f8cfa4cf
+SHA256sum: 852ee5127d8f3ba705411fd1becebc43fc682a421a94781a170aa129c487597c
+Size: 570
+Filename: tuxbox-common-dbg_2+git1039+788bf970+788bf97224-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10038,15 +10038,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1038+e2cb98e0+e2cb98ed10-3
-Recommends: tuxbox-common (>= 2+git1038+e2cb98e0+e2cb98ed10-3), tuxbox-common (<< 2+git1038+e2cb98e0+e2cb98ed10-3.0), xz-dev
+Version: 2+git1039+788bf970+788bf97224-3
+Recommends: tuxbox-common (>= 2+git1039+788bf970+788bf97224-3), tuxbox-common (<< 2+git1039+788bf970+788bf97224-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 370d95cd835d584e137e21b56216ea75
-SHA256sum: d45ba7d5368835596f8c264f55d0938ce8b286db1fff8cc6fde4ff048687447b
-Size: 620
-Filename: tuxbox-common-dev_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
+MD5Sum: ae1fbfb00c2f26cf282e30800f681257
+SHA256sum: e6a650d48079bba0988d313037769ff81b23836ce921a791ad4474dd623c3053
+Size: 622
+Filename: tuxbox-common-dev_2+git1039+788bf970+788bf97224-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10054,15 +10054,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1038+e2cb98e0+e2cb98ed10-3
+Version: 2+git1039+788bf970+788bf97224-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6fc7024774113360053874bd34465e54
-SHA256sum: 4b6036cddf1e91de7c8c663e40efe5fe482813db8340a8b011d97037e62a0ecf
-Size: 72174
-Filename: tuxbox-common_2+git1038+e2cb98e0+e2cb98ed10-3_all.ipk
+MD5Sum: 34a09feae7e7fd406bb6650348c756ef
+SHA256sum: 4e34102292e17e0de549e440568401c027b7c1705427b61c3fc63301f2081e94
+Size: 72160
+Filename: tuxbox-common_2+git1039+788bf970+788bf97224-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
