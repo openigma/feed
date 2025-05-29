@@ -688,20 +688,20 @@ MD5Sum: 54441c5b283a48ddd930410e233d9059
 SHA256sum: 3069c1d87c27c0ce72861d8d661bd54ed6a8ecb028e46dc37807d586b37556af
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.20
+Version: 1.38
+Description: Vavoo stream publicly available video stream URLs
 Section: base
-Priority: optional
+Priority: required
+Maintainer: Lululla
+License: GPL-2.0-or-later
 Architecture: all
-Maintainer: lululla
-Description: Vavoo stream (1.20 mod)
-Source: enigma2-plugin-extensions-vavoo.bb
+OE: enigma2-plugin-extensions-vavoo
 Homepage: https://github.com/Belfagor2005/vavoo
-OE: enigma2-plugin-extensions
-License: free
-Filename: enigma2-plugin-extensions-vavoo_1.20_all.ipk
-Size: 5270696
-MD5Sum: 2f9211f1e8e9bade8fd7c42d82e2fa10
-SHA256sum: 03508d93318866e0034e6a118143a2f5c2825cfe49506c732474c15a4ccc8efd
+Source: enigma2-plugin-extensions-vavoo.bb
+Filename: enigma2-plugin-extensions-vavoo_1.38_all.ipk
+Size: 6030268
+MD5Sum: fd4524d7b5b5f1400ce0127dd2ba3361
+SHA256sum: 71f433cfa6ebacdc808d2e9bdfe0bdcf5d3612c09f5c10eef5940ed13cee1659
 
 Package: enigma2-plugin-extensions-vavoo-maker
 Version: 1.0
