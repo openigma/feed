@@ -2167,55 +2167,6 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.38+git266+4231aee0+4231aeecce-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: a82d529eb45f4b1200002ffd6ba97200
-SHA256sum: 6f9be748e3a5c72d1d3c553509f798be2c40755e523f4c4625f9e7def46a4837
-Size: 626
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git266+4231aee0+4231aeecce-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Vavoo stream - Debugging files
-OE: enigma2-plugin-extensions-vavoo
-HomePage: https://github.com/Belfagor2005/vavoo
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.38+git266+4231aee0+4231aeecce-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git266+4231aee0+4231aeecce-r0)
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 3f11fcf0e2ed3b18b74fd0b4116d54d7
-SHA256sum: 37824bb734533f4821a80aae5fb8421e54fa1e4f3a6dfdcee30d3cc55ac8b06a
-Size: 660
-Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git266+4231aee0+4231aeecce-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Vavoo stream - Development files
-OE: enigma2-plugin-extensions-vavoo
-HomePage: https://github.com/Belfagor2005/vavoo
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-vavoo
-Version: 1.38+git266+4231aee0+4231aeecce-r0
-Section: base
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 8b67fb97396a981313c29c2b8d94e151
-SHA256sum: 83e7377f92fbb21aa85c9fcdbe5e9b47af5aeedce5661083280b1a3639e19fcc
-Size: 5475168
-Filename: enigma2-plugin-extensions-vavoo_1.38+git266+4231aee0+4231aeecce-r0_all.ipk
-Source: enigma2-plugin-extensions-vavoo.bb
-Description: Vavoo stream
-OE: enigma2-plugin-extensions-vavoo
-HomePage: https://github.com/Belfagor2005/vavoo
-License: GPL-2.0-or-later
-Priority: required
-
 Package: enigma2-plugin-extensions-virtualzap
 Version: 2.0-git5822+cd9f2510+cd9f251374-r0
 Depends: enigma2-plugins
