@@ -687,6 +687,22 @@ Size: 2011432
 MD5Sum: 54441c5b283a48ddd930410e233d9059
 SHA256sum: 3069c1d87c27c0ce72861d8d661bd54ed6a8ecb028e46dc37807d586b37556af
 
+Package: enigma2-plugin-extensions-vavoo
+Version: 1.38.r1
+Description: Vavoo stream publicly available video stream URLs
+Section: base
+Priority: required
+Maintainer: Lululla
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions-vavoo
+Homepage: https://github.com/Belfagor2005/vavoo
+Source: enigma2-plugin-extensions-vavoo.bb
+Filename: enigma2-plugin-extensions-vavoo_1.38_all.ipk
+Size: 6030268
+MD5Sum: fd4524d7b5b5f1400ce0127dd2ba3361
+SHA256sum: 71f433cfa6ebacdc808d2e9bdfe0bdcf5d3612c09f5c10eef5940ed13cee1659
+
 Package: enigma2-plugin-extensions-videoplayersimple
 Version: 2.0+git1+52f4e2c0+52f4e2c177-r0
 Depends: python3-codecs, python3-compression, python3-difflib, python3-image, python3-xmlrpc
