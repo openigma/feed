@@ -726,12 +726,12 @@ Recommends: update-rc.d
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 70a2eb62f23cb43a2f40e020833509c8
-SHA256sum: 12929a9df814c1755530af96e3b8033694a8579ad56e98b9ee794772c32227f2
-Size: 3878
+MD5Sum: 256114b1349c51d073ec67b394c09e55
+SHA256sum: c159232ec0c45657fefc803c323a481a0b07e8436ba5afbd313d5d79428cc064
+Size: 3870
 Filename: enigma2-plugin-extensions-dabstreamer_0.1+git17+8d84fef0+8d84fef64b-r0_all.ipk
 Source: enigma2-plugin-extensions-dabstreamer.bb
-Description: enigma2-plugin-extensions-dabstreamer version 0.1+git-r0
+Description: DAB Streamer for Enigma2
 OE: enigma2-plugin-extensions-dabstreamer
 HomePage: www.satdreamgr.com
 License: GPL-2.0-or-later
@@ -1014,12 +1014,12 @@ Conflicts: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-
 Section: base
 Architecture: all
 Maintainer: Doglover @ https://forums.openpli.org/forum/52-en-rytec-xmltv-and-epg-support/
-MD5Sum: b9419444437cbe1b5bb85daad9f838ee
-SHA256sum: c2e065f3d78925be112fd59e64f9115a240d78c6f0d9f3d4ac5a55c4b9b0a61b
-Size: 3870
+MD5Sum: d8c67bc348cf449943bd0ccadcec0e4b
+SHA256sum: 7ee04c3af9a9e0a67e29d7e8d512356e58b70fdc37b8838431a60c985400ff4e
+Size: 3864
 Filename: enigma2-plugin-extensions-epgimport-sources_git158+401b0030+401b003dd9-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-sources.bb
-Description: enigma2-plugin-extensions-epgimport-sources version git-r0
+Description: XMLTV sources
 OE: enigma2-plugin-extensions-epgimport-sources
 License: GPL-2.0-only
 Priority: optional
@@ -1219,12 +1219,12 @@ Version: 1.0+git10+4d0456a0+4d0456a218-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 4f2ef125c45788a4b22020d5bc952179
-SHA256sum: d53a0843c4cc479991faa50ae476a5ae7212f63b900f94437d640301ebd46c26
-Size: 646
+MD5Sum: 58c4b2ca39d264c52007be08ccba0e72
+SHA256sum: 7ec10330ef92dedfcf627b5e8f2a2df7908bad2fc60e0026ea3f03d453133a01
+Size: 640
 Filename: enigma2-plugin-extensions-iptv-org-playlists-dbg_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
-Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0 - Debugging files
+Description: Tool to create iptv-org bouquets - Debugging files
 OE: enigma2-plugin-extensions-iptv-org-playlists
 HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-or-later
@@ -1236,12 +1236,12 @@ Recommends: enigma2-plugin-extensions-iptv-org-playlists (= 1.0+git10+4d0456a0+4
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 7d3c48f63734a7750e192092acbcd624
-SHA256sum: 08046216bc33e6c267075e6999ed69a4d34836f79bfb9aa4b6730b386b2a781a
-Size: 696
+MD5Sum: 56ba9b1d99d7653ac929894cf6c285c6
+SHA256sum: a68412115fcbaacedd2d28f23f0dcba15d0de465b5c81fbee515c44a178a2da7
+Size: 692
 Filename: enigma2-plugin-extensions-iptv-org-playlists-dev_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
-Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0 - Development files
+Description: Tool to create iptv-org bouquets - Development files
 OE: enigma2-plugin-extensions-iptv-org-playlists
 HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-or-later
@@ -1253,12 +1253,12 @@ Depends: python3-requests
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: f2e6c9f0134a2c29de087ddff148753e
-SHA256sum: 33cfa18f015eaa2912951f30d58a203d96d51813c4cfb500e61c38c119f3353e
-Size: 23214
+MD5Sum: 3ae0eef40b3557fc05c0c9497d62a7e2
+SHA256sum: 1941281730a791a12ef3300bb284443f00071e2c4e6abb41cb5e272e4abd6bdc
+Size: 23208
 Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
-Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0
+Description: Tool to create iptv-org bouquets
 OE: enigma2-plugin-extensions-iptv-org-playlists
 HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-or-later
@@ -1269,12 +1269,12 @@ Version: git19+81988420+81988420c8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 42783932e70327a7587f57cbe3400f4c
-SHA256sum: 9ec9d866c257987146734e75713aef385a06796559296a8a29edc8490982b359
-Size: 638
+MD5Sum: 709372185830bbda1f24e87078f1386e
+SHA256sum: 03d68f8d15132f414855c295461344d563c5c9b90f7aede5d435b91386d55961
+Size: 630
 Filename: enigma2-plugin-extensions-jediepgxtream-dbg_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r0 - Debugging files
+Description: Add EPG to IPTV channels - Debugging files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
@@ -1286,12 +1286,12 @@ Recommends: enigma2-plugin-extensions-jediepgxtream (= git19+81988420+81988420c8
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8bb30799bec260999279ac8cdd2f396e
-SHA256sum: 7cff3efe16732516af494c84868242e93ab587309d4f6e125d71916f78862fbe
-Size: 704
+MD5Sum: 46518a2a5e5dd7ae1588f915196a13a4
+SHA256sum: f8b5be739abde0a74c769f183b48b6a29afd3c7b4110744ddd4a340e9b769a8d
+Size: 698
 Filename: enigma2-plugin-extensions-jediepgxtream-dev_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r0 - Development files
+Description: Add EPG to IPTV channels - Development files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
@@ -1303,12 +1303,12 @@ Depends: python3-difflib, python3-requests, python3-thefuzz
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5b16d0ec7cd4bd14d8cbd61e83d35bbb
-SHA256sum: 4df8caa160aab9141a4c3a379422888d8a557b2b789bb9cb510ce509dcb948f5
-Size: 304270
+MD5Sum: 866f8ccb5a4ee8b654766b1c73732a00
+SHA256sum: a2af55e005cb456a2b4f608269320d59463f83737baff76b37df539ec74104b7
+Size: 304282
 Filename: enigma2-plugin-extensions-jediepgxtream_git19+81988420+81988420c8-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r0
+Description: Add EPG to IPTV channels
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
@@ -1319,12 +1319,12 @@ Version: git173+5d2218a0+5d2218ae6f-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c8513166bd3be59abb93fb9f0a3c17c1
-SHA256sum: b292c3f90af9cab2d68e0f6a4c5f450c3b803575e2b531d5828654d276a63beb
-Size: 642
+MD5Sum: e3f93a35e0f1d2db1384d60b548be486
+SHA256sum: 19e16972a388347d26337badd48e1627e9377eb178c6f7d4a6155fad913b3a06
+Size: 636
 Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_git173+5d2218a0+5d2218ae6f-r0_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version git-r0 - Debugging files
+Description: Enigma2 IPTV Bouquet Creator - Debugging files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
@@ -1336,12 +1336,12 @@ Recommends: enigma2-plugin-extensions-jedimakerxtream (= git173+5d2218a0+5d2218a
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 40f6bc7629675d11392abaaa1a7df8d9
-SHA256sum: 5e5b6aedee6e21ba98dbb11dd35fda7b3fc03a5bcd6d9d20f31268efd1896fb3
-Size: 680
+MD5Sum: 76406913c2355cf80a03fae62aa30ec8
+SHA256sum: ca71ac26eb09f0b85df7db9b659572c1cba4990c2491681d2fd9de7ab972a1b5
+Size: 674
 Filename: enigma2-plugin-extensions-jedimakerxtream-dev_git173+5d2218a0+5d2218ae6f-r0_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version git-r0 - Development files
+Description: Enigma2 IPTV Bouquet Creator - Development files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
@@ -1352,12 +1352,12 @@ Version: git173+5d2218a0+5d2218ae6f-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c45a23b9c8ed6486b8de3d012984820f
-SHA256sum: c86fe843a88dfa662ccdce3f60b5838d6b33a7493fac976e7e0cd26c50100f60
-Size: 3012412
+MD5Sum: a18520277103f860e253febc41b12851
+SHA256sum: d8305f21e5d4f6375c86fb85b149ae516cb113eab1c6f5a695ddc6749734e180
+Size: 3012406
 Filename: enigma2-plugin-extensions-jedimakerxtream_git173+5d2218a0+5d2218ae6f-r0_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version git-r0
+Description: Enigma2 IPTV Bouquet Creator
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
@@ -1725,12 +1725,12 @@ Version: 1.0+git15+afc42fd0+afc42fdf75-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 7a1b0b897557af8b187993e70212d3a6
-SHA256sum: 800f63722596e1bfd91d6776ceee057fba3f5a94d9b72ef184ebff9259c1854b
-Size: 592
+MD5Sum: 0fa3112eaceddf717fcb0c6501905425
+SHA256sum: 69c6d0961e0d8f2518fe05575331f5a8d4128a5093a6af9a7fffb08d667de25e
+Size: 586
 Filename: enigma2-plugin-extensions-piconsmissing-dbg_1.0+git15+afc42fd0+afc42fdf75-r0_all.ipk
 Source: enigma2-plugin-extensions-piconsmissing.bb
-Description: enigma2-plugin-extensions-piconsmissing version 1.0+git-r0 - Debugging files
+Description: Check for missing picons - Debugging files
 OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-or-later
 Priority: optional
@@ -1741,12 +1741,12 @@ Recommends: enigma2-plugin-extensions-piconsmissing (= 1.0+git15+afc42fd0+afc42f
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 34a7bf02f1e1158daeb065f81e94ad9e
-SHA256sum: 08c274b07b8a244f5c9ea2246f60393b88f94f521a259c767ffdd155562ea4bc
-Size: 624
+MD5Sum: d6da69c951ce85746ce990531c6a2f05
+SHA256sum: c14b5b91c9bb219c0ee73cfb7caa06d8f343559f9c6a45273f2933cd2a56d336
+Size: 622
 Filename: enigma2-plugin-extensions-piconsmissing-dev_1.0+git15+afc42fd0+afc42fdf75-r0_all.ipk
 Source: enigma2-plugin-extensions-piconsmissing.bb
-Description: enigma2-plugin-extensions-piconsmissing version 1.0+git-r0 - Development files
+Description: Check for missing picons - Development files
 OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-or-later
 Priority: optional
@@ -1756,12 +1756,12 @@ Version: 1.0+git15+afc42fd0+afc42fdf75-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 4bfe693f385e70e913db98114146b34c
-SHA256sum: bc08c32034e08660f44638f27191425cd47bba2213250cd8a24fca1c47e3c044
-Size: 15430
+MD5Sum: 7a242de0c293e2b0ecad5eeb87d6b19b
+SHA256sum: bbb556fb8f47d9686b535dd54765994d5a3b5b1cd4b39f2e1f305ff217c13410
+Size: 15424
 Filename: enigma2-plugin-extensions-piconsmissing_1.0+git15+afc42fd0+afc42fdf75-r0_all.ipk
 Source: enigma2-plugin-extensions-piconsmissing.bb
-Description: enigma2-plugin-extensions-piconsmissing version 1.0+git-r0
+Description: Check for missing picons
 OE: enigma2-plugin-extensions-piconsmissing
 License: GPL-2.0-or-later
 Priority: optional
@@ -2398,12 +2398,12 @@ Depends: enigma2-plugin-extensions-epgimport
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d2e99ccff801238ac1a62ac4a61cf1e
-SHA256sum: 803c27658086f02e0d63fb1c378431767a2c5641daa4daa3a78651a0a5eb81b2
-Size: 930
+MD5Sum: 2f69aa8862ec6ceef4b9f5e3a23aa2cf
+SHA256sum: 4a2d799c298435ae1425dff33636ab89d74ffc6d22e8ebaa0eb27a223c413f47
+Size: 922
 Filename: enigma2-plugin-extensions-xmltvimport-greekepg_1.6-r0_all.ipk
 Source: enigma2-plugin-extensions-xmltvimport-greekepg.bb
-Description: enigma2-plugin-extensions-xmltvimport-greekepg version 1.6-r0
+Description: Greek EPG Sources
 OE: enigma2-plugin-extensions-xmltvimport-greekepg
 License: GPL-2.0-only
 Priority: optional
@@ -4879,12 +4879,12 @@ Version: 1.0+git408+0d3ae900+0d3ae90f30-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 660ebbd17226afb30d5486b0257deb07
-SHA256sum: e69faa331fa7b82d2b83a1fabf28c6e564b3b6a62192bdee825fbb58fff2f779
-Size: 620
+MD5Sum: df3299879fdcfe2954c6ebdc4b7d3f57
+SHA256sum: 9a7c021400a96a18abc92e0eee7fc142f0d9368631056d376ae4403bcb80c9a8
+Size: 616
 Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
+Description: IPTV dynamic reader and runner - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
@@ -4896,12 +4896,12 @@ Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git408+0d3ae900+0d3ae90f
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 63d7619fdfc7588c3824023dacf6414c
-SHA256sum: d3b453f8752976d23ddd41eb0b533e48674489f2e13e06d6ca0a3369f8d93b51
-Size: 690
+MD5Sum: 23192e9b2beee07a7e21041156f4d053
+SHA256sum: d8309e7be529414ae70927b085cb7354f4774c951c68e9f10fa44e41af19ccb5
+Size: 682
 Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
+Description: IPTV dynamic reader and runner - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
@@ -4913,12 +4913,12 @@ Depends: python3-core, python3-multiprocessing, python3-requests
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 973311fbb3c681db6e07693a12a8c59b
-SHA256sum: 52daa1da684ee64fa9a2b1b4d34f5c424743a513ca75ef40054d4194bce85e7c
-Size: 266134
+MD5Sum: 27a3eeecb4ce6396f9d52da13b30a976
+SHA256sum: 333939b14e0bae186b5b0b19826455727b1f59a3db19c3253993acf791920d40
+Size: 266126
 Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
+Description: IPTV dynamic reader and runner
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
@@ -4993,12 +4993,12 @@ Version: 1.0+git11+564df070+564df07777-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 824629f3c4a0c41adb85fec4ae39988e
-SHA256sum: 4d4a9ee9b3cb5b6f15e91dd940314b0ff19a8d750ae4d4bcdd3a538e60e65f58
-Size: 646
+MD5Sum: 510fd9c4a1a7795ffe825eefd73f5ade
+SHA256sum: def4a440303ce5892ebc9614cfb7a6b29e52638a497da608ff9d02e95458ea53
+Size: 640
 Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dbg_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
-Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0 - Debugging files
+Description: Tool to create a terrestrial bouquet - Debugging files
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
 HomePage: https://github.com/Huevos/TerrestrialBouquet
 License: GPL-2.0-or-later
@@ -5010,12 +5010,12 @@ Recommends: enigma2-plugin-systemplugins-terrestrialbouquet (= 1.0+git11+564df07
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 62851101473a1b652fd143d26f4f8977
-SHA256sum: d140a8f3c47f8872376dae95845232a4b0646ae351e6f0509ddd07a245d3ab05
-Size: 684
+MD5Sum: 1a174dd4449fa2574cc25ec3741515d4
+SHA256sum: e8f5412879011dd8e12cbb5ff610c25d5dba91b14872e74286600e5874d934c9
+Size: 676
 Filename: enigma2-plugin-systemplugins-terrestrialbouquet-dev_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
-Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0 - Development files
+Description: Tool to create a terrestrial bouquet - Development files
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
 HomePage: https://github.com/Huevos/TerrestrialBouquet
 License: GPL-2.0-or-later
@@ -5026,12 +5026,12 @@ Version: 1.0+git11+564df070+564df07777-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: ea6851bc0a9f32463c98b95e0df735a3
-SHA256sum: e6cf9269e01d6ec50723f23f2f57fb385d18a3497471adde7f5e50036d209813
-Size: 14756
+MD5Sum: 3994fe00f0b6d44269ab4d3aee3d348d
+SHA256sum: fc0156a1d10440e75893639eff5f4f19765e85986c91e1bb8d2506fcdc81b0a9
+Size: 14750
 Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
-Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0
+Description: Tool to create a terrestrial bouquet
 OE: enigma2-plugin-systemplugins-terrestrialbouquet
 HomePage: https://github.com/Huevos/TerrestrialBouquet
 License: GPL-2.0-or-later
@@ -5074,12 +5074,12 @@ Version: 1.0+git4+e4902be0+e4902befe9-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: c2b15a7627a44ca8159425de176a804e
-SHA256sum: 73518f8ea4ac1c62b18536f54c04de8ec9444821bebca9bdd8790e01c8b5aba8
-Size: 602
+MD5Sum: 4d1bc3afd9c537e911de188d7b22db69
+SHA256sum: 2fb62734dcc215345835abfcc74db513ba8684dbe06130ba9b8c9fa73bd72c0a
+Size: 596
 Filename: enigma2-plugin-systemplugins-wanip-dbg_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-wanip.bb
-Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Debugging files
+Description: Tool to look up your Wan IP - Debugging files
 OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-or-later
 Priority: optional
@@ -5090,12 +5090,12 @@ Recommends: enigma2-plugin-systemplugins-wanip (= 1.0+git4+e4902be0+e4902befe9-r
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: ffb6182265f159db66afec8680d16a14
-SHA256sum: 982e3bfd68546c12df80a78d771e3a3eb3107134b0df8115eaf1847d4714c10f
-Size: 652
+MD5Sum: 7c438ae56c0fe176d0c8775d51bc1103
+SHA256sum: 36f812b31c4873d9d2e8b5f99cf025f77f09c0b28f8eb2eed0dc7b97c2c82d13
+Size: 646
 Filename: enigma2-plugin-systemplugins-wanip-dev_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-wanip.bb
-Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Development files
+Description: Tool to look up your Wan IP - Development files
 OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-or-later
 Priority: optional
@@ -5105,12 +5105,12 @@ Version: 1.0+git4+e4902be0+e4902befe9-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 83e50d2cfa572001c469ed1b0b0ed0cd
-SHA256sum: aec10425aef28669e91a056cac3345b5a860a0fa425c58b2d49c482f7d3fc26d
-Size: 1604
+MD5Sum: d37aca8c231e8b8281e10b9c1b6edd44
+SHA256sum: 4a9824c9699430572440ca6dc67d80be135437ad42667037ebdd4bd7fe4ce45d
+Size: 1598
 Filename: enigma2-plugin-systemplugins-wanip-src_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-wanip.bb
-Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Source files
+Description: Tool to look up your Wan IP - Source files
 OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-or-later
 Priority: optional
@@ -5121,12 +5121,12 @@ Depends: python3-requests
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 3d74d0e7aec870feebf570a33eceb8fb
-SHA256sum: a47b4076c97932dbaec4723329a1f0b2f86b8e728a21dfec060c90e809425d02
-Size: 3370
+MD5Sum: e9fdade633abea8bda0bd0ec42b26114
+SHA256sum: b051edf29e7fb032d7facbf15b720dc69d5c1eb205bb51badd8a98413c41b577
+Size: 3364
 Filename: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-wanip.bb
-Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0
+Description: Tool to look up your Wan IP
 OE: enigma2-plugin-systemplugins-wanip
 License: GPL-2.0-or-later
 Priority: optional
