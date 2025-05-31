@@ -5069,6 +5069,68 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-wanip-dbg
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Section: devel
+Architecture: all
+Maintainer: Huevos
+MD5Sum: c2b15a7627a44ca8159425de176a804e
+SHA256sum: 73518f8ea4ac1c62b18536f54c04de8ec9444821bebca9bdd8790e01c8b5aba8
+Size: 602
+Filename: enigma2-plugin-systemplugins-wanip-dbg_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wanip-dev
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Recommends: enigma2-plugin-systemplugins-wanip (= 1.0+git4+e4902be0+e4902befe9-r0), python3-requests-dev
+Section: devel
+Architecture: all
+Maintainer: Huevos
+MD5Sum: ffb6182265f159db66afec8680d16a14
+SHA256sum: 982e3bfd68546c12df80a78d771e3a3eb3107134b0df8115eaf1847d4714c10f
+Size: 652
+Filename: enigma2-plugin-systemplugins-wanip-dev_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Development files
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wanip-src
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Section: devel
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 83e50d2cfa572001c469ed1b0b0ed0cd
+SHA256sum: aec10425aef28669e91a056cac3345b5a860a0fa425c58b2d49c482f7d3fc26d
+Size: 1604
+Filename: enigma2-plugin-systemplugins-wanip-src_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0 - Source files
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wanip
+Version: 1.0+git4+e4902be0+e4902befe9-r0
+Depends: python3-requests
+Section: base
+Architecture: all
+Maintainer: Huevos
+MD5Sum: 3d74d0e7aec870feebf570a33eceb8fb
+SHA256sum: a47b4076c97932dbaec4723329a1f0b2f86b8e728a21dfec060c90e809425d02
+Size: 3370
+Filename: enigma2-plugin-systemplugins-wanip_1.0+git4+e4902be0+e4902befe9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-wanip.bb
+Description: enigma2-plugin-systemplugins-wanip version 1.0+git-r0
+OE: enigma2-plugin-systemplugins-wanip
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugins-dbg
 Version: 2.0-git5822+cd9f2510+cd9f251374-r0
 Section: devel
