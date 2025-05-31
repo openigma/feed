@@ -21534,13 +21534,13 @@ Priority: optional
 
 Package: packagegroup-machine-base
 Version: 1.0-r0
-Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-multibox-dvbmediasink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-snd-oss, kernel-module-snd-pcm-oss, libvc5dream
+Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-multibox-dvbmediasink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-ntfs, kernel-module-snd-oss, kernel-module-snd-pcm-oss, kernel-module-tun, libvc5dream
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddcbb9aa2c4cedba22b787bcd10ad9af
-SHA256sum: 511a2a41e8e6179da9201b8e236ede549c72faa335176b6683161f5af62ed780
-Size: 684
+MD5Sum: 186d5a76480d85f55918f11fd8d5c456
+SHA256sum: 06fba07159077d02f727ca89079e1c2d96f91ef48c32dcadca62b443a07a85e3
+Size: 690
 Filename: packagegroup-machine-base_1.0-r0_dm920.ipk
 Source: packagegroup-base.bb
 Description: Extra packages required to fully support dm920 hardware
