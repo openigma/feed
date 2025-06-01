@@ -1445,23 +1445,6 @@ Filename: libswresample4_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 47054
 MD5Sum: a829b4b80014c17b4ba2bfb5abd39a2b
 
-Package: libxcrypt-compat
-Version: 4.4.38-r0
-Depends: libc6 (>= 2.41)
-Section: libs
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09e4d873a403050bd5faa538056edf2f
-SHA256sum: 9a846fa7d5bc844f30983596afa57c85c6da159dd0d344b98c4f060acba85458
-Size: 117710
-Filename: libxcrypt-compat_4.4.38-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libxcrypt-compat_4.4.38.bb
-Description: Extended cryptographic library (from glibc)
-OE: libxcrypt-compat
-HomePage: https://github.com/besser82/libxcrypt
-License: LGPL-2.1-only
-Priority: optional
-
 Package: nodejs
 Version: 22.16.0-r0
 Description: nodejs version 22.16.0-r0
