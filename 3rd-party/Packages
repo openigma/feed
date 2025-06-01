@@ -1369,8 +1369,8 @@ Size: 724
 MD5Sum: 420abb05daccb7c1c3de004e5fbf15c7
 
 Package: libcrypto-compat
-Version: 3.5.0
-Depends: libcrypto, libssl
+Version: 3.4.0
+Depends: libcrypto, libssl, libxcrypt-compat
 Provides: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcrypto1.1.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2, libssl1.1.0, libssl1.1.1
 Replaces: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcrypto1.1.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2, libssl1.1.0, libssl1.1.1
 Conflicts: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcrypto1.1.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2, libssl1.1.0, libssl1.1.1
@@ -1444,6 +1444,23 @@ Source: ffmpeg_6.1.1.bb
 Filename: libswresample4_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 47054
 MD5Sum: a829b4b80014c17b4ba2bfb5abd39a2b
+
+Package: libxcrypt-compat
+Version: 4.4.38-r0
+Depends: libc6 (>= 2.41)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09e4d873a403050bd5faa538056edf2f
+SHA256sum: 9a846fa7d5bc844f30983596afa57c85c6da159dd0d344b98c4f060acba85458
+Size: 117710
+Filename: libxcrypt-compat_4.4.38-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libxcrypt-compat_4.4.38.bb
+Description: Extended cryptographic library (from glibc)
+OE: libxcrypt-compat
+HomePage: https://github.com/besser82/libxcrypt
+License: LGPL-2.1-only
+Priority: optional
 
 Package: nodejs
 Version: 22.16.0-r0
