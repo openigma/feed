@@ -1369,7 +1369,7 @@ Size: 724
 MD5Sum: 420abb05daccb7c1c3de004e5fbf15c7
 
 Package: libcrypto-compat
-Version: 3.4.0
+Version: 3.5.0
 Depends: libcrypto, libssl, libxcrypt-compat
 Provides: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcrypto1.1.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2, libssl1.1.0, libssl1.1.1
 Replaces: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcrypto1.1.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2, libssl1.1.0, libssl1.1.1
@@ -1377,11 +1377,11 @@ Conflicts: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libcr
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb6b6817a7fab1197aa3d5ba2f088e37
-SHA256sum: aef24b1dee170291d02dac3786061107b6ea7b5bf51c1e8468b664984a7752fe
+MD5Sum: 3cfd0e6169133f4812ee698efd5d0c20
+SHA256sum: 46e4e57617c31d96c7a1ef24b84680eed20e6b0f798aedda6f81fd3878ddeafd
 Size: 1018
-Filename: libcrypto-compat_3.4.0_cortexa15hf-neon-vfpv4.ipk
-Source: libcrypto-compat_3.4.0.bb
+Filename: libcrypto-compat_3.5.0_cortexa15hf-neon-vfpv4.ipk
+Source: libcrypto-compat_3.5.0.bb
 Description: Compatibility for packages that link to older libcrypto or libssl
 OE: libcrypto-compat
 License: GPL-2.0-only
