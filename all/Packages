@@ -816,6 +816,56 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-e2iplayer-dbg
+Version: 1.0+git4609+be5ffe70+be5ffe7958-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ae454d1a087d2e3a619fdc5cb4ac5e0
+SHA256sum: d3f704f71f01bad3a8e2e8cf50d26f9ea67f89f7ae4f1d105da6ebaa21d0306d
+Size: 640
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_1.0+git4609+be5ffe70+be5ffe7958-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: http://www.iptvplayer.gitlab.io/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dev
+Version: 1.0+git4609+be5ffe70+be5ffe7958-r0
+Recommends: cmdwrapper-dev, duktape-e2iplayer-dev, enigma2-plugin-extensions-e2iplayer (= 1.0+git4609+be5ffe70+be5ffe7958-r0), exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python3-core-dev, python3-dev, python3-e2icjson-dev, python3-pycurl-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38fac38c31abff827c850f418acbce9b
+SHA256sum: 5660e5cb747153dbc48231b4ccebec8df8dd53a9566d2db13c300471bd62edbe
+Size: 784
+Filename: enigma2-plugin-extensions-e2iplayer-dev_1.0+git4609+be5ffe70+be5ffe7958-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Development files
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: http://www.iptvplayer.gitlab.io/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer
+Version: 1.0+git4609+be5ffe70+be5ffe7958-r0
+Depends: cmdwrapper, duktape-e2iplayer, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python3-core, python3-e2icjson, python3-pycurl, rtmpdump, uchardet, wget
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c0b727dc31c66d667204826d7233dc0
+SHA256sum: d48cbba15cfa5521ad6ae088bb5b350cf90cc0d3e790d905b4249da7339f592c
+Size: 12072392
+Filename: enigma2-plugin-extensions-e2iplayer_1.0+git4609+be5ffe70+be5ffe7958-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: http://www.iptvplayer.gitlab.io/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-e2piconizer-dbg
 Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: devel
@@ -2118,14 +2168,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.38+git278+5ef5ec60+5ef5ec6fff-r0
+Version: 1.38+git279+b67767b0+b67767b24f-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2a6fce700a253cddaae0401b931e7733
-SHA256sum: a9bc02a22bdd6dd7f6b06f4bd8328ec4cbb3286aafa91c3816da9f9b3eacab68
+MD5Sum: b65700e751634f2664cf0e43f4da85f9
+SHA256sum: aca55e96e433233f218b3bd46c290d3976507887e69f54000677d5aec1cded3b
 Size: 628
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git278+5ef5ec60+5ef5ec6fff-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git279+b67767b0+b67767b24f-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -2134,15 +2184,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.38+git278+5ef5ec60+5ef5ec6fff-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git278+5ef5ec60+5ef5ec6fff-r0)
+Version: 1.38+git279+b67767b0+b67767b24f-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git279+b67767b0+b67767b24f-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 641cc8d224911a9d58eb93dcd491cabe
-SHA256sum: 834148070905367dc160237bf80ecdcc10047e2e59ba362669d093c482a51881
+MD5Sum: 52a3a6a9a6e71a78bffa35824fa23409
+SHA256sum: 3134bb93a738e1ae2c2ba2d29b3429140efbd3152c88359ddcef84953d9c73f6
 Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git278+5ef5ec60+5ef5ec6fff-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git279+b67767b0+b67767b24f-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -2200,14 +2250,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.38+git278+5ef5ec60+5ef5ec6fff-r0
+Version: 1.38+git279+b67767b0+b67767b24f-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b8d90860a24a6c05287e27e8e859adc7
-SHA256sum: bbd0999e0838c88fd3e1339891707be6080ab71b55e3041749f8c68a2027c349
-Size: 5478616
-Filename: enigma2-plugin-extensions-vavoo_1.38+git278+5ef5ec60+5ef5ec6fff-r0_all.ipk
+MD5Sum: 6fcdaca36e37d53a042883ab7ed04a05
+SHA256sum: 2dec927d14d92f9be194bb6d86fbadd905d9afc4f35bee258f6e173e10f08b4d
+Size: 5478638
+Filename: enigma2-plugin-extensions-vavoo_1.38+git279+b67767b0+b67767b24f-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream
 OE: enigma2-plugin-extensions-vavoo
@@ -10084,14 +10134,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1046+ac0a2e60+ac0a2e67ef-3
+Version: 2+git1047+5c30ca30+5c30ca33c0-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 1e7443c2b7ac9c7827c5af187a2698b4
-SHA256sum: a1b288b1c12da583b6c251a0e8545495fc3669db95a3ec7f6d7b98fd911d61c4
+MD5Sum: 5bc000888f619297afafa0b43d5e4752
+SHA256sum: 2d407bdfd2741fe78d3eaa9b58bd8e4bb1c9985629152bdb4f57060fb19feb94
 Size: 568
-Filename: tuxbox-common-dbg_2+git1046+ac0a2e60+ac0a2e67ef-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1047+5c30ca30+5c30ca33c0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10099,15 +10149,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1046+ac0a2e60+ac0a2e67ef-3
-Recommends: tuxbox-common (>= 2+git1046+ac0a2e60+ac0a2e67ef-3), tuxbox-common (<< 2+git1046+ac0a2e60+ac0a2e67ef-3.0), xz-dev
+Version: 2+git1047+5c30ca30+5c30ca33c0-3
+Recommends: tuxbox-common (>= 2+git1047+5c30ca30+5c30ca33c0-3), tuxbox-common (<< 2+git1047+5c30ca30+5c30ca33c0-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6c206aef2b086a98ea837fa1f7963e39
-SHA256sum: 5148499748fe213a900f9eb2929131c7032cb060f87466d37dc62a7e4b37ea6c
+MD5Sum: 4ab5e088207f2f2e082b582186d61fdb
+SHA256sum: 1297ad8cae1b08f37595bac89ab685875fa27f994f2a8a2b21eb2f72a16fa78c
 Size: 620
-Filename: tuxbox-common-dev_2+git1046+ac0a2e60+ac0a2e67ef-3_all.ipk
+Filename: tuxbox-common-dev_2+git1047+5c30ca30+5c30ca33c0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10115,15 +10165,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1046+ac0a2e60+ac0a2e67ef-3
+Version: 2+git1047+5c30ca30+5c30ca33c0-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a41b75aeb5dc1280388058bce5ed1b95
-SHA256sum: e7122b065406ff83956ba6db78a30db599fe4b01dca9194e996aa7ac2c2d85b6
+MD5Sum: 08d6339ac8a9f9b1437df9773230b7cf
+SHA256sum: 453c96bace667c593c1a2484edce4335598e473c0add8b2a97bd96e67503ca37
 Size: 72174
-Filename: tuxbox-common_2+git1046+ac0a2e60+ac0a2e67ef-3_all.ipk
+Filename: tuxbox-common_2+git1047+5c30ca30+5c30ca33c0-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
