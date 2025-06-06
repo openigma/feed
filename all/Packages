@@ -10084,14 +10084,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1049+88086740+8808674298-3
+Version: 2+git1050+f6691790+f66917918a-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 10e13efb409b4a16e778a8c8aac4efec
-SHA256sum: d5ddd850638e35fe741b700e92e7a66fb6de3fd8807b9d0f2582c6de287bee5e
-Size: 570
-Filename: tuxbox-common-dbg_2+git1049+88086740+8808674298-3_all.ipk
+MD5Sum: 707aa1b5bb81e358e809f5021e95ea92
+SHA256sum: 2534b3066aad92539078e73dbd6a37805b6fa43dbabf67d7d198378292ed0b63
+Size: 568
+Filename: tuxbox-common-dbg_2+git1050+f6691790+f66917918a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10099,15 +10099,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1049+88086740+8808674298-3
-Recommends: tuxbox-common (>= 2+git1049+88086740+8808674298-3), tuxbox-common (<< 2+git1049+88086740+8808674298-3.0), xz-dev
+Version: 2+git1050+f6691790+f66917918a-3
+Recommends: tuxbox-common (>= 2+git1050+f6691790+f66917918a-3), tuxbox-common (<< 2+git1050+f6691790+f66917918a-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d51b7fdbbd81f7f10fb9f0b4a8722a65
-SHA256sum: 0df95fe562088736a2729a3cf50729000211d9d71cd88903106140b44071db6a
+MD5Sum: 733885a61c7af92c9c3c9d90cd2ddff3
+SHA256sum: 056fa7451eba6a7bc1a1729a225cd019ddfd5e57b97286d75d8c8bb8a439c920
 Size: 622
-Filename: tuxbox-common-dev_2+git1049+88086740+8808674298-3_all.ipk
+Filename: tuxbox-common-dev_2+git1050+f6691790+f66917918a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10115,15 +10115,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1049+88086740+8808674298-3
+Version: 2+git1050+f6691790+f66917918a-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7ebc929f44b0797d251171ff882d3519
-SHA256sum: 45605ea3e0646dbc7511bd8a59e074238af4425a86e04adfac633760d3e69a63
-Size: 72174
-Filename: tuxbox-common_2+git1049+88086740+8808674298-3_all.ipk
+MD5Sum: bedef38f2cdda7f695a112bc766987be
+SHA256sum: 2c0190af4f4105444d4f52477570d35be666e47b38a1bd56c6e25b7c2ab484e0
+Size: 72176
+Filename: tuxbox-common_2+git1050+f6691790+f66917918a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
