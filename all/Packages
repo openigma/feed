@@ -1456,14 +1456,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 1.38+git28+46fb72b0+46fb72b419-r0
+Version: 1.0+git28+46fb72b0+46fb72b419-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9cbb3d25340622bd29c6adcb4bd92cab
-SHA256sum: d3ccde0683346ac0ec82dca19ef5460e2617257576799cbc315a44ce05771d27
-Size: 652
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.38+git28+46fb72b0+46fb72b419-r0_all.ipk
+MD5Sum: 9366e63b5818e358d1defbcef34776f0
+SHA256sum: 7674257466aaa435024b72785966a801586128b170d23f822cd5a94061b5b773
+Size: 650
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.0+git28+46fb72b0+46fb72b419-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1472,15 +1472,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 1.38+git28+46fb72b0+46fb72b419-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 1.38+git28+46fb72b0+46fb72b419-r0)
+Version: 1.0+git28+46fb72b0+46fb72b419-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 1.0+git28+46fb72b0+46fb72b419-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: bf7611292866e42e2f1ec479433fa085
-SHA256sum: 4e07055f1824274c37e76dd0201035a6089a818a758d9c8bd21da1276e6306fd
+MD5Sum: f100ad45f43718e52120a465c9871305
+SHA256sum: 6e916dca65758c814354f05d01dce27337d84c7ebce3b1a87e3b3de79fb03262
 Size: 690
-Filename: enigma2-plugin-extensions-m3uconverter-dev_1.38+git28+46fb72b0+46fb72b419-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dev_1.0+git28+46fb72b0+46fb72b419-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1489,14 +1489,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 1.38+git28+46fb72b0+46fb72b419-r0
+Version: 1.0+git28+46fb72b0+46fb72b419-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8789488639a1fa75b182288ab3b7a50f
-SHA256sum: 212f7cb3b620c2482057b1492e3518c1c7bd36212973cf5adeb59ac7948d1120
+MD5Sum: 310d339530f5543634dedb79e2a5dd4b
+SHA256sum: 176756e6abdb72e16edb1894dec69a3526ce696b908cdedb90d3b49f18e81b16
 Size: 36972
-Filename: enigma2-plugin-extensions-m3uconverter_1.38+git28+46fb72b0+46fb72b419-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter_1.0+git28+46fb72b0+46fb72b419-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -2007,14 +2007,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
-Version: 1.0+git12+c839daa0+c839daa2c6-r0
+Version: 1.0+git14+66a5e920+66a5e9265c-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a8f4a51e3ec23ac7f3c23fc1a713dcaa
-SHA256sum: 420f003e219af228a7056345227fff76592a4bfd9c0a6027cd7e0f22e5a9c563
+MD5Sum: cbc746cbcec3c879a9ea10a0d7174f89
+SHA256sum: bc345503f265054caf82285caba6eca76836e046b0f0420b47bd2848bc80d950
 Size: 696
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git12+c839daa0+c839daa2c6-r0_all.ipk
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git14+66a5e920+66a5e9265c-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2023,15 +2023,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dev
-Version: 1.0+git12+c839daa0+c839daa2c6-r0
-Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git12+c839daa0+c839daa2c6-r0)
+Version: 1.0+git14+66a5e920+66a5e9265c-r0
+Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git14+66a5e920+66a5e9265c-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c48383dd68748114277b9bfa475359db
-SHA256sum: da409b394ede15dec3db5432f1f997d955f3861dc1965600beed7a9f83b62f85
-Size: 732
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git12+c839daa0+c839daa2c6-r0_all.ipk
+MD5Sum: cf43598251de691bca6fe550b87f83d2
+SHA256sum: 55ba173321ff6ba7a0575340b6a5f5dd055ba50dc61ad5c79001336c28fc564b
+Size: 734
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git14+66a5e920+66a5e9265c-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Development files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2040,14 +2040,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter
-Version: 1.0+git12+c839daa0+c839daa2c6-r0
+Version: 1.0+git14+66a5e920+66a5e9265c-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8544d328edeb3865544542bc85c8ff8e
-SHA256sum: ccd129a4ff797d0f5fa6c409e631b4ca57a5e07516ff1b72a6ca8082864a34ea
-Size: 54696
-Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git12+c839daa0+c839daa2c6-r0_all.ipk
+MD5Sum: bd890c4d60a43ae9446be1ea9c64f97e
+SHA256sum: ed4e86b5add4ade0d882daab130c487137ff64b1f03c4866ec99f673c445d98d
+Size: 54712
+Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git14+66a5e920+66a5e9265c-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter
 OE: enigma2-plugin-extensions-stalkerportalconverter
