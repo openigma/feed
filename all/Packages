@@ -2007,14 +2007,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
-Version: 1.0+git15+b85c74a0+b85c74a572-r0
+Version: 1.0+git17+516a8020+516a802bbb-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e343dd741c21e131eaf395651592fce0
-SHA256sum: af354fa2e34656e76aecc1a8f6c25ed4f7319933add112c644b1a17c33b49864
-Size: 696
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git15+b85c74a0+b85c74a572-r0_all.ipk
+MD5Sum: 7a817d4ad5ac48a84a48b581c21c3568
+SHA256sum: f7f671c36457a053e64c7ef54e160b5041f4c2a36ed2070e7041e78c63020291
+Size: 694
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git17+516a8020+516a802bbb-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2023,15 +2023,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dev
-Version: 1.0+git15+b85c74a0+b85c74a572-r0
-Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git15+b85c74a0+b85c74a572-r0)
+Version: 1.0+git17+516a8020+516a802bbb-r0
+Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git17+516a8020+516a802bbb-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 071afc9a4efc3fb0af78f49fff52dbbd
-SHA256sum: 60f9b2633093a91ed7bb17a95c6f96234076f41d80d179d09125ea766186a817
+MD5Sum: 80a22702725c8d17a6b1081ac1b072a9
+SHA256sum: 9579b20f5d8ff600d4e7c42f3b154ead61f81587eea532d044907be18f7b13a1
 Size: 734
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git15+b85c74a0+b85c74a572-r0_all.ipk
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git17+516a8020+516a802bbb-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Development files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2040,14 +2040,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter
-Version: 1.0+git15+b85c74a0+b85c74a572-r0
+Version: 1.0+git17+516a8020+516a802bbb-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: acef10c75daa56e472cf0be53c2e6e9d
-SHA256sum: 6b0fc84926c689b0343d73500c2cfecf50e7db4070ca2c077c10f662aafeee5e
-Size: 54716
-Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git15+b85c74a0+b85c74a572-r0_all.ipk
+MD5Sum: 6469240166e4865a5769c6abeb0436e3
+SHA256sum: 39e61f3d7c6fab15c42dde1ae5c65aecf58e06415973166f5fa17a4d4e6d001e
+Size: 57004
+Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git17+516a8020+516a802bbb-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -10136,8 +10136,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -10153,8 +10153,8 @@ Recommends: enigma2-plugin-extensions-streamlink-dev, python3-core-dev, streamli
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: d9773010e7f863df415820c479954b49
-SHA256sum: dbfe7584954b7108785ec9b036f4f571d2fd0747626123d2f158cffc1c90ecfb
+MD5Sum: e1646a4766a3ecce0f0e34bacadb4bf9
+SHA256sum: 0cc44eebb624daa64d408aeb184ba715983c074f114168c4caaf9bad4091c134
 Size: 676
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -10170,9 +10170,9 @@ Depends: enigma2-plugin-extensions-streamlink, python3-core
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: ce327f624bb6a688d14e231ce0af978f
-SHA256sum: 7e51e71421e08bebeb6a51b2e248c3a73a5af3e6a08b272f1ff6c73eca2fb813
-Size: 85906
+MD5Sum: 20a6329d0052dd3f539ff26cc145e86b
+SHA256sum: 91b36667ed7af010612ae02cedcc280cfd5794683ad41929f55f94c8e98bfafc
+Size: 85904
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.4+git-r0
