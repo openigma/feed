@@ -80,6 +80,21 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-auto-dcw-key-add
+Version: 1.0.6
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Youchie
+Description: ADD Manual BISS Key And Add Auto DCW Key Plugin for Enigma2
+Source: enigma2-plugin-extensions-auto-dcw-key-add.bb
+HomePage: https://github.com/smcam/Auto-DCW-Key-ADD
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-auto-dcw-key-add_v1.0.6_all.ipk
+Size: 86874
+MD5Sum: 6c82d2bb0faa5b3589c1a494aa896436
+SHA256sum: 5bf274b28ba878ddd1e38188cdc6cb648fb8d76cd185805f672d5d6e2f5ea723
+
 Package: enigma2-plugin-extensions-birthdayreminder
 Version: gitr7785+3a5b2690+3a5b2697bb-r8
 Section: base
