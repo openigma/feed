@@ -1456,14 +1456,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 1.0+git32+8ba73a90+8ba73a9107-r0
+Version: 1.6+git32+8ba73a90+8ba73a9107-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 6d03c00fa3930779d17b7ca198ed65c3
-SHA256sum: 8e2f961346025dc37c2b791c21f16918f989682f6007773e3637d8101fd313d1
+MD5Sum: 28dffc6630f020693edc993df9517853
+SHA256sum: 91de686ebdee56afed725e54e8d4903e1b131d957a583f73ca3f13258f07f245
 Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.0+git32+8ba73a90+8ba73a9107-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.6+git32+8ba73a90+8ba73a9107-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1472,15 +1472,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 1.0+git32+8ba73a90+8ba73a9107-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 1.0+git32+8ba73a90+8ba73a9107-r0)
+Version: 1.6+git32+8ba73a90+8ba73a9107-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 1.6+git32+8ba73a90+8ba73a9107-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1459c9274126fdf388cd02c8ba580870
-SHA256sum: fe1e01db375623d26f189889bd53df08241aa41c3649502e1caf9720f7ae5b8a
+MD5Sum: e7b20648b68376add35a34290d39c2ee
+SHA256sum: e0dbeee3868b424146599f6875317e93c86ed19e7c571e13cd5b4c08962fa372
 Size: 688
-Filename: enigma2-plugin-extensions-m3uconverter-dev_1.0+git32+8ba73a90+8ba73a9107-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dev_1.6+git32+8ba73a90+8ba73a9107-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1489,14 +1489,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 1.0+git32+8ba73a90+8ba73a9107-r0
+Version: 1.6+git32+8ba73a90+8ba73a9107-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4bc0ee1b2341796feb593f52b750e826
-SHA256sum: 85f3b6982c31f36c072f6994e3dd7cd69cffb9d7e57d8f55e8de313ffb9074c4
+MD5Sum: e00454fd11eb8d0fb8e144d9f31ee3b3
+SHA256sum: 6f4632e468a25a32d0fd4e24afb675b512b155ec97924eb2b7a04718934ec5d4
 Size: 38558
-Filename: enigma2-plugin-extensions-m3uconverter_1.0+git32+8ba73a90+8ba73a9107-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter_1.6+git32+8ba73a90+8ba73a9107-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1598,6 +1598,55 @@ Description: extensions-mosaic
 OE: enigma2-plugins
 License: Proprietary
 Priority: optional
+
+Package: enigma2-plugin-extensions-moviebrowser-dbg
+Version: 3.9+git98+d798ff20+d798ff2a96-r0
+Section: devel
+Architecture: all
+Maintainer: Kashmir, Lululla
+MD5Sum: e32a73bb30536169b065e8e743fe1545
+SHA256sum: 034b53eb1440fe0d714e2a922990bf4c06ec91282a29ee0890c76ad7dccb956a
+Size: 668
+Filename: enigma2-plugin-extensions-moviebrowser-dbg_3.9+git98+d798ff20+d798ff2a96-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: Movie Browser Plugin - Debugging files
+OE: enigma2-plugin-extensions-moviebrowser
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-moviebrowser-dev
+Version: 3.9+git98+d798ff20+d798ff2a96-r0
+Recommends: enigma2-plugin-extensions-moviebrowser (= 3.9+git98+d798ff20+d798ff2a96-r0)
+Section: devel
+Architecture: all
+Maintainer: Kashmir, Lululla
+MD5Sum: 14d74be2fd636092fd021ce98d5220b0
+SHA256sum: 222376fd566573b2689fdd5f40e8d12456d96cc11582b3abba7065397a9b57a1
+Size: 708
+Filename: enigma2-plugin-extensions-moviebrowser-dev_3.9+git98+d798ff20+d798ff2a96-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: Movie Browser Plugin - Development files
+OE: enigma2-plugin-extensions-moviebrowser
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-moviebrowser
+Version: 3.9+git98+d798ff20+d798ff2a96-r0
+Section: base
+Architecture: all
+Maintainer: Kashmir, Lululla
+MD5Sum: f842175e8f7b961fe85a1d71b3b9c2a5
+SHA256sum: 0b6ee915dc9a92f5d7e37483f58c0ef5f40790b02c5368c6bd1b2b294c1d2c40
+Size: 1555000
+Filename: enigma2-plugin-extensions-moviebrowser_3.9+git98+d798ff20+d798ff2a96-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: Movie Browser Plugin
+OE: enigma2-plugin-extensions-moviebrowser
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
 
 Package: enigma2-plugin-extensions-movieretitle
 Version: 2.0-git5825+67197830+671978395f-r0
@@ -10093,14 +10142,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1058+5c8756a0+5c8756ae6c-3
+Version: 2+git1059+371255b0+371255b64e-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 3d21978842e405836fdab7210c24c514
-SHA256sum: f02578d1ebeafc3a0f87e8e147d286088f6d0f59c605de5f8f6dcde063ef785e
-Size: 568
-Filename: tuxbox-common-dbg_2+git1058+5c8756a0+5c8756ae6c-3_all.ipk
+MD5Sum: 2bc59be5c75ae489d1eb568ef9e1ce31
+SHA256sum: fd1488c436514b3cac1ea270025c03b05bc2615454f8489e19a32333c89438fa
+Size: 566
+Filename: tuxbox-common-dbg_2+git1059+371255b0+371255b64e-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10108,15 +10157,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1058+5c8756a0+5c8756ae6c-3
-Recommends: tuxbox-common (>= 2+git1058+5c8756a0+5c8756ae6c-3), tuxbox-common (<< 2+git1058+5c8756a0+5c8756ae6c-3.0), xz-dev
+Version: 2+git1059+371255b0+371255b64e-3
+Recommends: tuxbox-common (>= 2+git1059+371255b0+371255b64e-3), tuxbox-common (<< 2+git1059+371255b0+371255b64e-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7ee79aa42e296373e99d18e47b232dad
-SHA256sum: aba1e843fe660d8c07a243ee9a1ad0cbeb90671cff807f60bf52d283b0d7fb41
+MD5Sum: 18fcad68db1c55c2ef157f19eab0c9ab
+SHA256sum: fa21e48afc3d86c5ba664cfcd6463c07632cc341f488464403e8f9342d1ea673
 Size: 620
-Filename: tuxbox-common-dev_2+git1058+5c8756a0+5c8756ae6c-3_all.ipk
+Filename: tuxbox-common-dev_2+git1059+371255b0+371255b64e-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10124,15 +10173,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1058+5c8756a0+5c8756ae6c-3
+Version: 2+git1059+371255b0+371255b64e-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7337f1c622a6b2f66a6a170b75996e5d
-SHA256sum: 540e268d255b84efd3de9cd8901e060890f287805de69afafd19cf55dd285e54
-Size: 72154
-Filename: tuxbox-common_2+git1058+5c8756a0+5c8756ae6c-3_all.ipk
+MD5Sum: c0383776a118813ae98d8ad9b692ca98
+SHA256sum: a4c319b03b33d5569ba8f0e67abd2695990b30381cd9634141425bd4246c34bc
+Size: 72158
+Filename: tuxbox-common_2+git1059+371255b0+371255b64e-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
