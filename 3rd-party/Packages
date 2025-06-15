@@ -718,6 +718,21 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-transmission
+Version: 5.1.4
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: ostende
+Description: Transmission torrent client plugin
+Depends: python3-transmission-rpc, transmission-client, transmission
+Source: enigma2-plugin-extensions-transmission.bb
+Filename: enigma2-plugin-extensions-transmission_5.1.4_all.ipk
+OE: enigma2-plugin-extensions
+Size: 7244312
+MD5Sum: 72a069cfd7cc8c2e40f66407ce8e4f63
+SHA256sum: 87d278e92a77e0d5a855ffb3deacf7ad0ad98c8414e1e39580621c20651cf715
+
 Package: enigma2-plugin-extensions-turkvod
 Version: 16.00
 Section: extra
