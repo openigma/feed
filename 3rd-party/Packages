@@ -1105,7 +1105,7 @@ Priority: optional
 
 Package: enigma2-plugin-skins-slyk-toppicks
 Version: 7.6.20240529
-Section: misc
+Section: skins
 Priority: optional
 Architecture: all
 Maintainer: kiddac
@@ -1129,6 +1129,22 @@ Size: 8265044
 Filename: enigma2-plugin-skins-whiteshadow-fhd_2.0_all.ipk
 Source: enigma2-plugin-skins-whiteshadow-fhd.bb
 Description: Skin WhiteShadow-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-xDreamy
+Version: 5.9.6
+Section: base
+Architecture: all
+Maintainer: Mahmoud Hussein
+MD5Sum: 7372e4a21bde65f17e20229f46709de0
+SHA256sum: 9b92ca65a384ac8cbc46156797307ff37ebd143f2eb327fa088bb3ae68f711d9
+Size: 19372852
+Filename: xDreamy.ipk
+Source: enigma2-plugin-skins-xDreamy.bb
+Depends: python3-image, python3-imaging, python3-pillow, python3-requests, python3-urllib3
+Description: Skin xDreamy FHD - New Vision Skin By Inspiron
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
