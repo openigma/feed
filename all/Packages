@@ -2056,14 +2056,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
-Version: 1.0+git27+e69d75e0+e69d75e67d-r0
+Version: 1.0+git28+d7c4bc80+d7c4bc88a9-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: bfa71801dd0fe1ae21a7d291b67c5ec1
-SHA256sum: ec2c03f0336df52ff254ee320c84fa79180de648ad79ef972155ee6f7a455070
+MD5Sum: d88c9a09c5ba72f605a84761b5e83d98
+SHA256sum: 2f5a896aa3b400cd1f23737c4e50a67c6c18712564acb4b4927da60a0a016350
 Size: 696
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git27+e69d75e0+e69d75e67d-r0_all.ipk
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git28+d7c4bc80+d7c4bc88a9-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2072,15 +2072,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dev
-Version: 1.0+git27+e69d75e0+e69d75e67d-r0
-Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git27+e69d75e0+e69d75e67d-r0)
+Version: 1.0+git28+d7c4bc80+d7c4bc88a9-r0
+Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git28+d7c4bc80+d7c4bc88a9-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 52eeed0e1c45abcef49a8f4440c0aae4
-SHA256sum: b7ab29bddccc8c78bc4c57b5f301711532aa7e00388f8ba2f74b62f0ae9a3fe1
+MD5Sum: 3807f7fd6f6b9d095325fb95b513f3c3
+SHA256sum: fd73191750774751e0f8e7840006ef4c6db6e0709e5db24e108b20fe88ed2850
 Size: 734
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git27+e69d75e0+e69d75e67d-r0_all.ipk
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git28+d7c4bc80+d7c4bc88a9-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Development files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2089,14 +2089,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter
-Version: 1.0+git27+e69d75e0+e69d75e67d-r0
+Version: 1.0+git28+d7c4bc80+d7c4bc88a9-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: d9fda70d1530e4851a9b8fdf12d28d03
-SHA256sum: f720a778c03e3a9a34f27c06b1757bcb61dbd20a80eaa9fc01fa389beb628f87
-Size: 77824
-Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git27+e69d75e0+e69d75e67d-r0_all.ipk
+MD5Sum: a2e364db4a9077ddd40a04a979572060
+SHA256sum: 8d1aedf0a7ef4be273c20f30483e2784b7136f0de173df992757f1bdd0e5e0c9
+Size: 79856
+Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git28+d7c4bc80+d7c4bc88a9-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -10126,14 +10126,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1061+eaa23980+eaa23985d9-3
+Version: 2+git1062+dbffb970+dbffb97496-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2400ed435fa1c1cf72e1bc80ac99ca8c
-SHA256sum: c9a92acf1ef27dfefb6f827eab514a474cb1d7e8b4146ac5b6746d7a7bd65482
+MD5Sum: 88c456a7788187f7dae06262dde325dc
+SHA256sum: 1fecaa4f9a4394f9b49832ad1327750fbf5751b1adc3e6ea8a9e79a006a17589
 Size: 570
-Filename: tuxbox-common-dbg_2+git1061+eaa23980+eaa23985d9-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1062+dbffb970+dbffb97496-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10141,15 +10141,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1061+eaa23980+eaa23985d9-3
-Recommends: tuxbox-common (>= 2+git1061+eaa23980+eaa23985d9-3), tuxbox-common (<< 2+git1061+eaa23980+eaa23985d9-3.0), xz-dev
+Version: 2+git1062+dbffb970+dbffb97496-3
+Recommends: tuxbox-common (>= 2+git1062+dbffb970+dbffb97496-3), tuxbox-common (<< 2+git1062+dbffb970+dbffb97496-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4e3040672fa6edca3e62ce71e51a92f1
-SHA256sum: 314586e747aaa5d8b602882fc60ac7aecbf23477161607f62313abfcac3539a2
+MD5Sum: d7c55bf3f6e14fb6970caa52a1124fe9
+SHA256sum: dc51b63f8e398ee066fd564fffea54c28287380326f02357e830b10aaacd7591
 Size: 622
-Filename: tuxbox-common-dev_2+git1061+eaa23980+eaa23985d9-3_all.ipk
+Filename: tuxbox-common-dev_2+git1062+dbffb970+dbffb97496-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10157,15 +10157,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1061+eaa23980+eaa23985d9-3
+Version: 2+git1062+dbffb970+dbffb97496-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: aad54eb36f61d7b9b73ffaab536329f7
-SHA256sum: 0cbe129451386daca7d83a1e94d3b33216d8ea695bd5d4afabcbc9940d256c17
-Size: 72138
-Filename: tuxbox-common_2+git1061+eaa23980+eaa23985d9-3_all.ipk
+MD5Sum: 78550a0cecf3503eabe90f11935a3266
+SHA256sum: 2d144a4eb1b204d6d63bfbdb29df906cdf83ca4e267ea630cb3ae1252638c808
+Size: 72136
+Filename: tuxbox-common_2+git1062+dbffb970+dbffb97496-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
