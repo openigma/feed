@@ -10080,8 +10080,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -10097,8 +10097,8 @@ Recommends: enigma2-plugin-extensions-streamlink-dev, python3-core-dev, streamli
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: d9773010e7f863df415820c479954b49
-SHA256sum: dbfe7584954b7108785ec9b036f4f571d2fd0747626123d2f158cffc1c90ecfb
+MD5Sum: e1646a4766a3ecce0f0e34bacadb4bf9
+SHA256sum: 0cc44eebb624daa64d408aeb184ba715983c074f114168c4caaf9bad4091c134
 Size: 676
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -10114,9 +10114,9 @@ Depends: enigma2-plugin-extensions-streamlink, python3-core
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: ce327f624bb6a688d14e231ce0af978f
-SHA256sum: 7e51e71421e08bebeb6a51b2e248c3a73a5af3e6a08b272f1ff6c73eca2fb813
-Size: 85906
+MD5Sum: 20a6329d0052dd3f539ff26cc145e86b
+SHA256sum: 91b36667ed7af010612ae02cedcc280cfd5794683ad41929f55f94c8e98bfafc
+Size: 85904
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.4+git-r0
@@ -10126,14 +10126,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1063+f1647100+f1647103cc-3
+Version: 2+git1064+dc2c7490+dc2c749600-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 090e662cc6f3821b02f1d3b7e191ed49
-SHA256sum: 124a829c208dafee5d10fbd315d32e574254793d3d2ef1796bd7ea41af9ce258
+MD5Sum: 9cf6c660bbbdd2f03d916c23662abf53
+SHA256sum: 702276c259b918d203f20af8e671f0d15b58599ebe3002408269317502d9408e
 Size: 568
-Filename: tuxbox-common-dbg_2+git1063+f1647100+f1647103cc-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1064+dc2c7490+dc2c749600-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10141,15 +10141,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1063+f1647100+f1647103cc-3
-Recommends: tuxbox-common (>= 2+git1063+f1647100+f1647103cc-3), tuxbox-common (<< 2+git1063+f1647100+f1647103cc-3.0), xz-dev
+Version: 2+git1064+dc2c7490+dc2c749600-3
+Recommends: tuxbox-common (>= 2+git1064+dc2c7490+dc2c749600-3), tuxbox-common (<< 2+git1064+dc2c7490+dc2c749600-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a46ecab8bccd47529aac111c9526bcee
-SHA256sum: 1f87132b7a0ac220b9a64b30c9f68e7b4ccbdcf94d3d7d50756fad0750e936fe
+MD5Sum: 5e0dc6945514b9697c190fe33d2d4960
+SHA256sum: f26414e2ab41918f529d39198fb37c7289a48297c7a758a68fa76b3ca0743a44
 Size: 620
-Filename: tuxbox-common-dev_2+git1063+f1647100+f1647103cc-3_all.ipk
+Filename: tuxbox-common-dev_2+git1064+dc2c7490+dc2c749600-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10157,15 +10157,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1063+f1647100+f1647103cc-3
+Version: 2+git1064+dc2c7490+dc2c749600-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: c35818106de576d0f25e5ad0a8ccc598
-SHA256sum: 2f1e2ac1c0e7e2681a6d2fdd27f98cac9502ed84d05cadbcd7e981d98f223ad6
-Size: 72156
-Filename: tuxbox-common_2+git1063+f1647100+f1647103cc-3_all.ipk
+MD5Sum: 29b91a9c51121a14ae77785f004b79fd
+SHA256sum: d12d8a50e3af6e4d7eee70c3acf3326713a6382dcc3596b4b6caf2dad8cc27ca
+Size: 72138
+Filename: tuxbox-common_2+git1064+dc2c7490+dc2c749600-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
