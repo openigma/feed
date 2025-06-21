@@ -1510,3 +1510,21 @@ Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
 
+Package: wireguard-module
+Version: 1.0.20200520-r0
+Depends: kernel-module-wireguard-3.14-1.17-dm920
+Recommends: kernel-module-xt-hashlimit
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e6384fe4c829747c7a7064d0704ed775
+SHA256sum: db4e19beb1baf2bf74cd846037a9a9876a0576c501e8319c9009c53989cb618b
+Size: 796
+Filename: wireguard-module_1.0.20200520-r0_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
