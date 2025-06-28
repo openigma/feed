@@ -2378,6 +2378,71 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-visualweather-dbg
+Version: 1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 491f5cd9ef7313e2b233a67f1511aae8
+SHA256sum: 412ef0fc2e572acb2667084fc8c8bfb600401c457ca14a0851a1c83389144336
+Size: 664
+Filename: enigma2-plugin-extensions-visualweather-dbg_1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0_all.ipk
+Source: enigma2-plugin-extensions-visualweather.bb
+Description: 15 day weather forecasts by KiddaC - Debugging files
+OE: enigma2-plugin-extensions-visualweather
+HomePage: https://github.com/kiddac/VisualWeather
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-visualweather-dev
+Version: 1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0
+Recommends: enigma2-plugin-extensions-visualweather (= 1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0)
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: db061ff6e18cbd76999025c0aa8a49b4
+SHA256sum: dea92b386cac167d52497df4ed46cb2d49cc20ef297b6f54494848e259f32043
+Size: 700
+Filename: enigma2-plugin-extensions-visualweather-dev_1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0_all.ipk
+Source: enigma2-plugin-extensions-visualweather.bb
+Description: 15 day weather forecasts by KiddaC - Development files
+OE: enigma2-plugin-extensions-visualweather
+HomePage: https://github.com/kiddac/VisualWeather
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-visualweather-src
+Version: 1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: cc52b255c1f7a90b717edb48b111ec92
+SHA256sum: d91b9a9a9258fbe8cee876a016adb76f484d2fdd09431191bcef73ac6e99a7eb
+Size: 11038
+Filename: enigma2-plugin-extensions-visualweather-src_1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0_all.ipk
+Source: enigma2-plugin-extensions-visualweather.bb
+Description: 15 day weather forecasts by KiddaC - Source files
+OE: enigma2-plugin-extensions-visualweather
+HomePage: https://github.com/kiddac/VisualWeather
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-visualweather
+Version: 1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 7912a165d94b93b40a22e6b59563a3eb
+SHA256sum: e02614fbe55ee120d50f78cbe9aea0afa76bbaf0e6751df90c87f53aacafc325
+Size: 2275686
+Filename: enigma2-plugin-extensions-visualweather_1.10-20241030-git12+d4bfa9c0+d4bfa9c8d0-r0_all.ipk
+Source: enigma2-plugin-extensions-visualweather.bb
+Description: 15 day weather forecasts by KiddaC
+OE: enigma2-plugin-extensions-visualweather
+HomePage: https://github.com/kiddac/VisualWeather
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-vlcplayer
 Version: 2.0-git5828+928fb4a0+928fb4a03b-r0
 Section: base
