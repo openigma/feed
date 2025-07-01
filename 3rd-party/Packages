@@ -454,6 +454,22 @@ Size: 13991596
 MD5Sum: 6a5937974795f8478b387a8b1b3d7b59
 SHA256sum: b0a2fca3c7b8307e2df12a94f9b51a9a2212f332cea42a0338ddb07d51da8226
 
+Package: enigma2-plugin-extensions-merlinmusicplayer
+Version: 7.6+gitr7789+38d912b0+38d912b4e8-r8
+Description: Merlin Music Player and iDream (music management)
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.open.tv
+Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
+Source: enigma2-plugin-extensions-merlinmusicplayer.bb
+Filename: enigma2-plugin-extensions-merlinmusicplayer_7.6-beta+gitr7789+38d912b0+38d912b4e8-r8_dm920.ipk
+Size: 1023834
+MD5Sum: a824d292cd2a4dba4d5b21219f1cfe02
+
 Package: enigma2-plugin-extensions-mosaic
 Version: 2.1
 Section: extra
