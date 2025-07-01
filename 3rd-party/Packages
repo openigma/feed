@@ -1541,23 +1541,6 @@ Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
 
-Package: streamlinksrv
-Version: 1.8.6
-Depends: python3-core, enigma2-plugin-extensions-streamlink
-Section: devel/python
-Architecture: all
-Maintainer: SatDreamGR
-MD5Sum: fd9282ba1afdaa9a70cc14b0e347addd
-SHA256sum: bd5e88cb6bb7cf3664a5c3e4332021ed03a7763c04ab67e1fd91f574a100c08f
-Size: 4548
-Filename: streamlinksrv_1.8.6_all.ipk
-Source: streamlinksrv.bb
-Description: streamlinksrv is a helper deamon for streamlink
-OE: streamlinksrv
-HomePage: www.satdreamgr.com
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: wireguard-module
 Version: 1.0.20200520-r0
 Depends: kernel-module-wireguard-3.14-1.17-dm920
