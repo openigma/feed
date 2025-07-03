@@ -110,6 +110,23 @@ Size: 86874
 MD5Sum: 6c82d2bb0faa5b3589c1a494aa896436
 SHA256sum: 5bf274b28ba878ddd1e38188cdc6cb648fb8d76cd185805f672d5d6e2f5ea723
 
+Package: enigma2-plugin-extensions-backupsuite
+Version: 3.0-r7
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org> - Lululla
+Description: Enigma2 Plugin: extensions-backupsuite
+Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite
+Source: enigma2-plugin-extensions-backupsuite.bb
+Homepage: https://github.com/Belfagor2005/BackupSuite
+OE: enigma2-plugin-extensions-backupsuite
+License: GPLv3
+Filename: enigma2-plugin-extensions-backupsuite_3.0-r7_all.ipk
+Size: 178454
+MD5Sum: f646f0e1673f47ca96766c7d7aae2fdb
+SHA256sum: b55f9f737816316ee99f20ef7a26a19315eea2e62eef51e97f5a5c9573bccd1b
+
 Package: enigma2-plugin-extensions-birthdayreminder
 Version: gitr7785+3a5b2690+3a5b2697bb-r8
 Section: base
@@ -504,15 +521,15 @@ Version: 4.0
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 Section: extra
 Priority: optional
-Maintainer: jbleyel, ...
+Maintainer: jbleyel, me
 License: GPL-3.0-only
 Architecture: all
-OE: enigma2-plugin-extensions-oaweather
+OE: enigma2-plugin-extensions
 Source: enigma2-plugin-extensions-oaweather.bb
 Filename: enigma2-plugin-extensions-oaweather_4.0_all.ipk
-Size: 1097274
-MD5Sum: 50d335a6c2730ea0d484f31421d4dbdb
-SHA256sum: 40f8ee4e4338e6ab8ae81b58610e09e4793e3416886e2880dad8df21590f4fe5
+Size: 1098440
+MD5Sum: ec91602b31c42d5046934615bdb7873a
+SHA256sum: 9c322966e9632c6ec0f7dafacfa21082a081e54f61a5e6070b7d6c14786334e3
 
 Package: enigma2-plugin-extensions-oscambutler
 Version: 2.0
@@ -660,15 +677,15 @@ MD5Sum: 0cf58435edd93f5f56db18899563dc6c
 SHA256sum: 9ef9bd51f000b03f132441aa6360b1d6f8ae49fecd003e4f08bb169b06c4aa23
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r23
+Version: 1.7.0-r24
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9314ae31ae78f7b2d7e9edfaa3a6f4c0
-SHA256sum: 5cee330225e5759ed8451b3584dbf355404fd56938d61d68fc6f9791b35dbe9d
-Size: 839952
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r23-py3_all.ipk
+MD5Sum: 0411c6f8db400a9adda94a2165d6b310
+SHA256sum: 8401adb002628c34e103f29eaf356ca47450d5925bd1468a9baee6b87e31f62b
+Size: 840872
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r24-py3_all.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions
