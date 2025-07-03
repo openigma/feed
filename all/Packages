@@ -2490,14 +2490,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 5.6+git356+e5bf84c0+e5bf84ce87-r0
+Version: 5.8+git365+5fbebc70+5fbebc7ef4-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: db4cb426e4f6eaff5b8c9f554553ae30
-SHA256sum: de3732d4871582e2e8a5746f91b67ec3bb4f845475ded68f4b53fadd0c17e23f
-Size: 642
-Filename: enigma2-plugin-extensions-worldcam-dbg_5.6+git356+e5bf84c0+e5bf84ce87-r0_all.ipk
+MD5Sum: 1d154944bf384e150d39efc811f795f0
+SHA256sum: f62abbb992938c7e2c309e944879b5ff70229b4c5d399ce081e80222191de970
+Size: 640
+Filename: enigma2-plugin-extensions-worldcam-dbg_5.8+git365+5fbebc70+5fbebc7ef4-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -2506,15 +2506,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 5.6+git356+e5bf84c0+e5bf84ce87-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 5.6+git356+e5bf84c0+e5bf84ce87-r0)
+Version: 5.8+git365+5fbebc70+5fbebc7ef4-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 5.8+git365+5fbebc70+5fbebc7ef4-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a96f899054a3a7fca79c52e178914c81
-SHA256sum: c00a31921edf5b1a981fc6e67862cd125dcaef6e00e5518ed581b993cf390687
+MD5Sum: 7d69ebc1fb0e41e90ab2846ec0243839
+SHA256sum: eae6129067e03be26d37f7463f276a3c1280627a4d42b17bff45926d066156c0
 Size: 676
-Filename: enigma2-plugin-extensions-worldcam-dev_5.6+git356+e5bf84c0+e5bf84ce87-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dev_5.8+git365+5fbebc70+5fbebc7ef4-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -2523,14 +2523,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 5.6+git356+e5bf84c0+e5bf84ce87-r0
+Version: 5.8+git365+5fbebc70+5fbebc7ef4-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 35316c703393302647a5e26e5f1a39fe
-SHA256sum: eb885c1483dab8a71788b231ffd147b53a5dbf76c6c45693890f541514e8982c
-Size: 3651002
-Filename: enigma2-plugin-extensions-worldcam_5.6+git356+e5bf84c0+e5bf84ce87-r0_all.ipk
+MD5Sum: 540f502338c1f3bfb9e92e630b8ef74a
+SHA256sum: d52a8e20186d724dee04f7d34e5e41a9dc088cb0ee71b2fc29171f9cfbb4c7aa
+Size: 3617146
+Filename: enigma2-plugin-extensions-worldcam_5.8+git365+5fbebc70+5fbebc7ef4-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
@@ -10191,14 +10191,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1076+5f270d80+5f270d8224-3
+Version: 2+git1077+0a492130+0a492135f3-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2448aeab9299469532b1b7fde4d34b0d
-SHA256sum: 70348c1dcba90dd32c76c2104a9115aefad0b33bc1c7924b1a79c4d3e977f1f3
+MD5Sum: e90015544cba1d1c0ba4e7a545736749
+SHA256sum: 9f0cd34f71ee608de925dc66bf275643ce6390f8119e35918bdfb4bed2343721
 Size: 568
-Filename: tuxbox-common-dbg_2+git1076+5f270d80+5f270d8224-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1077+0a492130+0a492135f3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10206,15 +10206,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1076+5f270d80+5f270d8224-3
-Recommends: tuxbox-common (>= 2+git1076+5f270d80+5f270d8224-3), tuxbox-common (<< 2+git1076+5f270d80+5f270d8224-3.0), xz-dev
+Version: 2+git1077+0a492130+0a492135f3-3
+Recommends: tuxbox-common (>= 2+git1077+0a492130+0a492135f3-3), tuxbox-common (<< 2+git1077+0a492130+0a492135f3-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2ac5015d0f2b559fd249d6d8c4d756b3
-SHA256sum: 53052b7c818349219b1e81865143ab5d89f03bbd6b2ac826eb98676d473563ba
-Size: 622
-Filename: tuxbox-common-dev_2+git1076+5f270d80+5f270d8224-3_all.ipk
+MD5Sum: fc4b55736d6e2b4283f0ddf2963efe86
+SHA256sum: fa3968107d695c98a3c586040b795469bea3cd0b86f7a808e8d299fb6852b939
+Size: 620
+Filename: tuxbox-common-dev_2+git1077+0a492130+0a492135f3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10222,15 +10222,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1076+5f270d80+5f270d8224-3
+Version: 2+git1077+0a492130+0a492135f3-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 9743f31c7be47b6b5b9c4741cee75b3e
-SHA256sum: a40c5baf362088a6de1f1aad1962afa6669cf05419527dfff36cbc2ec3c9e3b4
-Size: 72040
-Filename: tuxbox-common_2+git1076+5f270d80+5f270d8224-3_all.ipk
+MD5Sum: 361e6b1b22f72d49069cb53986b34c1f
+SHA256sum: 5f43d10b8b9abf097b55cfc675d52803e486dcfd1d8c6c92a1ca17972b4c7c4e
+Size: 71968
+Filename: tuxbox-common_2+git1077+0a492130+0a492135f3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
