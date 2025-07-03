@@ -247,21 +247,19 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-enhancedmoviecenter
-Version: 4.0
-Description: Filemanager MoviePlayer Extentions
-Section: extra
-Priority: optional
-Maintainer: Coolman, Betonme & Swiss-MAD
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-enhancedmoviecenter
-Homepage: https://github.com/oe-mirrors
+Version: 4.0.+git1773+b472d460+b472d46ca3-r0
 Depends: gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-good-flv, python3-chardet, python3-html, python3-json, python3-mutagen, python3-requests, python3-tmdbsimple, rtmpdump
+Section: extra
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Coolman, Betonme & Swiss-MAD
+MD5Sum: 366f9cfc9c93b7e3f7bfb8124eac8510
+Size: 679216
+Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0.+git1773+b472d460+b472d46ca3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-enhancedmoviecenter.bb
-Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0_cortexa15hf-neon-vfpv4.ipk
-Size: 627706
-MD5Sum: 211c71e63a4919f3d01357f2386264e1
-SHA256sum: 819c705fa22d2296a18346149f2be51e931acb97ad5ea1b96e6e2590bf02800f
+Description:  Filemanager MoviePlayer Extensions
+OE: enigma2-plugin-extensions-enhancedmoviecenter
+License: GPL-2.0-only
+Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator
 Version: git3790+a132b610+a132b6120d-r0
