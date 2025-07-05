@@ -306,6 +306,22 @@ Size: 1495046
 MD5Sum: 32a40894e05e8f2babcb535a788ef1f6
 SHA256sum: c57a3c81969a42739f43c0816f5ffb9caeeba886edf2ce50b1f0526ddee3488e
 
+Package: enigma2-plugin-extensions-estalkerwebcontrol
+Version: 1.0
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mnasr
+Description: Add portals and macs through web interface
+Source: enigma2-plugin-extensions-estalkerwebcontrol.bb
+Depends: python3-twisted
+OE: enigma2-plugin-extensions
+License: GPLv2+
+Filename: enigma2-plugin-extensions-estalkerwebcontrol_1.0_all.ipk
+Size: 17404
+MD5Sum: 1d9a5ba976364d1ffa8386fc762baa12
+SHA256sum: c736e658624ba68a9c8539def3d2a30d6a1c26566bedab542144e754bb3606b4
+
 Package: enigma2-plugin-extensions-footonsat
 Version: 1.9
 Section: base
@@ -845,7 +861,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 4.0
+Version: 4.8
 Section: extra
 Priority: optional
 Architecture: all
@@ -854,10 +870,10 @@ Description: Xc Forever plugin, for the free streaming.
 Source: enigma2-plugin-extensions-xcplugin-forever.bb
 Homepage: https://github.com/Belfagor2005/xc_plugin_forever
 OE: enigma2-plugin-extensions
-Filename: enigma2-plugin-extensions-xcplugin-forever_4.0_all.ipk
-Size: 1224
-MD5Sum: 141d0907a3026b3cce3fd0e4ad47ae86
-SHA256sum: 6332d8afe6c1e3bf31f65ce1d642205fd60171a3005fc12b289764e7bc45d489
+Filename: enigma2-plugin-extensions-xcplugin-forever_4.8_all.ipk
+Size: 1286
+MD5Sum: 0f46fc1263bd218576a8b124d0c8846b
+SHA256sum: 45967b36168e64c3dbb41fd2e3c2c27220fa0e5d46af6490895678c20a979db9
 
 Package: enigma2-plugin-skins-aeonfhd
 Version: 3.4
