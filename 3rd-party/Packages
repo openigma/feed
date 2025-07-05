@@ -686,9 +686,9 @@ Homepage: https://github.com/streamlink/streamlink
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, enigma2-plugin-extensions-streamlink, streamlinksrv
 Source: enigma2-plugin-extensions-streamlink-bouquets.bb
 Filename: enigma2-plugin-extensions-streamlink-bouquets_7.4.0_cortexa15hf-neon-vfpv4.ipk
-Size: 29680
-MD5Sum: 0cf58435edd93f5f56db18899563dc6c
-SHA256sum: 9ef9bd51f000b03f132441aa6360b1d6f8ae49fecd003e4f08bb169b06c4aa23
+Size: 29670
+MD5Sum: cde28fcbf2601a4a7b189e852a8a2876
+SHA256sum: 26b55b90d3e0d5ebd2193f3e8937b5829e191fe97e572e0c9953733b01707ea7
 
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r24
@@ -1515,7 +1515,7 @@ Provides: libssl1.0.2, libssl10
 Source: openssl10_1.0.2u.bb
 Filename: libssl1.0.2_1.0.2u-r0_dm920.ipk
 Size: 140772
-MD5Sum: 9a9d334cf34409c65294df6e75f2ea0f
+MD5Sum: 9a9d334cf34409c65294df6e7529670f2ea0f
 
 Package: libswresample4
 Version: 6.1.1-r3
@@ -1571,6 +1571,23 @@ Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
 Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
+
+Package: streamlinksrv
+Version: 1.8.6
+Description: streamlinksrv is a helper deamon for streamlink
+Section: devel/python
+Priority: optional
+Maintainer: SatDreamGR
+License: GPL-2.0-or-later
+Architecture: all
+OE: streamlinksrv
+Homepage: www.satdreamgr.com
+Depends: python3-core, enigma2-plugin-extensions-streamlink
+Source: streamlinksrv.bb
+Filename: streamlinksrv_1.8.6_all.ipk
+Size: 4552
+MD5Sum: d6ed1077df92152bebea27b6e10ca1ef
+SHA256sum: 4277ae4d75221da2dd8ea26875a1c4e80ac7249fa4c7300f73bdd1c9e5b8a19c
 
 Package: wireguard-module
 Version: 1.0.20200520-r0
