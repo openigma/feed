@@ -322,6 +322,22 @@ Size: 17404
 MD5Sum: 1d9a5ba976364d1ffa8386fc762baa12
 SHA256sum: c736e658624ba68a9c8539def3d2a30d6a1c26566bedab542144e754bb3606b4
 
+Package: enigma2-plugin-extensions-fancontrol2
+Version: 2.9
+Description: Temperature dependent fan control
+Section: base
+Priority: optional
+Maintainer: OpenPLi team <info@openpli.org>
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Depends: hdparm, smartmontools
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-fancontrol2_2.9_dm920.ipk
+Size: 113794
+MD5Sum: 55fda03a33a76bf5456facf99196867d
+SHA256sum: fb08afa50672b8b9b88e262c5747b8f72c66a28e026fa04386c59d812a686201
+
 Package: enigma2-plugin-extensions-footonsat
 Version: 1.9
 Section: base
