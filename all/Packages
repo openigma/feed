@@ -654,14 +654,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 0.0-206-g54e7c53-r3
+Version: 1.54-20250520-git206+54e7c530+54e7c53de4-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 0c94398115c3dda77710e9185070677a
-SHA256sum: 8de13ea6026a1f791b4e94bee6e928807806aec7a5df89623b8d94bb002ebe40
-Size: 618
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_0.0-206-g54e7c53-r3_all.ipk
+MD5Sum: 0b4d3eab3527334f7751aa59563d0b9a
+SHA256sum: 0c5c61c7d68ed2debdd38efc73f288d04b285bb071a2c05c24e85cd4ae34c24b
+Size: 632
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.54-20250520-git206+54e7c530+54e7c53de4-r1_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -670,15 +670,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 0.0-206-g54e7c53-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 0.0-206-g54e7c53-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.54-20250520-git206+54e7c530+54e7c53de4-r1
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.54-20250520-git206+54e7c530+54e7c53de4-r1)
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cb1b54fb3ea67ed150d257ec7c35ba6d
-SHA256sum: cf8b70964a631ffcb6e7a6e40a5c3dd3e744a63db0bc340e429f2b858b771490
-Size: 678
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_0.0-206-g54e7c53-r3_all.ipk
+MD5Sum: 1b98f9619af8b86a89864140e3969715
+SHA256sum: 9a3e8f07cfb62589ca027e2bd615f0764bfd0603f242c97e5055040c220681b7
+Size: 670
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.54-20250520-git206+54e7c530+54e7c53de4-r1_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -686,16 +686,31 @@ HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-bouquetmakerxtream-src
+Version: 1.54-20250520-git206+54e7c530+54e7c53de4-r1
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: d684fced71835acdf6d4e16016d8f48c
+SHA256sum: 0d8f393325b3f92db11d6f6a231eb74166ea0d81f0c8e8d3af881b3a00ed8be8
+Size: 55526
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-src_1.54-20250520-git206+54e7c530+54e7c53de4-r1_all.ipk
+Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
+Description: IPTV bouquet maker - Source files
+OE: enigma2-plugin-extensions-bouquetmakerxtream
+HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 0.0-206-g54e7c53-r3
-Depends: python3, python3-pillow, python3-requests
+Version: 1.54-20250520-git206+54e7c530+54e7c53de4-r1
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 52ff7f55bef767022487beb477d91fd5
-SHA256sum: 08f41e3987b753054db54c434ed406fa33afe96cbd49f0dedb53fd3354273722
-Size: 1294784
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_0.0-206-g54e7c53-r3_all.ipk
+MD5Sum: 22677b5353faab786a17e3eedf550c49
+SHA256sum: 9bc033b9d518ed4c5e2e49df42055d285de96e159956fdea1af9d51334b07470
+Size: 1396812
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.54-20250520-git206+54e7c530+54e7c53de4-r1_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
