@@ -1,3 +1,51 @@
+Package: dab-cmdline-sdgradio
+Version: 1.3+git343+22152fa0+22152fa509-r1
+Depends: faad2 (>= 2.11.2+git0+673a22a3c7), libc6 (>= 2.41), libfftwf (>= 3.3.10), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), rtl-sdr
+Section: libs/multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc3f8999bb7112a507ac85f561ead4f4
+SHA256sum: 0bd24d3f4b13a0e4651b463f89273f11158182099161e371a07ca37d631dafc4
+Size: 122910
+Filename: dab-cmdline-sdgradio_1.3+git343+22152fa0+22152fa509-r1_cortexa15hf-neon-vfpv4.ipk
+Source: dab-cmdline-sdgradio.bb
+Description: DAB decoding library with example of its use
+OE: dab-cmdline-sdgradio
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: dab-cmdline-sdgradio-pcm
+Version: 1.3+git343+22152fa0+22152fa509-r1
+Depends: faad2 (>= 2.11.2+git0+673a22a3c7), libc6 (>= 2.41), libfftwf (>= 3.3.10), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), rtl-sdr
+Section: libs/multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 52c7b044f743633ad2ff9a7b3d5c8012
+SHA256sum: e17a51e80e146f5a3e6409786d33ec1491e70935ba290804f93cbfed6b7f92a3
+Size: 122904
+Filename: dab-cmdline-sdgradio-pcm_1.3+git343+22152fa0+22152fa509-r1_cortexa15hf-neon-vfpv4.ipk
+Source: dab-cmdline-sdgradio-pcm.bb
+Description: DAB decoding library with example of its use
+OE: dab-cmdline-sdgradio-pcm
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: dab-cmdline-sdgradio-wav
+Version: 1.3+git343+22152fa0+22152fa509-r1
+Depends: faad2 (>= 2.11.2+git0+673a22a3c7), libc6 (>= 2.41), libfftwf (>= 3.3.10), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), rtl-sdr
+Section: libs/multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a641ec7081479c5ce1a70de8e307842a
+SHA256sum: 642139ca6822fad404dbfc8ee0da3288c9ac49c52d4ff657c0676f6c22b4c32a
+Size: 118518
+Filename: dab-cmdline-sdgradio-wav_1.3+git343+22152fa0+22152fa509-r1_cortexa15hf-neon-vfpv4.ipk
+Source: dab-cmdline-sdgradio-wav.bb
+Description: DAB decoding library with example of its use
+OE: dab-cmdline-sdgradio-wav
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-display-skins-pack
 Version: 2.0
 Description: Display Skin Package with 17 Display_Skins
@@ -673,6 +721,23 @@ OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-sdgradio
+Version: 1+git97+d3252840+d325284d07-r3
+Depends: dab-cmdline-sdgradio, dab-cmdline-sdgradio-pcm, dab-cmdline-sdgradio-wav, python3-core, redsea, rtl-sdr
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: SatDreamGR
+MD5Sum: d6df1a6dad28b29f66405d2a723b76e9
+SHA256sum: 72e2a3a6f9378ce33c86ddd5ef3080be20c2a8c167156b6f7ac78d7d6bd1b807
+Size: 170830
+Filename: enigma2-plugin-extensions-sdgradio_1+git97+d3252840+d325284d07-r3_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-sdgradio.bb
+Description: Enigma2 Software Defined Radio
+OE: enigma2-plugin-extensions-sdgradio
+HomePage: http://satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-sherlockmod
 Version: 1.4.2
 Description: Sherlock for Dreambox-Enigma2
@@ -707,15 +772,15 @@ MD5Sum: 0391a5849e8664a7926a768b4e7f7fbe
 SHA256sum: d3feb0cba613697f17ce958854409d65c1eed1c6228fcafaaa35763d04df6a26
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r24
+Version: 1.7.0-r25
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0411c6f8db400a9adda94a2165d6b310
-SHA256sum: 8401adb002628c34e103f29eaf356ca47450d5925bd1468a9baee6b87e31f62b
-Size: 840872
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r24-py3_all.ipk
+MD5Sum: 5802e5c9a427866f1936fc2289ff5508
+SHA256sum: cea54f41523e3173d80ef9d8481f4c92c83576a5eacff6ae3f2b714c69fca165
+Size: 842784
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r25-py3_all.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions
