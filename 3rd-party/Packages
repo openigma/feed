@@ -1274,6 +1274,22 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-xDreamy
+Version: 6.0.0
+Section: base
+Architecture: all
+Maintainer: Mahmoud Hussein
+MD5Sum: 714d2cb942681fad8d45020ec3d8ea50
+SHA256sum: 0bf6cc2a07be8755065a9b238f7559bb6522973c07192ff4dd0b088ece85fcf5
+Size: 20270254
+Filename: enigma2-plugin-skins-xDreamy_6.0.0_all.ipk
+Source: enigma2-plugin-skins-xDreamy.bb
+Depends: curl, wget, python3-image, python3-imaging, python3-pillow, python3-requests, python3-six, python3-urllib3
+Description: Skin xDreamy FHD - New Vision Skin By Inspiron
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-zflatgyr-fhd
 Version: 2.0
 Section: skins
