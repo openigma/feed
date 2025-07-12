@@ -771,6 +771,22 @@ Size: 29820
 MD5Sum: 0391a5849e8664a7926a768b4e7f7fbe
 SHA256sum: d3feb0cba613697f17ce958854409d65c1eed1c6228fcafaaa35763d04df6a26
 
+Package: enigma2-plugin-extensions-streamlinkwrapper
+Version: 7.7
+Description: Enables support for streamlink url scheme in bouquet list.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2-plugin-extensions
+Homepage: https://www.open.tv
+Depends: enigma2, streamlink
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-streamlinkwrapper_7.6-beta+git34354+85897e40+85897e43c8-r0_dm920.ipk
+Size: 2188
+MD5Sum: 932fba3ab6ce2850451f2139524afb8b
+
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r25
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
@@ -968,6 +984,38 @@ Filename: enigma2-plugin-extensions-xcplugin-forever_4.8_all.ipk
 Size: 1286
 MD5Sum: 0f46fc1263bd218576a8b124d0c8846b
 SHA256sum: 45967b36168e64c3dbb41fd2e3c2c27220fa0e5d46af6490895678c20a979db9
+
+Package: enigma2-plugin-extensions-ytdlpwrapper
+Version: 7.7
+Description: Enables support for YT-DLP url scheme in bouquet list.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2-plugin-extensions
+Homepage: https://www.open.tv
+Depends: enigma2, python3-yt-dlp
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-ytdlpwrapper_7.6-beta+git34354+85897e40+85897e43c8-r0_dm920.ipk
+Size: 2322
+MD5Sum: 97af8d3a140673e4e076b80776a55261
+
+Package: enigma2-plugin-extensions-ytdlwrapper
+Version: 7.7
+Description: Enables support for Youtube-DL url scheme in bouquet list.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2-plugin-extensions
+Homepage: https://www.open.tv
+Depends: enigma2, python3-youtube-dl
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-ytdlwrapper_7.6-beta+git34354+85897e40+85897e43c8-r0_dm920.ipk
+Size: 2268
+MD5Sum: 540b62cdf2f3cfadab242046f063b2f9
 
 Package: enigma2-plugin-skins-aeonfhd
 Version: 3.4
