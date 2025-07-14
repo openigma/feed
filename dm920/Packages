@@ -158,9 +158,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c28408c41f82a65caa67b8df5b6dbefe
-SHA256sum: 29d120d4ee76a63ee78290c163c0148e2b3fa812d475f9f5642dea12f4f169c6
-Size: 5281184
+MD5Sum: 3e94e9ea34debc3209db3ea4d38e5704
+SHA256sum: b4e1911401ccedad5b697fd4d27e44adad9e17bc8abcdc8e1c2adc3054c2bd6e
+Size: 5280980
 Filename: directfb-dbg_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -209,9 +209,9 @@ Depends: libc6 (>= 2.41+git0+0c76c95162), libfreetype6 (>= 2.13.3), libgcc1 (>= 
 Section: libs
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5834726ccb3c9f7b58ce36a8d0a08bcc
-SHA256sum: f7be89622b50b8f75adde88d542bba08b267925d346018404aaee3c6c1c53442
-Size: 1292110
+MD5Sum: bca48c9d7f6d0d275ea55baebf422aa9
+SHA256sum: 98d06fee3906c934a6e942af39267c84394d74558ee17fc76fc9b86cf05f1a4d
+Size: 1292112
 Filename: directfb_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device
@@ -350,9 +350,9 @@ Version: GCC-15.1-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: ea3f9fcc94755cf56fa319204ccbc80a
-SHA256sum: 350bb124f89eddefbf67b8ecc276cf8fbf5dcb5d098db205801a1583e497eb8e
-Size: 1274
+MD5Sum: 4e138f03339f1f662a4e0c4822af562e
+SHA256sum: 626ece2dafa8cb18b8655a5f025fb779b25fe6231a6dbabedffdf32629f09f61
+Size: 1272
 Filename: enigma-info_GCC-15.1-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -1273,9 +1273,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: e017f7405a5713f77ab491de23a1ebea
-SHA256sum: 42e218f8ec85142334123a63ff0d3695762d38bf6f3c0307b35cf259216030d0
-Size: 3253988
+MD5Sum: 7324a00ec564e25cf5753594de027a35
+SHA256sum: af5b4dc4252f2a059eab617c97613835f71c0eead90456c5569e5161c385d5b0
+Size: 3253680
 Filename: enigma2-plugin-extensions-openwebif_0.0-237-gf6fc65e-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control Receiver with a Browser
@@ -1569,9 +1569,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ce8aa80a8daf5d832b6f27dc17dc8fa0
-SHA256sum: 7d21ef4cbf2a3ff4682f5422ddfb5130caf9462b3e8da6f068413db8de1c76dc
-Size: 20449498
+MD5Sum: aa6976fd69a1796cd35d67f435a9764c
+SHA256sum: e4920efafaf4b4de7dee7c05f0b58f68a21e15c285cd268291bd4f85e1ce7cf3
+Size: 20449548
 Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git21868+39cc55e0+39cc55edc6-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -2072,9 +2072,9 @@ Depends: enigma2, libc6 (>= 2.41+git0+0c76c95162), libcurl4 (>= 8.14.1), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8464f358cd0fdf95d93285490d9c99df
-SHA256sum: bb6f8a42b7b03be97bc6610c3c1e4448ccef57fafbb172245473c7b5ae5f3d4b
-Size: 314962
+MD5Sum: 20aa17da1375fed639a4ef9d95e9978d
+SHA256sum: c9fca4c04d2bf9242b223f99c745c79f335cc5e4f5d12d7142383ec3526949a3
+Size: 314960
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2636,8 +2636,8 @@ Recommends: enigma2-plugin-skins-pli-hd, glib-networking, glibc-gconv-utf-16, ho
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5e0467c1472d43d0066d273b4ce6acfb
-SHA256sum: 5b0ee85fab246150c04d90395d5d4b40f7646db2da98da5492a75064bf68e078
+MD5Sum: d5c1295a89e131efaefd5103bcc98cbc
+SHA256sum: 533c89ca0be34a7d53b42469144454d2c7b41f64099faedb4c759564c45ae32c
 Size: 10081766
 Filename: enigma2_3.13+git21868+39cc55e0+39cc55edc6-r0_dm920.ipk
 Source: enigma2.bb
@@ -2652,9 +2652,9 @@ Depends: coreutils-realpath, libc6 (>= 2.41+git0+0c76c95162), util-linux-sfdisk
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfdd8bfcb51341341d7c6120220033a9
-SHA256sum: 363e10c0c6ac84636fb6ca974f628be8a7c89c35cee5884b3855c97c9423f5e8
-Size: 30044
+MD5Sum: e06809216a8c10e87bcdd3b3eb2d6897
+SHA256sum: f64028de4d64074f3e79e0c6716b8055acf2a8b74f752c675de9c275e44350c1
+Size: 30038
 Filename: flash-scripts_1.1+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.1.bb
 Description: Command-line tools to flash and recover your Dreambox
@@ -22217,9 +22217,9 @@ Recommends: freetype-dbg, glibc-dbg, json-c-dbg
 Section: devel
 Architecture: dm920
 Maintainer: oe-alliance
-MD5Sum: 72711ef0cd36ef40a20fc076ea463538
-SHA256sum: debf369d0a7c09064b8a80f3fb9dadfadd4b588e137da29187f80ce7b56c7d5f
-Size: 123964
+MD5Sum: 1832cd2cd87029845bff94542e7687eb
+SHA256sum: d18d0e7b03ec4e9e9b28ea81786cd70625bca87b302a2309cee3d58d5369862f
+Size: 123966
 Filename: openmultiboot-dbg_1.0+git124+fd923630+fd92363885-r0_dm920.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2 - Debugging files
@@ -22249,8 +22249,8 @@ Depends: libc6 (>= 2.41+git0+0c76c95162), libfreetype6 (>= 2.13.3), libjson-c5 (
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance
-MD5Sum: 58ce607468806cbdf5af87f08e993be4
-SHA256sum: d9a367738b22561d82ad99291abcce9e06aae8368458657860059a9f17e7c4ad
+MD5Sum: a2685213a24aa8f28d2c6f14b029a179
+SHA256sum: dd6c78f8dc49187303b20f1341146cb16f7cfc8380c80e49bc88409f123a688c
 Size: 47480
 Filename: openmultiboot_1.0+git124+fd923630+fd92363885-r0_dm920.ipk
 Source: openmultiboot.bb
@@ -23033,9 +23033,9 @@ Recommends: glibc-dbg, libudev-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 705acb41092d1a1ecdf53bfffd50305c
-SHA256sum: f4131364cb3e12f854760d3d579ea265015b8baccda03770c03f5be2499f17ce
-Size: 47676
+MD5Sum: d003f3e01956d09e7224226785dd0387
+SHA256sum: b57dfb76ea344d1905e9c0c1b8d9e734c638944decc524808c8cd3c1dbf65b63
+Size: 47674
 Filename: recovery-dbg_1.1+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.1.bb
 Description: Command-line tools to flash and recover your Dreambox - Debugging files
@@ -23068,9 +23068,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b77d797fa873c16fbbf10db3b33f2ec5
-SHA256sum: 20722ad4461f848a9575c1171526368865dbbb3aaf4674033f109fb685b35784
-Size: 28734
+MD5Sum: 8a63c56fcd102c984881bfd5b4c76480
+SHA256sum: 6e33c959bd4da477d79a9bcc323bd224b74da0307aecf98ac2d4aecf632a6e06
+Size: 28726
 Filename: recovery_1.1+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.1.bb
 Description: Command-line tools to flash and recover your Dreambox
@@ -23085,9 +23085,9 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3dfa2d7ef40a39bf23375e6b40792835
-SHA256sum: 236d57b2b70fd965ae95e951be8924e8b200b12bdece2185707fb2f0febe5dfe
-Size: 378486
+MD5Sum: 3ed601b62401df44b2e664694b983146
+SHA256sum: 0bec2c90a6c79c01a4d8f542a143aad32cdc9258518e88f5c30e896fbb9f138a
+Size: 378502
 Filename: satipclient-dbg_1.0+git97+1c2ef4c0+1c2ef4c136-r0_dm920.ipk
 Source: satipclient.bb
 Description: satip client using vtuner - Debugging files
@@ -23118,9 +23118,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4310fcfd93fbe09a1bb1a50d784b74de
-SHA256sum: b2d9f9595ccde92362c07eed99709721e56a338cbf67c4c6e64664d743068116
-Size: 40862
+MD5Sum: 1321837e2232c0fc8139499fed71aa61
+SHA256sum: 407ff62f338649c5a183e0fcc1d5eff6e5ea6bbe510db9a1c9955b43751e3ce2
+Size: 40864
 Filename: satipclient_1.0+git97+1c2ef4c0+1c2ef4c136-r0_dm920.ipk
 Source: satipclient.bb
 Description: satip client using vtuner
@@ -23230,9 +23230,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 442a2e72c8ad952de2fba17de6468763
-SHA256sum: 3c0af09b5d58427685f8438d426bc073cc767af9b3a45e2f874d4382533a9d95
-Size: 169624
+MD5Sum: 4d268a10d345d17803d3ce27e859f2b5
+SHA256sum: 4f51219b3dd1c7b1a0e6688f65b7e602ea101a554f2187f348c74acf3214a72f
+Size: 169644
 Filename: wireguard-tools-dbg_1.0.20250521-r2_dm920.ipk
 Source: wireguard-tools_1.0.20250521.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN - Debugging files
@@ -23281,9 +23281,9 @@ Recommends: kernel-module-wireguard, openresolv, wireguard-module
 Section: networking
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e48a5b59629a9dda00f0772eedcb0713
-SHA256sum: 6ed98aa8297944d7c5a16f58663fbcf13ddd3c3c6b91c6c183fb88ff472262c9
-Size: 45668
+MD5Sum: e748260de1c0450a13804a6529119b2c
+SHA256sum: df565a789e9fabe791b37fbb0f0bc484668eb9ad6f8be24b127fcccdad210796
+Size: 45670
 Filename: wireguard-tools_1.0.20250521-r2_dm920.ipk
 Source: wireguard-tools_1.0.20250521.bb
 Description: WireGuard is an extremely simple yet fast and modern VPN
