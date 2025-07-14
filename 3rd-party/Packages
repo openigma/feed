@@ -579,6 +579,20 @@ Size: 40584
 MD5Sum: 046a25262d7cf13e0538cb690f59afdc
 SHA256sum: 0606e963adbe489f3fdeb133b7ba3d2db28542ee3ce7b457d4a06c9783fa97d1
 
+Package: enigma2-plugin-extensions-moviesmanager
+Version: 4.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: ostende
+Description: Movies & Series Manager Plugin
+Depends: python3-beautifulsoup4, python3-difflib, python3-imaging, python3-pillow
+Source: enigma2-plugin-extensions-moviesmanager.bb
+Filename: enigma2-plugin-extensions-moviesmanager_4.0_all.ipk
+Size: 523366
+MD5Sum: 7fb627fe5650da0b99d6a855a810c831
+SHA256sum: f946143c30bf8f841679acfa11165744a9de8f72aaa16e5e1d2a66f04b57377f
+
 Package: enigma2-plugin-extensions-ngsetting-fhd
 Version: 2.9
 Section: extra
