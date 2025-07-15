@@ -159,6 +159,24 @@ OE: channelsettings-enigma2-meta
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: dabstreamer
+Version: 0.1+git17+8d84fef0+8d84fef64b-r0
+Depends: eti-tools, python3-core, tsniv2ni
+Recommends: update-rc.d
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR
+MD5Sum: 5c726a990c542762c14672fd383583f7
+SHA256sum: b25ca7cdb513c54ffa3c324fc93c1c4a0a61ce21e5d18b43934a029724eb8ec0
+Size: 3850
+Filename: dabstreamer_0.1+git17+8d84fef0+8d84fef64b-r0_all.ipk
+Source: dabstreamer.bb
+Description: DAB Streamer for Enigma2
+OE: dabstreamer
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: dvb-usb-drivers-meta
 Version: 1.1-r0
 Section: base
@@ -590,24 +608,6 @@ Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
 HomePage: https://github.com/kiddac/Bouquet_Maker_Xtream
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-dabstreamer
-Version: 0.1+git17+8d84fef0+8d84fef64b-r0
-Depends: eti-tools, python3-core, tsniv2ni
-Recommends: update-rc.d
-Section: devel/python
-Architecture: all
-Maintainer: SatDreamGR
-MD5Sum: 54001e801a2a48ccd40c73e8cec2c8f8
-SHA256sum: e239ae40178852c20c2278aabd5f69bbd868cda7a50adccd35f3cb5700e85168
-Size: 3872
-Filename: enigma2-plugin-extensions-dabstreamer_0.1+git17+8d84fef0+8d84fef64b-r0_all.ipk
-Source: enigma2-plugin-extensions-dabstreamer.bb
-Description: DAB Streamer for Enigma2
-OE: enigma2-plugin-extensions-dabstreamer
-HomePage: www.satdreamgr.com
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -8876,8 +8876,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 22262891f2bb25355140524e75bdd84f
-SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
+MD5Sum: cfee8a0b75136af0650ec32c5d768148
+SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -8889,13 +8889,13 @@ Priority: optional
 
 Package: streamlinksrv-dev
 Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
-Recommends: enigma2-plugin-extensions-streamlink-dev, python3-core-dev, streamlinksrv (= 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0)
+Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0)
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: e1646a4766a3ecce0f0e34bacadb4bf9
-SHA256sum: 0cc44eebb624daa64d408aeb184ba715983c074f114168c4caaf9bad4091c134
-Size: 676
+MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
+SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.4+git-r0 - Development files
@@ -8906,13 +8906,13 @@ Priority: optional
 
 Package: streamlinksrv
 Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
-Depends: enigma2-plugin-extensions-streamlink, python3-core
+Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 20a6329d0052dd3f539ff26cc145e86b
-SHA256sum: 91b36667ed7af010612ae02cedcc280cfd5794683ad41929f55f94c8e98bfafc
-Size: 85904
+MD5Sum: 109007903a74235339cbbaea976943c1
+SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.4+git-r0
