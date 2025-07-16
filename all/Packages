@@ -562,14 +562,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3
+Version: 1.57-20250714-git209+f0246ec0+f0246ecd01-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8d5dda45911e9e94091f4bf2c3f7a1e6
-SHA256sum: c1c36d11bb99df2e748ff7b2817eae75c76dd49258be60860dd61471c2ab19be
+MD5Sum: 5e1e203f6803b2bae225d43685b72450
+SHA256sum: 2d8b3bc89d47a8edf2329e9744fde442cba80c3433e0c11b14714ade44da337b
 Size: 634
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.57-20250714-git209+f0246ec0+f0246ecd01-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -578,15 +578,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.57-20250714-git209+f0246ec0+f0246ecd01-r3
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.57-20250714-git209+f0246ec0+f0246ecd01-r3), python3-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cb9f6005d02edc1c1bbd403133e957d3
-SHA256sum: 6e3c7d71bff6513c0fe9259f8c32a43a27ff93ed6caeabf2586af4ee05203921
-Size: 694
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3_all.ipk
+MD5Sum: 151ba728fdb5da89e892cc35ca74d07e
+SHA256sum: dcea888fdb738328f575689f0e9b8ecddc1b5064a7e5d66e4d54048a1e5c77eb
+Size: 692
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.57-20250714-git209+f0246ec0+f0246ecd01-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -595,15 +595,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3
+Version: 1.57-20250714-git209+f0246ec0+f0246ecd01-r3
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 288ab6214ac4318482480802c6df8b4c
-SHA256sum: 82fae25a225baea09da8727280a6516281b856f83f0afa752e679571303678cd
-Size: 1301794
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.57-20250714-git208+fd0f22e0+fd0f22eeb6-r3_all.ipk
+MD5Sum: 64d1bbe06639e5829135394b5f8382ee
+SHA256sum: dc0b1cf987c6e44964d2fac130098d47a64793c6b45f2693ca8cd54ad08408c9
+Size: 1301636
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.57-20250714-git209+f0246ec0+f0246ecd01-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
-Version: 1.0+git51+49d749f0+49d749f433-r0
+Version: 1.0+git52+78421190+7842119d43-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 57d8ebb4de604d4828ba094f1406d4c2
-SHA256sum: 68803a7a843b4934da6cf618808a3b4a1f423568a78358e346b52b1c5b7a3de5
+MD5Sum: 7c683aae2dd5275fcd2a4cb7ffdb511e
+SHA256sum: e8894c8014b9caff4339ef5312b4b5b16cfe4c279af382972d81e346f511c5cb
 Size: 696
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git51+49d749f0+49d749f433-r0_all.ipk
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.0+git52+78421190+7842119d43-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -1229,15 +1229,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dev
-Version: 1.0+git51+49d749f0+49d749f433-r0
-Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git51+49d749f0+49d749f433-r0)
+Version: 1.0+git52+78421190+7842119d43-r0
+Recommends: enigma2-plugin-extensions-stalkerportalconverter (= 1.0+git52+78421190+7842119d43-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 0b061a9f19de0affcbfc2011013d540c
-SHA256sum: 318ce8c94ad643007598b791a12df9591828f71e55056d406655540604af2398
-Size: 734
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git51+49d749f0+49d749f433-r0_all.ipk
+MD5Sum: ef703e3d7132367f0a42e21a5f5deaae
+SHA256sum: fb1de3741d05e26826d55a412b07211b47b7a9920f82dd68033cc70514c53f7b
+Size: 736
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.0+git52+78421190+7842119d43-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter - Development files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -1246,14 +1246,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter
-Version: 1.0+git51+49d749f0+49d749f433-r0
+Version: 1.0+git52+78421190+7842119d43-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 79a91c63903e93048adbd10f30d511d2
-SHA256sum: 958826509be99119df37bf491ae9450cc6bf2222a18721cd14eb2177e0853814
-Size: 117962
-Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git51+49d749f0+49d749f433-r0_all.ipk
+MD5Sum: 5d37a439047b972b9ae7f837598b9c45
+SHA256sum: acae135fd4b7c4544e77233976f8861469532a1981aff5be96b6908392c1d916
+Size: 120374
+Filename: enigma2-plugin-extensions-stalkerportalconverter_1.0+git52+78421190+7842119d43-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: Stalker Portal Playlist Converter
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -1311,14 +1311,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.38+git284+f41b45a0+f41b45ae6e-r0
+Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 08404f99a850ed2221bb7d3218162ea2
-SHA256sum: 2ec2b257d4973577af6c5216fcd21cdb249cadcade2b6ea69ecb63bb4473860d
+MD5Sum: c8ea9c61bb5e9e8d3fc6012365bc2470
+SHA256sum: 1406e75069c56a32cd7894648f838a34860ed1881b05779c7063bd2c63abd7d1
 Size: 628
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git284+f41b45a0+f41b45ae6e-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -1327,15 +1327,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.38+git284+f41b45a0+f41b45ae6e-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git284+f41b45a0+f41b45ae6e-r0)
+Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git286+4e9903a0+4e9903ad4d-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 520602c14db1f0b8eb97f5173f860675
-SHA256sum: ac52db0e64978b4d17c52deb6a21ca2e8a1208e0bc9577a43599b2c4e0d00ada
+MD5Sum: 55819abcd27d870b4d9c335d83dde3fc
+SHA256sum: 619556acdf793a78a48951e3fa1dd96c3ea3587d9474ac42f1883340fa2e4672
 Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git284+f41b45a0+f41b45ae6e-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -1393,14 +1393,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.38+git284+f41b45a0+f41b45ae6e-r0
+Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3a42a8390209fb1c66c820b6c6bdbdb6
-SHA256sum: ee99a0a2a359a81cb98cd311e899917cfe8006f4f9dded30289348470abf18e1
-Size: 5478670
-Filename: enigma2-plugin-extensions-vavoo_1.38+git284+f41b45a0+f41b45ae6e-r0_all.ipk
+MD5Sum: 9ceb4994382c97c4eb80685e3fb99e0a
+SHA256sum: b2cf861fcecaabc917bc0fbf58f2f591924164f126b4cac0eb78ae3153d092f9
+Size: 5478682
+Filename: enigma2-plugin-extensions-vavoo_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream
 OE: enigma2-plugin-extensions-vavoo
@@ -8922,14 +8922,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1088+9bda4ba0+9bda4baa67-3
+Version: 2+git1089+7a216a50+7a216a5cd4-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4c03841f4d2bbd29447a32bf499f9cc6
-SHA256sum: de8f80c31aa6c9fa2de7692bbd5f896000e5931b669bcea2973452c593ba7450
-Size: 568
-Filename: tuxbox-common-dbg_2+git1088+9bda4ba0+9bda4baa67-3_all.ipk
+MD5Sum: 06bccf29dc650ea7dc5498788b248c21
+SHA256sum: 800317b40b5b97942af288fa2a4884218e35ded5e4e6f03d39e65097c734fcbb
+Size: 570
+Filename: tuxbox-common-dbg_2+git1089+7a216a50+7a216a5cd4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -8937,15 +8937,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1088+9bda4ba0+9bda4baa67-3
-Recommends: tuxbox-common (>= 2+git1088+9bda4ba0+9bda4baa67-3), tuxbox-common (<< 2+git1088+9bda4ba0+9bda4baa67-3.0), xz-dev
+Version: 2+git1089+7a216a50+7a216a5cd4-3
+Recommends: tuxbox-common (>= 2+git1089+7a216a50+7a216a5cd4-3), tuxbox-common (<< 2+git1089+7a216a50+7a216a5cd4-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f745e78117fb590f69c03d725be14623
-SHA256sum: d927932659500e4631d1b6863daf82a7205e2e12ab6fa9682657e32ff5bc7aa9
-Size: 620
-Filename: tuxbox-common-dev_2+git1088+9bda4ba0+9bda4baa67-3_all.ipk
+MD5Sum: bbb5fea55c77375d3a8dc7987ff2bf51
+SHA256sum: 5063d84967c1c260ead57b295564a20dc960ecd1cbd3d002bd757de2facc88d3
+Size: 622
+Filename: tuxbox-common-dev_2+git1089+7a216a50+7a216a5cd4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -8953,15 +8953,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1088+9bda4ba0+9bda4baa67-3
+Version: 2+git1089+7a216a50+7a216a5cd4-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: db8955fa829f2cf2ea9cee86018d4523
-SHA256sum: 26aed94409d754433bfe0d2cfde2d7ff8e67ad9bb9ed52e09611c8c3e217d1f1
-Size: 72060
-Filename: tuxbox-common_2+git1088+9bda4ba0+9bda4baa67-3_all.ipk
+MD5Sum: 0fc8bd7f82c380b561e3ce0b0ce01430
+SHA256sum: b24c40402b212d357cf571cf651174754371fe40c300d9f87fe97f3dc9c7d877
+Size: 72004
+Filename: tuxbox-common_2+git1089+7a216a50+7a216a5cd4-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
