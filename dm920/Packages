@@ -95,9 +95,9 @@ Version: 3.0.14-r0
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2249a9f4ebbe1f803c81e688b8602370
-SHA256sum: 0178915f1f50aa14626b737db3cab9fbe153f8b9fce2645d2084bcf8996b5928
-Size: 3648
+MD5Sum: e31405ee0404d7f110855e17902037d2
+SHA256sum: 946396e8523225cc6b320ce4452076bf7309ce6ab474e0bc977e723b54d89dc3
+Size: 3656
 Filename: base-files_3.0.14-r0_dm920.ipk
 Source: base-files_3.0.14.bb
 Description: Miscellaneous files for the base system
@@ -346,14 +346,14 @@ License: CLOSED
 Priority: required
 
 Package: enigma-info
-Version: GCC-15.1-r0
+Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 39e5e66292ce8b054206cb055a2ed432
-SHA256sum: 24d98f604e1750b917fb3a953241eb71921db64fccec1d6897c46efa856580f9
-Size: 1270
-Filename: enigma-info_GCC-15.1-r0_dm920.ipk
+MD5Sum: 248b222b2da6cc97054093310ff63b3e
+SHA256sum: 96133bc020a561da24305b3a4d40bdde6f000165de1abf26ffed2f1ac8cc6f98
+Size: 1260
+Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
