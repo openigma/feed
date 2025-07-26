@@ -481,22 +481,6 @@ HomePage: https://github.com/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-iptvstreamlink
-Version: 1.0
-Description: Enigma2 Plugin IPTV Streamlink
-Section: extra
-Priority: optional
-Maintainer: pcd@linuxsat-support.com
-Architecture: all
-OE: enigma2-plugin-extensions
-Homepage: pcd@linuxsat-support.com
-Depends: 
-Source: enigma2-plugin-extensions-iptvstreamlink.bb
-Filename: enigma2-plugin-extensions-iptvstreamlink_1.0_r0_all.ipk
-Size: 87292
-MD5Sum: 005cec618194bf85f705e9b1cacf3016
-SHA256sum: 90664c65cdc34d018defe33c63982d5bb974d287c742619a84d7fd66117d0c28
-
 Package: enigma2-plugin-extensions-jedimakerxtream
 Version: 6.38.20241030
 Section: base
@@ -800,23 +784,6 @@ Filename: enigma2-plugin-extensions-streamlink-bouquets_7.5.0_cortexa15hf-neon-v
 Size: 51740
 MD5Sum: be53c04306686a68e29f3bd2102629f7
 SHA256sum: ea6650e92b90ec22c633d193dd5debf2ebcc127f2d7e015545ad0d2696d48929
-
-Package: enigma2-plugin-extensions-streamlinkwrapper
-Version: 1.1
-Description: Enables support for Streamlink url in bouquet list.
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers
-License: GPL-2.0-only
-Architecture: all
-OE: enigma2-plugin-extensions
-Homepage: https://www.open.tv
-Depends: streamlink
-Source: enigma2.bb
-Filename: enigma2-plugin-extensions-streamlinkwrapper_1.1_all.ipk
-Size: 1674
-MD5Sum: 114a5c20b1cedb36f6ab86be8d3b1bff
-SHA256sum: 3487cab51a8ffa85617927b0535f5223d1cd8ee5cb5d05a29323f663b79d96d8
 
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r26
