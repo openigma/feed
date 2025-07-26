@@ -8968,14 +8968,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1095+53aa6a20+53aa6a2268-3
+Version: 2+git1098+243e7cc0+243e7ccd38-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 93e5fa08d2200057fd5bee397f64f89c
-SHA256sum: afa7225153934fdaa5696a7425cbb0f337cc7f2beff6ec2d4b898318afd62fb6
+MD5Sum: 76010a11dad4c696bede0e0b10715c69
+SHA256sum: 96e529e5bd2f67fd0caf7c28569e360c315e195a6000cff67018b1cfe64cd5af
 Size: 568
-Filename: tuxbox-common-dbg_2+git1095+53aa6a20+53aa6a2268-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -8983,15 +8983,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1095+53aa6a20+53aa6a2268-3
-Recommends: tuxbox-common (>= 2+git1095+53aa6a20+53aa6a2268-3), tuxbox-common (<< 2+git1095+53aa6a20+53aa6a2268-3.0), xz-dev
+Version: 2+git1098+243e7cc0+243e7ccd38-3
+Recommends: tuxbox-common (>= 2+git1098+243e7cc0+243e7ccd38-3), tuxbox-common (<< 2+git1098+243e7cc0+243e7ccd38-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: fa889ae24c392c42512832f8f18a2e36
-SHA256sum: ba0a6299da7aa4f3c2030c0d3f27b9b02629c3c9d27ec24bb5cbe28290c85aed
-Size: 622
-Filename: tuxbox-common-dev_2+git1095+53aa6a20+53aa6a2268-3_all.ipk
+MD5Sum: 807b4407dd3c2a7b606a646f5cc6550d
+SHA256sum: 2b2406da2215f9e5550761e33f6f962aaef76ace265212d8721d0116a6efc1e5
+Size: 620
+Filename: tuxbox-common-dev_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -8999,15 +8999,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1095+53aa6a20+53aa6a2268-3
+Version: 2+git1098+243e7cc0+243e7ccd38-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 62b4a1ab83b6156c9d0ef711e8fa56f6
-SHA256sum: 67690bb9cb0da9ca85f1a7a84b57603d913afb44a98f5c4fb01d05287f39c4cf
+MD5Sum: 67d85a531f508e97b2d397a8cfe8834d
+SHA256sum: 1c1baff7351b75e6aa47189c24ab9168526f20bbac5eca94e6a0619d7ee634cb
 Size: 72000
-Filename: tuxbox-common_2+git1095+53aa6a20+53aa6a2268-3_all.ipk
+Filename: tuxbox-common_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
@@ -9400,15 +9400,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: wireless-regdb-static
-Version: 2025.02.20-r0
+Version: 2025.07.10-r0
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc58127945b8fc5065ee5c9fefa7261a
-SHA256sum: 5029d75e2f875355c6f2b56860302f3826929ecf11c4fbf1202c8434268fc065
-Size: 4354
-Filename: wireless-regdb-static_2025.02.20-r0_all.ipk
-Source: wireless-regdb_2025.02.20.bb
+MD5Sum: ba6e38e81b582774318964827274d4d4
+SHA256sum: 302ebcfd5a417201ef96363149af81fdf0fba182a9fee27cf64c9ded3d2e9fa1
+Size: 4416
+Filename: wireless-regdb-static_2025.07.10-r0_all.ipk
+Source: wireless-regdb_2025.07.10.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
 HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
@@ -9416,17 +9416,17 @@ License: ISC
 Priority: optional
 
 Package: wireless-regdb
-Version: 2025.02.20-r0
+Version: 2025.07.10-r0
 Conflicts: wireless-regdb-static
 Suggests: crda
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9759578e7e78e6ce23d7f1c96830c11f
-SHA256sum: b344bedaaf27bc022ca170fb1200acd72a9f54ecb2ed1e7ab19f631354f11c86
-Size: 4590
-Filename: wireless-regdb_2025.02.20-r0_all.ipk
-Source: wireless-regdb_2025.02.20.bb
+MD5Sum: d8104244d904883168dfa0192f2d0178
+SHA256sum: e50b96580721cca99b5972b66eaedc829a54a549408d1c805e1fa3dee172690f
+Size: 4658
+Filename: wireless-regdb_2025.07.10-r0_all.ipk
+Source: wireless-regdb_2025.07.10.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
 HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda

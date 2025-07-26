@@ -339,7 +339,7 @@ Size: 20600
 MD5Sum: 441af9799e455b14f11e550ea3d12f8c
 
 Package: enigma2-plugin-extensions-estalker
-Version: 0.24.20250721
+Version: 0.26.20250725
 Section: misc
 Priority: optional
 Architecture: all
@@ -349,10 +349,10 @@ Recommends: python3-requests python3-pillow python3-multiprocessing
 Source: enigma2-plugin-extensions-estalker.bb
 HomePage: https://github.com/kiddac
 OE: enigma2-plugin-extensions
-Filename: enigma2-plugin-extensions-estalker_0.24.20250721_all.ipk
-Size: 1515702
-MD5Sum: b8cbf89de2f28cfe9d7c9af4427cbbd0
-SHA256sum: b381433956a485ff107c124ed1b78e7b827b9d2895f9112a815c4a5dee44607b
+Filename: enigma2-plugin-extensions-estalker_0.26.20250725_all.ipk
+Size: 1568686
+MD5Sum: 45d1b52574804ce1ca2f8a789a26670b
+SHA256sum: 1ff8a6a29cd65c42ea6b682a381fd6c09a4fd48ce748cb79a950a12c2e8b2efa
 
 Package: enigma2-plugin-extensions-estalkerwebcontrol
 Version: 1.0
@@ -480,6 +480,22 @@ OE: enigma2-plugin-extensions
 HomePage: https://github.com/
 License: GPL-2.0-or-later
 Priority: optional
+
+Package: enigma2-plugin-extensions-iptvstreamlink
+Version: 1.0
+Description: Enigma2 Plugin IPTV Streamlink
+Section: extra
+Priority: optional
+Maintainer: pcd@linuxsat-support.com
+Architecture: all
+OE: enigma2-plugin-extensions
+Homepage: pcd@linuxsat-support.com
+Depends: 
+Source: enigma2-plugin-extensions-iptvstreamlink.bb
+Filename: enigma2-plugin-extensions-iptvstreamlink_1.0_r0_all.ipk
+Size: 87292
+MD5Sum: 005cec618194bf85f705e9b1cacf3016
+SHA256sum: 90664c65cdc34d018defe33c63982d5bb974d287c742619a84d7fd66117d0c28
 
 Package: enigma2-plugin-extensions-jedimakerxtream
 Version: 6.38.20241030
@@ -785,16 +801,33 @@ Size: 51740
 MD5Sum: be53c04306686a68e29f3bd2102629f7
 SHA256sum: ea6650e92b90ec22c633d193dd5debf2ebcc127f2d7e015545ad0d2696d48929
 
+Package: enigma2-plugin-extensions-streamlinkwrapper
+Version: 1.1
+Description: Enables support for Streamlink url in bouquet list.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-plugin-extensions
+Homepage: https://www.open.tv
+Depends: streamlink
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-streamlinkwrapper_1.1_all.ipk
+Size: 1674
+MD5Sum: 114a5c20b1cedb36f6ab86be8d3b1bff
+SHA256sum: 3487cab51a8ffa85617927b0535f5223d1cd8ee5cb5d05a29323f663b79d96d8
+
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r25
+Version: 1.7.0-r26
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5802e5c9a427866f1936fc2289ff5508
-SHA256sum: cea54f41523e3173d80ef9d8481f4c92c83576a5eacff6ae3f2b714c69fca165
-Size: 842784
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r25-py3_all.ipk
+MD5Sum: dd80837589d965894a2ab5045d18f453
+SHA256sum: f525acc9825aac732d93415d530361d7e67952e127e48e025957062cc389f58a
+Size: 842476
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r26-py3_all.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions
@@ -967,6 +1000,21 @@ OE: enigma2-plugin-extensions
 HomePage: https://github.com/m4dhouse/Wireguard-Vpn
 License: GPL-2.0-or-later
 Priority: optional
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 4.8
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Lululla <ekekaz@gmail.com>
+Description: Xc Forever plugin, for the free streaming
+Source: enigma2-plugin-extensions-xcplugin-forever.bb
+Homepage: https://github.com/Belfagor2005/xc_plugin_forever
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-xcplugin-forever_4.8_all.ipk
+Size: 1286
+MD5Sum: 0f46fc1263bd218576a8b124d0c8846b
+SHA256sum: 45967b36168e64c3dbb41fd2e3c2c27220fa0e5d46af6490895678c20a979db9
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
 Version: 7.7
