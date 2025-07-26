@@ -1311,14 +1311,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
+Version: 1.38+git287+e546bdb0+e546bdb5cb-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c8ea9c61bb5e9e8d3fc6012365bc2470
-SHA256sum: 1406e75069c56a32cd7894648f838a34860ed1881b05779c7063bd2c63abd7d1
+MD5Sum: abe6e162fdbc9ae2815b040e9445e3c4
+SHA256sum: 5d13596dcd55306005b734119ec7918c70b12040a323994c6c97252775a55fd5
 Size: 628
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.38+git287+e546bdb0+e546bdb5cb-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -1327,15 +1327,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git286+4e9903a0+4e9903ad4d-r0)
+Version: 1.38+git287+e546bdb0+e546bdb5cb-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.38+git287+e546bdb0+e546bdb5cb-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 55819abcd27d870b4d9c335d83dde3fc
-SHA256sum: 619556acdf793a78a48951e3fa1dd96c3ea3587d9474ac42f1883340fa2e4672
+MD5Sum: d1c73b59c57e6726e380338d8439389b
+SHA256sum: 090fd681ea049334943882c7ae65d9f3ab45ffbd9d27fd9b013992cabed029db
 Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dev_1.38+git287+e546bdb0+e546bdb5cb-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -1393,14 +1393,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.38+git286+4e9903a0+4e9903ad4d-r0
+Version: 1.38+git287+e546bdb0+e546bdb5cb-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9ceb4994382c97c4eb80685e3fb99e0a
-SHA256sum: b2cf861fcecaabc917bc0fbf58f2f591924164f126b4cac0eb78ae3153d092f9
-Size: 5478682
-Filename: enigma2-plugin-extensions-vavoo_1.38+git286+4e9903a0+4e9903ad4d-r0_all.ipk
+MD5Sum: 431159d68ef78151cf4a6622aa9a5469
+SHA256sum: 5db0dd26663400b9dd85fa3376edf4d9257c6beea0af7db49d6c25ec517c76f4
+Size: 5479118
+Filename: enigma2-plugin-extensions-vavoo_1.38+git287+e546bdb0+e546bdb5cb-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo stream
 OE: enigma2-plugin-extensions-vavoo
@@ -8968,14 +8968,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1098+243e7cc0+243e7ccd38-3
+Version: 2+git1099+b7fe04d0+b7fe04d007-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 76010a11dad4c696bede0e0b10715c69
-SHA256sum: 96e529e5bd2f67fd0caf7c28569e360c315e195a6000cff67018b1cfe64cd5af
-Size: 568
-Filename: tuxbox-common-dbg_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
+MD5Sum: e762bcaad7925639f4a06d988a854557
+SHA256sum: 7dbbca517f2461e27bffa7f03ebd14c568b5958c3966d8555d1ae7f5b1cabf2a
+Size: 566
+Filename: tuxbox-common-dbg_2+git1099+b7fe04d0+b7fe04d007-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -8983,15 +8983,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1098+243e7cc0+243e7ccd38-3
-Recommends: tuxbox-common (>= 2+git1098+243e7cc0+243e7ccd38-3), tuxbox-common (<< 2+git1098+243e7cc0+243e7ccd38-3.0), xz-dev
+Version: 2+git1099+b7fe04d0+b7fe04d007-3
+Recommends: tuxbox-common (>= 2+git1099+b7fe04d0+b7fe04d007-3), tuxbox-common (<< 2+git1099+b7fe04d0+b7fe04d007-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 807b4407dd3c2a7b606a646f5cc6550d
-SHA256sum: 2b2406da2215f9e5550761e33f6f962aaef76ace265212d8721d0116a6efc1e5
-Size: 620
-Filename: tuxbox-common-dev_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
+MD5Sum: 4b018cccd9ef0276ff1c18e15f91e03d
+SHA256sum: e4365f87b13cc9f726d97285bd82ca393c85a569313696ff2ef66ddaf72fa95b
+Size: 618
+Filename: tuxbox-common-dev_2+git1099+b7fe04d0+b7fe04d007-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -8999,15 +8999,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1098+243e7cc0+243e7ccd38-3
+Version: 2+git1099+b7fe04d0+b7fe04d007-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 67d85a531f508e97b2d397a8cfe8834d
-SHA256sum: 1c1baff7351b75e6aa47189c24ab9168526f20bbac5eca94e6a0619d7ee634cb
-Size: 72000
-Filename: tuxbox-common_2+git1098+243e7cc0+243e7ccd38-3_all.ipk
+MD5Sum: a489744efae9947ef0f11a48aa6d2cf8
+SHA256sum: 7a7c2ba2d41a92904c014f53d333f2e70d1034a5af74343f7c9308eb5d48c2aa
+Size: 72004
+Filename: tuxbox-common_2+git1099+b7fe04d0+b7fe04d007-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
