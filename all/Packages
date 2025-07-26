@@ -758,6 +758,72 @@ OE: enigma2-plugin-extensions-epgimport-sources
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-estalker-dbg
+Version: 1.00-20250726-git16+e6b6a720+e6b6a72815-r1
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 01b6af389873ba0a1dba23ab5d2bb704
+SHA256sum: ce45adf5a37e7227f8acebc5e0b23426b7105712ebc837cd41d272a37c32ac4d
+Size: 628
+Filename: enigma2-plugin-extensions-estalker-dbg_1.00-20250726-git16+e6b6a720+e6b6a72815-r1_all.ipk
+Source: enigma2-plugin-extensions-estalker.bb
+Description: IPTV Ministra stalker player by KiddaC - Debugging files
+OE: enigma2-plugin-extensions-estalker
+HomePage: https://github.com/kiddac/EStalker
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-estalker-dev
+Version: 1.00-20250726-git16+e6b6a720+e6b6a72815-r1
+Recommends: enigma2-plugin-extensions-estalker (= 1.00-20250726-git16+e6b6a720+e6b6a72815-r1), python3-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 332bdb43bbb15203e211621cc696dd5c
+SHA256sum: 3a4a4d29345a051f26fa2551e40ae7449685b08ff92ba4e16f90b191c45fb38d
+Size: 708
+Filename: enigma2-plugin-extensions-estalker-dev_1.00-20250726-git16+e6b6a720+e6b6a72815-r1_all.ipk
+Source: enigma2-plugin-extensions-estalker.bb
+Description: IPTV Ministra stalker player by KiddaC - Development files
+OE: enigma2-plugin-extensions-estalker
+HomePage: https://github.com/kiddac/EStalker
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-estalker-src
+Version: 1.00-20250726-git16+e6b6a720+e6b6a72815-r1
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 7151331197f8102ecefb33dfe5300c52
+SHA256sum: 49047945a8e3bed7c04c29f0214c8ae332e3e467ce3c901a7fe6476936dfe4d8
+Size: 80636
+Filename: enigma2-plugin-extensions-estalker-src_1.00-20250726-git16+e6b6a720+e6b6a72815-r1_all.ipk
+Source: enigma2-plugin-extensions-estalker.bb
+Description: IPTV Ministra stalker player by KiddaC - Source files
+OE: enigma2-plugin-extensions-estalker
+HomePage: https://github.com/kiddac/EStalker
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-estalker
+Version: 1.00-20250726-git16+e6b6a720+e6b6a72815-r1
+Depends: python3, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 9008f1c68a67303a0fef7becefbfcee0
+SHA256sum: 6799583750f5c50cfb3d1923b1abf271582b33ed92e3dfc8662474d606699f29
+Size: 2413556
+Filename: enigma2-plugin-extensions-estalker_1.00-20250726-git16+e6b6a720+e6b6a72815-r1_all.ipk
+Source: enigma2-plugin-extensions-estalker.bb
+Description: IPTV Ministra stalker player by KiddaC
+OE: enigma2-plugin-extensions-estalker
+HomePage: https://github.com/kiddac/EStalker
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-freearhey-dbg
 Version: 3.1+git189+c41bcd00+c41bcd09a9-r0
 Section: devel
