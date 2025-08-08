@@ -759,14 +759,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dbg
-Version: 1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1
+Version: 1.05-20250806-git23+6795f1e0+6795f1ecd6-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b3a128970ddca1b50b54a06ba465aca1
-SHA256sum: 233e9675d69d108e3fc2dd32914e48a459d88e4c85720f6037028a488a0ae6e0
+MD5Sum: 997ea9d50d32f29aa8662155283dd99d
+SHA256sum: f34844f88a2bfd8fe137593f301aea8b4673b1799ff9ff2c2d9b81fe88cb7697
 Size: 630
-Filename: enigma2-plugin-extensions-estalker-dbg_1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1_all.ipk
+Filename: enigma2-plugin-extensions-estalker-dbg_1.05-20250806-git23+6795f1e0+6795f1ecd6-r1_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-estalker
@@ -775,15 +775,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dev
-Version: 1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1
-Recommends: enigma2-plugin-extensions-estalker (= 1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1), python3-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.05-20250806-git23+6795f1e0+6795f1ecd6-r1
+Recommends: enigma2-plugin-extensions-estalker (= 1.05-20250806-git23+6795f1e0+6795f1ecd6-r1), python3-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 87307fa576591471f5887293e3180f3d
-SHA256sum: 2347e6468fa28f6364cd6c324a451dbe72821c1b6dc388152a2d2fc14f9c3697
-Size: 708
-Filename: enigma2-plugin-extensions-estalker-dev_1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1_all.ipk
+MD5Sum: fda6f97a227039b955b6d714abe9f63d
+SHA256sum: c9f3c29b0485c11349e034a71a3c9c21b869dcb091385d17af1385ad722fe14a
+Size: 710
+Filename: enigma2-plugin-extensions-estalker-dev_1.05-20250806-git23+6795f1e0+6795f1ecd6-r1_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
 OE: enigma2-plugin-extensions-estalker
@@ -792,14 +792,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-src
-Version: 1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1
+Version: 1.05-20250806-git23+6795f1e0+6795f1ecd6-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 01bbc715e039a3bba4c7215b841770f9
-SHA256sum: 8464ccf42018735049bbb0fbd26c816edf223399cdf50d7364432555daba72d8
-Size: 81010
-Filename: enigma2-plugin-extensions-estalker-src_1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1_all.ipk
+MD5Sum: 138afa3e846ef465370f6a793db4fe8e
+SHA256sum: a3099105fce6ab30ca0274dfb956dbbdca86b81514a76ca6f0b07ababe5c73fc
+Size: 81002
+Filename: enigma2-plugin-extensions-estalker-src_1.05-20250806-git23+6795f1e0+6795f1ecd6-r1_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
 OE: enigma2-plugin-extensions-estalker
@@ -808,15 +808,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker
-Version: 1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1
+Version: 1.05-20250806-git23+6795f1e0+6795f1ecd6-r1
 Depends: python3, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 29911ad0bfb13a8a474bcd5116101126
-SHA256sum: af5f2939393d8439fb04aa22ea5ec582feb01476c5ab3392d6e13fd0b1963d2c
-Size: 2413568
-Filename: enigma2-plugin-extensions-estalker_1.05-20250806-git22+5f4a80d0+5f4a80dcbd-r1_all.ipk
+MD5Sum: 5b4abafe5f4194599e7b984c66b8cd3e
+SHA256sum: 589e60db7e917d93a95f9de1a4324152cceafb36361fdc8b96e7a2f7661176c3
+Size: 2413894
+Filename: enigma2-plugin-extensions-estalker_1.05-20250806-git23+6795f1e0+6795f1ecd6-r1_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
 OE: enigma2-plugin-extensions-estalker
@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.2+git170+a8e423d0+a8e423d95a-r0
+Version: 1.3+git176+dcfda870+dcfda870f9-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3f8ca3647086f849490a863d871f9acd
-SHA256sum: 4a7dcf8cbee153bc685528a0adc1cca916118d5f477a7c16a00386a0d471fb07
-Size: 596
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.2+git170+a8e423d0+a8e423d95a-r0_all.ipk
+MD5Sum: e4f125976c6fba89ed141481ebab3ace
+SHA256sum: 734700b47d8a7d1a61505d40fc28e671787d1449205bac081738a55979bbd289
+Size: 598
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.2+git170+a8e423d0+a8e423d95a-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.2+git170+a8e423d0+a8e423d95a-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.3+git176+dcfda870+dcfda870f9-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.3+git176+dcfda870+dcfda870f9-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a892dd65271eea65cf2db2f5ec4232ad
-SHA256sum: 9df132edcbcda2870bad58048cba72274976746b714a433f48e236fbcfb9aa6e
+MD5Sum: 644e6ebc1b4389c882ed7b895a1f6001
+SHA256sum: 47b2967ff750473386386c5e397d893ea8e8c37d420173c7f573fdd98c3a5e2d
 Size: 674
-Filename: enigma2-plugin-extensions-raiplay-dev_1.2+git170+a8e423d0+a8e423d95a-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dev_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.2+git170+a8e423d0+a8e423d95a-r0
+Version: 1.3+git176+dcfda870+dcfda870f9-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f4fa59699f05ec410841f47491699d44
-SHA256sum: 916f6f0c1d85a3d60e9049831d0459ee7d270fb161c570d651c115ede5af0aab
-Size: 711112
-Filename: enigma2-plugin-extensions-raiplay_1.2+git170+a8e423d0+a8e423d95a-r0_all.ipk
+MD5Sum: e7e542fc097705ff0710f99729c6265e
+SHA256sum: 10e6905bab6512b254d83c439de290fa3a43164dc1bfef138a808cb1a5301279
+Size: 712008
+Filename: enigma2-plugin-extensions-raiplay_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -1718,14 +1718,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 5.07-20250806-git575+a8c23b40+a8c23b4179-r1
+Version: 5.08-20250807-git576+6bf76300+6bf7630fd2-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 952d4c7a52bba4d4bc8b27130381d088
-SHA256sum: d102e0149b61accf6cd32f77baf6d6def1130656a91edcb8d6022e553a49a37c
+MD5Sum: bb8da3787c9d353f7fae6f4991951d2c
+SHA256sum: 29d9490edba2e3b40e72d6e4bb1a44130ecb646773139861528743c7c5f1aaf5
 Size: 634
-Filename: enigma2-plugin-extensions-xstreamity-dbg_5.07-20250806-git575+a8c23b40+a8c23b4179-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dbg_5.08-20250807-git576+6bf76300+6bf7630fd2-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1734,15 +1734,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 5.07-20250806-git575+a8c23b40+a8c23b4179-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 5.07-20250806-git575+a8c23b40+a8c23b4179-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 5.08-20250807-git576+6bf76300+6bf7630fd2-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 5.08-20250807-git576+6bf76300+6bf7630fd2-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 0e1ec9274d6d16d3ad5df0abb8b78cb0
-SHA256sum: 6bc08bd5b086db2f0d45083d2e6218a149716b154a2ad3ed58a724328611dc27
+MD5Sum: f9ee9b63fc07ab8b882ad3d49462fd45
+SHA256sum: 729eb61a97034fc717ec4ebd784b853bc0d3b9245bb379674706cf0da1bc5fc3
 Size: 706
-Filename: enigma2-plugin-extensions-xstreamity-dev_5.07-20250806-git575+a8c23b40+a8c23b4179-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dev_5.08-20250807-git576+6bf76300+6bf7630fd2-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1751,14 +1751,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 5.07-20250806-git575+a8c23b40+a8c23b4179-r1
+Version: 5.08-20250807-git576+6bf76300+6bf7630fd2-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 92f4d25c81142c2365d13074008548df
-SHA256sum: d9eedf0f0f22814a37b4c04fe486cac8a252c3f33236a53c73e0b0d15d39407b
-Size: 99732
-Filename: enigma2-plugin-extensions-xstreamity-src_5.07-20250806-git575+a8c23b40+a8c23b4179-r1_all.ipk
+MD5Sum: b4b03dca8dfb373270b65167efc34eff
+SHA256sum: b99a4f425a77b9347475525dbb1e031cd4b9201bb85bd5c0fcb5cc4b07971019
+Size: 99758
+Filename: enigma2-plugin-extensions-xstreamity-src_5.08-20250807-git576+6bf76300+6bf7630fd2-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1767,15 +1767,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 5.07-20250806-git575+a8c23b40+a8c23b4179-r1
+Version: 5.08-20250807-git576+6bf76300+6bf7630fd2-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e57438ea334fe84de2e7b07833979745
-SHA256sum: 6653b60cbfd083f69f527f4be9f816a7b699a4ffd12dbdd2a92a9f2320a39eaf
-Size: 3765384
-Filename: enigma2-plugin-extensions-xstreamity_5.07-20250806-git575+a8c23b40+a8c23b4179-r1_all.ipk
+MD5Sum: 73abd9ab56597a60319f9d72eb81e06a
+SHA256sum: 45a0628c71a7a118965aef1b9e645041363fe273f0da25510fafe11de1bdf0c1
+Size: 3761756
+Filename: enigma2-plugin-extensions-xstreamity_5.08-20250807-git576+6bf76300+6bf7630fd2-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
