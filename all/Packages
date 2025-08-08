@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.3+git176+dcfda870+dcfda870f9-r0
+Version: 1.3+git179+edb09bf0+edb09bf49d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e4f125976c6fba89ed141481ebab3ace
-SHA256sum: 734700b47d8a7d1a61505d40fc28e671787d1449205bac081738a55979bbd289
-Size: 598
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
+MD5Sum: 42daa7c1ff7f9dac9f9945dada26c9d6
+SHA256sum: 73ecbaf23e179cf0e097bda55b7a49db746eb6ec9a0aae169702e419f084c458
+Size: 596
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.3+git176+dcfda870+dcfda870f9-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.3+git176+dcfda870+dcfda870f9-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.3+git179+edb09bf0+edb09bf49d-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.3+git179+edb09bf0+edb09bf49d-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 644e6ebc1b4389c882ed7b895a1f6001
-SHA256sum: 47b2967ff750473386386c5e397d893ea8e8c37d420173c7f573fdd98c3a5e2d
-Size: 674
-Filename: enigma2-plugin-extensions-raiplay-dev_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
+MD5Sum: 7c6efde018eaf61c42341b1ed34ddf48
+SHA256sum: ddce990751a06720bc9f36e4a4aa9569d29c9d3ca3fd9be7fd897ed1672eddca
+Size: 672
+Filename: enigma2-plugin-extensions-raiplay-dev_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.3+git176+dcfda870+dcfda870f9-r0
+Version: 1.3+git179+edb09bf0+edb09bf49d-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e7e542fc097705ff0710f99729c6265e
-SHA256sum: 10e6905bab6512b254d83c439de290fa3a43164dc1bfef138a808cb1a5301279
-Size: 712008
-Filename: enigma2-plugin-extensions-raiplay_1.3+git176+dcfda870+dcfda870f9-r0_all.ipk
+MD5Sum: b0da87764fa07e46c7388feb31064489
+SHA256sum: da9801da75489688937c07f0e176da22c856c37721f8cdebb61a6165eae64765
+Size: 1151086
+Filename: enigma2-plugin-extensions-raiplay_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -9035,8 +9035,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9052,8 +9052,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
+SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9069,8 +9069,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 109007903a74235339cbbaea976943c1
-SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+MD5Sum: d08cd4e3c85d5ca46c5638079332623e
+SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
