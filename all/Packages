@@ -1587,14 +1587,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 6.0+git391+a48383c0+a48383cd86-r0
+Version: 6.0+git392+c3169a10+c3169a1d00-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 10fba04a0b4592a7b78f81f7a87da7cc
-SHA256sum: bd4486ef89e2604e8e4e328cac6ef89dd1d88d9a3e98c76a291a0fe06f03d6c8
-Size: 642
-Filename: enigma2-plugin-extensions-worldcam-dbg_6.0+git391+a48383c0+a48383cd86-r0_all.ipk
+MD5Sum: ae8b851339715bd79a86e34afbb56e92
+SHA256sum: 74526aa2f61899bdb0f0d3e15287db46fec7103ae95bff1d31b80d0f12809d58
+Size: 640
+Filename: enigma2-plugin-extensions-worldcam-dbg_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -1603,15 +1603,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 6.0+git391+a48383c0+a48383cd86-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 6.0+git391+a48383c0+a48383cd86-r0)
+Version: 6.0+git392+c3169a10+c3169a1d00-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 6.0+git392+c3169a10+c3169a1d00-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 5758c58692ef6c06d3d69a0735e8d1b6
-SHA256sum: e21a199a30c55053f9896dc3a49ea3696123ce48ea264aa1abfab396efb1a428
+MD5Sum: abc0522058178899fc1c5f1ad2075ce2
+SHA256sum: 440181777745564ae9b8cc29bdedd330ff02184ba20e68c3261e54158c40fbcd
 Size: 676
-Filename: enigma2-plugin-extensions-worldcam-dev_6.0+git391+a48383c0+a48383cd86-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dev_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -1620,14 +1620,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 6.0+git391+a48383c0+a48383cd86-r0
+Version: 6.0+git392+c3169a10+c3169a1d00-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 0e96f6cb930fcdac8d9d43d4764a9f40
-SHA256sum: 2682c84d3eb72006e96b36b92ebaa259fa77fb95a3d8566475fc1ca5fc74e5ea
-Size: 3640616
-Filename: enigma2-plugin-extensions-worldcam_6.0+git391+a48383c0+a48383cd86-r0_all.ipk
+MD5Sum: 70b85a47729db6312cbadb3bd59adb71
+SHA256sum: b558867d1c3ec4902f2bdfcced24f8442b287deec274f734a384caf0edd16d7b
+Size: 3640754
+Filename: enigma2-plugin-extensions-worldcam_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
@@ -9035,8 +9035,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9052,8 +9052,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
+SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9069,8 +9069,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 109007903a74235339cbbaea976943c1
-SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+MD5Sum: d08cd4e3c85d5ca46c5638079332623e
+SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
