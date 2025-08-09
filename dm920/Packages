@@ -158,9 +158,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a17fcae3b659f90df970173314cd439
-SHA256sum: 8d64a56c687d634c68a9432c3aa3b00c37baa00863a6789e59a4140a94777c3e
-Size: 5281366
+MD5Sum: a173653fb5c9e0f0b7af740de06e4c76
+SHA256sum: 20d5825da2adf3781b614d53b283e03851fdb5cfa3dc502265d981ebba129ec7
+Size: 5281364
 Filename: directfb-dbg_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -209,9 +209,9 @@ Depends: libc6 (>= 2.42+git0+d2097651cc), libfreetype6 (>= 2.13.3), libgcc1 (>= 
 Section: libs
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0dbe0860be6b7bc6c50417ea11a32134
-SHA256sum: ce4820ba1626783a93be91fef816d875eef68d4099295a43e61eb28281b6893f
-Size: 1292090
+MD5Sum: c71dce678a642c6f72a5834cacde8a32
+SHA256sum: d02d1706fe1ee2b9457042b52f45c01e862957cec649f30bbad64ec0ba0a0280
+Size: 1292092
 Filename: directfb_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device
@@ -1457,9 +1457,9 @@ Version: 0.2+git20+abd5cda0+abd5cda28c-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81f29f7fa9e7c377b4d3fa1d4826005d
-SHA256sum: 4a1c5a3bb84661a03697d69893e86e085e7872c57212179eea56b411cac5a395
-Size: 636
+MD5Sum: 8348d1e3ec3a43346413c1b7d54537b6
+SHA256sum: aca3a6a0e2d85b34163be25a1c638fc208de8e79b6857dd22228564195d55d46
+Size: 638
 Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Debugging files
@@ -1473,9 +1473,9 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-shootyourscreen (= 0.2+git20
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9fee69c769890bb340ca0459a947daf6
-SHA256sum: 177ac22d50de1a22efae35248ded94807d07f89e1f277de30ef279953ac7478c
-Size: 696
+MD5Sum: b523b17f08e526890553bcc421246936
+SHA256sum: 17f856a0cd7e41cdf2240b33c221bd38dae557ae12d847232985569cd9352d52
+Size: 698
 Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Development files
@@ -1489,9 +1489,9 @@ Depends: aio-grab, python3-core
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 00177cc60f550c6fff6e921d79cfc3a8
-SHA256sum: fb41d80a62adf2a97807de2ed810c42b7f5178265e035a11ae6b0775b8b8205b
-Size: 18632
+MD5Sum: 6a1d840d54cda6e468764afc2ce39f81
+SHA256sum: 56d321c86767773634ecd0275265a571ccbc6eb80adbfe33d965eed092d02268
+Size: 18636
 Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0
@@ -2005,8 +2005,8 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3bfc4ac71c0646dcb4fada80db81bfd
-SHA256sum: 7690036af0548e97cfc878914197f76c88010345ee34eaa850cd10d68b8d96ac
+MD5Sum: 0a0c93bf79d7f257e01078563e93c570
+SHA256sum: c164ce46a6b26bd37d0d4ca3ab0d126b60faeaae217021290d00fa16d75ad337
 Size: 720
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2022,8 +2022,8 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cbca98a9f29c4f216120406a8203cd71
-SHA256sum: f4cf416eb0745bd7171ff189dd1cd495f56c25a8bc66c63aabd19c48743ba0dd
+MD5Sum: 6ec41ca02139e7439555f548dbc4b303
+SHA256sum: 6f720da79a87bf255c7cc0daa8e77e97a09204672ed8e3dc8d38bd004d64bb9b
 Size: 782
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2038,9 +2038,9 @@ Version: 0.9.0+gitr562+63d495c0+63d495c3a8-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 978dd14b62f60cca55e9348ce06b6ce6
-SHA256sum: f3b0d46f33b72a66a797b11e12de92ae892723b467f1917f8b0dfd10870324d2
-Size: 3460
+MD5Sum: cbbdc7a48110cd55a360b682aef21bc3
+SHA256sum: 86d35c6d622fcc52e6f86b125747e4503dd8595392390c1ee2ef11511d54bbde
+Size: 3458
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: Handle your EPG on enigma2 - Source files
@@ -2055,9 +2055,9 @@ Depends: enigma2, libc6 (>= 2.42+git0+d2097651cc), libcurl4 (>= 8.15.0), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40db4628ea3c7f307d35ec19106766aa
-SHA256sum: d7689b37afda5c534d8e21c4640e4c14ea3fd1229086e9eca55d2fee16b06955
-Size: 314960
+MD5Sum: 483a787773a8c087a4337c59f2691414
+SHA256sum: 2c97a0a421bd332c95405108117fd05c92945c8c7a0dabb6303ca0b18ecad69c
+Size: 314800
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2350,8 +2350,8 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 188b0c9694f2bf0385e073cc035f7f89
-SHA256sum: da59757c3ceb19230a6fb751b1af732219b3b54281a3a74b70df28512248780e
+MD5Sum: 3d656b319095b4123652ce36ad068abd
+SHA256sum: 5646c1ca43097355409f26d6356b1ddd5ff63d793188d6a7a203c082516ee489
 Size: 894314
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git73+bdb5a900+bdb5a90827-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -2366,9 +2366,9 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-servicemp3 (= git73+bdb5a9
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edbb0b54aa4a89b5abf000d6a95a9cd6
-SHA256sum: 4f88fe95effbd435ff6883a10ed4fb07f76ba69e6ae14352f18b19b26d9b1159
-Size: 1020
+MD5Sum: 22a715c7f2d54b7d7b9b499a6f79b18f
+SHA256sum: 3dd4d56c9a318fc8f20d9b899f0d357a0fbb09d263b93491f280f5a4c1f80658
+Size: 1022
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git73+bdb5a900+bdb5a90827-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version git-r0 - Development files
@@ -2383,8 +2383,8 @@ Provides: virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7351095110c3fe70c88503963614a711
-SHA256sum: 119b01dd2e98b7e27bd1c5ba569ca2400bc4a3c0a4e067bcbcd663ec9186dfb6
+MD5Sum: 4b32bb576a6e6a05fd5a61a3ceb4fb1f
+SHA256sum: a588119d55aad1723ad296f1227ab12445c67932c77956fdcea7d885db60c537
 Size: 76180
 Filename: enigma2-plugin-systemplugins-servicemp3_git73+bdb5a900+bdb5a90827-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
