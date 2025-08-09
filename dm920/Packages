@@ -1079,14 +1079,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector-dbg
-Version: 1.14-git40+2377b520+2377b52e99-r0
+Version: 1.14-git40+ffd82d90+ffd82d9874-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Alliance, WXbet
-MD5Sum: 97231f8a4753e6a6729ab110d7f1e6a7
-SHA256sum: 1d441a681968d1a0533f1f039e9026c954985ee98deba089e7ebbc75db8c3183
-Size: 608
-Filename: enigma2-plugin-extensions-multibootselector-dbg_1.14-git40+2377b520+2377b52e99-r0_dm920.ipk
+MD5Sum: 05d66cd3f8bffa0c791d22cb6fd2c1ce
+SHA256sum: 08511b44bfb570e2fc314abc3cb58ddf9d72cb4fffd7c4eecc62f41c82324c36
+Size: 610
+Filename: enigma2-plugin-extensions-multibootselector-dbg_1.14-git40+ffd82d90+ffd82d9874-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: Legacy MultiBoot Selector Plugin for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-multibootselector
@@ -1094,15 +1094,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector-dev
-Version: 1.14-git40+2377b520+2377b52e99-r0
-Recommends: enigma2-plugin-extensions-multibootselector (= 1.14-git40+2377b520+2377b52e99-r0)
+Version: 1.14-git40+ffd82d90+ffd82d9874-r0
+Recommends: enigma2-plugin-extensions-multibootselector (= 1.14-git40+ffd82d90+ffd82d9874-r0)
 Section: devel
 Architecture: dm920
 Maintainer: OE-Alliance, WXbet
-MD5Sum: 66ca76287698f25d94023135983c661d
-SHA256sum: 1e59edd0d92789a04d9a59bc858b3f5e3abdbf7a37cf75bd5db7e0f006ab1569
-Size: 644
-Filename: enigma2-plugin-extensions-multibootselector-dev_1.14-git40+2377b520+2377b52e99-r0_dm920.ipk
+MD5Sum: c63b726c4b9dfae19fa8ee125e952f91
+SHA256sum: f487349c91c3cf5316cecb4bc4ab3f29af166df0d8f8292df707fa154831e9ed
+Size: 646
+Filename: enigma2-plugin-extensions-multibootselector-dev_1.14-git40+ffd82d90+ffd82d9874-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: Legacy MultiBoot Selector Plugin for Enigma2 - Development files
 OE: enigma2-plugin-extensions-multibootselector
@@ -1110,14 +1110,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector
-Version: 1.14-git40+2377b520+2377b52e99-r0
+Version: 1.14-git40+ffd82d90+ffd82d9874-r0
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance, WXbet
-MD5Sum: b4b7cfbc74c40b2ee4e11441b038ab4d
-SHA256sum: 1d4919586b349c05790cb1705652f82353a92ca5c1bfe71f4e4c4db2fdb482c6
-Size: 22426
-Filename: enigma2-plugin-extensions-multibootselector_1.14-git40+2377b520+2377b52e99-r0_dm920.ipk
+MD5Sum: d7410f2974f75e91719f79dea7c169a5
+SHA256sum: 658bafeb262f57e762d3d0fcf16bddf4bd02e3c075d89146ece91f89ed45bb27
+Size: 22490
+Filename: enigma2-plugin-extensions-multibootselector_1.14-git40+ffd82d90+ffd82d9874-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: Legacy MultiBoot Selector Plugin for Enigma2
 OE: enigma2-plugin-extensions-multibootselector
@@ -2285,8 +2285,8 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e8a710b9577dab905477528247123f4
-SHA256sum: 12c07e9ed4f48e38c5c152b82e8efe9f0b50543cc47cd6bd9109296cdf4dce4a
+MD5Sum: b9244e6ac5d720193dd7b8d41a21da83
+SHA256sum: 9d0d2626a3dca50d3fe8946be3b2c679414d6ca855906ad0bc652491c1e29364
 Size: 2318786
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -2301,9 +2301,9 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f7850bc73ddaf46b7fbadfef0783b96
-SHA256sum: 22cdefb5dfcd2cae84a1b7d2acd11b31160685818fcf52ac1e83babf5ca54768
-Size: 706
+MD5Sum: 7982f0958c89b6bc63cb1e3fac84014e
+SHA256sum: 3a9253997dfd218ca619f93496b48990b70e1728119722dec4bbdec8ac02fb9d
+Size: 708
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: ServiceApp for Enigma2 - Development files
@@ -2318,9 +2318,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3ec35a057d4c79e07d7e2dc49d810f0
-SHA256sum: 2d2c99d19de144785109199189d1e7d734df021046a421e67049a7f661aa9039
-Size: 178472
+MD5Sum: 94f71598883f2b86b4628d3405b83d64
+SHA256sum: cfba1be7382a99c7b2296e34ed96b5544d42bbcdf040bd22bf7db6e3aa83814e
+Size: 178480
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: ServiceApp for Enigma2
@@ -2334,9 +2334,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f449027c2fcf0302740d82c10d8c0f7
-SHA256sum: 6e6b96498e2b0f9784b8326c51e54ed3eaef01f19ad8c89ac8aa830dfca14e70
-Size: 894318
+MD5Sum: 3d656b319095b4123652ce36ad068abd
+SHA256sum: 5646c1ca43097355409f26d6356b1ddd5ff63d793188d6a7a203c082516ee489
+Size: 894314
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git73+bdb5a900+bdb5a90827-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version git-r0 - Debugging files
@@ -2362,13 +2362,13 @@ Priority: optional
 
 Package: enigma2-plugin-systemplugins-servicemp3
 Version: git73+bdb5a900+bdb5a90827-r0
-Depends: enigma2, glib-networking, gstreamer1.0 (>= 1.26.4), gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-vpx, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.1.0), libglib-2.0-0 (>= 2.84.2), libgstaudio-1.0-0 (>= 1.26.4), libgstpbutils-1.0-0 (>= 1.26.4), libgstvideo-1.0-0 (>= 1.26.4), libstdc++6 (>= 15.1.0), virtual-gstreamer1.0-dvbmediasink
+Depends: enigma2, glib-networking, gstreamer1.0 (>= 1.26.5), gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-vpx, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.1.0), libglib-2.0-0 (>= 2.84.2), libgstaudio-1.0-0 (>= 1.26.5), libgstpbutils-1.0-0 (>= 1.26.5), libgstvideo-1.0-0 (>= 1.26.5), libstdc++6 (>= 15.1.0), virtual-gstreamer1.0-dvbmediasink
 Provides: virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d769fbb8f6b4f7fad956d18c3abd1d38
-SHA256sum: 83b36c4a3870bca36ab99853cd8578baafd52e6637fc9b3b5b510c8038a03e15
+MD5Sum: 4b32bb576a6e6a05fd5a61a3ceb4fb1f
+SHA256sum: a588119d55aad1723ad296f1227ab12445c67932c77956fdcea7d885db60c537
 Size: 76180
 Filename: enigma2-plugin-systemplugins-servicemp3_git73+bdb5a900+bdb5a90827-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -2637,9 +2637,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libdca-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 11eae4bc0ef51f91b3f4e39b1394cd5c
-SHA256sum: 9f6017816c4397a798b257e65d1196cbb679c5fbc06a61b8bb5ae3aa70fb90eb
-Size: 148356
+MD5Sum: 88f2fcc386a93bf8b11be9a5f5bfe063
+SHA256sum: 816af7ee0559fa384f5f1877f9c5a87161c641b7442090034e99855a1b7320e3
+Size: 148358
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink-dbg_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0 - Debugging files
@@ -2669,9 +2669,9 @@ Depends: gstreamer1.0-plugin-multibox-dvbmediasink-dev (= 1.0+git252+c1ca5200+c1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5143c8cddb266643d450a659d735f2fa
-SHA256sum: a3821fa048145b73a5fce85fb47c1e566f9f6648df6ec698eb2db3856be8d0a9
-Size: 208002
+MD5Sum: b684d5ed55df187cf5205ab22fce611c
+SHA256sum: 8fa85c87d5f34266877f77cf957e25ddbf2c71b360a9d2808bcc10b0c313029e
+Size: 208004
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink-staticdev_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0 - Development files (Static Libraries)
@@ -2681,14 +2681,14 @@ Priority: optional
 
 Package: gstreamer1.0-plugin-multibox-dvbmediasink
 Version: 1.0+git252+c1ca5200+c1ca520b9e-r0
-Depends: gstreamer1.0 (>= 1.26.4), libc6 (>= 2.42+git0+d2097651cc), libdca (>= 0.0.7+git111+95c4bd80+95c4bd8bae), libglib-2.0-0 (>= 2.84.2), libgstaudio-1.0-0 (>= 1.26.4)
+Depends: gstreamer1.0 (>= 1.26.5), libc6 (>= 2.42+git0+d2097651cc), libdca (>= 0.0.7+git111+95c4bd80+95c4bd8bae), libglib-2.0-0 (>= 2.84.2), libgstaudio-1.0-0 (>= 1.26.5)
 Provides: virtual-gstreamer1.0-dvbmediasink
 Section: multimedia
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c176cf6266f783ab951dac91a44782e
-SHA256sum: 8de0911d8dc3a8405befe7cce6eae61fb1da85f6fec697aefad1ce74b32d24e5
-Size: 48202
+MD5Sum: 572224da599cf21b2894b0ad4b1cf38f
+SHA256sum: dc8005c7e5bb59ea90a0cbdbd1c5f8fa3b2062189d9871ebcc6cf7c1a0081d65
+Size: 48206
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0
