@@ -158,9 +158,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 807de5afce17f2b232f3bda7397c41a0
-SHA256sum: 14e92dec3cfa6105de73d44aa3e0797778208b57419783cadf4f90d42420b3e8
-Size: 5281366
+MD5Sum: d3fe69e4240ebccbf4128e4b34e316c4
+SHA256sum: ce5588ac97ed3692c3df1ee83652bb18d33d051d7d7ddbef02fb2dc4aca24304
+Size: 5281364
 Filename: directfb-dbg_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -209,8 +209,8 @@ Depends: libc6 (>= 2.42+git0+d2097651cc), libfreetype6 (>= 2.13.3), libgcc1 (>= 
 Section: libs
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aaaa7b15ad84e9b74b15e39353b6f419
-SHA256sum: 56212fb2e189c77821b0b00caa306e5cdf420bf0186f0d095d6233a2712de648
+MD5Sum: fc3bb11a35e4236ac5f95bb3ee941984
+SHA256sum: 152db006ee39d1985c49725904903466b00476873d0b3de8708cf5e8f3727611
 Size: 1292090
 Filename: directfb_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
@@ -271,9 +271,9 @@ Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 792b93fcc5e4d83fb39f9e0c4f8a5a22
-SHA256sum: 1898bc9ecb12496f27703c9d66753dac6b4277b960015df28ae0b328c78c5bc2
-Size: 1258
+MD5Sum: a16b537af5805f4dec8df8aeadc60114
+SHA256sum: e989951979e81beaa53ace0ae80c8267c4775d7bb373cc2899e26187e96a468e
+Size: 1262
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -1095,14 +1095,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector-dbg
-Version: 1.15-git41+64235ce0+64235cee9f-r0
+Version: 1.15-git41+b8478390+b84783968a-r0
 Section: devel
 Architecture: dm920
 Maintainer: oe-a
-MD5Sum: fc78c061e2996e4ce5ed5966bd1eb6c2
-SHA256sum: 8cf35ccdf38886d4e1b909dac53b3c18912e7f53e23a85063e44f3672497e295
-Size: 584
-Filename: enigma2-plugin-extensions-multibootselector-dbg_1.15-git41+64235ce0+64235cee9f-r0_dm920.ipk
+MD5Sum: 465b9a2aacd2572b757098876053bc6a
+SHA256sum: 1a72a2fb290a89f67343f5ad6032d3d11f6dda01b2a82752d0b7bb2453e43724
+Size: 582
+Filename: enigma2-plugin-extensions-multibootselector-dbg_1.15-git41+b8478390+b84783968a-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: multiboot-selector for dreamos - Debugging files
 OE: enigma2-plugin-extensions-multibootselector
@@ -1110,15 +1110,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector-dev
-Version: 1.15-git41+64235ce0+64235cee9f-r0
-Recommends: enigma2-plugin-extensions-multibootselector (= 1.15-git41+64235ce0+64235cee9f-r0)
+Version: 1.15-git41+b8478390+b84783968a-r0
+Recommends: enigma2-plugin-extensions-multibootselector (= 1.15-git41+b8478390+b84783968a-r0)
 Section: devel
 Architecture: dm920
 Maintainer: oe-a
-MD5Sum: 551d4b9f0f904e197de632ea3496f4bd
-SHA256sum: d5f1d6cb1aef932fde21917da4394c6d19234626219be105b6c8da223078e1d9
+MD5Sum: 119367030a91e664ac1c0e3d5b47259c
+SHA256sum: 22454ee02af8fa52e2207177db720ef66b284e2de244311bef11d2f2cc2fe118
 Size: 622
-Filename: enigma2-plugin-extensions-multibootselector-dev_1.15-git41+64235ce0+64235cee9f-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-multibootselector-dev_1.15-git41+b8478390+b84783968a-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: multiboot-selector for dreamos - Development files
 OE: enigma2-plugin-extensions-multibootselector
@@ -1126,14 +1126,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-multibootselector
-Version: 1.15-git41+64235ce0+64235cee9f-r0
+Version: 1.15-git41+b8478390+b84783968a-r0
 Section: base
 Architecture: dm920
 Maintainer: oe-a
-MD5Sum: 8cedee64a11585d7a07f4c8949b24d49
-SHA256sum: aa2776bd4c3db6f691e873a938755bfb325cfa4da30854a7174f1b9dd261ce15
-Size: 22516
-Filename: enigma2-plugin-extensions-multibootselector_1.15-git41+64235ce0+64235cee9f-r0_dm920.ipk
+MD5Sum: c60ee54d0657366b12c76dfb15372aff
+SHA256sum: 0ce181bf5bacfe3d466f122b47d17e0a128ca1b99f4a9b0e7d3fcc83b1eb9cc8
+Size: 22520
+Filename: enigma2-plugin-extensions-multibootselector_1.15-git41+b8478390+b84783968a-r0_dm920.ipk
 Source: enigma2-plugin-extensions-multibootselector.bb
 Description: multiboot-selector for dreamos
 OE: enigma2-plugin-extensions-multibootselector
@@ -1256,9 +1256,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 0c9b25fba9720bcabb30575537c2d3e8
-SHA256sum: 1ceea61d9426e91e1944274ce5ab5f4d87737e33f14f34b164189dea54403bd5
-Size: 3253668
+MD5Sum: 7f5ad3fa8688e8310183cab0aadc85a7
+SHA256sum: 9e1aa3d0d143578a4fb4a52e505a1966c252cccaf035cdab62a8e3231405d4b3
+Size: 3254886
 Filename: enigma2-plugin-extensions-openwebif_0.0-242-ga3e3d5b-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control Receiver with a Browser
@@ -1552,9 +1552,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 262f8429e0486df778c37dfe52caca8f
-SHA256sum: 1142b525ab1d67c03450e04906758b05d628ea404087f3bd36652764bfc2afba
-Size: 20456552
+MD5Sum: 86fda737c54c0d2ee72a7f44fc9b9a67
+SHA256sum: 69fa959fbfda60a2c0897b05fb496f193c142410ba6211ef4982a8a0e154338a
+Size: 20456544
 Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git21900+827db2a0+827db2a2be-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -1579,12 +1579,12 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
 Version: 3.13+git21900+827db2a0+827db2a2be-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), libudfread0 (>= 1.1.2-git108+b3e69360+b3e6936a23), libxml2 (>= 2.14.5)
+Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libxml2 (>= 2.14.5)
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 40fbb8d41d4e6c33dcedfec252427c31
-SHA256sum: a42ecb9d17d264a04178d335e18034566243188134a86c6102f92c0ee1322374
+MD5Sum: 9d33a8a197fdbc89e6a9b9a1807ccf5a
+SHA256sum: fc0c0d7d961b2fc58c7603587e1bbe092d1529b585a8b85d826c70c704ae7849
 Size: 15384
 Filename: enigma2-plugin-extensions-socketmmi_3.13+git21900+827db2a0+827db2a2be-r0_dm920.ipk
 Source: enigma2.bb
@@ -2005,8 +2005,8 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a0c93bf79d7f257e01078563e93c570
-SHA256sum: c164ce46a6b26bd37d0d4ca3ab0d126b60faeaae217021290d00fa16d75ad337
+MD5Sum: a3bfc4ac71c0646dcb4fada80db81bfd
+SHA256sum: 7690036af0548e97cfc878914197f76c88010345ee34eaa850cd10d68b8d96ac
 Size: 720
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2022,8 +2022,8 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ec41ca02139e7439555f548dbc4b303
-SHA256sum: 6f720da79a87bf255c7cc0daa8e77e97a09204672ed8e3dc8d38bd004d64bb9b
+MD5Sum: cbca98a9f29c4f216120406a8203cd71
+SHA256sum: f4cf416eb0745bd7171ff189dd1cd495f56c25a8bc66c63aabd19c48743ba0dd
 Size: 782
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2038,9 +2038,9 @@ Version: 0.9.0+gitr562+63d495c0+63d495c3a8-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cbbdc7a48110cd55a360b682aef21bc3
-SHA256sum: 86d35c6d622fcc52e6f86b125747e4503dd8595392390c1ee2ef11511d54bbde
-Size: 3458
+MD5Sum: 978dd14b62f60cca55e9348ce06b6ce6
+SHA256sum: f3b0d46f33b72a66a797b11e12de92ae892723b467f1917f8b0dfd10870324d2
+Size: 3460
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: Handle your EPG on enigma2 - Source files
@@ -2055,9 +2055,9 @@ Depends: enigma2, libc6 (>= 2.42+git0+d2097651cc), libcurl4 (>= 8.15.0), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 483a787773a8c087a4337c59f2691414
-SHA256sum: 2c97a0a421bd332c95405108117fd05c92945c8c7a0dabb6303ca0b18ecad69c
-Size: 314800
+MD5Sum: 40db4628ea3c7f307d35ec19106766aa
+SHA256sum: d7689b37afda5c534d8e21c4640e4c14ea3fd1229086e9eca55d2fee16b06955
+Size: 314960
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2612,16 +2612,16 @@ Priority: optional
 
 Package: enigma2
 Version: 3.13+git21900+827db2a0+827db2a2be-r0
-Depends: alsa-conf, enigma-info, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+d2097651cc), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.2), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.1.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.2), libgomp1 (>= 15.1.0), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.6), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.2), libstdc++6 (>= 15.1.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread0 (>= 1.1.2-git108+b3e69360+b3e6936a23), libxml2 (>= 2.14.5), python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-telnetlib3, python3-threading, python3-treq, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, virtual-blindscan-dvbc
+Depends: alsa-conf, enigma-info, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+d2097651cc), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.2), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.1.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.2), libgomp1 (>= 15.1.0), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.6), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.2), libstdc++6 (>= 15.1.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libxml2 (>= 2.14.5), python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-telnetlib3, python3-threading, python3-treq, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, virtual-blindscan-dvbc
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
 Recommends: enigma2-plugin-skins-pli-hd, glib-networking, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss, python3-compat2, python3-sendfile, softcam-support, virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2cce86b6e54f925cfe71c64c9474603d
-SHA256sum: d55342af79c52ef60b2624dc33eaf37d41c4f1932317c61e45e9861713155401
-Size: 10172292
+MD5Sum: 888c3c23e43a6ad6384e601ce80527ed
+SHA256sum: a70728f026ca39f966aeb13c268c94f602965bf82b20a07ac730a2c0c1724c9f
+Size: 10172294
 Filename: enigma2_3.13+git21900+827db2a0+827db2a2be-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -2786,9 +2786,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf81bc0e6f99ebaf91e7e57766ce5448
-SHA256sum: a61703d6181f94580dc0bb0bdfce0d9c301899cb4bd3fa0f96b2d44f37020b33
-Size: 35850196
+MD5Sum: c0fe63d5638e2a0e2cddaa61843a5b79
+SHA256sum: a1078a858f00ab87b10cda86123b686679422a82276216e5629703a1685d1f49
+Size: 35850194
 Filename: kernel-dbg_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -2802,8 +2802,8 @@ Recommends: flash-scripts-dev, kernel-3.14-1.17-dm920-dev, kernel-base-dev, kern
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1762c2cadca1f9fdded5a6b8298ee8f2
-SHA256sum: ba5f361320c522070c6d1170934e5ec32c58842f83065a14712a90b1e57753ac
+MD5Sum: e9ffe2da5497b407ee05b87fb2ad386e
+SHA256sum: 4088ee36d2479092f82eae9fb3cd71e5e0aba5aac49d57d06ee54523c01db043
 Size: 569410
 Filename: kernel-dev_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
@@ -3240,9 +3240,9 @@ Provides: kernel-image-zimage
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 667ea64bd449c57eb407aa7904c4b039
-SHA256sum: a099e01be31cea6ef45414414a997ca02b38028cb8c25ae351a5067aad07b78f
-Size: 4341878
+MD5Sum: e97959db1c6722e35afef779598677b2
+SHA256sum: b12991b35f6ca082f6966e5397ac836c6879bcef41c07d796a6c1a58a2684e29
+Size: 4335944
 Filename: kernel-image-zimage-3.14-1.17-dm920_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -21940,9 +21940,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cba0434188486c1f0d916c405855e4fa
-SHA256sum: cad7fe0bbe091e4864b3f2a1c66bfa8f75fdb56c15db7e094f14852c0e196970
-Size: 4565578
+MD5Sum: dddc9810027a2e2d2554b16afb779d1a
+SHA256sum: 9eb687f98a261f64ba5b452bc164f5761a8fab3dcb13bd78ed3524ec24d6858b
+Size: 4565580
 Filename: kernel-vmlinux_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -23040,9 +23040,9 @@ Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, pigz, recovery-autofla
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18f3d0dc091d4039c4f3e68992b37a7a
-SHA256sum: 70d44bd704f092d7ec6222a573ecbf2e2f0e60afb35d4f0facd6ac19a6900db7
-Size: 21982
+MD5Sum: 4e42a53a5da99317e78ce3c19b03c6d5
+SHA256sum: 4e3eeb1e41155827ab8514fed660384f0867cdd0f0e49e932614f5e4577c524f
+Size: 21976
 Filename: recovery_1.2+git162+81ff8d40+81ff8d40bb-r0_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox

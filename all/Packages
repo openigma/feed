@@ -759,14 +759,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dbg
-Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r1
+Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 56255079810b8787c10b5cfec08ae241
-SHA256sum: a36d59322eccb37b2c750eb68eb4e288308a68fbd58a85f5fd2b4a5a371cf28c
-Size: 628
-Filename: enigma2-plugin-extensions-estalker-dbg_1.06-20250810-git24+3d263eb0+3d263eba36-r1_all.ipk
+MD5Sum: 1d0f30b0fe67a5839d4baf5b3400d780
+SHA256sum: 664aca1377b1957bef3a850f30132ccf8449ca21324f33909200f7b826c4b582
+Size: 626
+Filename: enigma2-plugin-extensions-estalker-dbg_1.06-20250810-git24+3d263eb0+3d263eba36-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-estalker
@@ -775,15 +775,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dev
-Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r1
-Recommends: enigma2-plugin-extensions-estalker (= 1.06-20250810-git24+3d263eb0+3d263eba36-r1), python3-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r0
+Recommends: enigma2-plugin-extensions-estalker (= 1.06-20250810-git24+3d263eb0+3d263eba36-r0), enigma2-plugin-systemplugins-serviceapp-dev, gstplayer-dev, gstplayer2-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f7d891693d7b1b9c9448af5aeee3c5a7
-SHA256sum: 131ba25d29601e4a3d9777503947acef25ee2a6835d42bf1297cd516358a83d1
-Size: 708
-Filename: enigma2-plugin-extensions-estalker-dev_1.06-20250810-git24+3d263eb0+3d263eba36-r1_all.ipk
+MD5Sum: 8f0829f72e600584e0e602759aaf23a3
+SHA256sum: 6e3b746646f3e0b5fa35fe609d912567ab39a8714b413a596de0e1ec706e3dad
+Size: 724
+Filename: enigma2-plugin-extensions-estalker-dev_1.06-20250810-git24+3d263eb0+3d263eba36-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
 OE: enigma2-plugin-extensions-estalker
@@ -792,14 +792,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-src
-Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r1
+Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5f073e00077d81cf7cbe3770ba5028af
-SHA256sum: 63b3bb1f40efb007e001607e056c3de091102dbe606c60d4536de8f780a01a82
-Size: 81020
-Filename: enigma2-plugin-extensions-estalker-src_1.06-20250810-git24+3d263eb0+3d263eba36-r1_all.ipk
+MD5Sum: 69e7b16bb39097347ad3e23e71ef19ea
+SHA256sum: 733a43fc10f9ba82cdafa266d128db3909929eb032f849dfa5e3c269515116b0
+Size: 81016
+Filename: enigma2-plugin-extensions-estalker-src_1.06-20250810-git24+3d263eb0+3d263eba36-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
 OE: enigma2-plugin-extensions-estalker
@@ -808,15 +808,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker
-Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r1
-Depends: python3, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
+Version: 1.06-20250810-git24+3d263eb0+3d263eba36-r0
+Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d4dc509e1312dc3a7ffdabf13fef7417
-SHA256sum: dd236adfdffb496bf69fdfec43c3742a4aba34cc76d21a0325c1002fa248fcd4
-Size: 2414212
-Filename: enigma2-plugin-extensions-estalker_1.06-20250810-git24+3d263eb0+3d263eba36-r1_all.ipk
+MD5Sum: aae8b7d62ace13ef0bf6feffee036fa1
+SHA256sum: 5141fd6214507b125a18ff79e3fa23bdb15a3e336fc2e0dbc21bd48759969881
+Size: 2414226
+Filename: enigma2-plugin-extensions-estalker_1.06-20250810-git24+3d263eb0+3d263eba36-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
 OE: enigma2-plugin-extensions-estalker
@@ -1023,14 +1023,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.8.1+git287+d26c6cb0+d26c6cb065-r0
+Version: 2.8.2+git288+44cefa70+44cefa7959-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: a9a44544cd6fb3d9cf50bf00c31ba028
-SHA256sum: f915ee3707d823da7550d67bd63107cb7423397a6ec95b1263390f3c571cf1a3
-Size: 594
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.8.1+git287+d26c6cb0+d26c6cb065-r0_all.ipk
+MD5Sum: c17017fb74e070b9fc549cfb254ea731
+SHA256sum: 4d71bc45492a3158eea4a72d0510d7baacfc9a0aadd81664ea79c28f23ea8b3f
+Size: 598
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1038,15 +1038,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.8.1+git287+d26c6cb0+d26c6cb065-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.8.1+git287+d26c6cb0+d26c6cb065-r0)
+Version: 2.8.2+git288+44cefa70+44cefa7959-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.8.2+git288+44cefa70+44cefa7959-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 0e65cd8452110ee2236420496c01b316
-SHA256sum: 58b4bd91a4c35e924348ba511e1b25c451dfd6f71a4064c244d78bf5e22d84c7
-Size: 628
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.8.1+git287+d26c6cb0+d26c6cb065-r0_all.ipk
+MD5Sum: d816574e28e2df49e6dd38a55ff1f791
+SHA256sum: eb24ae6202d3c6637c193e4bb60ce272d7dea0c7776a804c0a108600d294c0e6
+Size: 630
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1054,14 +1054,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.8.1+git287+d26c6cb0+d26c6cb065-r0
+Version: 2.8.2+git288+44cefa70+44cefa7959-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 38168c086263099948c020a0937e54d6
-SHA256sum: a7533b8eff59231c81528334391345e6e738caa86f5e0a0469c95ce2f5ac0aac
-Size: 9101302
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.8.1+git287+d26c6cb0+d26c6cb065-r0_all.ipk
+MD5Sum: a49064cbb38a1848ea3fb915f216898f
+SHA256sum: 77395253a574992faab6baabee817dffabc518f8bbb3fc2e08dc6e0b846477d9
+Size: 9170422
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.3+git179+edb09bf0+edb09bf49d-r0
+Version: 1.5+git186+3e17fe10+3e17fe1aef-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 42daa7c1ff7f9dac9f9945dada26c9d6
-SHA256sum: 73ecbaf23e179cf0e097bda55b7a49db746eb6ec9a0aae169702e419f084c458
+MD5Sum: 27e422cfa6485608e72603d84ab33ec1
+SHA256sum: 6199b906d5c6dbe674c857ecd8f55f22ae6de11d31abd06ee525837ebad9f128
 Size: 596
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.5+git186+3e17fe10+3e17fe1aef-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.3+git179+edb09bf0+edb09bf49d-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.3+git179+edb09bf0+edb09bf49d-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.5+git186+3e17fe10+3e17fe1aef-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.5+git186+3e17fe10+3e17fe1aef-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7c6efde018eaf61c42341b1ed34ddf48
-SHA256sum: ddce990751a06720bc9f36e4a4aa9569d29c9d3ca3fd9be7fd897ed1672eddca
-Size: 672
-Filename: enigma2-plugin-extensions-raiplay-dev_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
+MD5Sum: 8b00d29a4f5eb7685293127fa8e62db0
+SHA256sum: e33300b800d9bf057c9be4d78a665eae83b639679090686d160ec96beb6c31d2
+Size: 674
+Filename: enigma2-plugin-extensions-raiplay-dev_1.5+git186+3e17fe10+3e17fe1aef-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.3+git179+edb09bf0+edb09bf49d-r0
+Version: 1.5+git186+3e17fe10+3e17fe1aef-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b0da87764fa07e46c7388feb31064489
-SHA256sum: da9801da75489688937c07f0e176da22c856c37721f8cdebb61a6165eae64765
-Size: 1151086
-Filename: enigma2-plugin-extensions-raiplay_1.3+git179+edb09bf0+edb09bf49d-r0_all.ipk
+MD5Sum: ad44988dd3bab6983f2900ca99ab068b
+SHA256sum: ae3ece5cd9a6f298468e5e4b1cbd5fe4524754fea111b3e489c83361a6856fa6
+Size: 1174970
+Filename: enigma2-plugin-extensions-raiplay_1.5+git186+3e17fe10+3e17fe1aef-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -1587,14 +1587,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 6.0+git392+c3169a10+c3169a1d00-r0
+Version: 6.1+git395+40140040+4014004b75-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ae8b851339715bd79a86e34afbb56e92
-SHA256sum: 74526aa2f61899bdb0f0d3e15287db46fec7103ae95bff1d31b80d0f12809d58
-Size: 640
-Filename: enigma2-plugin-extensions-worldcam-dbg_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
+MD5Sum: 132dbf87fd70a361a83f0afbc206eed1
+SHA256sum: 07915a785db7a41dd5c6b9d46731a8272ea3c1073341405f009844455665c40d
+Size: 642
+Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git395+40140040+4014004b75-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -1603,15 +1603,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 6.0+git392+c3169a10+c3169a1d00-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 6.0+git392+c3169a10+c3169a1d00-r0)
+Version: 6.1+git395+40140040+4014004b75-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git395+40140040+4014004b75-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: abc0522058178899fc1c5f1ad2075ce2
-SHA256sum: 440181777745564ae9b8cc29bdedd330ff02184ba20e68c3261e54158c40fbcd
+MD5Sum: 6db417831472eaa5bb5841c97f5fdcc6
+SHA256sum: 78b9e2edbeef0be6147a75d336f165f784e3b7ef262b35dfba8ea8f72d29ffce
 Size: 676
-Filename: enigma2-plugin-extensions-worldcam-dev_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git395+40140040+4014004b75-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -1620,14 +1620,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 6.0+git392+c3169a10+c3169a1d00-r0
+Version: 6.1+git395+40140040+4014004b75-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 70b85a47729db6312cbadb3bd59adb71
-SHA256sum: b558867d1c3ec4902f2bdfcced24f8442b287deec274f734a384caf0edd16d7b
-Size: 3640754
-Filename: enigma2-plugin-extensions-worldcam_6.0+git392+c3169a10+c3169a1d00-r0_all.ipk
+MD5Sum: e81bd801f6504cc4f513b5623941f170
+SHA256sum: 077d061b1609c3168eb5d6f589f68650e6f0d6d644adef5f55f37cebac2e303f
+Size: 3640748
+Filename: enigma2-plugin-extensions-worldcam_6.1+git395+40140040+4014004b75-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
@@ -3749,14 +3749,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dbg
-Version: 1.0+git268+48977860+4897786c47-r0
+Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: eedf7e6532cbd1865ca7aeaee6d8aae9
-SHA256sum: 8d520d6c9802299e1e1a84fed0c1d50ed6acf44a61370dc3ad09198f263f2712
+MD5Sum: 5f124c39bb77da7b4221f37931da4a54
+SHA256sum: 5eca781d4b95b19692da0cb7d282db543d81c3c923c8750dc43ee9921e70dbc7
 Size: 598
-Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git268+48977860+4897786c47-r0_all.ipk
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Debugging files
 OE: enigma2-plugin-skins-e2darkos
@@ -3764,15 +3764,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dev
-Version: 1.0+git268+48977860+4897786c47-r0
-Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git268+48977860+4897786c47-r0)
+Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git269+0c17a8d0+0c17a8d3b1-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 47d143d9a9729b97a3c59b0945e75aeb
-SHA256sum: c847a2548528034ba48a9f7fb91337d1501e790b3d769db5242b80242adf966c
-Size: 636
-Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git268+48977860+4897786c47-r0_all.ipk
+MD5Sum: c86b5ca1cbd51e11c3cfccb3c0601d8d
+SHA256sum: d578be8dd7eb90e41731a4c7e44df464426410e1215e1642b3d2f950d9148712
+Size: 634
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Development files
 OE: enigma2-plugin-skins-e2darkos
@@ -3780,15 +3780,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos
-Version: 1.0+git268+48977860+4897786c47-r0
+Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 8ab4c41a1b1327fdfa87ce6e6efbc14c
-SHA256sum: cd2d7f285007ac68d20f9558f18182f3bc00751bae214c7623506d5d2af3c51c
-Size: 3072596
-Filename: enigma2-plugin-skins-e2darkos_1.0+git268+48977860+4897786c47-r0_all.ipk
+MD5Sum: 050799539a954e296813f8b0b6ceaf3e
+SHA256sum: 2605cd5317ca1052ef7cadeccc18f81299bfab7b5f4b1b917ea05ff1d970ccbb
+Size: 3072486
+Filename: enigma2-plugin-skins-e2darkos_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD
 OE: enigma2-plugin-skins-e2darkos
@@ -9081,14 +9081,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1122+effa5d10+effa5d1823-3
+Version: 2+git1124+21d0d250+21d0d25d91-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6f3bcff07b71333a9cc856db949e9820
-SHA256sum: e4d1a8d9dad901010a993daab9ff79ff51a3dac025fe5cb159c84e1782d868a6
+MD5Sum: 098cceac0a9ddf17e33c11909ae10fb3
+SHA256sum: 4a68f7bc94c2173e9cf701be3ca30d23fa63a5429c9fe943edf7f7d7b0329838
 Size: 568
-Filename: tuxbox-common-dbg_2+git1122+effa5d10+effa5d1823-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1124+21d0d250+21d0d25d91-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9096,15 +9096,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1122+effa5d10+effa5d1823-3
-Recommends: tuxbox-common (>= 2+git1122+effa5d10+effa5d1823-3), tuxbox-common (<< 2+git1122+effa5d10+effa5d1823-3.0), xz-dev
+Version: 2+git1124+21d0d250+21d0d25d91-3
+Recommends: tuxbox-common (>= 2+git1124+21d0d250+21d0d25d91-3), tuxbox-common (<< 2+git1124+21d0d250+21d0d25d91-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 3277c797c39aacad96a2fcf743431e54
-SHA256sum: e4037715fcf9d14a6091f8997bd2937bca6183073447dfb6c2e04643a2cee7cf
+MD5Sum: f43d01589e10d8c6d9a4074d9973b053
+SHA256sum: 7cea34b5785d3d4bb417b7aa5c1b15e0834e29601bc813cd19b248364d44def6
 Size: 620
-Filename: tuxbox-common-dev_2+git1122+effa5d10+effa5d1823-3_all.ipk
+Filename: tuxbox-common-dev_2+git1124+21d0d250+21d0d25d91-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9112,15 +9112,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1122+effa5d10+effa5d1823-3
+Version: 2+git1124+21d0d250+21d0d25d91-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 557c35c90eb4887d2db9eea4bd6cc6d4
-SHA256sum: 02062208f3d4711dffa15245136286e7c2436b2f5d5d01bd1c5481d9f0f89fdf
-Size: 71628
-Filename: tuxbox-common_2+git1122+effa5d10+effa5d1823-3_all.ipk
+MD5Sum: 812a6f82cbb816974b74e69e55b1d340
+SHA256sum: cc985807d03db025a9e85d9a1f82b844a02ccd83197f4b723630be2955d1ccdf
+Size: 71670
+Filename: tuxbox-common_2+git1124+21d0d250+21d0d25d91-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
