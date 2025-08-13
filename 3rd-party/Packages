@@ -1240,25 +1240,24 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-softcams-cccam_2.3.9
-Version: 2.3.9-r6
-Depends: libc6 (>= 2.42), libstdc++6 (>= 15.2.0), softcam-support
-Recommends: enigma2-plugin-extensions-ppanel
+Package: enigma2-plugin-softcams-cccam-2.3.9
+Version: 2.3.9
+Description: Softcam CCcam 2.3.9 - An outdated binary only softcam
 Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 39698f15023b8252ae420986267c8276
-SHA256sum: 838e38f91f75c553d53f291d06dee16fcb9f6e0d8920da7038580dcbb3f59068
-Size: 399726
-Filename: enigma2-plugin-softcams-cccam_2.3.9-r6_all.ipk
-Source: enigma2-plugin-softcams-cccam_2.3.9.bb
-Description: Softcam CCcam version 2.3.9-r6
-OE: enigma2-plugin-softcams
-License: CLOSED
 Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-cccam-2.3.9
+Homepage: https://www.open.tv
+Depends: libc6 (>= 2.42), libstdc++6 (>= 15.2.0), softcam-support
+Source: enigma2-plugin-softcams-cccam-2.3.9.bb
+Filename: enigma2-plugin-softcams-cccam-2.3.9_2.3.9-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 291390
+MD5Sum: e16319344b00c9d56adbcca1ef2e1c58
 
 Package: enigma2-plugin-softcams-gbox-811k
-Version: 811k-r0
+Version: 811k-r1
 Description: Softcam gbox 811k
 Section: base
 Priority: optional
@@ -1269,28 +1268,28 @@ OE: enigma2-plugin-softcams-gbox-811k
 Homepage: https://www.open.tv
 Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-gbox-811k.bb
-Filename: enigma2-plugin-softcams-gbox-811k_811k-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-softcams-gbox-811k_811k-r1_cortexa15hf-neon-vfpv4.ipk
 Size: 327780
-MD5Sum: fe905202d2a03e9ca8394527ead7bfa5
+MD5Sum: 26443c3fabce69c40cd0e522d5f29044
 
 Package: enigma2-plugin-softcams-mgcamd-1.46
-Version: 1.46-r0
+Version: 1.46
 Description: Softcam MGcamd 1.46
 Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-softcams
-Homepage: https://github.com/
-Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libz1 (>= 1.3.1), softcam-support
+OE: enigma2-plugin-softcams-mgcamd-1.46
+Homepage: https://www.open.tv
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-mgcamd-1.46.bb
-Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 349904
-MD5Sum: 4e340aaa7a0bd5702749e43029c259ad
+Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 348438
+MD5Sum: be8468fec4d7ea0b52c7600ce93fcdde
 
 Package: enigma2-plugin-softcams-oscam-master
-Version: 11884-git10799+76c92a20+76c92a2cb7-r2
+Version: 11884-git10799+76c92a20+76c92a2cb7-r3
 Description: Softcam OSCam (IPv6/IPv4 Dual-Stack support)
  This version can connect to servers using IPv6 and/or IPv4.
 Section: base
@@ -1305,9 +1304,9 @@ Provides: enigma2-plugin-softcams-oscam-atv, oscam-master
 Replaces: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
 Conflicts: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
 Source: enigma2-plugin-softcams-oscam-master.bb
-Filename: enigma2-plugin-softcams-oscam-master_11884-git10799+76c92a20+76c92a2cb7-r2_cortexa15hf-neon-vfpv4.ipk
-Size: 630882
-MD5Sum: bf6d9ab4dbea4bb626820076f631650f
+Filename: enigma2-plugin-softcams-oscam-master_11884-git10799+76c92a20+76c92a2cb7-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 631192
+MD5Sum: d4a0dd0f8f384c107af61e2c1c271361
 
 Package: enigma2-plugin-softcams-oscam-samur
 Version: 11878-802
