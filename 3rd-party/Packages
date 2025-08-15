@@ -661,7 +661,7 @@ Section: devel/python
 Priority: optional
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 License: BSD-2-Clause
-Architecture: cortexa15hf-neon-vfpv4
+Architecture: all
 OE: enigma2-plugin-extensions
 Homepage: https://github.com/streamlink/streamlink
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, streamlink, streamlinksrv
@@ -673,7 +673,7 @@ SHA256sum: d483f4b67e40adaf5e57705e99d0466624e02efa6a2f85338888fce168ece32f
 
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r27
-Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
+Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-json, python3-rarfile, python3-requests, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
