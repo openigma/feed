@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.5+git193+66a6d9e0+66a6d9e641-r0
+Version: 1.4+git179+b930b760+b930b76d48-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8928154d867e8fd51f3e1a28e13dcba7
-SHA256sum: 36a734e3121945bdf20dce35f3a38f1c6f3aaa6a25c654c710d679b2d8f5823e
-Size: 596
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.5+git193+66a6d9e0+66a6d9e641-r0_all.ipk
+MD5Sum: 932091fd7cb124e4044b2f486052dfec
+SHA256sum: 64f710059f06eda9a7d868a81a519a7855363ee38aa95b6fd53713ab9cf36949
+Size: 598
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.4+git179+b930b760+b930b76d48-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.5+git193+66a6d9e0+66a6d9e641-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.5+git193+66a6d9e0+66a6d9e641-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.4+git179+b930b760+b930b76d48-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.4+git179+b930b760+b930b76d48-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8f1f32e75c005ebcf8c1137fa0a247f9
-SHA256sum: 6be40724f50a4c10a66e078344974477034b2bcfe229abe8b5cf495ec209f60a
-Size: 674
-Filename: enigma2-plugin-extensions-raiplay-dev_1.5+git193+66a6d9e0+66a6d9e641-r0_all.ipk
+MD5Sum: 14978ba112aeab1151bbe4f76a8f1731
+SHA256sum: 491fbc1994f6693160c805f5306b54566521577c186b98664169a443184f65dc
+Size: 676
+Filename: enigma2-plugin-extensions-raiplay-dev_1.4+git179+b930b760+b930b76d48-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.5+git193+66a6d9e0+66a6d9e641-r0
+Version: 1.4+git179+b930b760+b930b76d48-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e353175eabe1048f5580e7d9328adb0b
-SHA256sum: ce7fae8aa15f02d868d6fa195a2c5e79602cbea0c3308f6a41198af9f31bfd1d
-Size: 1178160
-Filename: enigma2-plugin-extensions-raiplay_1.5+git193+66a6d9e0+66a6d9e641-r0_all.ipk
+MD5Sum: 45bd16ba35c2082e1b2ba4f02dae2ab8
+SHA256sum: 19784798982a38ff6397a5b48796916964ad3026d539384a636330b2940a690e
+Size: 1170206
+Filename: enigma2-plugin-extensions-raiplay_1.4+git179+b930b760+b930b76d48-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
