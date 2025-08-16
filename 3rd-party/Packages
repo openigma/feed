@@ -671,23 +671,6 @@ Size: 49574
 MD5Sum: a28ac25ab6e764fabd2f2e1daff23f4b
 SHA256sum: d483f4b67e40adaf5e57705e99d0466624e02efa6a2f85338888fce168ece32f
 
-Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r27
-Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-json, python3-rarfile, python3-requests, python3-xmlrpc, unrar
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 76f64cb1b0f1d61106bf21a7ba1242e2
-SHA256sum: e18cd4df9e360a0263730b83c04bb4db5b2db0217edd511665f40d4855765072
-Size: 837588
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r27_all.ipk
-Source: enigma2-plugin-extensions-subssupport.bb
-Description: Collection of enigma2 subtitles plugins
-OE: enigma2-plugin-extensions
-HomePage: https://github.com/mx3L/subssupport
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-sudoku
 Version: gitr7785+3a5b2690+3a5b2697bb-r8
 Section: base
