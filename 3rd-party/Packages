@@ -1489,24 +1489,6 @@ Filename: libcrypto-compat-1.0.0_1.2-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 724
 MD5Sum: 420abb05daccb7c1c3de004e5fbf15c7
 
-Package: libfdk-aac2
-Version: 2.0.2-r0
-Depends: libc6 (>= 2.42)
-Provides: fdk-aac
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31e5834632718801f889a98ffa6e5f03
-SHA256sum: 5ef158c2d52e5c80a916a3bb9c6d9b30de30b67d1282b8902f9023f58a96d356
-Size: 528434
-Filename: libfdk-aac2_2.0.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fdk-aac_2.0.2.bb
-Description: FDK-AAC audio codec
-OE: fdk-aac
-HomePage: https://www.iis.fraunhofer.de/en/ff/amm/impl.html
-License: Fraunhofer_FDK_AAC_Codec_Library_for_Android
-Priority: optional
-
 Package: libfmt11
 Version: 11.1.1-r0
 Description: open-source formatting library for C++
