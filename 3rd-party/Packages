@@ -367,7 +367,7 @@ Size: 2090678
 MD5Sum: 8f8f27d1beddfd9535baa342940b76af
 
 Package: enigma2-plugin-extensions-hdfradio
-Version: 2.22.2
+Version: 2.22.3
 Description: Webradio Plugin
 Section: base
 Priority: required
@@ -377,10 +377,10 @@ Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-hdfradio
 Depends: gstplayer, libc6 (>= 2.42), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
 Source: enigma2-plugin-extensions-hdfradio.bb
-Filename: enigma2-plugin-extensions-hdfradio_2.22.2_py3_3.13_cortexa15hf-neon-vfpv4.ipk
-Size: 3984328
-MD5Sum: 57a5145f8ab9e75c60217fbcdab4d81b
-SHA256sum: 712bf8e5b3c131acfccd3bc8cbdd7044c96c21242f8d75973cf2b17e39076df8
+Filename: enigma2-plugin-extensions-hdfradio_2.22.3_py3_3.13_cortexa15hf-neon-vfpv4.ipk
+Size: 3983744
+MD5Sum: e1985a7dbcfe040c1dc9e1c2dc4182f5
+SHA256sum: c826544c80136a2cf0cce2bde7b1089c223f8796d42040e23abd8bb0c424e2eb
 
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
@@ -1227,7 +1227,7 @@ Priority: optional
 
 Package: enigma2-plugin-softcams-cccam-2.3.9
 Version: 2.3.9
-Description: Softcam CCcam 2.3.9 - An outdated binary only softcam
+Description: Softcam CCcam 2.3.9
 Section: base
 Priority: optional
 Maintainer: open
@@ -1239,11 +1239,27 @@ Depends: libc6 (>= 2.42), libstdc++6 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-cccam-2.3.9.bb
 Filename: enigma2-plugin-softcams-cccam-2.3.9_2.3.9-r1_cortexa15hf-neon-vfpv4.ipk
 Size: 291390
-MD5Sum: e16319344b00c9d56adbcca1ef2e1c58
+MD5Sum: bef8c01af4da362e3f98b62e459c0838
+
+Package: enigma2-plugin-softcams-doscam-0.2.5
+Version: 0.2.5
+Description: Softcam Doscam 0.2.5
+Section: base
+Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-doscam-0.2.5
+Homepage: https://www.open.tv
+Depends: libc6 (>= 2.42), softcam-support
+Source: enigma2-plugin-softcams-doscam-0.2.5.bb
+Filename: enigma2-plugin-softcams-doscam-0.2.5_0.2.5-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 413254
+MD5Sum: 1121784f3010b57b776eded896536cd9
 
 Package: enigma2-plugin-softcams-gbox-811k
 Version: 811k-r1
-Description: Softcam gbox 811k
+Description: Softcam Gbox 811k
 Section: base
 Priority: optional
 Maintainer: open
@@ -1254,8 +1270,8 @@ Homepage: https://www.open.tv
 Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-gbox-811k.bb
 Filename: enigma2-plugin-softcams-gbox-811k_811k-r1_cortexa15hf-neon-vfpv4.ipk
-Size: 327780
-MD5Sum: 26443c3fabce69c40cd0e522d5f29044
+Size: 329396
+MD5Sum: c9a85ba5224fb65afeb87742ba706763
 
 Package: enigma2-plugin-softcams-mgcamd-1.46
 Version: 1.46
