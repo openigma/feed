@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.5+git204+de5bab00+de5bab0ad2-r0
+Version: 1.6+git206+33a904e0+33a904e013-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8f27a896259e1285b6d3de7c1916ef03
-SHA256sum: e13d06da46ee3dc21d6e6a359729bd0de2f73f20eb13a8d97221380df5a2b308
+MD5Sum: e9558e1f89da5d8c191e2cdc595ed827
+SHA256sum: 02743ad7b9c45a6f9534b21bbbd05a26d83b901f1a07cf366179d193ed758fcd
 Size: 594
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.5+git204+de5bab00+de5bab0ad2-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.6+git206+33a904e0+33a904e013-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.5+git204+de5bab00+de5bab0ad2-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.5+git204+de5bab00+de5bab0ad2-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.6+git206+33a904e0+33a904e013-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.6+git206+33a904e0+33a904e013-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e049ca8f5fb6e5d3bd6a23d4a2903ef2
-SHA256sum: bdc3bac1d64318d90f65dd49e83eea0077cfbfa6d357c233923260b0d393ead8
+MD5Sum: 247d93d3ecb49a157cab1a7b20536a42
+SHA256sum: be519b681015bb1ebecb0a22b84b6122f3b2225c7584e191c5e550e6144d2c5e
 Size: 672
-Filename: enigma2-plugin-extensions-raiplay-dev_1.5+git204+de5bab00+de5bab0ad2-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dev_1.6+git206+33a904e0+33a904e013-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.5+git204+de5bab00+de5bab0ad2-r0
+Version: 1.6+git206+33a904e0+33a904e013-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1112b5e3c9e159fbed6731de9653d12a
-SHA256sum: 636fa4e75ae47f6adb82d08f69ac2b6916fd74bb6a3e449b85e00178a14ec33c
-Size: 8543298
-Filename: enigma2-plugin-extensions-raiplay_1.5+git204+de5bab00+de5bab0ad2-r0_all.ipk
+MD5Sum: c7a4e1243fa3e721e08a105a69fbd81e
+SHA256sum: 37d2b2ae7cfdee101618744af3902511f5bf7b5d889340f64fb867876a29f1ae
+Size: 8546948
+Filename: enigma2-plugin-extensions-raiplay_1.6+git206+33a904e0+33a904e013-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -3749,14 +3749,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dbg
-Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
+Version: 1.0+git270+76577920+76577922fb-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 88cd0161d8e6e523d071cb72e6d3c538
-SHA256sum: 356681718650e5c4798b4ebc2d2a7c86810d4bfdb65bb02ed95ca2aa9166715b
-Size: 598
-Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
+MD5Sum: f6f10303c02fae70839516c06999a03a
+SHA256sum: 4659f06935f74f848e0b586c8b97157f0e57f19d02226b795b085a25054675e7
+Size: 596
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git270+76577920+76577922fb-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Debugging files
 OE: enigma2-plugin-skins-e2darkos
@@ -3764,15 +3764,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dev
-Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
-Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git269+0c17a8d0+0c17a8d3b1-r0)
+Version: 1.0+git270+76577920+76577922fb-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git270+76577920+76577922fb-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: b981956ff0a4a797c7624045d7598aa5
-SHA256sum: a66f3615ba464ca225928d90e995796e42185f443255f7901fcad480fd38b048
+MD5Sum: b918bcc285640847f441a7d9fe382462
+SHA256sum: 61df1edbf59fd5a34133baf49fa0c02487ba905b87505bc4d6a0bfd2eedad835
 Size: 634
-Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git270+76577920+76577922fb-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Development files
 OE: enigma2-plugin-skins-e2darkos
@@ -3780,15 +3780,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos
-Version: 1.0+git269+0c17a8d0+0c17a8d3b1-r0
+Version: 1.0+git270+76577920+76577922fb-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: e87e4b65515f03cf0843a1744b886b50
-SHA256sum: 0eb9f3ef6388c7c743a35d5c7de9fb9182745f67e837ebab5c5214091db84a37
-Size: 3072602
-Filename: enigma2-plugin-skins-e2darkos_1.0+git269+0c17a8d0+0c17a8d3b1-r0_all.ipk
+MD5Sum: 879888582726dfac08da36bd203676a9
+SHA256sum: 8e9d5f37057e14d91e25c064efe6bd24a8764167ea700311b3dcddb861737e8f
+Size: 3072596
+Filename: enigma2-plugin-skins-e2darkos_1.0+git270+76577920+76577922fb-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD
 OE: enigma2-plugin-skins-e2darkos
@@ -9035,8 +9035,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9052,8 +9052,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
+SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9069,8 +9069,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 109007903a74235339cbbaea976943c1
-SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+MD5Sum: d08cd4e3c85d5ca46c5638079332623e
+SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
