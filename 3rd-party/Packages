@@ -417,14 +417,14 @@ MD5Sum: 12818433777728bd5038dd2d6b345f85
 SHA256sum: e75b1110f04057fa366a8eb56dd13f37ffd41e1a8d99707dadf03daebc40558e
 
 Package: enigma2-plugin-extensions-iptvarchive
-Version: 2.0.90
+Version: 2.0.91
 Section: base
 Architecture: all
 Maintainer: pepsik
-MD5Sum: f28d9348e4b4f2268125d50b2f2a7374
-SHA256sum: fffd9d932517beb71cf171f7a58aa86b0289515455d79059fceb115f6607082d
-Size: 1166562
-Filename: enigma2-plugin-extensions-iptvarchive_2.0.90_all.ipk
+MD5Sum: 2305e1753639e56219d755412eb01d84
+SHA256sum: 9871c38efdb73a2a77e3862cf6cadf846b0211557fa8d76d76efa1003a2b4eea
+Size: 1168476
+Filename: enigma2-plugin-extensions-iptvarchive_2.0.91_all.ipk
 Depends: python3, python3-pillow, python3-requests
 Source: enigma2-plugin-extensions-iptvarchive.bb
 Description: IPTV archive
@@ -1547,6 +1547,56 @@ Source: ffmpeg_6.1.1.bb
 Filename: libswresample4_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 47054
 MD5Sum: a829b4b80014c17b4ba2bfb5abd39a2b
+
+Package: nodejs-doc
+Version: 22.18.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 847c4faffe3164b8a51ab17246cff15f
+SHA256sum: 1b06d9f605bc7fb2fe55946a36c917935823c683b26b3b57c80835df7e2e751e
+Size: 15856
+Filename: nodejs-doc_22.18.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nodejs_22.18.0.bb
+Description: nodejs version 22.18.0-r0 - Documentation files
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Priority: optional
+
+Package: nodejs-npm
+Version: 22.18.0-r0
+Depends: bash, python3-core, python3-datetime, python3-misc, python3-multiprocessing, python3-shell
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 74a30a1030bea353168125d92406fd0f
+SHA256sum: 1e05cce33a13dc351952cd164963570a24947be5e6d60b3cbff36877070c71e9
+Size: 2606174
+Filename: nodejs-npm_22.18.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nodejs_22.18.0.bb
+Description: nodejs version 22.18.0-r0
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Priority: optional
+
+Package: nodejs
+Version: 22.18.0-r0
+Depends: brotli (>= 1.1.0), libc6 (>= 2.42), libcares2 (>= 1.34.5), libcrypto3 (>= 3.5.2), libgcc1 (>= 15.2.0), libicui18n77 (>= 77-1), libicuuc77 (>= 77-1), libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee2951c35b21f875cec6300669749174
+SHA256sum: 5eef38154868dff5228e04cbd9fe0df33770df5e58b466796535694bc4c6fda3
+Size: 16809528
+Filename: nodejs_22.18.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nodejs_22.18.0.bb
+Description: nodejs version 22.18.0-r0
+OE: nodejs
+HomePage: http://nodejs.org
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Priority: optional
 
 Package: python3-httptools
 Version: 0.6.4-r0
