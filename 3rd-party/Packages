@@ -112,7 +112,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-auto-dcw-key-add
-Version: 1.0.6
+Version: 1.0.7
 Section: misc
 Priority: optional
 Architecture: all
@@ -121,10 +121,10 @@ Description: ADD Manual BISS Key And Add Auto DCW Key Plugin for Enigma2
 Source: enigma2-plugin-extensions-auto-dcw-key-add.bb
 HomePage: https://github.com/smcam/Auto-DCW-Key-ADD
 OE: enigma2-plugin-extensions
-Filename: enigma2-plugin-extensions-auto-dcw-key-add_v1.0.6_all.ipk
-Size: 86874
-MD5Sum: 6c82d2bb0faa5b3589c1a494aa896436
-SHA256sum: 5bf274b28ba878ddd1e38188cdc6cb648fb8d76cd185805f672d5d6e2f5ea723
+Filename: enigma2-plugin-extensions-auto-dcw-key-add_v1.0.7_all.ipk
+Size: 88202
+MD5Sum: a7253b04c1620f2324c0603b2531172f
+SHA256sum: 353b391bb9c6808dd96e0124bab4b447014135156f82f02abec889ac0b571786
 
 Package: enigma2-plugin-extensions-backupsuite
 Version: 3.0-r9
@@ -854,14 +854,14 @@ Size: 491660
 MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
 
 Package: enigma2-plugin-extensions-wireguard-vpn
-Version: 15.7
+Version: 15.8
 Section: enigma2
 Architecture: all
 Maintainer: madhouse
-MD5Sum: c251847e6864178c5177f22487029f03
-SHA256sum: 17d8e87fcd38d5d77ddcb6f9056efde4f56f8062a557f17f4d5fdeb05106f839
-Size: 2968330
-Filename: enigma2-plugin-extensions-wireguard-vpn_15.7_all.ipk
+MD5Sum: 9f71e9b7eed13c0af7e2995e63f32f39
+SHA256sum: aa98ea9210cf7cca9016f695e5f501b114db55acc872d73be0d6ed0a96ab95a0
+Size: 2973744
+Filename: enigma2-plugin-extensions-wireguard-vpn_15.8_all.ipk
 Depends: kernel-module-wireguard, wireguard-module, wireguard-tools, wireguard-tools-bash-completion, openresolv, python3-requests, iptables, alsa-utils
 Source: enigma2-plugin-extensions-wireguard-vpn.bb
 Description: Wireguard Vpn for enigma2 boxes
