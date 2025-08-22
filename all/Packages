@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.6+git206+33a904e0+33a904e013-r0
+Version: 1.7+git208+07823f00+07823f07b2-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e9558e1f89da5d8c191e2cdc595ed827
-SHA256sum: 02743ad7b9c45a6f9534b21bbbd05a26d83b901f1a07cf366179d193ed758fcd
-Size: 594
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.6+git206+33a904e0+33a904e013-r0_all.ipk
+MD5Sum: 70977c1ca427a8c0fc7c449a1ad86f8d
+SHA256sum: 5e95864bee7c19466507541613df76dd3ae47f52a853830a87d0eb6d44dd9e7d
+Size: 596
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.7+git208+07823f00+07823f07b2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.6+git206+33a904e0+33a904e013-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.6+git206+33a904e0+33a904e013-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.7+git208+07823f00+07823f07b2-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.7+git208+07823f00+07823f07b2-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 247d93d3ecb49a157cab1a7b20536a42
-SHA256sum: be519b681015bb1ebecb0a22b84b6122f3b2225c7584e191c5e550e6144d2c5e
-Size: 672
-Filename: enigma2-plugin-extensions-raiplay-dev_1.6+git206+33a904e0+33a904e013-r0_all.ipk
+MD5Sum: 40de69ecc7da26194bf66d95b803f563
+SHA256sum: 18d7457d72b1d4362864cc28504f638b7c30721cc52147a90ce2870f38daeabb
+Size: 674
+Filename: enigma2-plugin-extensions-raiplay-dev_1.7+git208+07823f00+07823f07b2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.6+git206+33a904e0+33a904e013-r0
+Version: 1.7+git208+07823f00+07823f07b2-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c7a4e1243fa3e721e08a105a69fbd81e
-SHA256sum: 37d2b2ae7cfdee101618744af3902511f5bf7b5d889340f64fb867876a29f1ae
-Size: 8546948
-Filename: enigma2-plugin-extensions-raiplay_1.6+git206+33a904e0+33a904e013-r0_all.ipk
+MD5Sum: ad73f0e8f7883069690b436f51f1a2ad
+SHA256sum: 9a94cc61df4d2876a0479aab10d7bb261ba69a4c3e3df70ab8047ca6f808b2fe
+Size: 8550012
+Filename: enigma2-plugin-extensions-raiplay_1.7+git208+07823f00+07823f07b2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -9081,14 +9081,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1132+fd75b5a0+fd75b5ad0e-3
+Version: 2+git1133+49f39490+49f39493fd-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 77d034f40fd3910c202890997d558ae4
-SHA256sum: f8f3d2bcf95a25ed93024eef7bbbd6e50bc2e95421631501409d6ce08ced270e
+MD5Sum: 6de2a0e6f1ec8773e2339b5f916b3d18
+SHA256sum: d2d2cd3bb4b6f436430e89d3394638da67f7845d9c02d60b33e9661c7ce45677
 Size: 568
-Filename: tuxbox-common-dbg_2+git1132+fd75b5a0+fd75b5ad0e-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1133+49f39490+49f39493fd-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9096,15 +9096,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1132+fd75b5a0+fd75b5ad0e-3
-Recommends: tuxbox-common (>= 2+git1132+fd75b5a0+fd75b5ad0e-3), tuxbox-common (<< 2+git1132+fd75b5a0+fd75b5ad0e-3.0), xz-dev
+Version: 2+git1133+49f39490+49f39493fd-3
+Recommends: tuxbox-common (>= 2+git1133+49f39490+49f39493fd-3), tuxbox-common (<< 2+git1133+49f39490+49f39493fd-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f2bc2201f1bedd589856b564265143c9
-SHA256sum: 7341463ab322c29047ba16bd16d6be6a80b63fe486274fc27cc2b0dbc5aca4f1
+MD5Sum: 427bc9367e832c36d74e6fab269f5dd4
+SHA256sum: f57c476441b1581ca35496415b02c7c3201e0c13fb15ae275bf03dd10314dc9a
 Size: 620
-Filename: tuxbox-common-dev_2+git1132+fd75b5a0+fd75b5ad0e-3_all.ipk
+Filename: tuxbox-common-dev_2+git1133+49f39490+49f39493fd-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9112,15 +9112,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1132+fd75b5a0+fd75b5ad0e-3
+Version: 2+git1133+49f39490+49f39493fd-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8a731eb951b7f7576c9b36873b594a3f
-SHA256sum: 80ecdea4d448881061bc8d4878d2ef72a05e79cedf56c47ca581111cb40c08b3
-Size: 71586
-Filename: tuxbox-common_2+git1132+fd75b5a0+fd75b5ad0e-3_all.ipk
+MD5Sum: 6e7ec8f56dcfd7fa4bb40b616fe3c21e
+SHA256sum: 684122d68ffedc6d85b455c9443c64fee5a85e25037165bf7b3b1021f8e5c33f
+Size: 71578
+Filename: tuxbox-common_2+git1133+49f39490+49f39493fd-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
