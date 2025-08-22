@@ -1213,14 +1213,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.7+git208+07823f00+07823f07b2-r0
+Version: 1.7+git210+19b96190+19b96195c0-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 70977c1ca427a8c0fc7c449a1ad86f8d
-SHA256sum: 5e95864bee7c19466507541613df76dd3ae47f52a853830a87d0eb6d44dd9e7d
+MD5Sum: 96ef4e18a3de982bc0328c5425497064
+SHA256sum: 8e78dbbc07e355f65b7b93bb686e9b28b9966f80b3c8074f7f27f56d34bb32c8
 Size: 596
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.7+git208+07823f00+07823f07b2-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.7+git210+19b96190+19b96195c0-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -1228,15 +1228,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.7+git208+07823f00+07823f07b2-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.7+git208+07823f00+07823f07b2-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.7+git210+19b96190+19b96195c0-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.7+git210+19b96190+19b96195c0-r0), python3-image-dev, python3-imaging-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 40de69ecc7da26194bf66d95b803f563
-SHA256sum: 18d7457d72b1d4362864cc28504f638b7c30721cc52147a90ce2870f38daeabb
+MD5Sum: 780d23583c87c95cda56f0dd9ad5aac3
+SHA256sum: 90ac08a9fbe3eceaed8b80b2f52b8babb16651c78dc4422ad6f15c18879f919b
 Size: 674
-Filename: enigma2-plugin-extensions-raiplay-dev_1.7+git208+07823f00+07823f07b2-r0_all.ipk
+Filename: enigma2-plugin-extensions-raiplay-dev_1.7+git210+19b96190+19b96195c0-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -1244,15 +1244,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.7+git208+07823f00+07823f07b2-r0
+Version: 1.7+git210+19b96190+19b96195c0-r0
 Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ad73f0e8f7883069690b436f51f1a2ad
-SHA256sum: 9a94cc61df4d2876a0479aab10d7bb261ba69a4c3e3df70ab8047ca6f808b2fe
-Size: 8550012
-Filename: enigma2-plugin-extensions-raiplay_1.7+git208+07823f00+07823f07b2-r0_all.ipk
+MD5Sum: b6c38ac1c7b9b170edb2309aeaf2f75c
+SHA256sum: ebe3554d9e905a172c6466acc25f95e916359af36997d23768d84864fe04e3e7
+Size: 8551020
+Filename: enigma2-plugin-extensions-raiplay_1.7+git210+19b96190+19b96195c0-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -1587,14 +1587,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 6.1+git395+40140040+4014004b75-r0
+Version: 6.1+git396+eb1078a0+eb1078ab69-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 132dbf87fd70a361a83f0afbc206eed1
-SHA256sum: 07915a785db7a41dd5c6b9d46731a8272ea3c1073341405f009844455665c40d
+MD5Sum: fe2c9cd65384366b366e3eb33d3392bd
+SHA256sum: 03fb8acf7e6ffbb8749269fadec99ca7f220a467d321c2520683f9e9157519e2
 Size: 642
-Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git395+40140040+4014004b75-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -1603,15 +1603,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 6.1+git395+40140040+4014004b75-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git395+40140040+4014004b75-r0)
+Version: 6.1+git396+eb1078a0+eb1078ab69-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git396+eb1078a0+eb1078ab69-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 6db417831472eaa5bb5841c97f5fdcc6
-SHA256sum: 78b9e2edbeef0be6147a75d336f165f784e3b7ef262b35dfba8ea8f72d29ffce
-Size: 676
-Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git395+40140040+4014004b75-r0_all.ipk
+MD5Sum: 80472e972170f1f0cec00c9ff94cbb2d
+SHA256sum: fafe1309ab45145d35c4db1cb7d49f9693de9847c673f912d8c73f13e443e1fa
+Size: 678
+Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -1620,14 +1620,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 6.1+git395+40140040+4014004b75-r0
+Version: 6.1+git396+eb1078a0+eb1078ab69-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e81bd801f6504cc4f513b5623941f170
-SHA256sum: 077d061b1609c3168eb5d6f589f68650e6f0d6d644adef5f55f37cebac2e303f
-Size: 3640748
-Filename: enigma2-plugin-extensions-worldcam_6.1+git395+40140040+4014004b75-r0_all.ipk
+MD5Sum: 686cf7621b9ce3ebdbfb72dc89089f3d
+SHA256sum: d42e176c34c06be6699b79f1981fd76384212bc17e6d45b718df80d591adc0d8
+Size: 4337566
+Filename: enigma2-plugin-extensions-worldcam_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
