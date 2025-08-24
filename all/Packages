@@ -824,6 +824,55 @@ HomePage: https://github.com/kiddac/EStalker
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-filmon-dbg
+Version: 2.4+git124+f0659890+f06598950e-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: cc8dceb3a0e37c45b70a4fbfab960a0f
+SHA256sum: 50606d1ee6def845fd343537e92915e60d2c9094766194fcdab562c1b08806b8
+Size: 642
+Filename: enigma2-plugin-extensions-filmon-dbg_2.4+git124+f0659890+f06598950e-r0_all.ipk
+Source: enigma2-plugin-extensions-filmon.bb
+Description: Filmon from Albatros - Debugging files
+OE: enigma2-plugin-extensions-filmon
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-filmon-dev
+Version: 2.4+git124+f0659890+f06598950e-r0
+Recommends: enigma2-plugin-extensions-filmon (= 2.4+git124+f0659890+f06598950e-r0)
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 65f2d1144606642c7a55779db0c79709
+SHA256sum: 792a70d4d3073096aadcd47e6916f1872905c37420673d8011cb43062794d4be
+Size: 674
+Filename: enigma2-plugin-extensions-filmon-dev_2.4+git124+f0659890+f06598950e-r0_all.ipk
+Source: enigma2-plugin-extensions-filmon.bb
+Description: Filmon from Albatros - Development files
+OE: enigma2-plugin-extensions-filmon
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-filmon
+Version: 2.4+git124+f0659890+f06598950e-r0
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: bd7f115ffbbe876d38b57faa39385a03
+SHA256sum: cd4a85f03978beea07dff103f30f94631a0137c2285dec112008817209dea1fa
+Size: 1000516
+Filename: enigma2-plugin-extensions-filmon_2.4+git124+f0659890+f06598950e-r0_all.ipk
+Source: enigma2-plugin-extensions-filmon.bb
+Description: Filmon from Albatros
+OE: enigma2-plugin-extensions-filmon
+HomePage: https://github.com/Belfagor2005
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-freearhey-dbg
 Version: 3.1+git193+a707c350+a707c35788-r0
 Section: devel
@@ -1023,14 +1072,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.8.2+git288+44cefa70+44cefa7959-r0
+Version: 2.8.2+git289+e0bebb70+e0bebb7f2c-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: c17017fb74e070b9fc549cfb254ea731
-SHA256sum: 4d71bc45492a3158eea4a72d0510d7baacfc9a0aadd81664ea79c28f23ea8b3f
-Size: 598
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
+MD5Sum: 560e5c71e86c52b22c74e5f25e4070eb
+SHA256sum: 43f9c018ecb017619662f13facf0ed0056ab90ff6420ce32874f084058543741
+Size: 596
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.8.2+git289+e0bebb70+e0bebb7f2c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1038,15 +1087,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.8.2+git288+44cefa70+44cefa7959-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.8.2+git288+44cefa70+44cefa7959-r0)
+Version: 2.8.2+git289+e0bebb70+e0bebb7f2c-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.8.2+git289+e0bebb70+e0bebb7f2c-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: d816574e28e2df49e6dd38a55ff1f791
-SHA256sum: eb24ae6202d3c6637c193e4bb60ce272d7dea0c7776a804c0a108600d294c0e6
-Size: 630
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
+MD5Sum: d9ef4c2fb86b5de28f2d813b86ae33fd
+SHA256sum: 7b36a9e640219fcc474c5f9bc1dc60e3cea65553bf20847d59c1a22e6b1a3011
+Size: 628
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.8.2+git289+e0bebb70+e0bebb7f2c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1054,14 +1103,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.8.2+git288+44cefa70+44cefa7959-r0
+Version: 2.8.2+git289+e0bebb70+e0bebb7f2c-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: a49064cbb38a1848ea3fb915f216898f
-SHA256sum: 77395253a574992faab6baabee817dffabc518f8bbb3fc2e08dc6e0b846477d9
-Size: 9170422
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.8.2+git288+44cefa70+44cefa7959-r0_all.ipk
+MD5Sum: 86523f845cf15b9e00b6ee99199c8a54
+SHA256sum: eab19f73893dee4ce25a30387579bb2fc86000c08b721045fb23b540bfaae05f
+Size: 9180978
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.8.2+git289+e0bebb70+e0bebb7f2c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: LinuxSat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1587,14 +1636,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 6.1+git396+eb1078a0+eb1078ab69-r0
+Version: 6.1+git397+28746d20+28746d2ee7-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fe2c9cd65384366b366e3eb33d3392bd
-SHA256sum: 03fb8acf7e6ffbb8749269fadec99ca7f220a467d321c2520683f9e9157519e2
+MD5Sum: 6012d6fea9770f96a3ef2e0539c218ac
+SHA256sum: 4e4c4bd145c11eb0f00556115530596f4fe42e11ac3d3cb4770d12fc0df31c1c
 Size: 642
-Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git397+28746d20+28746d2ee7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -1603,15 +1652,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 6.1+git396+eb1078a0+eb1078ab69-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git396+eb1078a0+eb1078ab69-r0)
+Version: 6.1+git397+28746d20+28746d2ee7-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git397+28746d20+28746d2ee7-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 80472e972170f1f0cec00c9ff94cbb2d
-SHA256sum: fafe1309ab45145d35c4db1cb7d49f9693de9847c673f912d8c73f13e443e1fa
-Size: 678
-Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
+MD5Sum: ec8798712ffb3351553cacedac5cf81e
+SHA256sum: c8e929180ca84643f6413e467f265d871adb12cf99954bf2f67854b21996a3db
+Size: 676
+Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git397+28746d20+28746d2ee7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -1620,14 +1669,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 6.1+git396+eb1078a0+eb1078ab69-r0
+Version: 6.1+git397+28746d20+28746d2ee7-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 686cf7621b9ce3ebdbfb72dc89089f3d
-SHA256sum: d42e176c34c06be6699b79f1981fd76384212bc17e6d45b718df80d591adc0d8
-Size: 4337566
-Filename: enigma2-plugin-extensions-worldcam_6.1+git396+eb1078a0+eb1078ab69-r0_all.ipk
+MD5Sum: b9e8734f15605ca639bfd7db2d2561c4
+SHA256sum: d3da145cd4ee06a1d3ab68755fe09e4da99416a9d1ed51b0ea034f52f37f8e8f
+Size: 4337568
+Filename: enigma2-plugin-extensions-worldcam_6.1+git397+28746d20+28746d2ee7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
