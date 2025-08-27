@@ -562,14 +562,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.59-20250805-git210+3784b8c0+3784b8ca72-r3
+Version: 1.59-20250805-git211+fe346a00+fe346a0fea-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e67a0a10b0a19d071fd83b3e9b89602e
-SHA256sum: 3a7bbc134ffcd65c48bb20ae2db80d9dcfe9303f1d19522b1f8cccc912674ab3
-Size: 634
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.59-20250805-git210+3784b8c0+3784b8ca72-r3_all.ipk
+MD5Sum: 241c057ab8898fed2806e9584926ed77
+SHA256sum: ee1a9d36033695bc3d6e8bad142ab85a78da02b84a57d1061607256b3380aabb
+Size: 632
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.59-20250805-git211+fe346a00+fe346a0fea-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -578,15 +578,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.59-20250805-git210+3784b8c0+3784b8ca72-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.59-20250805-git210+3784b8c0+3784b8ca72-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.59-20250805-git211+fe346a00+fe346a0fea-r3
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.59-20250805-git211+fe346a00+fe346a0fea-r3), python3-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: fb0afcd4007bdb31f683484170d64083
-SHA256sum: b370f21260bfa43efa679e89da4b0a4c372eba6eafe7302d16460f8367e07eb9
+MD5Sum: 9c65da7aae72deddba77a8abc3dc306d
+SHA256sum: da7d3675619b633919493714a587d53edb463c1da8b3560019bc1b62cd846a40
 Size: 692
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.59-20250805-git210+3784b8c0+3784b8ca72-r3_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.59-20250805-git211+fe346a00+fe346a0fea-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -595,15 +595,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.59-20250805-git210+3784b8c0+3784b8ca72-r3
+Version: 1.59-20250805-git211+fe346a00+fe346a0fea-r3
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4c06e7284b391d1822c043eb32ce5b7b
-SHA256sum: ee2ee0963999cd0ee0287155b7b9f2728b47dd68ba032407be5aabe52886df8e
-Size: 1302048
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.59-20250805-git210+3784b8c0+3784b8ca72-r3_all.ipk
+MD5Sum: 52e1a808e45753e0b718778f860362d0
+SHA256sum: 68662411f5c483a91b3ba274a19870ff649e4e9aceededcc645d7ea528d4d1f3
+Size: 1301608
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.59-20250805-git211+fe346a00+fe346a0fea-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -763,8 +763,8 @@ Version: 1.07-20250816-git25+d7ab7170+d7ab7173c8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 3ff59a777634ba929ebedfd5572400bf
-SHA256sum: a828e643de4ca1c60060f646fadb3cc9066cc66f2cd0a20df9771bfc48df5d9b
+MD5Sum: 3c0db9313aac298069e2c8637f4e11d4
+SHA256sum: 07e55718c6887f6347115201d53acba025ab31b9b62c27951b16c7e63e7a01bc
 Size: 624
 Filename: enigma2-plugin-extensions-estalker-dbg_1.07-20250816-git25+d7ab7170+d7ab7173c8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -780,8 +780,8 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.07-20250816-git25+d7ab7170+d
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a19d61f42291c54ecdd1edc6ac0806ae
-SHA256sum: 5bb7dadcbed1954cc31c02a4cf189a7bbc6736b0c987eb4a48b4742b2d1e51f3
+MD5Sum: 33c4ef4876dd99e849558acb5382edc2
+SHA256sum: 492f27fec3c03d8265deacc5d9c2a0ef3bdd80e7ee61364abf31d7e484a65065
 Size: 724
 Filename: enigma2-plugin-extensions-estalker-dev_1.07-20250816-git25+d7ab7170+d7ab7173c8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -796,9 +796,9 @@ Version: 1.07-20250816-git25+d7ab7170+d7ab7173c8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 2bdc9cc5bc8dd42a36c4b4b2c8769446
-SHA256sum: 4015d61a7475351e138dbf88565cf933209150f96c93d88d5f8dd51d93dd4022
-Size: 81070
+MD5Sum: 926a5e608c02707d0462c4e9be648f1a
+SHA256sum: 96f9228a9b7cb3bfa4361dd5eda0a1ab96055bc62e235db5a6500b0dbcf679a3
+Size: 81060
 Filename: enigma2-plugin-extensions-estalker-src_1.07-20250816-git25+d7ab7170+d7ab7173c8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -813,9 +813,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d79bc820fd0130f43b28c3446d30d196
-SHA256sum: c1bed47677ab0d7cd834b0ef3f322fa02fb4433c77bfec93c4adf8ef3e44a57e
-Size: 2417436
+MD5Sum: 7eefb49cc793162ff770302d09fff74b
+SHA256sum: 3c6472257aa9c1e0718e8314ad8f1c283306cf6cd2ae9758c460109a32ceb6f9
+Size: 2417672
 Filename: enigma2-plugin-extensions-estalker_1.07-20250816-git25+d7ab7170+d7ab7173c8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -9130,14 +9130,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1137+c56e2c70+c56e2c7c9c-3
+Version: 2+git1138+f85d4110+f85d411853-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 811fb4dd0ff8125ac40d39faef7434c9
-SHA256sum: 501a5010f15b7652f3c099ee424ca2868eb534134a31f0ba4d3b1ca038f9bfea
-Size: 568
-Filename: tuxbox-common-dbg_2+git1137+c56e2c70+c56e2c7c9c-3_all.ipk
+MD5Sum: 58a68d48f7f940370c936f1e0248217d
+SHA256sum: 1b2d01366488a09041ebab48ee53f609f294941c2602aee852a238c071e586df
+Size: 570
+Filename: tuxbox-common-dbg_2+git1138+f85d4110+f85d411853-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9145,15 +9145,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1137+c56e2c70+c56e2c7c9c-3
-Recommends: tuxbox-common (>= 2+git1137+c56e2c70+c56e2c7c9c-3), tuxbox-common (<< 2+git1137+c56e2c70+c56e2c7c9c-3.0), xz-dev
+Version: 2+git1138+f85d4110+f85d411853-3
+Recommends: tuxbox-common (>= 2+git1138+f85d4110+f85d411853-3), tuxbox-common (<< 2+git1138+f85d4110+f85d411853-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8161c1412a70806770ed1786b7caba5c
-SHA256sum: bbf4b7ebcf2d040df077fb5a69b8ef1d3980619c31944c28e102641246b12e62
-Size: 622
-Filename: tuxbox-common-dev_2+git1137+c56e2c70+c56e2c7c9c-3_all.ipk
+MD5Sum: 531e4741f464baed1bbb78dcfff8b587
+SHA256sum: 2eb846a3b4c4696d49281eaab4f670d6281e01b75fb5b1bd806e278e3e503459
+Size: 620
+Filename: tuxbox-common-dev_2+git1138+f85d4110+f85d411853-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9161,15 +9161,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1137+c56e2c70+c56e2c7c9c-3
+Version: 2+git1138+f85d4110+f85d411853-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 9eb051cb07a353ddbc67d449ecb05cf1
-SHA256sum: 5d98e7026ffdd366be4343e4ba45d8edae7f9124f91a3d88b84a1b9536c10504
-Size: 71562
-Filename: tuxbox-common_2+git1137+c56e2c70+c56e2c7c9c-3_all.ipk
+MD5Sum: 89843ab167c2527212ea16cdffbce66d
+SHA256sum: d37a5748c2ca103bca12d96c43ba60f8cb4e746bc030d17136b0c42aacc7e04f
+Size: 71528
+Filename: tuxbox-common_2+git1138+f85d4110+f85d411853-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
