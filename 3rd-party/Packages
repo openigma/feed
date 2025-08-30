@@ -623,6 +623,23 @@ MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
 SHA256sum: 84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0
 Priority: optional
 
+Package: enigma2-plugin-extensions-satelliweblivefeeds
+Version: 2.0-r2
+Description: Fatima Live Feeds plugin
+Section: base
+Priority: optional
+Maintainer: ostende
+License: CLOSED
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), python3-beautifulsoup4, python3-core
+Source: enigma2-plugin-extensions-satelliweblivefeeds.bb
+Filename: enigma2-plugin-extensions-rakutentv_20250505_all.ipk
+Size: 7709496
+MD5Sum: b6bd98b94a8019556f36506376307535
+SHA256sum: abb09337ec5f752a6ac31401d13137233ccae3c50d401cd4cd46dd328f2ff120
+
 Package: enigma2-plugin-extensions-schiffe
 Version: gitr7785+3a5b2690+3a5b2697bb-r8
 Section: base
