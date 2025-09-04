@@ -866,16 +866,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgimport-sources
-Version: git158+401b0030+401b003dd9-r0
+Version: git159+1158fef0+1158fef755-r0
 Replaces: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
 Conflicts: enigma2-plugin-extensions-epgimport-rytec, enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
 Maintainer: Doglover @ https://forums.openpli.org/forum/52-en-rytec-xmltv-and-epg-support/
-MD5Sum: d8c67bc348cf449943bd0ccadcec0e4b
-SHA256sum: 7ee04c3af9a9e0a67e29d7e8d512356e58b70fdc37b8838431a60c985400ff4e
-Size: 3864
-Filename: enigma2-plugin-extensions-epgimport-sources_git158+401b0030+401b003dd9-r0_all.ipk
+MD5Sum: 028328f33464a19f419135d660d6de94
+SHA256sum: b8e8c214e7e1394a03f44125a8960f6eff4755454612422396e0a56ace1df517
+Size: 3742
+Filename: enigma2-plugin-extensions-epgimport-sources_git159+1158fef0+1158fef755-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-sources.bb
 Description: XMLTV sources
 OE: enigma2-plugin-extensions-epgimport-sources
@@ -1355,14 +1355,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 1.7+git52+bf3c1990+bf3c19943b-r0
+Version: 1.7+git53+3a01ca20+3a01ca2774-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4d623a904e5e3c4fe39700e47e507df9
-SHA256sum: 3e6dc575c1c44facafbb26ec957c7ee6054556f98b6444433ea9f15b64afc0dc
+MD5Sum: 0f836e13efa437513f19105586ef0c18
+SHA256sum: a4f35cb3c84b5dc073a84bd167c61b56846f21754889f33e1952d178ceb2a385
 Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git52+bf3c1990+bf3c19943b-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git53+3a01ca20+3a01ca2774-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1371,15 +1371,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 1.7+git52+bf3c1990+bf3c19943b-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git52+bf3c1990+bf3c19943b-r0)
+Version: 1.7+git53+3a01ca20+3a01ca2774-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git53+3a01ca20+3a01ca2774-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1f48d6098626a4c6f041ca995dce7031
-SHA256sum: 20ccfa473564245dbf3f823ed8e21bc5f4a095002be9d20b4a32103177007be8
-Size: 690
-Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git52+bf3c1990+bf3c19943b-r0_all.ipk
+MD5Sum: f9599c5cf36fa581996c39f8ca91c5f6
+SHA256sum: c5098b7fca639931576e9de15c852094f916420e6de68750d3169e0e5fbcd894
+Size: 688
+Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git53+3a01ca20+3a01ca2774-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1388,14 +1388,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 1.7+git52+bf3c1990+bf3c19943b-r0
+Version: 1.7+git53+3a01ca20+3a01ca2774-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: dd5d81cb184791a57fcbe266ea3d940e
-SHA256sum: 4783c67cc5bd2c5e333d527826e18b427afb45cc3ce5c858c26fa7a35feeba77
-Size: 68358
-Filename: enigma2-plugin-extensions-m3uconverter_1.7+git52+bf3c1990+bf3c19943b-r0_all.ipk
+MD5Sum: 727bc2b3f04268f1cefc69024685fe58
+SHA256sum: bfb7f39645595c056aa2d84704556b847bb5864e25dbd5b5589e97c25f01c400
+Size: 69524
+Filename: enigma2-plugin-extensions-m3uconverter_1.7+git53+3a01ca20+3a01ca2774-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -9863,14 +9863,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1145+4c146890+4c1468948e-3
+Version: 2+git1146+d9e0b850+d9e0b852bb-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: e9b404fdecae77f4e0ebf7e4ac2da381
-SHA256sum: 35a94f9092ca89cdf3f09ff985ec77598f0232152d02e9e8014bba6100ff7eff
-Size: 570
-Filename: tuxbox-common-dbg_2+git1145+4c146890+4c1468948e-3_all.ipk
+MD5Sum: 7903f54e8924a432d8970edd9eb617b7
+SHA256sum: fcbef3d781cae2806cca50d3538ee9058d515a3073f6bba65661e91e0437e3fe
+Size: 568
+Filename: tuxbox-common-dbg_2+git1146+d9e0b850+d9e0b852bb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9878,15 +9878,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1145+4c146890+4c1468948e-3
-Recommends: tuxbox-common (>= 2+git1145+4c146890+4c1468948e-3), tuxbox-common (<< 2+git1145+4c146890+4c1468948e-3.0), xz-dev
+Version: 2+git1146+d9e0b850+d9e0b852bb-3
+Recommends: tuxbox-common (>= 2+git1146+d9e0b850+d9e0b852bb-3), tuxbox-common (<< 2+git1146+d9e0b850+d9e0b852bb-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 001d7e4bea9afabcdcfad0e7e7fdef6c
-SHA256sum: 167582c1ad5653258847d9e371c59b73409ae62ad1dbe01de5fa8dc2c5899029
+MD5Sum: 46e93bf35d422ec75309f7f06591a6df
+SHA256sum: 728febb032baa234612eec919594fca36a59b2142915182bf2049f4a9e5160ce
 Size: 622
-Filename: tuxbox-common-dev_2+git1145+4c146890+4c1468948e-3_all.ipk
+Filename: tuxbox-common-dev_2+git1146+d9e0b850+d9e0b852bb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9894,15 +9894,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1145+4c146890+4c1468948e-3
+Version: 2+git1146+d9e0b850+d9e0b852bb-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: da467bcf747c1600ebfb6b52e3e158c6
-SHA256sum: e51c9a225a726db9fd0c25d0660b21567aa29626aa36a6fe69e627b82d8c13f4
-Size: 71324
-Filename: tuxbox-common_2+git1145+4c146890+4c1468948e-3_all.ipk
+MD5Sum: 255451a3649b8264f1909d1d3e564386
+SHA256sum: dbdce40cf071162de45c37be746098019695bea293f4f73c98790d9b16795a60
+Size: 71340
+Filename: tuxbox-common_2+git1146+d9e0b850+d9e0b852bb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
