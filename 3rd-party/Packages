@@ -734,6 +734,7 @@ Architecture: all
 Maintainer: ostende
 Description: Transmission torrent client plugin
 Depends: python3-beautifulsoup4, python3-difflib, python3-imaging, python3-pillow, python3-transmission-rpc, transmission, transmission-client
+Recommends: enigma2-plugin-extensions-subssupport
 Source: enigma2-plugin-extensions-transmission.bb
 Filename: enigma2-plugin-extensions-transmission_5.2_all.ipk
 OE: enigma2-plugin-extensions
