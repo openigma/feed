@@ -196,7 +196,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
-Version: 2.0.10
+Version: 2.0.11
 Description: E2m3u Bouquet Plugin
 Section: extra
 Priority: optional
@@ -207,10 +207,10 @@ OE: enigma2-plugin-extensions
 Homepage: https://www.suls.co.uk/
 Depends: python3-image, python3-pillow, python3-multiprocessing
 Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
-Filename: enigma2-plugin-extensions-e2m3u2bouquet_2.0.10_all.ipk
-Size: 2482220
-MD5Sum: 039c1ceee62b33cc7d6a3472038d4942
-SHA256sum: 78e95293ca564fdb1e53f404f2277e57aeb140013194e1af6d24f60ab04d1dfb
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_2.0.11_all.ipk
+Size: 2484644
+MD5Sum: 4eaec47efba1c52b918344718d3a3ab3
+SHA256sum: 73075603528b3eb980fff1cb55dcd467c6457f646196448141dd2cfb578a3c40
 
 Package: enigma2-plugin-extensions-emission
 Version: gitr7785+3a5b2690+3a5b2697bb-r8
@@ -510,7 +510,7 @@ Size: 502900
 MD5Sum: ec00c684c0325648d819cc1a563d8493
 SHA256sum: 402be0078f50a8473021a9065584b406e4da96dfe12b706dcfab96903ee25497
 
-Package: enigma2-plugin-extensions-oaweather
+Package: enigma2-plugin-extensions-oaweather-pli
 Version: 4.0
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 Section: extra
@@ -519,11 +519,14 @@ Maintainer: jbleyel, me
 License: GPL-3.0-only
 Architecture: all
 OE: enigma2-plugin-extensions
-Source: enigma2-plugin-extensions-oaweather.bb
-Filename: enigma2-plugin-extensions-oaweather_4.0_all.ipk
-Size: 1101318
-MD5Sum: d81aa00dbb607b27475cdaa4e90fb860
-SHA256sum: b6908a3a7b0e2a2fa02aee95743fd7ee79a715a5caaa405276156cb1e3a88830
+Source: enigma2-plugin-extensions-oaweather-pli.bb
+Provides: enigma2-plugin-extensions-oaweather
+Replaces: enigma2-plugin-extensions-oaweather
+Conflicts: enigma2-plugin-extensions-oaweather
+Filename: enigma2-plugin-extensions-oaweather-pli_4.0_all.ipk
+Size: 1417160
+MD5Sum: 53249ca7c647dfd27ef8cd81c45ef971
+SHA256sum: 25e766dc5fc9a8b1e0069029d3b28628ee6f36e167ac6bbea8d5e6f28fa5fe60
 
 Package: enigma2-plugin-extensions-oscambutler
 Version: 2.0
