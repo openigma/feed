@@ -576,7 +576,23 @@ OE: enigma2-plugin-extensions
 Size: 358510
 MD5Sum: 8d513ff1979d2317c940524d2e009ffa
 
-Package: enigma2-plugin-extensions-rakutentv
+Package: enigma2-plugin-extensions-quarterpounder
+Version: 6.2.0v
+Description: Attempts to detect a stuck stream and restart it
+Section: extra
+Priority: optional
+Maintainer: @oottppxx
+Architecture: all
+OE: enigma2-plugin-extensions-quarterpounder
+Depends:
+Recommends:
+Homepage: https://github.com/oottppxx/enigma2/
+Filename: enigma2-plugin-extensions-quarterpounder_6.2.0v_all.ipk
+Size: 11998
+MD5Sum: dd0fd1300a6b11d79ea715de37b4d03f
+SHA256sum: 6ad98b01ed00fb9ed5c7ba6387845c0938e154015e1feaf162370fcafaf2b934
+
+Package: enigma2-11998plugin-extensions-rakutentv
 Version: 20250505
 Section: extensions
 Priority: optional
