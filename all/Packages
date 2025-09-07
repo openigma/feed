@@ -1355,14 +1355,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 1.7+git56+c6bbe810+c6bbe8139a-r0
+Version: 1.7+git59+95e988f0+95e988fef3-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 803f1aa26a25a9eff29b6001a1e3aee3
-SHA256sum: 81d0844bd052d7cd45ffa9bca3be17296b7a623271b80a3314e2f28a77ba3287
+MD5Sum: 83220aff86000c89b86534a733cd63d8
+SHA256sum: b8d30e2b834520ff5cd74395ef0e804c13db91d6cc0140361ada3957fcd463bc
 Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git56+c6bbe810+c6bbe8139a-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1371,15 +1371,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 1.7+git56+c6bbe810+c6bbe8139a-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git56+c6bbe810+c6bbe8139a-r0)
+Version: 1.7+git59+95e988f0+95e988fef3-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git59+95e988f0+95e988fef3-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 5eeef840154238ffdfde02cf04912158
-SHA256sum: 4eb66edd451d18728f876e7b917868b5b1056907281ee2439fec87c20c74e5d1
-Size: 690
-Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git56+c6bbe810+c6bbe8139a-r0_all.ipk
+MD5Sum: 32fedf164ee60a47052299291344a961
+SHA256sum: 360d77bfd252d02dd750efa7dfc8db97163bd33182285043b3e83b125c9405d9
+Size: 688
+Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1388,14 +1388,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 1.7+git56+c6bbe810+c6bbe8139a-r0
+Version: 1.7+git59+95e988f0+95e988fef3-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9b81a2c1ab94134c89bd6d98cf4306c3
-SHA256sum: ed86110a2a462a71002c35e4cfcb450ad4d579ae191ee86659c52f822195522f
-Size: 70286
-Filename: enigma2-plugin-extensions-m3uconverter_1.7+git56+c6bbe810+c6bbe8139a-r0_all.ipk
+MD5Sum: 6854ecbf6274d5e3c6630c45c260a7ea
+SHA256sum: 6f728e2e87bc56bab335c99cb018223c63cf527418c536eae4846c41e26853f4
+Size: 75398
+Filename: enigma2-plugin-extensions-m3uconverter_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -2244,8 +2244,8 @@ Version: 1.62-20250831-git111+17423250+17423254b7-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b315a524b18ffd1ce751c9e69027de1e
-SHA256sum: aefd521b8a8afc6b4f3659e2555fb5cd2ca233c0084ea4ee28031ab38c54fc73
+MD5Sum: 2da9d104b3921117e2812d08ebe98a24
+SHA256sum: 93fdd1125e8edcd56488cfc15f1e1ab3a30ba4a9d0b86805aec03a3c5c06ae2b
 Size: 640
 Filename: enigma2-plugin-extensions-xklass-dbg_1.62-20250831-git111+17423250+17423254b7-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
@@ -2261,8 +2261,8 @@ Recommends: enigma2-plugin-extensions-xklass (= 1.62-20250831-git111+17423250+17
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 0e0d022b2e8df3449c724468f6caa5a1
-SHA256sum: 6a34bd40ed84ee7a58109a8043ffabb260263dd86e5b12b6e1b99428172e5d56
+MD5Sum: 45b687a9beb1e936311587d15eceafce
+SHA256sum: 2695d0e4ef5a40ef7a7cd14e77209599fe96be379c6d43bd85fcb9d0ca05df43
 Size: 704
 Filename: enigma2-plugin-extensions-xklass-dev_1.62-20250831-git111+17423250+17423254b7-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
@@ -2277,9 +2277,9 @@ Version: 1.62-20250831-git111+17423250+17423254b7-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9f7a3ce16f722c666ba793bf984002a0
-SHA256sum: 4312914c55a440b460ac9e4c5f9d0202a89d69763f665e722105cc54aa2a19ac
-Size: 104688
+MD5Sum: 3dafe2d9b14be2098e37ba0236a45aa0
+SHA256sum: f4694d0089b04a81053404b48c5338e0cf7e5828c7688454a915fd2a2ae9a8a1
+Size: 104676
 Filename: enigma2-plugin-extensions-xklass-src_1.62-20250831-git111+17423250+17423254b7-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
@@ -2294,9 +2294,9 @@ Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 2acfa20911cee3ff026e8c4d0381545c
-SHA256sum: 9d3fc790e8a714c7c382110fdc5ef38ca9381b3e8d7f7a0f6ad63eded462ef37
-Size: 5779826
+MD5Sum: 238c37ecb90ed4e6f308a5d0d319f0f1
+SHA256sum: c700b9e1405db95d64168706ddb3fcfa70d5225bfd3c619a2a5ae2d7914d3c82
+Size: 5779828
 Filename: enigma2-plugin-extensions-xklass_1.62-20250831-git111+17423250+17423254b7-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
@@ -2326,9 +2326,9 @@ Version: 5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9f10d2e3b097e3d3636ee7767603e381
-SHA256sum: 9c78a1d7e531ca90e2a1a3d9c83d6dc83bd3e7954615bf29f4beb7037e2b7994
-Size: 634
+MD5Sum: 63b73604bde9a349a744117d6bd91166
+SHA256sum: ac689a0f983dbe123e5025182e951c4ad05570eb7b976ad3eed30b964e8eb579
+Size: 636
 Filename: enigma2-plugin-extensions-xstreamity-dbg_5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
@@ -2343,8 +2343,8 @@ Recommends: enigma2-plugin-extensions-xstreamity (= 5.12-20250903-git579+5c2f6e8
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f36390ed0477170ceafed071efe7728d
-SHA256sum: 031f4491322a70770128855e775b1a5deb1f81780734853580189ec0e825b29b
+MD5Sum: d70be404c9738910f88a35953781d001
+SHA256sum: 779121644c28325880b94b7ec8b7be7b99eea01cf8e9010c09e954fa7a3ef54a
 Size: 706
 Filename: enigma2-plugin-extensions-xstreamity-dev_5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
@@ -2359,9 +2359,9 @@ Version: 5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9f1086f43b5905e6dc8762d1b67875b8
-SHA256sum: 3cabff73d179d32f131916d0a2acd6c4acb3aaf04e6343602143585b18ecf4b4
-Size: 101244
+MD5Sum: 355eacedccbb5be4db5e7d242ac8e6fe
+SHA256sum: aace27352806e0e574487d03d0b95fe02799b6385f2da734f8a4b9495ddc0108
+Size: 101242
 Filename: enigma2-plugin-extensions-xstreamity-src_5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
@@ -2376,9 +2376,9 @@ Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d3137bfb5e8c7a26e03786dd2017091a
-SHA256sum: bd6169f9a33e6019a62d225d5fe043f67089dd0329794ed818c2f0f8afbec1b8
-Size: 3769664
+MD5Sum: f67bf21a5f3105e5a2b72ee960c2ea26
+SHA256sum: 5bc0f2a3b813785b2c6677ca0a86450827e01c0217b42d1f130c3ce37b8fade2
+Size: 3769856
 Filename: enigma2-plugin-extensions-xstreamity_5.12-20250903-git579+5c2f6e80+5c2f6e8199-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
