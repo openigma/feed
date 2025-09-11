@@ -9506,15 +9506,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: openresolv-dbg
-Version: 3.13.1-r0
+Version: 3.17.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 86d29c4b72dddd3f4111a1247d80583b
-SHA256sum: 3e34ccba987e0ef885b0ffedaf8512ffd1bdcab36e135805a40e52e2fc70729f
+MD5Sum: 08f559c74a0f9e6e13f631f36c3d7590
+SHA256sum: e6fc8bbc43645feac1a594b139112d76b68114fe64fbd54aa656fe84a6638c96
 Size: 626
-Filename: openresolv-dbg_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+Filename: openresolv-dbg_3.17.0-r0_all.ipk
+Source: openresolv_3.17.0.bb
 Description: management framework for resolv.conf - Debugging files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9522,16 +9522,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-dev
-Version: 3.13.1-r0
-Recommends: openresolv (= 3.13.1-r0)
+Version: 3.17.0-r0
+Recommends: openresolv (= 3.17.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d990f70184fab58f12eb05cef9865a24
-SHA256sum: 711d9cc0992453e94f2578c26bed4c13211e4d1f73a230dff3255b646203abae
+MD5Sum: c346a080ff8a4df700257477f230f5df
+SHA256sum: c4ca8df7aaa3ad6405f9ee12e7c3e4f881b19efc1607f80bb0438172f5ea6571
 Size: 654
-Filename: openresolv-dev_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+Filename: openresolv-dev_3.17.0-r0_all.ipk
+Source: openresolv_3.17.0.bb
 Description: management framework for resolv.conf - Development files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9539,15 +9539,15 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-doc
-Version: 3.13.1-r0
+Version: 3.17.0-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a62e8aa2b3e4372bfb5babbbaca8824
-SHA256sum: 2752a7d4be0bdef3f27a7ffbb54355576ac66b4a8fa9d3ebf2a5511d8889b23a
-Size: 7658
-Filename: openresolv-doc_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+MD5Sum: 438fdb34d7716b7f231850c9a25c9cda
+SHA256sum: 12b92666b4773dcd9ecdbcba85bbd7353097791f5d7ffbc41eaefdb44a5be46a
+Size: 8840
+Filename: openresolv-doc_3.17.0-r0_all.ipk
+Source: openresolv_3.17.0.bb
 Description: management framework for resolv.conf - Documentation files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -9555,17 +9555,17 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv
-Version: 3.13.1-r0
+Version: 3.17.0-r0
 Provides: resolvconf
 Conflicts: resolvconf
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e4e158cee0ca5e83a050f98071b8be8
-SHA256sum: eb62fb6154d59b14afa0b2e4c800b148845db3244aa82455ea7cb550485636a1
-Size: 15246
-Filename: openresolv_3.13.1-r0_all.ipk
-Source: openresolv_3.13.1.bb
+MD5Sum: 43f904a42082e393d42749b6bbf563ef
+SHA256sum: 6b677342d45ba86e8fee3d42d8c98dacfbbf1bcf1639f598b7867896f712e946
+Size: 18972
+Filename: openresolv_3.17.0-r0_all.ipk
+Source: openresolv_3.17.0.bb
 Description: management framework for resolv.conf
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
