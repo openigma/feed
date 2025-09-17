@@ -1,6 +1,6 @@
 Package: enigma2-plugin-extensions-kodi
 Version: 22-r3
-Depends: kodi-addons-meta, libc6 (>= 2.42+git0+d2097651cc), virtual-kodi
+Depends: kodi-addons-meta, libc6 (>= 2.42), virtual-kodi
 Recommends: enigma2-plugin-extensions-subssupport
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -17,7 +17,7 @@ Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers
 Version: 22.2.7+gitr0+13cf969b6f-r0
-Depends: ldd, libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0)
+Depends: ldd, libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0)
 Recommends: kernel-module-ext2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -34,7 +34,7 @@ Priority: optional
 
 Package: kodi-addon-inputstream-ffmpegdirect-piers
 Version: 22.1.3+git0+200e3a31c4-r0
-Depends: ffmpeg, libavcodec61 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray, libc6 (>= 2.42+git0+d2097651cc), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Depends: ffmpeg, libavcodec62 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libbluray, libc6 (>= 2.42), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -50,7 +50,7 @@ Priority: optional
 
 Package: kodi-addon-inputstream-rtmp-piers
 Version: 22.0.1+gitr0+0b4bfee6d1-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libcrypto3 (>= 3.5.2), libgcc1 (>= 15.2.0), libkodiplatform, libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libgcc1 (>= 15.2.0), libkodiplatform, libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -66,7 +66,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-demo
 Version: 22.4.1+git0+4f0068b638-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -82,7 +82,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-dvblink
 Version: 22.2.1+git0+16f9ba5496-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -98,7 +98,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-dvbviewer
 Version: 22.2.1+git0+d0abe98ee4-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -114,7 +114,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-filmon
 Version: 22.2.1+git0+4e81e8966a-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -130,7 +130,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-hts
 Version: 22.7.0+git0+b446c132b5-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -146,7 +146,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-iptvsimple
 Version: 22.5.1+git0+c9bb7f8056-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, liblzma5 (>= 5.8.1), libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, liblzma5 (>= 5.8.1), libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -162,7 +162,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-mythtv
 Version: 22.2.2+git0+373c821d01-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -178,7 +178,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-nextpvr
 Version: 22.4.1+git0+8319a0c113-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0), libz1 (>= 1.3.1)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -194,7 +194,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-njoy
 Version: 22.2.1+git0+feeea54612-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -210,7 +210,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-pctv
 Version: 22.2.1+git0+68f0b12ed4-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -226,7 +226,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-stalker
 Version: 22.2.1+git0+b1e4e4a928-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0), libxml2 (>= 2.14.6)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0), libxml2 (>= 2.14.6)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -242,7 +242,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-vbox
 Version: 22.2.1+git0+42226ae6ea-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -258,7 +258,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-vdr.vnsi
 Version: 22.2.1+git0+d539a6faa9-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libvc5dream (>= 1.0.5)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libvc5dream (>= 1.0.5)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -274,7 +274,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-vuplus
 Version: 22.3.2+git0+cd7b326e64-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -290,7 +290,7 @@ Priority: optional
 
 Package: kodi-addon-pvr-wmc
 Version: 22.2.1+git0+9a2c99d36e-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -322,7 +322,7 @@ Priority: optional
 
 Package: libkodiplatform22
 Version: 22.0.0-r0
-Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libtinyxml2.6.2 (>= 2.6.2)
 Provides: libkodiplatform
 Section: base
 Architecture: dm920
@@ -340,7 +340,7 @@ Priority: optional
 
 Package: stb-kodi-dm920
 Version: 22.0+gitr0+4434c17e41-r3
-Depends: bluez5 (>= 5.50), exiv2 (>= 0.28.2), fstrcmp (>= 0.7), gstreamer1.0 (>= 1.26.5), lcms (>= 2.16), libasound2 (>= 1.2.14), libass9 (>= 0.17.4), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0), libc6 (>= 2.42), libcap (>= 2.76), libcdio19 (>= 2.1.0), libcec7 (>= 7.1.1), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdbus-1-3 (>= 1.16.2), libfmt11 (>= 11.2.0), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.86.0), libgstpbutils-1.0-0 (>= 1.26.5), libharfbuzz0 (>= 11.4.5), libinput10 (>= 1.29.1), libiso9660-11 (>= 2.1.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.2), libpcre2 (>= 10.46), libplist-2.0-4 (>= 2.6.0), libpostproc58 (>= 7.1.1), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.13-1.0 (>= 3.13.7), libspdlog1.15 (>= 1.15.3), libsqlite3-0 (>= 3.48.0), libstdc++6 (>= 15.2.0), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1), libtag2 (>= 2.1.1), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0), libuuid1 (>= 2.41.1), libvc5dream (>= 1.0.5), libxkbcommon0 (>= 1.11.0), libxml2 (>= 2.14.6), libxslt (>= 1.1.43)
+Depends: bluez5 (>= 5.50), exiv2 (>= 0.28.2), fstrcmp (>= 0.7), gstreamer1.0 (>= 1.26.5), lcms (>= 2.16), libasound2 (>= 1.2.14), libass9 (>= 0.17.4), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libbluray (>= v1.4.0), libc6 (>= 2.42), libcap (>= 2.76), libcdio19 (>= 2.1.0), libcec7 (>= 7.1.1), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdbus-1-3 (>= 1.16.2), libfmt11 (>= 11.2.0), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.86.0), libgstpbutils-1.0-0 (>= 1.26.5), libharfbuzz0 (>= 11.4.5), libinput10 (>= 1.29.1), libiso9660-11 (>= 2.1.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.2), libpcre2 (>= 10.46), libplist-2.0-4 (>= 2.6.0), libpostproc58 (>= 7.1.1), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.13-1.0 (>= 3.13.7), libspdlog1.15 (>= 1.15.3), libsqlite3-0 (>= 3.48.0), libstdc++6 (>= 15.2.0), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libtag2 (>= 2.1.1), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0), libuuid1 (>= 2.41.1), libvc5dream (>= 1.0.5), libxkbcommon0 (>= 1.11.0), libxml2 (>= 2.14.6), libxslt (>= 1.1.43)
 Provides: kodi, virtual-kodi
 Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-charmap-utf-8, glibc-gconv-ibm437, glibc-gconv-ibm850, glibc-gconv-unicode, glibc-gconv-utf-32, glibc-localedata-en-us, kodi-addon-inputstream-adaptive-piers, kodi-addon-inputstream-ffmpegdirect-piers, kodi-addon-inputstream-rtmp-piers, libcec, libcurl, libnfs, nss, os-release, python3, python3-compression, python3-ctypes, python3-difflib, python3-html, python3-json, python3-mechanize, python3-netclient, python3-profile, python3-pycryptodomex, python3-shell, python3-sqlite3, python3-xmlrpc, tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-europe, tzdata-pacific, xkeyboard-config
 Section: base
