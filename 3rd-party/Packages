@@ -1,3 +1,22 @@
+Package: bluez5
+Version: 5.83-r0
+Depends: libc6 (>= 2.42), libdbus-1-3 (>= 1.16.2), libglib-2.0-0 (>= 2.86.0), libreadline8 (>= 8.3), libudev1 (>= 3.2.14)
+Provides: bluez-hcidump
+Recommends: update-rc.d
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5eeffa44bb3d6b271f22be88a20f494
+SHA256sum: 1eb29a732a9d68a6dc689d4408773ed682b57888bd9c7fcc99a3d8ef964b61c5
+Size: 1252636
+Filename: bluez5_5.83-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bluez5_5.83.bb
+Description: Linux Bluetooth Stack Userland V5
+OE: bluez5
+HomePage: http://www.bluez.org
+License: GPL-2.0-or-later & LGPL-2.1-or-later
+Priority: optional
+
 Package: enigma2-plugin-display-skins-pack
 Version: 2.0
 Description: Display Skin Package with 17 Display_Skins (OpenPLi)
