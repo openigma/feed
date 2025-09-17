@@ -2647,23 +2647,6 @@ HomePage: http://dreamboxupdate.com/
 License: CLOSED
 Priority: optional
 
-Package: gcc-dbg
-Version: 15.2.0-r0
-Recommends: glibc-dbg, gmp-dbg, libgcc-dbg, libmpc-dbg, libstdc++-dbg, libzstd-dbg, mpfr-dbg, zlib-dbg
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec523e0cd7a7eb1aca809ccacfd30833
-SHA256sum: 0047a80052ad5c85ff90d653869ab76164f0c4380c7171a6e79661fa6465089a
-Size: 353355490
-Filename: gcc-dbg_15.2.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: gcc_15.2.bb
-Description: GNU cc and gcc C compilers - Debugging files
-OE: gcc
-HomePage: http://www.gnu.org/software/gcc/
-License: GPL-3.0-with-GCC-exception & GPL-3.0-only
-Priority: optional
-
 Package: gstreamer1.0-plugin-multibox-dvbmediasink-dbg
 Version: 1.0+git252+c1ca5200+c1ca520b9e-r0
 Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libdca-dbg, libgstaudio-1.0-dbg
@@ -23032,23 +23015,6 @@ OE: pointercal
 License: MIT
 Priority: optional
 
-Package: python3-grpcio-dbg
-Version: 1.74.0-r0
-Recommends: c-ares-dbg, glibc-dbg, libcrypto-dbg, libssl-dbg, libstdc++-dbg, re2-dbg, zlib-dbg
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0160a3b02375f1fcc78d6f9029006001
-SHA256sum: 8dab67e1ffb1545fe26ed34aa3f78f2702fae209f6ec7cf8c6104c05b6001c41
-Size: 133806488
-Filename: python3-grpcio-dbg_1.74.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-grpcio_1.74.0.bb
-Description: python3-grpcio version 1.74.0-r0 - Debugging files
-OE: python3-grpcio
-HomePage: https://www.grpc.io/
-License: Apache-2.0 & BSD-3-Clause & MPL-2.0 & MIT & BSD-2-Clause
-Priority: optional
-
 Package: recovery-autoflashd
 Version: 1.2+git162+81ff8d40+81ff8d40bb-r0
 Depends: libc6 (>= 2.42+git0+d2097651cc), libudev1 (>= 3.2.14)
@@ -23228,23 +23194,6 @@ Source: shadow-securetty_4.6.bb
 Description: Provider of the machine specific securetty file
 OE: shadow-securetty
 License: MIT
-Priority: optional
-
-Package: transmission-dbg
-Version: 4.1.0-r1
-Recommends: glibc-dbg, libcrypto-dbg, libcurl-dbg, libevent-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32351ae57a37abc265d1ab693a8b899d
-SHA256sum: 7b0615e0a367be7e10b35b7a86046339fd237c51ed643ea6a44ff03e1826cc7a
-Size: 105701924
-Filename: transmission-dbg_4.1.0-r1_cortexa15hf-neon-vfpv4.ipk
-Source: transmission_4.1.0.bb
-Description: transmission version 4.1.0-r1 - Debugging files
-OE: transmission
-HomePage: www.transmissionbt.com/
-License: GPL-2.0-or-later & GPL-3.0-or-later
 Priority: optional
 
 Package: wireguard-module-dbg
