@@ -1342,6 +1342,22 @@ Size: 264142
 MD5Sum: 085dfd195056423fef8cb9c8f98b8b34
 SHA256sum: 18bd1c467291d87488bc5a1b961ce089d1d49a895359fe861e8394e42abaec3b
 
+Package: enigma2-plugin-systemplugins-newvirtualkeyboard
+Version: 13.6+git76+670e9050+670e905f4b-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: RAED - fairbird
+MD5Sum: e88cf3c88751b0c1c7d7a33199b11f4e
+SHA256sum: e2918aaab732aad7efd5c483578ca23dbac845a0eb0d2308e1279d4b88a00d89
+Size: 266736
+Filename: enigma2-plugin-systemplugins-newvirtualkeyboard_13.6+git76+670e9050+670e905f4b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-newvirtualkeyboard.bb
+Description: enigma2-plugin-systemplugins-newvirtualkeyboard version 13.6+git-r0
+OE: enigma2-plugin-systemplugins-newvirtualkeyboard
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: ffmpeg
 Version: 7.1.1-r1
 Depends: libavcodec61 (>= 7.1.1), libavdevice61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42), libpostproc58 (>= 7.1.1), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
