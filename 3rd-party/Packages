@@ -311,6 +311,7 @@ Priority: optional
 Architecture: all
 Maintainer: ziko & redouane & Raed
 Description: FootOnsat Plugin developed By ziko & redouane
+Depends: alsa-utils-aplay, python3-sqlite3 , python3-six
 Source: https://github.com/ziko-ZR1/FootOnsat
 OE: enigma2-plugin-extensions
 Filename: enigma2-plugin-extensions-footonsat_1.9-r0_all.ipk
@@ -325,7 +326,7 @@ Priority: optional
 Architecture: all
 Maintainer: mino60
 Description: Free Server Online Generator Ncam OScam adddon
-Depends:  wget coreutils curl coreutils-truefalse python3-pillow python3-requests
+Depends: wget coreutils curl coreutils-truefalse python3-pillow python3-requests
 Homepage: www.tunisia-sat.com
 OE: enigma2-plugin-extensions
 Filename: enigma2-plugin-extensions-freeserver_8.3.8.r1_all.ipk
