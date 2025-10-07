@@ -937,9 +937,9 @@ Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b910ab6a4fa93e82ef4bd7cf874d37df
-SHA256sum: 614913873f1e6a82fbfe800d21790d336985aa742609322968855a87b786c312
-Size: 626
+MD5Sum: d19385f42283be24d6bdf4d33fac6af9
+SHA256sum: cc1184694341d912e719afb6c93fc870561542ea504199a856703572755b0b62
+Size: 624
 Filename: enigma2-plugin-extensions-estalker-dbg_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
@@ -954,9 +954,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.14-20250920-git31+075373b0+0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b5ba8cc25d9b2ab1a950fb4f768015fe
-SHA256sum: 01938a7cebde4383157d89da427640dd78dd0ce6edf0b57f13cbad3f7f509a79
-Size: 724
+MD5Sum: f8afe3a493025c559b948dc2f5d9e934
+SHA256sum: b2c1496b9aa1d750ded76e0bd62d389ea1185b61451651067ba4156f1843687c
+Size: 726
 Filename: enigma2-plugin-extensions-estalker-dev_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -970,9 +970,9 @@ Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 96434b7601d0727271396107ac7fdebe
-SHA256sum: c8210c5995c519e0f46713407cc0ff6bba861cd8c8d75cdf5745c14fb3fb7fea
-Size: 83248
+MD5Sum: be764bfca78f225521c992e16eecf4c1
+SHA256sum: 38afb49b0ba7345e036140019b584b3004c50127009104e8b6be8b34fb86c189
+Size: 83246
 Filename: enigma2-plugin-extensions-estalker-src_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -987,9 +987,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e6aeb2fa5b482355a432448fb2b12a25
-SHA256sum: 9588043352e7433b1c1158d078c90aa5d797dfdf4f4e7975cfd1291e05a1d8a6
-Size: 2678540
+MD5Sum: 28d61835342459829360d644510bda1c
+SHA256sum: 24b58adb3bb400f2dbb7b78902a163c2327fbcd6bf54b1366c2ca0d2bd51a9be
+Size: 2678444
 Filename: enigma2-plugin-extensions-estalker_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -999,14 +999,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: 2.9+git122+0c84d050+0c84d054a9-r0
+Version: 2.9+git124+e0846fd0+e0846fd3a0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68672f1ca3894dc614c0bd1b86f8fd2e
-SHA256sum: 4168797ec01c32d9acd77b29f31ac1a9902d46e5a9c40eb50bd476748d35c73e
+MD5Sum: 58c5f23628d7b72b5f8033b68a03d1ce
+SHA256sum: 178e6ff71287549aa1542b58b9d5e9f6c5ab36e575aaea94ce3a874b4dd0fb20
 Size: 636
-Filename: enigma2-plugin-extensions-footonsat-dbg_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_2.9+git124+e0846fd0+e0846fd3a0-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -1014,15 +1014,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: 2.9+git122+0c84d050+0c84d054a9-r0
-Recommends: enigma2-plugin-extensions-footonsat (= 2.9+git122+0c84d050+0c84d054a9-r0)
+Version: 2.9+git124+e0846fd0+e0846fd3a0-r0
+Recommends: enigma2-plugin-extensions-footonsat (= 2.9+git124+e0846fd0+e0846fd3a0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0a0e5451d5c18e1a6d6a217277b7826
-SHA256sum: a87b93a46b4200661e46552e2accfc5cf188ed622760fa29894bf29c1303b35a
+MD5Sum: d6f3723f4857b1fb30a7435b4279cb13
+SHA256sum: 8da249e1f96fe714eee3599a077afd2a479cf50413b6d9fa6f9d399cb69fd31a
 Size: 668
-Filename: enigma2-plugin-extensions-footonsat-dev_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_2.9+git124+e0846fd0+e0846fd3a0-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -1030,14 +1030,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-src
-Version: 2.9+git122+0c84d050+0c84d054a9-r0
+Version: 2.9+git124+e0846fd0+e0846fd3a0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 10ecd9d70b70e69763d106c3727afa0e
-SHA256sum: 3d0129214a9be496a855100615c00324f826750a8d64b51ed924a7d2b5ce7579
-Size: 40146
-Filename: enigma2-plugin-extensions-footonsat-src_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
+MD5Sum: ba335b0c7ea079e8ad5a8471a2305dbe
+SHA256sum: 452100ca707339c82c461dfe6cca32ac4de40060a1cf2dff92543b042171b03c
+Size: 40144
+Filename: enigma2-plugin-extensions-footonsat-src_2.9+git124+e0846fd0+e0846fd3a0-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Source files
 OE: enigma2-plugin-extensions-footonsat
@@ -1045,14 +1045,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: 2.9+git122+0c84d050+0c84d054a9-r0
+Version: 2.9+git124+e0846fd0+e0846fd3a0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d97bdde3d37b208cb189d2bd4704be5
-SHA256sum: a7dd7cee126fdc2c97486564dd158359f1f6b9e92cb884b2c401d2c5aee7ff3f
-Size: 25319846
-Filename: enigma2-plugin-extensions-footonsat_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
+MD5Sum: 240fdaeb47c040be57961d13057d1fd1
+SHA256sum: 073ea8b027b052c733507756443370c2b39132839e40850881b8d141a3c01d14
+Size: 25336412
+Filename: enigma2-plugin-extensions-footonsat_2.9+git124+e0846fd0+e0846fd3a0-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0
 OE: enigma2-plugin-extensions-footonsat
@@ -1614,8 +1614,8 @@ Version: 20250802-git11+126587f0+126587f33e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 76650ec5f774ea6c9ba34b160dd9bb1a
-SHA256sum: 2a881aa0fb7d7c7c21864142a6629c1483b87c94f9c0b369dc7fa499737eac2f
+MD5Sum: 41e217efbc00f0c2af7bb5b135b721af
+SHA256sum: edd88c5382de8f8ee5109f973c52c4924c7b7ededb86fd197505eace4a22b1bc
 Size: 618
 Filename: enigma2-plugin-extensions-plutotv-dbg_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
@@ -1630,9 +1630,9 @@ Recommends: enigma2-plugin-extensions-plutotv (= 20250802-git11+126587f0+126587f
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24b7474c8c90a9e1bdc33e12b11d381c
-SHA256sum: 94abb13ef41b01c4fdac984bef55517b9af09e65ee7219bee7881c132eedf133
-Size: 684
+MD5Sum: 99ead8a08e70bcdfb206646ed590cfdd
+SHA256sum: 8dbe58f1617e5d7127c2e305ac34b67257db27970ced970214939bfe0e7d9514
+Size: 682
 Filename: enigma2-plugin-extensions-plutotv-dev_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Development files
@@ -1645,9 +1645,9 @@ Version: 20250802-git11+126587f0+126587f33e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 47580c96ed3f7294ae596e938d09ad66
-SHA256sum: c1e6a1cd23ea526ce29d9a748e9a60732c0781771e3571cfb23734b6f88273e2
-Size: 22646
+MD5Sum: 41389e34e32fdfd9c3a7081a4e878021
+SHA256sum: ed92ac0808fc4b7a657352307428513a4bcb883c70de73c023bb95426c59f859
+Size: 22644
 Filename: enigma2-plugin-extensions-plutotv-src_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Source files
@@ -1661,9 +1661,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, python3-core
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 003edab7c60fe89d5380ec2acd36fcb7
-SHA256sum: b8ce12e2538109f54403d22ed15308fc447fe43d77e015368e7d57fb8353b055
-Size: 523320
+MD5Sum: 83d1eba788bb07ccaf9af9e80325594b
+SHA256sum: 959d17974e0189f6d38f7e8c5d07c1b5aba93ecacc735e04a95b579a9a1e974c
+Size: 523310
 Filename: enigma2-plugin-extensions-plutotv_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0
@@ -1672,14 +1672,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dbg
-Version: 18.3+git119+8f1ece40+8f1ece468d-r0
+Version: 18.4+git121+ca0bdf30+ca0bdf3332-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 1e3752a6d75182d71fecb3d782e2bfc4
-SHA256sum: 553feef836164b28de0fe470ab3ea3cdd027e8666a832acd73e66baa90d7a516
+MD5Sum: 06d9f131e6880c4ecd2190df04090c9a
+SHA256sum: bf39372dd35be774bbc21c768e6a4f88e9c4746a88b60eac2b4da6347d39821b
 Size: 654
-Filename: enigma2-plugin-extensions-raedquicksignal-dbg_18.3+git119+8f1ece40+8f1ece468d-r0_all.ipk
+Filename: enigma2-plugin-extensions-raedquicksignal-dbg_18.4+git121+ca0bdf30+ca0bdf3332-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Debugging files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1687,15 +1687,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dev
-Version: 18.3+git119+8f1ece40+8f1ece468d-r0
-Recommends: enigma2-plugin-extensions-raedquicksignal (= 18.3+git119+8f1ece40+8f1ece468d-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
+Version: 18.4+git121+ca0bdf30+ca0bdf3332-r0
+Recommends: enigma2-plugin-extensions-raedquicksignal (= 18.4+git121+ca0bdf30+ca0bdf3332-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 95eec06f77113b9d2d689f7005fd2912
-SHA256sum: 8d005d19b882a4461b33b79721e01ef8d6268154c2f2d0f3b6c4baf045308a6b
+MD5Sum: 3e207fc91294bd039b46cdf7bc56df3a
+SHA256sum: d2bff5b841703a2fc8d8b253f844dc2ab372a748c5f883b05017f39b9db14b0f
 Size: 716
-Filename: enigma2-plugin-extensions-raedquicksignal-dev_18.3+git119+8f1ece40+8f1ece468d-r0_all.ipk
+Filename: enigma2-plugin-extensions-raedquicksignal-dev_18.4+git121+ca0bdf30+ca0bdf3332-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Development files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1703,14 +1703,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-src
-Version: 18.3+git119+8f1ece40+8f1ece468d-r0
+Version: 18.4+git121+ca0bdf30+ca0bdf3332-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 9bdc403f032f8e1f1a30c62a95d85b47
-SHA256sum: 454f7677040a0b12ddc9cac97743724a508252c7bb3d62b1dd8f74911cadeca3
-Size: 101718
-Filename: enigma2-plugin-extensions-raedquicksignal-src_18.3+git119+8f1ece40+8f1ece468d-r0_all.ipk
+MD5Sum: 339decd540f84905e60a0c3d8b3987a8
+SHA256sum: f16dd34621e638e9a395fac4d4faee85ec91ea9305679935ea53bd03a4cb5f43
+Size: 101732
+Filename: enigma2-plugin-extensions-raedquicksignal-src_18.4+git121+ca0bdf30+ca0bdf3332-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Source files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1718,15 +1718,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal
-Version: 18.3+git119+8f1ece40+8f1ece468d-r0
+Version: 18.4+git121+ca0bdf30+ca0bdf3332-r0
 Depends: python3-core, python3-requests, python3-six
 Section: base
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 35bbf0c071284960f331fa2a7e92d6c9
-SHA256sum: 51e99b3d6a034fd8144df2dcad13c7ecd750b5c98202ddd3b74e6988845278e0
-Size: 5555756
-Filename: enigma2-plugin-extensions-raedquicksignal_18.3+git119+8f1ece40+8f1ece468d-r0_all.ipk
+MD5Sum: abef7c1d88a19231db817d088d57a2f8
+SHA256sum: 17b1dcf4c56dee37d37ccdad49dcc4ca4893b3911f3ec73421a3223f5feb6db8
+Size: 5555854
+Filename: enigma2-plugin-extensions-raedquicksignal_18.4+git121+ca0bdf30+ca0bdf3332-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information
 OE: enigma2-plugin-extensions-raedquicksignal
