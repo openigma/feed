@@ -1163,9 +1163,9 @@ Version: 3.4+git37+73cf9180+73cf9180de-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 0b56c5d969d64e9c1427b3ce916bf8d5
-SHA256sum: 9f5f854e87bda338e731e6b2ad7d58a4a788844744a6666d942f2a5e87c107a4
-Size: 606
+MD5Sum: a9564218b1daf9d75ab137d1d7a1da61
+SHA256sum: e346e9b9ac6512f905e0a4f92b1960adbc2697f9aa044e803b8003f510d4f866
+Size: 608
 Filename: enigma2-plugin-extensions-greekstreamtv-dbg_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
 Description: Watch live stream TV from Greece - Debugging files
@@ -1180,8 +1180,8 @@ Recommends: enigma2-plugin-extensions-greekstreamtv (= 3.4+git37+73cf9180+73cf91
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: cd29581eeb271faee557791ffc442a6f
-SHA256sum: 826d6f565df0fa794f04511d7c25859dcf14682d2a5a9f075ab9320a06042675
+MD5Sum: e7c5ef1717c6510495a797eb952a5d66
+SHA256sum: 42cc2c1ec6f323938ae4b55867461a555d4c3aaf6ec7a7ecb64bc5e58eeca55a
 Size: 688
 Filename: enigma2-plugin-extensions-greekstreamtv-dev_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -1197,8 +1197,8 @@ Depends: python3-core, python3-lxml, python3-requests, rtmpdump, streamlink, str
 Section: multimedia
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 110919a4686c4e74e4ff74452d244f14
-SHA256sum: b8539aea45c211cc4fe1f4dc94120daa8053d9c6a04ea8a71c2da902dbf34c03
+MD5Sum: 4a3a18ecde0bdc0e764c5da6e763cd16
+SHA256sum: e1192c946f3d19438855c05956ee7d62f23d9067ba6a0b22912af6767b95f6b9
 Size: 47654
 Filename: enigma2-plugin-extensions-greekstreamtv_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -1466,14 +1466,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 2.3+git67+0e281c30+0e281c3137-r0
+Version: 2.3+git69+891c1210+891c121c12-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: cf00892182eb27a3322c334aa902f1e1
-SHA256sum: 1767e349bc6e32b2d95690003ab8286bbc658ec444bb649589a43d50abd461cf
-Size: 648
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
+MD5Sum: c2eb8142dc58cb812fc82e607f3f7b79
+SHA256sum: 36a90a262e4abfa48e3ad011cfbb8b3dc00641a109c06f272a5449dc08353d23
+Size: 652
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.3+git69+891c1210+891c121c12-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1482,15 +1482,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 2.3+git67+0e281c30+0e281c3137-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 2.3+git67+0e281c30+0e281c3137-r0)
+Version: 2.3+git69+891c1210+891c121c12-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 2.3+git69+891c1210+891c121c12-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: dc45e3838dd65b3af11aa7aae2c251e8
-SHA256sum: b8ebc29cbec3812ff5636a6efe18267819baf4abe15d55ff03381c5088bc8b0e
-Size: 686
-Filename: enigma2-plugin-extensions-m3uconverter-dev_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
+MD5Sum: 3ed214321a029d3181869002ede768f2
+SHA256sum: 762218171fd94e7f43d3bc2d9583426bfd8646256179d4c5ba7d277d41ff0d7e
+Size: 688
+Filename: enigma2-plugin-extensions-m3uconverter-dev_2.3+git69+891c1210+891c121c12-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1499,14 +1499,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 2.3+git67+0e281c30+0e281c3137-r0
+Version: 2.3+git69+891c1210+891c121c12-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: df10d1116388ec8cf9f6042cdd4579d5
-SHA256sum: 75020ed49e976026d9874851359a2174c034738481b33e1e7ddc373af7df3616
-Size: 123960
-Filename: enigma2-plugin-extensions-m3uconverter_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
+MD5Sum: 3a83aeb45f12a94db46ad0d1703ef60a
+SHA256sum: 53fb7f1a5c014a04f504a44a4718757375f1aba8884ddeca9aa0871bc88e19ca
+Size: 94770
+Filename: enigma2-plugin-extensions-m3uconverter_2.3+git69+891c1210+891c121c12-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -9928,8 +9928,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9945,8 +9945,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
+SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9962,8 +9962,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 109007903a74235339cbbaea976943c1
-SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+MD5Sum: d08cd4e3c85d5ca46c5638079332623e
+SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
