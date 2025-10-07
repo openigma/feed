@@ -937,9 +937,9 @@ Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d19385f42283be24d6bdf4d33fac6af9
-SHA256sum: cc1184694341d912e719afb6c93fc870561542ea504199a856703572755b0b62
-Size: 624
+MD5Sum: b910ab6a4fa93e82ef4bd7cf874d37df
+SHA256sum: 614913873f1e6a82fbfe800d21790d336985aa742609322968855a87b786c312
+Size: 626
 Filename: enigma2-plugin-extensions-estalker-dbg_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
@@ -954,9 +954,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.14-20250920-git31+075373b0+0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f8afe3a493025c559b948dc2f5d9e934
-SHA256sum: b2c1496b9aa1d750ded76e0bd62d389ea1185b61451651067ba4156f1843687c
-Size: 726
+MD5Sum: b5ba8cc25d9b2ab1a950fb4f768015fe
+SHA256sum: 01938a7cebde4383157d89da427640dd78dd0ce6edf0b57f13cbad3f7f509a79
+Size: 724
 Filename: enigma2-plugin-extensions-estalker-dev_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -970,9 +970,9 @@ Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: be764bfca78f225521c992e16eecf4c1
-SHA256sum: 38afb49b0ba7345e036140019b584b3004c50127009104e8b6be8b34fb86c189
-Size: 83246
+MD5Sum: 96434b7601d0727271396107ac7fdebe
+SHA256sum: c8210c5995c519e0f46713407cc0ff6bba861cd8c8d75cdf5745c14fb3fb7fea
+Size: 83248
 Filename: enigma2-plugin-extensions-estalker-src_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -987,9 +987,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 28d61835342459829360d644510bda1c
-SHA256sum: 24b58adb3bb400f2dbb7b78902a163c2327fbcd6bf54b1366c2ca0d2bd51a9be
-Size: 2678444
+MD5Sum: e6aeb2fa5b482355a432448fb2b12a25
+SHA256sum: 9588043352e7433b1c1158d078c90aa5d797dfdf4f4e7975cfd1291e05a1d8a6
+Size: 2678540
 Filename: enigma2-plugin-extensions-estalker_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -999,14 +999,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: 2.9+git118+fa023af0+fa023afc52-r0
+Version: 2.9+git122+0c84d050+0c84d054a9-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2f383f7c89592d034f4e43ec610c92c0
-SHA256sum: 3966d6adaec30a98ddf70bad1c5ab66d0b107f3153389354955f39eab8e8fce7
+MD5Sum: 68672f1ca3894dc614c0bd1b86f8fd2e
+SHA256sum: 4168797ec01c32d9acd77b29f31ac1a9902d46e5a9c40eb50bd476748d35c73e
 Size: 636
-Filename: enigma2-plugin-extensions-footonsat-dbg_2.9+git118+fa023af0+fa023afc52-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -1014,15 +1014,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: 2.9+git118+fa023af0+fa023afc52-r0
-Recommends: enigma2-plugin-extensions-footonsat (= 2.9+git118+fa023af0+fa023afc52-r0)
+Version: 2.9+git122+0c84d050+0c84d054a9-r0
+Recommends: enigma2-plugin-extensions-footonsat (= 2.9+git122+0c84d050+0c84d054a9-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60610d67140dee4ccba981774ce78a14
-SHA256sum: 9c0a3f74424bc38ed33770bf7a5f50bf7ef4fde39d90c12010d84c04f0bab3da
+MD5Sum: e0a0e5451d5c18e1a6d6a217277b7826
+SHA256sum: a87b93a46b4200661e46552e2accfc5cf188ed622760fa29894bf29c1303b35a
 Size: 668
-Filename: enigma2-plugin-extensions-footonsat-dev_2.9+git118+fa023af0+fa023afc52-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -1030,14 +1030,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-src
-Version: 2.9+git118+fa023af0+fa023afc52-r0
+Version: 2.9+git122+0c84d050+0c84d054a9-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 102b70cb0de8956ebbdeee0a5cef8aac
-SHA256sum: 7ae3bbbb2ca97e2224fc4fcabc81f53cf854da20bf416db8accf2e77d56fe841
-Size: 40134
-Filename: enigma2-plugin-extensions-footonsat-src_2.9+git118+fa023af0+fa023afc52-r0_all.ipk
+MD5Sum: 10ecd9d70b70e69763d106c3727afa0e
+SHA256sum: 3d0129214a9be496a855100615c00324f826750a8d64b51ed924a7d2b5ce7579
+Size: 40146
+Filename: enigma2-plugin-extensions-footonsat-src_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0 - Source files
 OE: enigma2-plugin-extensions-footonsat
@@ -1045,14 +1045,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: 2.9+git118+fa023af0+fa023afc52-r0
+Version: 2.9+git122+0c84d050+0c84d054a9-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 957dec6bfed071d6e9d12ef65e0a294c
-SHA256sum: c07d9912f9217b8604b5989a28c48d4b46dc84dcdfe88cafdb2950c06298d7dd
-Size: 25107482
-Filename: enigma2-plugin-extensions-footonsat_2.9+git118+fa023af0+fa023afc52-r0_all.ipk
+MD5Sum: 9d97bdde3d37b208cb189d2bd4704be5
+SHA256sum: a7dd7cee126fdc2c97486564dd158359f1f6b9e92cb884b2c401d2c5aee7ff3f
+Size: 25319846
+Filename: enigma2-plugin-extensions-footonsat_2.9+git122+0c84d050+0c84d054a9-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: enigma2-plugin-extensions-footonsat version 2.9+git-r0
 OE: enigma2-plugin-extensions-footonsat
@@ -1163,9 +1163,9 @@ Version: 3.4+git37+73cf9180+73cf9180de-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: a9564218b1daf9d75ab137d1d7a1da61
-SHA256sum: e346e9b9ac6512f905e0a4f92b1960adbc2697f9aa044e803b8003f510d4f866
-Size: 608
+MD5Sum: 0b56c5d969d64e9c1427b3ce916bf8d5
+SHA256sum: 9f5f854e87bda338e731e6b2ad7d58a4a788844744a6666d942f2a5e87c107a4
+Size: 606
 Filename: enigma2-plugin-extensions-greekstreamtv-dbg_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
 Description: Watch live stream TV from Greece - Debugging files
@@ -1180,8 +1180,8 @@ Recommends: enigma2-plugin-extensions-greekstreamtv (= 3.4+git37+73cf9180+73cf91
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: e7c5ef1717c6510495a797eb952a5d66
-SHA256sum: 42cc2c1ec6f323938ae4b55867461a555d4c3aaf6ec7a7ecb64bc5e58eeca55a
+MD5Sum: cd29581eeb271faee557791ffc442a6f
+SHA256sum: 826d6f565df0fa794f04511d7c25859dcf14682d2a5a9f075ab9320a06042675
 Size: 688
 Filename: enigma2-plugin-extensions-greekstreamtv-dev_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -1197,8 +1197,8 @@ Depends: python3-core, python3-lxml, python3-requests, rtmpdump, streamlink, str
 Section: multimedia
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 4a3a18ecde0bdc0e764c5da6e763cd16
-SHA256sum: e1192c946f3d19438855c05956ee7d62f23d9067ba6a0b22912af6767b95f6b9
+MD5Sum: 110919a4686c4e74e4ff74452d244f14
+SHA256sum: b8539aea45c211cc4fe1f4dc94120daa8053d9c6a04ea8a71c2da902dbf34c03
 Size: 47654
 Filename: enigma2-plugin-extensions-greekstreamtv_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -1466,14 +1466,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 2.3+git66+3242a080+3242a08d76-r0
+Version: 2.3+git67+0e281c30+0e281c3137-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 75b4c49b7d8925e8a76a2dae7f19e7c5
-SHA256sum: 6a67ae19745a1dcb88deb78288f222e73e4620d9e6f470a29bcf25d4631c951c
-Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.3+git66+3242a080+3242a08d76-r0_all.ipk
+MD5Sum: cf00892182eb27a3322c334aa902f1e1
+SHA256sum: 1767e349bc6e32b2d95690003ab8286bbc658ec444bb649589a43d50abd461cf
+Size: 648
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1482,15 +1482,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 2.3+git66+3242a080+3242a08d76-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 2.3+git66+3242a080+3242a08d76-r0)
+Version: 2.3+git67+0e281c30+0e281c3137-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 2.3+git67+0e281c30+0e281c3137-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: db978b792a6c091a51f33e015ef11fed
-SHA256sum: 43654bfc5a18a28be5d0bd0f11ac6b2d82c694b6b9d1baecf9fcbd0f2649c5b0
-Size: 688
-Filename: enigma2-plugin-extensions-m3uconverter-dev_2.3+git66+3242a080+3242a08d76-r0_all.ipk
+MD5Sum: dc45e3838dd65b3af11aa7aae2c251e8
+SHA256sum: b8ebc29cbec3812ff5636a6efe18267819baf4abe15d55ff03381c5088bc8b0e
+Size: 686
+Filename: enigma2-plugin-extensions-m3uconverter-dev_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1499,14 +1499,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 2.3+git66+3242a080+3242a08d76-r0
+Version: 2.3+git67+0e281c30+0e281c3137-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1686821e8a59c145a439ef144bf17828
-SHA256sum: 1fcd579276f1e3d1789f6e17506b10812e653aae7a145cf0983231619f89c3fa
-Size: 125458
-Filename: enigma2-plugin-extensions-m3uconverter_2.3+git66+3242a080+3242a08d76-r0_all.ipk
+MD5Sum: df10d1116388ec8cf9f6042cdd4579d5
+SHA256sum: 75020ed49e976026d9874851359a2174c034738481b33e1e7ddc373af7df3616
+Size: 123960
+Filename: enigma2-plugin-extensions-m3uconverter_2.3+git67+0e281c30+0e281c3137-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1614,8 +1614,8 @@ Version: 20250802-git11+126587f0+126587f33e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41e217efbc00f0c2af7bb5b135b721af
-SHA256sum: edd88c5382de8f8ee5109f973c52c4924c7b7ededb86fd197505eace4a22b1bc
+MD5Sum: 76650ec5f774ea6c9ba34b160dd9bb1a
+SHA256sum: 2a881aa0fb7d7c7c21864142a6629c1483b87c94f9c0b369dc7fa499737eac2f
 Size: 618
 Filename: enigma2-plugin-extensions-plutotv-dbg_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
@@ -1630,9 +1630,9 @@ Recommends: enigma2-plugin-extensions-plutotv (= 20250802-git11+126587f0+126587f
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99ead8a08e70bcdfb206646ed590cfdd
-SHA256sum: 8dbe58f1617e5d7127c2e305ac34b67257db27970ced970214939bfe0e7d9514
-Size: 682
+MD5Sum: 24b7474c8c90a9e1bdc33e12b11d381c
+SHA256sum: 94abb13ef41b01c4fdac984bef55517b9af09e65ee7219bee7881c132eedf133
+Size: 684
 Filename: enigma2-plugin-extensions-plutotv-dev_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Development files
@@ -1645,9 +1645,9 @@ Version: 20250802-git11+126587f0+126587f33e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41389e34e32fdfd9c3a7081a4e878021
-SHA256sum: ed92ac0808fc4b7a657352307428513a4bcb883c70de73c023bb95426c59f859
-Size: 22644
+MD5Sum: 47580c96ed3f7294ae596e938d09ad66
+SHA256sum: c1e6a1cd23ea526ce29d9a748e9a60732c0781771e3571cfb23734b6f88273e2
+Size: 22646
 Filename: enigma2-plugin-extensions-plutotv-src_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Source files
@@ -1661,9 +1661,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, python3-core
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83d1eba788bb07ccaf9af9e80325594b
-SHA256sum: 959d17974e0189f6d38f7e8c5d07c1b5aba93ecacc735e04a95b579a9a1e974c
-Size: 523310
+MD5Sum: 003edab7c60fe89d5380ec2acd36fcb7
+SHA256sum: b8ce12e2538109f54403d22ed15308fc447fe43d77e015368e7d57fb8353b055
+Size: 523320
 Filename: enigma2-plugin-extensions-plutotv_20250802-git11+126587f0+126587f33e-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0
@@ -1785,9 +1785,9 @@ Version: 1+git97+d3252840+d325284d07-r3
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 8d7dcb63084e5696eac9e4db30766918
-SHA256sum: 37a5f562a7902c1e09736c9b23a9d0ec430f17b57484b530da9bc31fce9909d3
-Size: 638
+MD5Sum: c9eb726143189f760fd4f8a6c6a9a2a3
+SHA256sum: cf8aa64a699e8b832a2ad7224b25525c99f09ae90dbdcabfd2aea1bc377ec6e4
+Size: 640
 Filename: enigma2-plugin-extensions-sdgradio-dbg_1+git97+d3252840+d325284d07-r3_all.ipk
 Source: enigma2-plugin-extensions-sdgradio.bb
 Description: Enigma2 Software Defined Radio - Debugging files
@@ -1802,8 +1802,8 @@ Recommends: dab-cmdline-sdgradio-dev, dab-cmdline-sdgradio-pcm-dev, dab-cmdline-
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: a23f9dee35de644a4e2547b57b3b3cd7
-SHA256sum: c941f87cf90e536f92d4542d0041fc3910ef2daefe34e40cb21dc5488e3013eb
+MD5Sum: a9212a28c97ff36b25b76423292b62bf
+SHA256sum: 092fc69ae4d1900b2ef19e687d6bbd5744b83391664a275576ba3550248f8d10
 Size: 716
 Filename: enigma2-plugin-extensions-sdgradio-dev_1+git97+d3252840+d325284d07-r3_all.ipk
 Source: enigma2-plugin-extensions-sdgradio.bb
@@ -1818,8 +1818,8 @@ Version: 1+git97+d3252840+d325284d07-r3
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: d871eca12b0a1973568b8046dccf1765
-SHA256sum: 7c363b8afd4bd8f5e0c8062ea226e88673b8587195cb8ca4e721d0a0b58cd806
+MD5Sum: 5d3129b6453e4ce75db133ea4b9e1619
+SHA256sum: ea77e8d758ee550d26111d470b570877e168b842af698629d9664a1a49caf924
 Size: 11162
 Filename: enigma2-plugin-extensions-sdgradio-src_1+git97+d3252840+d325284d07-r3_all.ipk
 Source: enigma2-plugin-extensions-sdgradio.bb
@@ -1835,9 +1835,9 @@ Depends: dab-cmdline-sdgradio, dab-cmdline-sdgradio-pcm, dab-cmdline-sdgradio-wa
 Section: multimedia
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 934fe513dcfa84e9a47af142de6c5e3d
-SHA256sum: 8cac825250067c6a1bd048bb92a8b33599dfa2b76b3a10bef60b27158d0108db
-Size: 170620
+MD5Sum: 323ec2887486f72876a1cdfaed01f7ad
+SHA256sum: 3a987fc78e91acb0e118b9ed7c9bac76278934c973c07e398640014613621936
+Size: 170628
 Filename: enigma2-plugin-extensions-sdgradio_1+git97+d3252840+d325284d07-r3_all.ipk
 Source: enigma2-plugin-extensions-sdgradio.bb
 Description: Enigma2 Software Defined Radio
@@ -1847,14 +1847,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dbg
-Version: 2.2.7+git25+b7c829b0+b7c829bf96-r0
+Version: 2.2.7+git26+81997750+81997759d4-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 6c36ad6d54ab75b97d11241bab049ff7
-SHA256sum: 56f1a165e9bf6bd054a860599f31f1d67144e8662247a1382ffc6140b063de17
+MD5Sum: 91a61759578e2ed466be3292af8247eb
+SHA256sum: 5d5918dddb6ba853339ea3303b76bf57fa48f2f592833249a72d1c980f69251a
 Size: 690
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.7+git25+b7c829b0+b7c829bf96-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.7+git26+81997750+81997759d4-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Debugging files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1863,15 +1863,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dev
-Version: 2.2.7+git25+b7c829b0+b7c829bf96-r0
-Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.7+git25+b7c829b0+b7c829bf96-r0), python3-requests-dev
+Version: 2.2.7+git26+81997750+81997759d4-r0
+Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.7+git26+81997750+81997759d4-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: fff9ba27dcb8f5517151ee0ce265f233
-SHA256sum: ce27f6554796cb4f1b677a750f5d0c7a96fdddf57d589a2c31d6666532a16c19
+MD5Sum: 597f1f3a0ce7ac3e4cf85a995218354b
+SHA256sum: c2767e77b4bf757ea802dae956ca51cc2b3d20a7b29a7a470cd8027fb0868ced
 Size: 740
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.7+git25+b7c829b0+b7c829bf96-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.7+git26+81997750+81997759d4-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Development files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1880,14 +1880,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-src
-Version: 2.2.7+git25+b7c829b0+b7c829bf96-r0
+Version: 2.2.7+git26+81997750+81997759d4-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: a28ea93de6f13ba63a4bb6f3e01b5bc7
-SHA256sum: 4787f5f335df915547c551fae017da0563993c4f54ee57bcc1080e3829371afb
-Size: 11440
-Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.7+git25+b7c829b0+b7c829bf96-r0_all.ipk
+MD5Sum: ea0a7cebe1259de985f3454136864b0a
+SHA256sum: 312deba2c5c1da93c99614b68259ea40c89af44c77e9f956453719c971ac3d9a
+Size: 13188
+Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.7+git26+81997750+81997759d4-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Source files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1896,15 +1896,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel
-Version: 2.2.7+git25+b7c829b0+b7c829bf96-r0
+Version: 2.2.7+git26+81997750+81997759d4-r0
 Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: d5bf54df2e3d29c15b948abc48cbe978
-SHA256sum: dc3e7a6cf0758c8a5cb309e37653a90e681ac05773011c181382a8fb484caf23
-Size: 194910
-Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.7+git25+b7c829b0+b7c829bf96-r0_all.ipk
+MD5Sum: 9fc49157f770f631e022e6252ac77942
+SHA256sum: 58be48d4d7d97ac85308ee332f815803a0639aa6da29f56b2b265be3382340f5
+Size: 197830
+Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.7+git26+81997750+81997759d4-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -9928,8 +9928,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 22262891f2bb25355140524e75bdd84f
-SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
+MD5Sum: cfee8a0b75136af0650ec32c5d768148
+SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9945,8 +9945,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
-SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
+MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
+SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9962,8 +9962,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: d08cd4e3c85d5ca46c5638079332623e
-SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
+MD5Sum: 109007903a74235339cbbaea976943c1
+SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9974,14 +9974,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1178+601ecd90+601ecd9a07-3
+Version: 2+git1179+0b9a57a0+0b9a57ac8b-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a3322478ab722340b14fd19cbf2618ba
-SHA256sum: ca68573c51305d13663ecc20c0e3bf22f63957b5b0e272d9a125b6cfeb763201
+MD5Sum: e7d2d7b4469b591f0e0015239e40b6f4
+SHA256sum: 4c515b2affd96e88bf1e535120d63a2b5a9c2eafb091d568e40e8de4e2a1e264
 Size: 568
-Filename: tuxbox-common-dbg_2+git1178+601ecd90+601ecd9a07-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1179+0b9a57a0+0b9a57ac8b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9989,15 +9989,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1178+601ecd90+601ecd9a07-3
-Recommends: tuxbox-common (>= 2+git1178+601ecd90+601ecd9a07-3), tuxbox-common (<< 2+git1178+601ecd90+601ecd9a07-3.0), xz-dev
+Version: 2+git1179+0b9a57a0+0b9a57ac8b-3
+Recommends: tuxbox-common (>= 2+git1179+0b9a57a0+0b9a57ac8b-3), tuxbox-common (<< 2+git1179+0b9a57a0+0b9a57ac8b-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: b4b116f4f7c7f15a0b229fca06d270a1
-SHA256sum: bff036ea33f9b827006cac3b0b42d6806c5a3d38b5f00b31ee9e7bfff1c06539
+MD5Sum: e25b6ce100fec7edf68f4f4338da2e73
+SHA256sum: 228d7fd37952a717ba535c3db34c7073dc1a9063ae9bbfebc795ca563779b460
 Size: 622
-Filename: tuxbox-common-dev_2+git1178+601ecd90+601ecd9a07-3_all.ipk
+Filename: tuxbox-common-dev_2+git1179+0b9a57a0+0b9a57ac8b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10005,15 +10005,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1178+601ecd90+601ecd9a07-3
+Version: 2+git1179+0b9a57a0+0b9a57ac8b-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 168e9c0c218be2a4830598e4efa8ca89
-SHA256sum: a7db7cfb15f82b7b3189f3dbf98847c4f181ac8f6a4c471795412ed052354ef9
-Size: 71242
-Filename: tuxbox-common_2+git1178+601ecd90+601ecd9a07-3_all.ipk
+MD5Sum: b9d10ff21b0d872f47f33e838904eef5
+SHA256sum: bf9363665967382c79b36e8d443cc994cb84b25de56696f6ebd6ecb97e7dd760
+Size: 71258
+Filename: tuxbox-common_2+git1179+0b9a57a0+0b9a57ac8b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
