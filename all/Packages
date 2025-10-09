@@ -1672,14 +1672,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dbg
-Version: 18.5+git123+e56342e0+e56342e780-r0
+Version: 18.5+git124+dba04a70+dba04a764a-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: ea18566d4938f7d7a1814ae9fb6ef255
-SHA256sum: effb44984441be395a6cd412faa67c5d16d38f3f1a90a7efc72be56c07d5bdb0
-Size: 656
-Filename: enigma2-plugin-extensions-raedquicksignal-dbg_18.5+git123+e56342e0+e56342e780-r0_all.ipk
+MD5Sum: 50d8f7a3909dcab3d32914b4df15f276
+SHA256sum: b6d42fa5af56af345f6a7e1f96f807d07bbcc2aebdd32429df95ce41d90319bb
+Size: 654
+Filename: enigma2-plugin-extensions-raedquicksignal-dbg_18.5+git124+dba04a70+dba04a764a-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Debugging files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1687,15 +1687,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dev
-Version: 18.5+git123+e56342e0+e56342e780-r0
-Recommends: enigma2-plugin-extensions-raedquicksignal (= 18.5+git123+e56342e0+e56342e780-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
+Version: 18.5+git124+dba04a70+dba04a764a-r0
+Recommends: enigma2-plugin-extensions-raedquicksignal (= 18.5+git124+dba04a70+dba04a764a-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 55144581d661733e68fe6a955929266e
-SHA256sum: d1e710cd6041032183fa0de4927d964ec2956f79f0c3ed033a547be42d1d0548
+MD5Sum: 73ff152493addb2c84ab6d434017ce5c
+SHA256sum: 0e28f45179176b7947f9b7cea08a6afe17ed2c8e6e5022d8bc7b693667703d60
 Size: 716
-Filename: enigma2-plugin-extensions-raedquicksignal-dev_18.5+git123+e56342e0+e56342e780-r0_all.ipk
+Filename: enigma2-plugin-extensions-raedquicksignal-dev_18.5+git124+dba04a70+dba04a764a-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Development files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1703,14 +1703,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-src
-Version: 18.5+git123+e56342e0+e56342e780-r0
+Version: 18.5+git124+dba04a70+dba04a764a-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: e274da1b4d58e4aea1648b9977a20f18
-SHA256sum: 9be4422a97a1c947f0d1de129be556c871850c125cc3c21f8efc9e58c1f66d65
-Size: 101758
-Filename: enigma2-plugin-extensions-raedquicksignal-src_18.5+git123+e56342e0+e56342e780-r0_all.ipk
+MD5Sum: e7768aa469f1c33cd4c1a88e0165f037
+SHA256sum: 5d0606a9d8a60227b3f5484e6a5880c3c592faf7b5dcc7d97c5d0c6423f5c608
+Size: 101762
+Filename: enigma2-plugin-extensions-raedquicksignal-src_18.5+git124+dba04a70+dba04a764a-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Source files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1718,15 +1718,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal
-Version: 18.5+git123+e56342e0+e56342e780-r0
+Version: 18.5+git124+dba04a70+dba04a764a-r0
 Depends: python3-core, python3-requests, python3-six
 Section: base
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 639a6ec1ff3d461e3c6e4c3c70eeac2c
-SHA256sum: b4815850b8ef7663e5e3d3ecb247fddcb933f28047bd8f520b9430cb602c308a
-Size: 5555866
-Filename: enigma2-plugin-extensions-raedquicksignal_18.5+git123+e56342e0+e56342e780-r0_all.ipk
+MD5Sum: b7799885d62f1499c82756bd29b6bb23
+SHA256sum: bd4495ba5114dc8cbc3d13a3301f408847859b63b8bc644830af139b5837bdae
+Size: 5498386
+Filename: enigma2-plugin-extensions-raedquicksignal_18.5+git124+dba04a70+dba04a764a-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -2558,72 +2558,6 @@ Source: enigma2-plugin-extensions-xtraevent.bb
 Description: Poster, background, banner, info support for enigma2
 OE: enigma2-plugin-extensions-xtraevent
 License: GPL-3.0-only
-Priority: optional
-
-Package: enigma2-plugin-extensions-yampmusicplayer-dbg
-Version: 3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0
-Section: devel
-Architecture: all
-Maintainer: oe-a
-MD5Sum: 5a666417180f967d83d76cffdb03b4ac
-SHA256sum: d5bc4b82fc98277627ef8272a1869977dc0a04eb63e90234f79cff2270454565
-Size: 624
-Filename: enigma2-plugin-extensions-yampmusicplayer-dbg_3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0_all.ipk
-Source: enigma2-plugin-extensions-yampmusicplayer.bb
-Description: Music Player with Artist-Art - Debugging files
-OE: enigma2-plugin-extensions-yampmusicplayer
-HomePage: https://github.com/oe-mirrors/yampmusicplayer
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-yampmusicplayer-dev
-Version: 3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0
-Recommends: enigma2-plugin-extensions-yampmusicplayer (= 3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0), python3-beautifulsoup4-dev, python3-core-dev, python3-dev, python3-sqlite3-dev, python3-tinytag-dev
-Section: devel
-Architecture: all
-Maintainer: oe-a
-MD5Sum: cd1f3b52fba495f8e8926f47bbea43b6
-SHA256sum: a1c59aadaf0a5524bcc3b467f90b567aa1ccc22e3e565186215cf59b43524dcb
-Size: 702
-Filename: enigma2-plugin-extensions-yampmusicplayer-dev_3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0_all.ipk
-Source: enigma2-plugin-extensions-yampmusicplayer.bb
-Description: Music Player with Artist-Art - Development files
-OE: enigma2-plugin-extensions-yampmusicplayer
-HomePage: https://github.com/oe-mirrors/yampmusicplayer
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-yampmusicplayer-src
-Version: 3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0
-Section: devel
-Architecture: all
-Maintainer: oe-a
-MD5Sum: e754c4623b9c7a64b25f8706179f67ea
-SHA256sum: e6eb23d62777e6c4c561b3e9bf48717671212be183798f1ad792c32bfd9ab6b3
-Size: 109084
-Filename: enigma2-plugin-extensions-yampmusicplayer-src_3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0_all.ipk
-Source: enigma2-plugin-extensions-yampmusicplayer.bb
-Description: Music Player with Artist-Art - Source files
-OE: enigma2-plugin-extensions-yampmusicplayer
-HomePage: https://github.com/oe-mirrors/yampmusicplayer
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-yampmusicplayer
-Version: 3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0
-Depends: python3-beautifulsoup4, python3-core, python3-sqlite3, python3-tinytag
-Section: base
-Architecture: all
-Maintainer: oe-a
-MD5Sum: e9d6388298e49538d21cec57b0d97fcc
-SHA256sum: 64f06b3c615ac5218a8c56e5dbe94725a80cfd2a061105a26c00a476e427d32e
-Size: 1508464
-Filename: enigma2-plugin-extensions-yampmusicplayer_3.3.1+git19+1d1a5dd0+1d1a5ddcbf-r0_all.ipk
-Source: enigma2-plugin-extensions-yampmusicplayer.bb
-Description: Music Player with Artist-Art
-OE: enigma2-plugin-extensions-yampmusicplayer
-HomePage: https://github.com/oe-mirrors/yampmusicplayer
-License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
@@ -4642,14 +4576,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dbg
-Version: 1.0+git281+18ed4aa0+18ed4aad9a-r0
+Version: 1.0+git282+89e64d80+89e64d86e7-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 1e2a0be3b81c70a35c2f8b114b219f22
-SHA256sum: 1e1b60c8571c2eb245f103b5173a4f97928ff9db5969599922f43b2614de6db1
+MD5Sum: b910c465e9f7541f374017ebde4b639a
+SHA256sum: 85b233d1db4b0256422d32bfaac3f2128a17d59f3e1e361a5b74b170eb2ad37c
 Size: 598
-Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git281+18ed4aa0+18ed4aad9a-r0_all.ipk
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git282+89e64d80+89e64d86e7-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Debugging files
 OE: enigma2-plugin-skins-e2darkos
@@ -4657,15 +4591,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dev
-Version: 1.0+git281+18ed4aa0+18ed4aad9a-r0
-Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git281+18ed4aa0+18ed4aad9a-r0)
+Version: 1.0+git282+89e64d80+89e64d86e7-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git282+89e64d80+89e64d86e7-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 1b7dc60f56d98efbe57d6c69eca25b25
-SHA256sum: 948341a99dbc2b6681420ef31efea50a6cd968d2541255b899294e11d52a80ed
+MD5Sum: 0e6f7bee90b18f4d95b8e84b5e2e577f
+SHA256sum: e3d45509298e4e95fb86b8ddde4cfc644bf0229e172602b1348ef3d9994f650a
 Size: 634
-Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git281+18ed4aa0+18ed4aad9a-r0_all.ipk
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git282+89e64d80+89e64d86e7-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD - Development files
 OE: enigma2-plugin-skins-e2darkos
@@ -4673,15 +4607,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos
-Version: 1.0+git281+18ed4aa0+18ed4aad9a-r0
+Version: 1.0+git282+89e64d80+89e64d86e7-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9a16baabb4bee68595e761aeb49e2d68
-SHA256sum: 62428434d0eabfbab59cbbe12d309ade50c3401677101cb85720becce33c6efe
-Size: 3075056
-Filename: enigma2-plugin-skins-e2darkos_1.0+git281+18ed4aa0+18ed4aad9a-r0_all.ipk
+MD5Sum: 700ee215ceaecb654572b99ade453046
+SHA256sum: 13a011853a193464e22094d88bf1e9344abff41b6554dfcb31fb341decac8836
+Size: 3073910
+Filename: enigma2-plugin-skins-e2darkos_1.0+git282+89e64d80+89e64d86e7-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin E2-DarkOS-FHD
 OE: enigma2-plugin-skins-e2darkos
@@ -9974,14 +9908,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1180+b6d69590+b6d69598f2-3
+Version: 2+git1181+c1cccf80+c1cccf8775-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: ac08a01b1f434d551f64325d13eb6d29
-SHA256sum: d5f4d262a6280b1b729eb62b56fcd364660acd237bf606e7441d772ed168e3f4
-Size: 568
-Filename: tuxbox-common-dbg_2+git1180+b6d69590+b6d69598f2-3_all.ipk
+MD5Sum: 68b362184d54ffbcab49f8c499a893bf
+SHA256sum: 2e2f004af10edcbff567c047a5942de746e0bab2a058932af6c34cb25e04b7f7
+Size: 570
+Filename: tuxbox-common-dbg_2+git1181+c1cccf80+c1cccf8775-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9989,15 +9923,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1180+b6d69590+b6d69598f2-3
-Recommends: tuxbox-common (>= 2+git1180+b6d69590+b6d69598f2-3), tuxbox-common (<< 2+git1180+b6d69590+b6d69598f2-3.0), xz-dev
+Version: 2+git1181+c1cccf80+c1cccf8775-3
+Recommends: tuxbox-common (>= 2+git1181+c1cccf80+c1cccf8775-3), tuxbox-common (<< 2+git1181+c1cccf80+c1cccf8775-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7e34b6d6718b829c2ce67ab89439fc85
-SHA256sum: 1dd63b1226a56bdb679d27afba53f5b7da22c12c48db5ab9822c0e95ebbcf649
+MD5Sum: e2a506bfa567cf5710d0150dc3a5e87a
+SHA256sum: 35c07b002545444fbf6119fd8f7ef905f162d9baae4252f5db7f7673203f7531
 Size: 622
-Filename: tuxbox-common-dev_2+git1180+b6d69590+b6d69598f2-3_all.ipk
+Filename: tuxbox-common-dev_2+git1181+c1cccf80+c1cccf8775-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10005,15 +9939,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1180+b6d69590+b6d69598f2-3
+Version: 2+git1181+c1cccf80+c1cccf8775-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 82aa84bdbb988e6b0a1e68d8131a0f08
-SHA256sum: 793f4839900fa0d4e0d1da5549004f42ebc11bed102b699c410e2ddb12fd400a
-Size: 71286
-Filename: tuxbox-common_2+git1180+b6d69590+b6d69598f2-3_all.ipk
+MD5Sum: 531a5107b9e6baa665cb4f22f36a97ee
+SHA256sum: 9a3025264566dbe3f2db0bd1076d3295cc4f22d384e59c7847b64b850373daf5
+Size: 71298
+Filename: tuxbox-common_2+git1181+c1cccf80+c1cccf8775-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
