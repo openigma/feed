@@ -304,6 +304,21 @@ OE: enigma2-plugin-extensions-filecommander
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-footonsat
+Version: 2.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: ziko & redouane & Raed
+Description: FootOnsat Plugin developed By ziko & redouane
+Depends: alsa-utils-aplay, python3-sqlite3, python3-six
+Source: https://github.com/ziko-ZR1/FootOnsat
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-footonsat_2.0-r0_all.ipk
+Size: 13133264
+MD5Sum: 404e51d0d2fbae0782493e8722a16a57
+SHA256sum: 361453406b4695ffafccb1c2c4f6f99005f1ad92744c788e7234258e2b73f00d
+
 Package: enigma2-plugin-extensions-freeserver
 Version: 8.3.8.r1
 Section: base
