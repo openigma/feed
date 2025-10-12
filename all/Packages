@@ -1847,14 +1847,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dbg
-Version: 2.2.7+git29+21510f70+21510f7ea2-r0
+Version: 2.2.7+git30+f6268a40+f6268a4e78-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 68322b53216885bc12840807c5e9e33a
-SHA256sum: e8517f7dadece60ac23fb5279ed5d662e016e57a463074aa0d65ecc31251a527
+MD5Sum: 6c3ca7233097b48f45a340227a1c561e
+SHA256sum: cbd3c9ee9d416c4c0381a0458203b92506eee7fb5d474ac5ca30846aed3019f8
 Size: 688
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.7+git29+21510f70+21510f7ea2-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.7+git30+f6268a40+f6268a4e78-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Debugging files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1863,15 +1863,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dev
-Version: 2.2.7+git29+21510f70+21510f7ea2-r0
-Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.7+git29+21510f70+21510f7ea2-r0), python3-requests-dev
+Version: 2.2.7+git30+f6268a40+f6268a4e78-r0
+Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.7+git30+f6268a40+f6268a4e78-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: aa12b08125cd23abae2b7db103b4e3a8
-SHA256sum: cad2a92291580cdba4b54956bb4b8f2f9446062e7e2cb1815e705ef3eff0e8b9
-Size: 738
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.7+git29+21510f70+21510f7ea2-r0_all.ipk
+MD5Sum: f86b1cc946d5ed967c7284ae407dec9b
+SHA256sum: 1a2f412350c0f7fa29d63be42a5f82cbc5f6b26d7bb8155d5b224f2987367d18
+Size: 740
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.7+git30+f6268a40+f6268a4e78-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Development files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1880,14 +1880,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-src
-Version: 2.2.7+git29+21510f70+21510f7ea2-r0
+Version: 2.2.7+git30+f6268a40+f6268a4e78-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 99018621e7aeb215aa0fe50fcdafb4ee
-SHA256sum: 5871428154f4b35fa4e01de7410978a3da9be60c28b84702645d753a22c0f99f
-Size: 16210
-Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.7+git29+21510f70+21510f7ea2-r0_all.ipk
+MD5Sum: 35a96f6d50f84c6c1614e9a47a83d6d9
+SHA256sum: 0c386d1914086f9a8bc813ba8dbe9ac598c79ca7891ef1ace376338924e8436a
+Size: 15506
+Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.7+git30+f6268a40+f6268a4e78-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Source files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1896,15 +1896,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel
-Version: 2.2.7+git29+21510f70+21510f7ea2-r0
+Version: 2.2.7+git30+f6268a40+f6268a4e78-r0
 Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 25dc115f5f3883eac88da1d200ef50af
-SHA256sum: 250445398613d9e5ab31e457d0f3bb5347c8b7cdae72acb4d55874749c75ba0d
-Size: 202060
-Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.7+git29+21510f70+21510f7ea2-r0_all.ipk
+MD5Sum: a863f9fc644413f9b64299e535047515
+SHA256sum: e9938462001ad0a49222c5a6dae3ac198cfb8a6764832904670f53f9b4f37580
+Size: 202270
+Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.7+git30+f6268a40+f6268a4e78-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -9858,14 +9858,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1183+30b5b110+30b5b117d4-3
+Version: 2+git1184+bf672d70+bf672d74a2-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2e4d59e0c00f197be79401bd9df854c9
-SHA256sum: 98f507575ab1117c0f07d9046057fb9ff44c777a1b8b898f499323753bda9fb5
-Size: 568
-Filename: tuxbox-common-dbg_2+git1183+30b5b110+30b5b117d4-3_all.ipk
+MD5Sum: 674d72839b23de40a5fa6820d780e324
+SHA256sum: ea9ae0c8b137f65b8f551db0567a3f9d2a7b08e1f8d97a785967b1172553d0f7
+Size: 570
+Filename: tuxbox-common-dbg_2+git1184+bf672d70+bf672d74a2-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9873,15 +9873,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1183+30b5b110+30b5b117d4-3
-Recommends: tuxbox-common (>= 2+git1183+30b5b110+30b5b117d4-3), tuxbox-common (<< 2+git1183+30b5b110+30b5b117d4-3.0), xz-dev
+Version: 2+git1184+bf672d70+bf672d74a2-3
+Recommends: tuxbox-common (>= 2+git1184+bf672d70+bf672d74a2-3), tuxbox-common (<< 2+git1184+bf672d70+bf672d74a2-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: fc39b61f23ce7f4a9c938ccee9f42521
-SHA256sum: 81b47cb61dbcee34b30ecadfe86e7b5d0cd65d1c6fb5a82ed4ea04e5bcab7d66
-Size: 620
-Filename: tuxbox-common-dev_2+git1183+30b5b110+30b5b117d4-3_all.ipk
+MD5Sum: 59616eef65bb8ac056590d1ac218ed2b
+SHA256sum: 510d3c679f20dfe557dd092d9eda7118e256230dc07e6f608da91af1eb5c012c
+Size: 622
+Filename: tuxbox-common-dev_2+git1184+bf672d70+bf672d74a2-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9889,15 +9889,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1183+30b5b110+30b5b117d4-3
+Version: 2+git1184+bf672d70+bf672d74a2-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a7e9436eee186f20e40892363739be53
-SHA256sum: 66a1c8f3e39f32fbdb67e74266216fc67effa084eb39c0763890b92a441bcb19
-Size: 71296
-Filename: tuxbox-common_2+git1183+30b5b110+30b5b117d4-3_all.ipk
+MD5Sum: 5d4044ad1436544a0480158231476d6a
+SHA256sum: e8c7dbc9f980318ddf9f433eb65bbf7929fa361914dedadb2cc5cfed8072eec0
+Size: 71338
+Filename: tuxbox-common_2+git1184+bf672d70+bf672d74a2-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
