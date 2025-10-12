@@ -1466,14 +1466,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 2.4+git71+8ac8be70+8ac8be7409-r0
+Version: 2.5+git73+be754ce0+be754ce89e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 025ce166108a6d9d0b1f5abd88dd7e8a
-SHA256sum: 89e0052e95ca0574977987ecd65ec2e6f22d0ff8cb7a1f7eaa826aa567f2b184
-Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.4+git71+8ac8be70+8ac8be7409-r0_all.ipk
+MD5Sum: d5bd20974e7ea3ee0a6d5cb43ead2cf1
+SHA256sum: a87ad328f58f4532f07c8a906dd6db7b9cc37d40d3415d0b236ed3a1e8fceced
+Size: 648
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_2.5+git73+be754ce0+be754ce89e-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1482,15 +1482,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 2.4+git71+8ac8be70+8ac8be7409-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 2.4+git71+8ac8be70+8ac8be7409-r0)
+Version: 2.5+git73+be754ce0+be754ce89e-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 2.5+git73+be754ce0+be754ce89e-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 95282e615418b531c695a65ab5ff369e
-SHA256sum: 615df252f46b688f965fdd35a633e8ddede2c6fce8f4d340a119d77a599612d7
+MD5Sum: 18ec5d512a38fb71cb686a3c29dc1a3b
+SHA256sum: b8853d78b7c8827bc68fe87fdabee6e0c7fdd38492e1cdc8f5e6b7bc01450d84
 Size: 688
-Filename: enigma2-plugin-extensions-m3uconverter-dev_2.4+git71+8ac8be70+8ac8be7409-r0_all.ipk
+Filename: enigma2-plugin-extensions-m3uconverter-dev_2.5+git73+be754ce0+be754ce89e-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1499,14 +1499,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 2.4+git71+8ac8be70+8ac8be7409-r0
+Version: 2.5+git73+be754ce0+be754ce89e-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7f37f579166ab5b347236e55130dede2
-SHA256sum: d23af774626a2f2dedb57303a89be3c77cbf8c5859c381e2a0f328b3951db2b7
-Size: 96378
-Filename: enigma2-plugin-extensions-m3uconverter_2.4+git71+8ac8be70+8ac8be7409-r0_all.ipk
+MD5Sum: f95fce1ef857e73bd4975dbb7945a9fa
+SHA256sum: 5e5f1d3429d7098091f79433bbea424e3765994bcbcf2fad91b4a23eebf18154
+Size: 114536
+Filename: enigma2-plugin-extensions-m3uconverter_2.5+git73+be754ce0+be754ce89e-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
@@ -1847,14 +1847,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dbg
-Version: 2.2.7+git32+e24b6c40+e24b6c4e87-r0
+Version: 2.2.8+git32+e24b6c40+e24b6c4e87-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 528214c2c1308aae83b57355d51441aa
-SHA256sum: 6262dff459ff7e813c6625093b93e68363613959117c0180b222010f2dceae95
+MD5Sum: 7cb952fbfa6cf291994be5bf00bb63cf
+SHA256sum: e3a4f98388f065141a6040b9f01c75ef816d524f33f753d462cffead6604ddbe
 Size: 690
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.7+git32+e24b6c40+e24b6c4e87-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.2.8+git32+e24b6c40+e24b6c4e87-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Debugging files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1863,15 +1863,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dev
-Version: 2.2.7+git32+e24b6c40+e24b6c4e87-r0
-Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.7+git32+e24b6c40+e24b6c4e87-r0), python3-requests-dev
+Version: 2.2.8+git32+e24b6c40+e24b6c4e87-r0
+Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.2.8+git32+e24b6c40+e24b6c4e87-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 53ccb05e8bf9f84008fd00a15475bb3d
-SHA256sum: 35e4b88d882a30caa1056d8e8dd8162dd6bb37974247b10b811a6d8e03d1ead3
+MD5Sum: cfad8698004ce9c01deb000e1c788bbf
+SHA256sum: e63694b3c102707072392c70af6f37ee00a11deff1310ad19ad5baa2dca06c06
 Size: 740
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.7+git32+e24b6c40+e24b6c4e87-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.2.8+git32+e24b6c40+e24b6c4e87-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Development files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1880,14 +1880,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-src
-Version: 2.2.7+git32+e24b6c40+e24b6c4e87-r0
+Version: 2.2.8+git32+e24b6c40+e24b6c4e87-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: ed0c04db3f2f33e416f90fd2f8fdfa25
-SHA256sum: 64bcee1671d443e2a4a5f42dce14a0e5191589b5612efbfc303b6d67ed701655
+MD5Sum: ffb61561abe5ca3a3a334e0fdfe3ad8a
+SHA256sum: 90b36e644191b7f9079847c9d7f18b149343b55ce8775f9ca1b84ee4fd63b034
 Size: 15932
-Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.7+git32+e24b6c40+e24b6c4e87-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.2.8+git32+e24b6c40+e24b6c4e87-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Source files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1896,15 +1896,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel
-Version: 2.2.7+git32+e24b6c40+e24b6c4e87-r0
+Version: 2.2.8+git32+e24b6c40+e24b6c4e87-r0
 Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 9ca8a158542447e099856c2abd21ea54
-SHA256sum: 0fe50a498898c0a20e521e701093a51c5b8400bc05926bcf99550a2ce447fa8e
-Size: 203320
-Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.7+git32+e24b6c40+e24b6c4e87-r0_all.ipk
+MD5Sum: 35cf50156f65e4cc5ddd96179a1435bd
+SHA256sum: 03792390ee22cf5b3ce1472e541d32879618791f631c2d1ae4653c5a49320a56
+Size: 203322
+Filename: enigma2-plugin-extensions-simple-zoom-panel_2.2.8+git32+e24b6c40+e24b6c4e87-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2
 OE: enigma2-plugin-extensions-simple-zoom-panel
