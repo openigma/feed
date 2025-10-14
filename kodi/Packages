@@ -16,16 +16,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers
-Version: 22.2.9+gitr0+603c3f483b-r0
+Version: 22.2.9+gitr0+7e8d2c9e3c-r0
 Depends: ldd, libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0)
 Recommends: kernel-module-ext2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f8de7a2be83e5817e93dab5555c017f
-SHA256sum: 1c10115384c148cb01148cf6701776ee0a04bd4660226a7cfa493c10460323d0
-Size: 43274436
-Filename: kodi-addon-inputstream-adaptive-piers_22.2.9+gitr0+603c3f483b-r0_dm920.ipk
+MD5Sum: c615fa22e209b964fe83bab32e012019
+SHA256sum: 5d9120b78ac7d1608e638a5c2f5a157426b9c15c6b51f35ea98fe5d4062302f1
+Size: 43272604
+Filename: kodi-addon-inputstream-adaptive-piers_22.2.9+gitr0+7e8d2c9e3c-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types
 OE: kodi-addon-inputstream-adaptive-piers
@@ -33,15 +33,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-ffmpegdirect-piers
-Version: 22.1.3+gitr0+07771f46b9-r0
+Version: 22.1.3+gitr0+3274af3824-r0
 Depends: libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libgcc1 (>= 15.2.0), libkodiplatform, libpostproc58 (>= 7.1.1), libstdc++6 (>= 15.2.0), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 910549cc789a794996c2b8c28adac158
-SHA256sum: a8263861b93f98db355fc7633688f5474bf8eacc644506d9e5b9b5d47b6384c6
-Size: 8184448
-Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.1.3+gitr0+07771f46b9-r0_dm920.ipk
+MD5Sum: 15a2c1f49c9e6c0314e258a23e843d11
+SHA256sum: fb85bd8a2d72ca84c11f1c36ac18696c43139734ea6f972ab69f7d6abc4a7177
+Size: 8184652
+Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.1.3+gitr0+3274af3824-r0_dm920.ipk
 Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
 Description: Kodi inputstream addon for ffmpeg
 OE: kodi-addon-inputstream-ffmpegdirect-piers
@@ -54,9 +54,9 @@ Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libgcc1 (>= 15.2.0), libkodipla
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e796a6d0c4dc91c2d9c4d68b0bb322e3
-SHA256sum: 695ec162e35f1b78bba55f3a1da6b01a3353a680d68c73d124805b92a655e7d0
-Size: 468846
+MD5Sum: 85c2f8d3b58000162395b66c3b7b5a3e
+SHA256sum: fd9c6282ca7fa416f3263badcf5916a1d032d4dbb64f82a4890d0b7560f2b31e
+Size: 468762
 Filename: kodi-addon-inputstream-rtmp-piers_22.0.1+gitr0+0b4bfee6d1-r0_dm920.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: Kodi inputstream addon for rtmp
@@ -346,9 +346,9 @@ Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-char
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3f9e824a7cef883bad55f8acc39ef40
-SHA256sum: 0fab99ba320ea8c41491c450ca463b1e4b3b4b2a557e74f2679bec45a4850227
-Size: 28012974
+MD5Sum: e175c9338167bc4298339cd229d34c26
+SHA256sum: 764d1de58b0f173cbb13ae787259ade8b35fc8f2e009abe97ca7e617a765ae2f
+Size: 28012970
 Filename: stb-kodi-dm920_22.0+gitr0+4434c17e41-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center
