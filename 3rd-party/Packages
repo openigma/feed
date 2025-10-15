@@ -1604,6 +1604,24 @@ Filename: libfmt11_11.1.1-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 39906
 MD5Sum: 0bb01742864f89c8bb5e360c804cebd7
 
+Package: libspdlog1.15
+Version: 1.15.3-r0
+Depends: libc6 (>= 2.42), libfmt11 (>= 11.2.0), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Provides: spdlog
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e79a0823e2fb66b04a09568ef1f7332f
+SHA256sum: d5dce0a1dd75e5c10a682a00a7f4951eb7b21fdf613f935f40bf348d0a8ddd9d
+Size: 76626
+Filename: libspdlog1.15_1.15.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: spdlog_1.15.3.bb
+Description: spdlog version 1.15.3-r0
+OE: spdlog
+HomePage: https://github.com/gabime/spdlog/wiki
+License: MIT
+Priority: optional
+
 Package: libpostproc58
 Version: 7.1.1-r1
 Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
