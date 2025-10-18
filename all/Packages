@@ -9338,6 +9338,54 @@ HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-only
 Priority: optional
 
+Package: kodi-addons-meta-dbg
+Version: 1.0-r0
+Recommends: kodi-addon-pvr-demo-dbg, kodi-addon-pvr-dvblink-dbg, kodi-addon-pvr-dvbviewer-dbg, kodi-addon-pvr-filmon-dbg, kodi-addon-pvr-hts-dbg, kodi-addon-pvr-iptvsimple-dbg, kodi-addon-pvr-mythtv-dbg, kodi-addon-pvr-nextpvr-dbg, kodi-addon-pvr-njoy-dbg, kodi-addon-pvr-pctv-dbg, kodi-addon-pvr-stalker-dbg, kodi-addon-pvr-vbox-dbg, kodi-addon-pvr-vdr.vnsi-dbg, kodi-addon-pvr-vuplus-dbg, kodi-addon-pvr-wmc-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2399c1c238056c1972a6d8de1590c41a
+SHA256sum: e836471b5fa227a981f5a275baa0fb9414ae1f0f70f47902db438f7ca46869ad
+Size: 680
+Filename: kodi-addons-meta-dbg_1.0-r0_all.ipk
+Source: kodi-addons-meta.bb
+Description: Kodi-Addons-meta - Debugging files
+OE: kodi-addons-meta
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addons-meta-dev
+Version: 1.0-r0
+Recommends: kodi-addon-pvr-demo-dev, kodi-addon-pvr-dvblink-dev, kodi-addon-pvr-dvbviewer-dev, kodi-addon-pvr-filmon-dev, kodi-addon-pvr-hts-dev, kodi-addon-pvr-iptvsimple-dev, kodi-addon-pvr-mythtv-dev, kodi-addon-pvr-nextpvr-dev, kodi-addon-pvr-njoy-dev, kodi-addon-pvr-pctv-dev, kodi-addon-pvr-stalker-dev, kodi-addon-pvr-vbox-dev, kodi-addon-pvr-vdr.vnsi-dev, kodi-addon-pvr-vuplus-dev, kodi-addon-pvr-wmc-dev, kodi-addons-meta (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db7f160fda6178331bfa9f22f8a9d1d6
+SHA256sum: 8c93127be90d5c9ebdd8b58b422dabbbb68db9e48ec912a1746859b6135a0dbf
+Size: 702
+Filename: kodi-addons-meta-dev_1.0-r0_all.ipk
+Source: kodi-addons-meta.bb
+Description: Kodi-Addons-meta - Development files
+OE: kodi-addons-meta
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addons-meta
+Version: 1.0-r0
+Depends: kodi-addon-pvr-demo, kodi-addon-pvr-dvblink, kodi-addon-pvr-dvbviewer, kodi-addon-pvr-filmon, kodi-addon-pvr-hts, kodi-addon-pvr-iptvsimple, kodi-addon-pvr-mythtv, kodi-addon-pvr-nextpvr, kodi-addon-pvr-njoy, kodi-addon-pvr-pctv, kodi-addon-pvr-stalker, kodi-addon-pvr-vbox, kodi-addon-pvr-vdr.vnsi, kodi-addon-pvr-vuplus, kodi-addon-pvr-wmc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 95c1eaf65b8c437e49b66d2e30969c4d
+SHA256sum: 6084caafd1988bc92ecfa82edc31d210a51b093711bff78cf8c3ac6773b56607
+Size: 604
+Filename: kodi-addons-meta_1.0-r0_all.ipk
+Source: kodi-addons-meta.bb
+Description: Kodi-Addons-meta
+OE: kodi-addons-meta
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: mm-common-dbg
 Version: 1.0.7-r0
 Section: devel
