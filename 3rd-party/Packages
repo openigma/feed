@@ -723,7 +723,7 @@ Maintainer: OE-Alliance
 License: GPL-2.0-only
 Architecture: dm920
 OE: enigma2
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: enigma2, streamlink
 Source: enigma2.bb
 Filename: enigma2-plugin-extensions-streamlinkwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
@@ -899,9 +899,24 @@ Depends: kernel-module-wireguard, wireguard-module, wireguard-tools, wireguard-t
 Source: enigma2-plugin-extensions-wireguard-vpn.bb
 Description: Wireguard Vpn for enigma2 boxes
 OE: enigma2-plugin-extensions
-HomePage: https://github.com/m4dhouse/Wireguard-Vpn
+Homepage: https://github.com/m4dhouse/Wireguard-Vpn
 License: GPL-2.0-or-later
 Priority: optional
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 5.0
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Lululla <ekekaz@gmail.com>
+Description: plugin, for the free streaming.
+Source: enigma2-plugin-extensions-xcplugin-forever
+Homepage: https://github.com/
+OE: OE2.0
+Filename: enigma2-plugin-extensions-xcplugin-forever_5.0_all.ipk
+Size: 1722022
+MD5Sum: 7ce2b65a94b56635e8b6c1e36c631bd5
+SHA256sum: a81189561bdb693feaea006e6dcb74cacf1f7eb5ada18c1b84f1f46a32cf37b6
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
 Version: 3.13+git34590+274eaf80+274eaf829e-r1
@@ -913,7 +928,7 @@ Maintainer: OE-Alliance
 License: GPL-2.0-only
 Architecture: dm920
 OE: enigma2
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: enigma2, python3-yt-dlp
 Source: enigma2.bb
 Filename: enigma2-plugin-extensions-ytdlpwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
@@ -930,7 +945,7 @@ Maintainer: OE-Alliance
 License: GPL-2.0-only
 Architecture: dm920
 OE: enigma2
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: enigma2, python3-youtube-dl
 Source: enigma2.bb
 Filename: enigma2-plugin-extensions-ytdlwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
@@ -1240,7 +1255,7 @@ Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-cccam-2.3.9
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), libstdc++6 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-cccam-2.3.9.bb
 Filename: enigma2-plugin-softcams-cccam-2.3.9_2.3.9-r1_cortexa15hf-neon-vfpv4.ipk
@@ -1257,7 +1272,7 @@ Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-doscam-0.2.5
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), softcam-support
 Source: enigma2-plugin-softcams-doscam-0.2.5.bb
 Filename: enigma2-plugin-softcams-doscam-0.2.5_0.2.5-r1_cortexa15hf-neon-vfpv4.ipk
@@ -1274,7 +1289,7 @@ Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-gbox-811k
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-gbox-811k.bb
 Filename: enigma2-plugin-softcams-gbox-811k_811k-r1_cortexa15hf-neon-vfpv4.ipk
@@ -1291,7 +1306,7 @@ Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-mgcamd-1.46
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
 Source: enigma2-plugin-softcams-mgcamd-1.46.bb
 Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r1_cortexa15hf-neon-vfpv4.ipk
@@ -1327,7 +1342,7 @@ Maintainer: samur
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-samur
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.6.0), libusb-1.0-0 (>= 1.0.28), softcam-support
 Source: enigma2-plugin-softcams-oscam-smod.bb
 Filename: enigma2-plugin-softcams-oscam-samur_11878-802_cortexa15hf-neon-vfpv4.ipk
@@ -1350,7 +1365,7 @@ Maintainer: smod
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-smod
-Homepage: https://www.open.tv
+Homepage: https://github.com/
 Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.6.0), libusb-1.0-0 (>= 1.0.29), softcam-support
 Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
 Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
@@ -1602,7 +1617,7 @@ Description: Secure Socket Layer
  Secure Socket Layer (SSL) binary and related cryptographic tools.
 Section: libs/network
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: OpenSSL
 Architecture: dm920
 OE: openssl10
@@ -1621,7 +1636,7 @@ Description: Compatibility for packages that link to libcrypto or libssl 0.9.7
  Compatibility for packages that link to libcrypto or libssl 0.9.7.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: libcrypto-compat-0.9.7
@@ -1641,7 +1656,7 @@ Description: Compatibility for packages that link to libcrypto or libssl 1.0.0
  Compatibility for packages that link to libcrypto or libssl 1.0.0.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: libcrypto-compat-1.0.0
@@ -1791,7 +1806,7 @@ Description: nodejs version 22.20.0-r0
  nodeJS Evented I/O for V8 JavaScript
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
 Architecture: cortexa15hf-neon-vfpv4
 OE: nodejs
@@ -1808,7 +1823,7 @@ Description: nodejs version 22.20.0-r0
  nodeJS Evented I/O for V8 JavaScript
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
 Architecture: cortexa15hf-neon-vfpv4
 OE: nodejs
