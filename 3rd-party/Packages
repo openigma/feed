@@ -80,18 +80,20 @@ MD5Sum: 5dc16f793f4107c5eadd71a7fa1ad630
 SHA256sum: e20a5c5f08b93c4f58f64dd90773940bd62611727ba3a94fcc5c3dd02d612e78
 
 Package: enigma2-plugin-extensions-audiorestart
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-audiorestart
+ Restart Audio after restart / standby
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: d97fdb1c0bc2814c3603dc5fe4d871db
-Size: 17264
-Filename: enigma2-plugin-extensions-audiorestart_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Audio Restart
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-audiorestart_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 17296
+MD5Sum: 4f18b99de01ddd7cd8d448c74be58423
 
 Package: enigma2-plugin-extensions-auto-dcw-key-add
 Version: 1.0.8
@@ -109,32 +111,37 @@ MD5Sum: bfb5ac8ebf641fc441401f2d69be5941
 SHA256sum: 6c387b04a708fdddbf4d2570e107ba326fd02096d5489980ee24f3c05aa00eff
 
 Package: enigma2-plugin-extensions-birthdayreminder
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-birthdayreminder
+ Birthday Reminder: Reminds you of birthdays
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: 8ca511f9acca779f70bb6bd64750fa5f
-Size: 40132
-Filename: enigma2-plugin-extensions-birthdayreminder_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Birthday Reminder
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-birthdayreminder_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 40156
+MD5Sum: 9d9a563dfd671bd63219e0decccc300d
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: git3790+a132b610+a132b6120d-r0
+Version: 7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-chefkoch
+ extensions-chefkoch
 Section: base
-Architecture: dm920
-Maintainer: oe-alliance team
-MD5Sum: c371e22101cd116f3b1bce160f10ca99
-Size: 109022
-Filename: enigma2-plugin-extensions-chefkoch_git3790+a132b610+a132b6120d-r0_dm920.ipk
-Source: enigma2-alliance-plugins.bb
-Description: Chefkoch - Rezepte fürs Kochen & Backen
-OE: enigma2-alliance-plugins
-License: Proprietary
 Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-chefkoch_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 108992
+MD5Sum: 60aaae574f0409e74bfbb8598f7d999d
 
 Package: enigma2-plugin-extensions-clearmem
 Version: 1.11
@@ -152,18 +159,21 @@ Size: 11096
 MD5Sum: 1b030329e6bd77d79300c04afea766f4
 
 Package: enigma2-plugin-extensions-clevertanken
-Version: git3790+a132b610+a132b6120d-r0
+Version: 7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-clevertanken
+ extensions-clevertanken
 Section: base
-Architecture: dm920
-Maintainer: oe-alliance team
-MD5Sum: 1ff21064ea23ec621cad12d22598424d
-Size: 46900
-Filename: enigma2-plugin-extensions-clevertanken_git3790+a132b610+a132b6120d-r0_dm920.ipk
-Source: enigma2-alliance-plugins.bb
-Description: Clever-tanken.de
-OE: enigma2-alliance-plugins
-License: Proprietary
 Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-clevertanken_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 46932
+MD5Sum: eaf0038df64da6974b239344c8774228
 
 Package: enigma2-plugin-extensions-cooltvguide
 Version: Coolman_V8.1
@@ -181,19 +191,21 @@ MD5Sum: 7b330fa2d2bed7cb1a465cb711c2b048
 SHA256sum: 78d26168e784cce2af97c5f74a75db7c75baef5d8920f31d2456277fe86474a7
 
 Package: enigma2-plugin-extensions-curlytx
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
-Depends: python3-twisted-web
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-curlytx
+ Fetch and display remote text files via HTTP
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: 0c1ec4682050407bd660f1087feb3f93
-Size: 22002
-Filename: enigma2-plugin-extensions-curlytx_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: CurlyTx - View the contents of remote plain text files, e.g. HTTP URLs.
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: python3-twisted-web
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-curlytx_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 22022
+MD5Sum: d934fa735c7325223c042ce1ae284ec4
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
 Version: 2.0.12
@@ -213,48 +225,54 @@ MD5Sum: 259e5746e2e38ad4c10d0c2a0974817a
 SHA256sum: 4f37de44324fc4f00d6f41a3c8c86802532411da4619d7fb67b58027459c0922
 
 Package: enigma2-plugin-extensions-emission
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
-Depends: python3-transmission-rpc, transmission, transmission-client
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-emission
+ basic frontend to the transmission bittorrent client
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: 2706ad4a9978860f31db8879f8c2c81d
-Size: 24790
-Filename: enigma2-plugin-extensions-emission_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: eMission - Torrent
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: python3-transmission-rpc, transmission, transmission-client
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-emission_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 24816
+MD5Sum: 2ed1ac01ae225faca85cdef43e1bd688
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: git3850+66b06bd0+66b06bdd3b-r0
+Version: 7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-epgtranslator
+ extensions-epgtranslator
 Section: base
-Architecture: dm920
-Maintainer: oe-alliance team
-MD5Sum: 195598bea3c3499d76243cd28f6e5717
-Size: 97778
-Filename: enigma2-plugin-extensions-epgtranslator_git3850+66b06bd0+66b06bdd3b-r0_dm920.ipk
-Source: enigma2-alliance-plugins.bb
-Description: EPG Translator
-OE: enigma2-plugin-extensions
-License: Proprietary
 Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-epgtranslator_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 100470
+MD5Sum: 083da9e667d4605d6f041912f63301dd
 
 Package: enigma2-plugin-extensions-esame
-Version: gitr7764
-Description: eSame game for enigma2
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-esame
+ eSame game for enigma2
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
 Architecture: dm920
-OE: enigma2-plugin-extensions
-Homepage: https://github.com/
-Source: enigma2-plugin-extensions-esame.bb
-Filename: enigma2-plugin-extensions-esame_7.6-alpha+gitr7764+123df200+123df20303-r8_dm920.ipk
-Size: 20600
-MD5Sum: 441af9799e455b14f11e550ea3d12f8c
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-esame_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 20588
+MD5Sum: c7f65fb2242d1866a3c7714bdd98efa5
 
 Package: enigma2-plugin-extensions-estalkerwebcontrol
 Version: 1.0
@@ -273,36 +291,21 @@ MD5Sum: 1d9a5ba976364d1ffa8386fc762baa12
 SHA256sum: c736e658624ba68a9c8539def3d2a30d6a1c26566bedab542144e754bb3606b4
 
 Package: enigma2-plugin-extensions-fancontrol2
-Version: 2.9
-Description: Temperature dependent fan control
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-fancontrol2
+ Temperature dependent fan control
 Section: base
 Priority: optional
-Maintainer: OpenPLi team <info@openpli.org>
+Maintainer: OE-Alliance team
 License: Proprietary
 Architecture: dm920
 OE: enigma2-plugins
+Homepage: https://www.github.com/
 Depends: hdparm, smartmontools
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-fancontrol2_2.9_dm920.ipk
-Size: 113794
-MD5Sum: 55fda03a33a76bf5456facf99196867d
-SHA256sum: fb08afa50672b8b9b88e262c5747b8f72c66a28e026fa04386c59d812a686201
-
-Package: enigma2-plugin-extensions-filecommander
-Version: 2.0+git206+23c11a80+23c11a8686-r0
-Depends: python3-core, util-linux-ionice
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c55f7f8a042bc9a6d1dccd62d42bddd
-SHA256sum: fee0d3de0f9a852c545ab64df5c8cc1da3543f69fa6386cb81ca6676f3d562b1
-Size: 273592
-Filename: enigma2-plugin-extensions-filecommander_2.0+git206+23c11a80+23c11a8686-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-filecommander.bb
-Description: enigma2-plugin-extensions-filecommander version 2.0+git-r0
-OE: enigma2-plugin-extensions-filecommander
-License: GPL-2.0-or-later
-Priority: optional
+Filename: enigma2-plugin-extensions-fancontrol2_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 135666
+MD5Sum: a4d2edeb13322171c18848811d2701b3
 
 Package: enigma2-plugin-extensions-footonsat
 Version: 2.0
@@ -434,18 +437,21 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-lottoextended
-Version: git3790+a132b610+a132b6120d-r0
-Section: base1246518
-Architecture: dm9201246518
-Maintainer: oe-alliance team
-MD5Sum: 76f7f752e6927f55e0203aab549c17d3
-Size: 48612
-Filename: enigma2-plugin-extensions-lottoextended_git3790+a132b610+a132b6120d-r0_dm920.ipk
-Source: enigma2-alliance-plugins.bb
-Description: Lotto Extended
-OE: enigma2-alliance-plugins
-License: Proprietary
+Version: 7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-lottoextended
+ extensions-lottoextended
+Section: base
 Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-lottoextended_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 48644
+MD5Sum: 38fd7d0a76d8fa956533e96db7bc0105
 
 Package: enigma2-plugin-extensions-mediastream
 Version: 20250507-python3.13-r0
@@ -469,20 +475,21 @@ MD5Sum: c3ec0c108ca2b9b7c012f228157a8e0f
 SHA256sum: ea2df401cef681fbd75fed6ca960fe5e6eaaa603e91452bdd918d61ceeff9d06
 
 Package: enigma2-plugin-extensions-merlinmusicplayer
-Version: 7.7
-Description: Merlin Music Player and iDream (music management)
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-merlinmusicplayer
+ Merlin Music Player and iDream (music management)
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
 Architecture: dm920
 OE: enigma2-plugins
-Homepage: https://www.open.tv
+Homepage: https://www.github.com/
 Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
-Source: enigma2-plugin-extensions-merlinmusicplayer.bb
-Filename: enigma2-plugin-extensions-merlinmusicplayer_7.6-beta+gitr7789+38d912b0+38d912b4e8-r8_dm920.ipk
-Size: 1023834
-MD5Sum: a824d292cd2a4dba4d5b21219f1cfe02
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-merlinmusicplayer_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 1023836
+MD5Sum: 7f4bb81fa2275afdd57dad8d1c8d5bb8
 
 Package: enigma2-plugin-extensions-mosaic
 Version: 2.1
@@ -643,18 +650,20 @@ SHA256sum: 84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0
 Priority: optional
 
 Package: enigma2-plugin-extensions-schiffe
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-schiffe
+ Schiffe Battleship Game FHD Modded by Lululla
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: f43ece1905400520d5d0b8a9924a6c1e
-Size: 170118
-Filename: enigma2-plugin-extensions-schiffe_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Schiffe Versenken game for enigma2
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-schiffe_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 170144
+MD5Sum: a7a1c19058ab9a6a02e9a7ab59a24992
 
 Package: enigma2-plugin-extensions-sherlockmod
 Version: 1.4.2
@@ -689,19 +698,37 @@ Size: 50390
 MD5Sum: a081beb1bb732366334a0ec26aefbe03
 SHA256sum: bb9a3f98618665fceee9521623c32e271fe3828042570c1856dcdc1464554a33
 
-Package: enigma2-plugin-extensions-sudoku
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Package: enigma2-plugin-extensions-streamlinkwrapper
+Version: 7.6.0+git34590+274eaf80+274eaf829e-r1
+Description: Enables support for streamlink url scheme in bouquet list
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: 5f1ebbc6f9cbbec70d8c2bae302631b5
-Size: 315950
-Filename: enigma2-plugin-extensions-sudoku_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Sudoku game for enigma2
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2
+Homepage: https://www.open.tv
+Depends: enigma2, streamlink
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-streamlinkwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2186
+MD5Sum: aa36069d9dd102e8869c72bedb64bc29
+
+Package: enigma2-plugin-extensions-sudoku
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-sudoku
+ Sudoku Game FHD modded by Lululla
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-sudoku_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 315980
+MD5Sum: 0cd42ef2484a0aa06021902852f98f26
 
 Package: enigma2-plugin-extensions-suptv
 Version: 4.4
@@ -734,18 +761,20 @@ Size: 927526
 MD5Sum: fda0075fe5f6ada0bc7c2fc43df1b725
 
 Package: enigma2-plugin-extensions-tetris
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-tetris
+ Tetris-Clone HD/FHD modded by Lululla
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: ef1d1d7b4474bc0c3e809d92a886ebfc
-Size: 136614
-Filename: enigma2-plugin-extensions-tetris_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Tetris game for enigma2
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-tetris_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 136640
+MD5Sum: 190686ccae10ddcb68852fe7d7455050
 
 Package: enigma2-plugin-extensions-transmission
 Version: 5.1.7
@@ -810,18 +839,20 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-vierg
-Version: gitr7785+3a5b2690+3a5b2697bb-r8
+Version: 7.6.0+gitr7807+045af020+045af0203e-r8
+Description: extensions-vierg
+ Four wins game
 Section: base
-Architecture: dm920
-Maintainer: OE-Alliance team
-MD5Sum: 650a8f750b6c11d4be421fdbca82bcc1
-Size: 38664
-Filename: enigma2-plugin-extensions-vierg_gitr7785+3a5b2690+3a5b2697bb-r8_dm920.ipk
-Source: enigma2-plugins-alliance.bb
-Description: Connect Four game for enigma2
-OE: enigma2-plugins-alliance
-License: Proprietary
 Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-vierg_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 38688
+MD5Sum: 6c43582a9db53614930c79b1d611f10b
 
 Package: enigma2-plugin-extensions-vpnmanager
 Version: 1.1.7-py3
@@ -857,36 +888,38 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
-Version: 7.7
+Version: 7.6.0+git34590+274eaf80+274eaf829e-r1
 Description: Enables support for YT-DLP url scheme in bouquet list.
+ extensions-ytdlpwrapper
 Section: base
 Priority: optional
 Maintainer: OE-Alliance
 License: GPL-2.0-only
 Architecture: dm920
-OE: enigma2-plugin-extensions
+OE: enigma2
 Homepage: https://www.open.tv
 Depends: enigma2, python3-yt-dlp
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-ytdlpwrapper_7.6-beta+git34354+85897e40+85897e43c8-r0_dm920.ipk
-Size: 2322
-MD5Sum: 97af8d3a140673e4e076b80776a55261
+Filename: enigma2-plugin-extensions-ytdlpwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2318
+MD5Sum: cdb7e1706cae58b88b5b21477af504cd
 
 Package: enigma2-plugin-extensions-ytdlwrapper
-Version: 7.7
+Version: 7.6.0+git34590+274eaf80+274eaf829e-r1
 Description: Enables support for Youtube-DL url scheme in bouquet list.
+ extensions-ytdlwrapper
 Section: base
 Priority: optional
 Maintainer: OE-Alliance
 License: GPL-2.0-only
 Architecture: dm920
-OE: enigma2-plugin-extensions
+OE: enigma2
 Homepage: https://www.open.tv
 Depends: enigma2, python3-youtube-dl
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-ytdlwrapper_7.6-beta+git34354+85897e40+85897e43c8-r0_dm920.ipk
-Size: 2268
-MD5Sum: 540b62cdf2f3cfadab242046f063b2f9
+Filename: enigma2-plugin-extensions-ytdlwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2262
+MD5Sum: e0e22688f999e2df415b895a4bab4ecf
 
 Package: enigma2-plugin-skins-aeonfhd
 Version: 3.4
@@ -1187,7 +1220,7 @@ Description: Softcam CCcam 2.3.9
  An outdated binary only softcam
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-cccam-2.3.9
@@ -1204,7 +1237,7 @@ Description: Softcam doscam 0.2.5
  enigma2-plugin-softcams-doscam-0.2.5 version 0.2.5-r1.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-doscam-0.2.5
@@ -1221,7 +1254,7 @@ Description: Softcam gbox 811k
  enigma2-plugin-softcams-gbox-811k version 811k-r1.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-gbox-811k
@@ -1238,7 +1271,7 @@ Description: Softcam mgcamd 1.46
  enigma2-plugin-softcams-mgcamd-1.46 version 1.46-r1.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-mgcamd-1.46
@@ -1255,11 +1288,11 @@ Description: Softcam OSCam (IPv6/IPv4 Dual-Stack support)
  This version can connect to servers using IPv6 and/or IPv4.
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-master
-Homepage: https://www.opena.tv
+Homepage: https://www.github.com/
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Provides: enigma2-plugin-softcams-oscam-atv, oscam-master
 Replaces: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
@@ -1279,7 +1312,7 @@ License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-samur
 Homepage: https://www.open.tv
-Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.2), libusb-1.0-0 (>= 1.0.28), softcam-support
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.6.0), libusb-1.0-0 (>= 1.0.28), softcam-support
 Source: enigma2-plugin-softcams-oscam-smod.bb
 Filename: enigma2-plugin-softcams-oscam-samur_11878-802_cortexa15hf-neon-vfpv4.ipk
 Size: 779474
@@ -1466,7 +1499,7 @@ License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: ffmpeg
 Homepage: https://www.ffmpeg.org/
-Depends: libavcodec60 (>= 6.1.1), libavutil58 (>= 6.1.1), libbluray (>= v1.3.4), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libssl3 (>= 3.5.2), libxml2 (>= 2.12.6), libz1 (>= 1.3.1), rtmpdump
+Depends: libavcodec60 (>= 6.1.1), libavutil58 (>= 6.1.1), libbluray (>= v1.3.4), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), libxml2 (>= 2.12.6), libz1 (>= 1.3.1), rtmpdump
 Provides: libavformat
 Source: ffmpeg_6.1.1.bb
 Filename: libavformat60_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
@@ -1475,7 +1508,7 @@ MD5Sum: ed9719784b9f8c74ab88a03cb27b7b7d
 
 Package: libavformat61
 Version: 7.1.1-r1
-Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.5.2), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6)
+Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6)
 Provides: libavformat
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
@@ -1505,7 +1538,7 @@ License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: ffmpeg
 Homepage: https://www.ffmpeg.org/
-Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2)
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0)
 Provides: libavutil
 Source: ffmpeg_6.1.1.bb
 Filename: libavutil58_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
@@ -1514,7 +1547,7 @@ MD5Sum: 187db2b911b4a313b0d8efc4e72ec0f7
 
 Package: libavutil59
 Version: 7.1.1-r1
-Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2)
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0)
 Provides: libavutil
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
@@ -1530,24 +1563,24 @@ HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-ackage: libcrypto1.0.2
+Package: libcrypto1.0.2
 Version: 1.0.2u-r0
 Description: Secure Socket Layer
  Secure Socket Layer (SSL) binary and related cryptographic tools.
 Section: libs/network
 Priority: optional
-Maintainer: open
+Maintainer: openATV
 License: OpenSSL
 Architecture: dm920
 OE: openssl10
 Homepage: http://www.openssl.org/
-Depends: libc6 (>= 2.42)
+Depends: libc6 (>= 2.42+git0+e34453cd6a)
 Recommends: openssl10-conf
 Provides: libcrypto1.0.2, libcrypto10
 Source: openssl10_1.0.2u.bb
 Filename: libcrypto1.0.2_1.0.2u-r0_dm920.ipk
-Size: 627686
-MD5Sum: 1845dfb64a7fc19879477ee2d7af721a
+Size: 627240
+MD5Sum: e5490e75d0849d39dda195ac0c9d25b5
 
 Package: libcrypto-compat-0.9.7
 Version: 1.0-r0
@@ -1555,11 +1588,11 @@ Description: Compatibility for packages that link to libcrypto or libssl 0.9.7
  Compatibility for packages that link to libcrypto or libssl 0.9.7.
 Section: base
 Priority: optional
-Maintainer: open
+Maintainer: openATV
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: libcrypto-compat-0.9.7
-Homepage: https://www.open.tv
+Homepage: https://www.github.com/
 Depends: libcrypto, libssl
 Provides: libcrypto.so.0.9.7, libssl.so.0.9.7
 Replaces: libcrypto-compat
@@ -1575,11 +1608,11 @@ Description: Compatibility for packages that link to libcrypto or libssl 1.0.0
  Compatibility for packages that link to libcrypto or libssl 1.0.0.
 Section: base
 Priority: optional
-Maintainer: open
+Maintainer: openATV
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: libcrypto-compat-1.0.0
-Homepage: https://www.open.tv
+Homepage: https://www.github.com/
 Depends: libcrypto10, libssl10
 Provides: libcrypto1.0.0, libssl1.0.0
 Replaces: libcrypto1.0.0, libssl1.0.0
@@ -1719,55 +1752,39 @@ HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: nodejs-doc
-Version: 22.19.0-r0
-Section: doc
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd21252d942437f00f1c46d01ab03a93
-SHA256sum: 4b5da0552f5f1ec24d79675ad21467ee9f46ae3a23d3a5a867758efcadba8f30
-Size: 16096
-Filename: nodejs-doc_22.19.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nodejs_22.19.0.bb
-Description: nodejs version 22.19.0-r0 - Documentation files
-OE: nodejs
-HomePage: http://nodejs.org
-License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Package: nodejs
+Version: 22.20.0-r0
+Description: nodejs version 22.20.0-r0
+ nodeJS Evented I/O for V8 JavaScript
+Section: base
 Priority: optional
+Maintainer: openATV
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: brotli (>= 1.1.0), libc6 (>= 2.42), libcares2 (>= 1.34.5), libcrypto3 (>= 3.6.0), libgcc1 (>= 15.2.0), libicui18n77 (>= 77-1), libicuuc77 (>= 77-1), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Source: nodejs_22.20.0.bb
+Filename: nodejs_22.20.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 11416386
+MD5Sum: e6899f87ed68f35341f9e3ab616367ad
 
 Package: nodejs-npm
-Version: 22.19.0-r0
+Version: 22.20.0-r0
+Description: nodejs version 22.20.0-r0
+ nodeJS Evented I/O for V8 JavaScript
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
 Depends: bash, python3-core, python3-datetime, python3-misc, python3-multiprocessing, python3-shell
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d68c22cdfb8fa51399ca560454049dd2
-SHA256sum: 7d39e31911981e64859f53d8289daf892b30eb093b788bd1517982314d2cd0f4
-Size: 2605858
-Filename: nodejs-npm_22.19.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nodejs_22.19.0.bb
-Description: nodejs version 22.19.0-r0
-OE: nodejs
-HomePage: http://nodejs.org
-License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
-Priority: optional
-
-Package: nodejs
-Version: 22.19.0-r0
-Depends: brotli (>= 1.1.0), libc6 (>= 2.42), libcares2 (>= 1.34.5), libcrypto3 (>= 3.5.2), libgcc1 (>= 15.2.0), libicui18n77 (>= 77-1), libicuuc77 (>= 77-1), libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e9d29b6fd7fa9ef7d03b31d056875a1
-SHA256sum: f5356d03e23573bb5046faeb7cc22634ff5f13420e5ecbc8c26a54be46994069
-Size: 16834890
-Filename: nodejs_22.19.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nodejs_22.19.0.bb
-Description: nodejs version 22.19.0-r0
-OE: nodejs
-HomePage: http://nodejs.org
-License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
-Priority: optional
+Source: nodejs_22.20.0.bb
+Filename: nodejs-npm_22.20.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 2605930
+MD5Sum: d9d007cfa1067f542413fb4acdcb787a
 
 Package: python3-httptools
 Version: 0.6.4-r0
