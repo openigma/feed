@@ -824,19 +824,6 @@ Size: 2011432
 MD5Sum: 54441c5b283a48ddd930410e233d9059
 SHA256sum: 3069c1d87c27c0ce72861d8d661bd54ed6a8ecb028e46dc37807d586b37556af
 
-Package: enigma2-plugin-extensions-tvtom3upanel
-Version: 1.8
-Section: enigma2
-Priority: optional
-Architecture: all
-Maintainer: lululla
-Description: TvToM3uPanel Plugin
-Source: enigma2-plugin-extensions-tvtom3upanel.bb
-Homepage: https://github.com/Belfagor2005/TvToM3u
-Filename: enigma2-plugin-extensions-tvtom3upanel_1.8_all.ipk
-Size: 456938
-MD5Sum: b135b7496370c5486b21e02d8d5963d0
-
 Package: enigma2-plugin-extensions-videoplayersimple
 Version: 2.0+git1+52f4e2c0+52f4e2c177-r0
 Depends: python3-codecs, python3-compression, python3-difflib, python3-image, python3-xmlrpc
@@ -1689,24 +1676,6 @@ Filename: libfmt11_11.1.1-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 39906
 MD5Sum: 0bb01742864f89c8bb5e360c804cebd7
 
-Package: libspdlog1.15
-Version: 1.15.3-r0
-Depends: libc6 (>= 2.42), libfmt11 (>= 11.2.0), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
-Provides: spdlog
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e79a0823e2fb66b04a09568ef1f7332f
-SHA256sum: d5dce0a1dd75e5c10a682a00a7f4951eb7b21fdf613f935f40bf348d0a8ddd9d
-Size: 76626
-Filename: libspdlog1.15_1.15.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: spdlog_1.15.3.bb
-Description: spdlog version 1.15.3-r0
-OE: spdlog
-HomePage: https://github.com/gabime/spdlog/wiki
-License: MIT
-Priority: optional
-
 Package: libpostproc58
 Version: 7.1.1-r1
 Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
@@ -1723,6 +1692,24 @@ Description: A complete, cross-platform solution to record, convert and stream a
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: libspdlog1.15
+Version: 1.15.3-r0
+Depends: libc6 (>= 2.42), libfmt11 (>= 11.2.0), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Provides: spdlog
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e79a0823e2fb66b04a09568ef1f7332f
+SHA256sum: d5dce0a1dd75e5c10a682a00a7f4951eb7b21fdf613f935f40bf348d0a8ddd9d
+Size: 76626
+Filename: libspdlog1.15_1.15.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: spdlog_1.15.3.bb
+Description: spdlog version 1.15.3-r0
+OE: spdlog
+HomePage: https://github.com/gabime/spdlog/wiki
+License: MIT
 Priority: optional
 
 Package: libssl1.0.2
