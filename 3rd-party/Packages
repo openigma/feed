@@ -1694,6 +1694,25 @@ HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: libpython3.12-1.0
+Version: 3.12.9-r0
+Description: The Python Programming Language
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: PSF-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.42), libgcc
+Provides: libpython3
+Source: python3_3.12.9.bb
+Filename: libpython3.12-1.0_3.12.9-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1392068
+MD5Sum: de36dd2726c6bcfa6b0f481c98bc40e3
+
 Package: libspdlog1.15
 Version: 1.15.3-r0
 Depends: libc6 (>= 2.42), libfmt11 (>= 11.2.0), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
