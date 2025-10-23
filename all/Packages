@@ -883,14 +883,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dbg
-Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
+Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d19385f42283be24d6bdf4d33fac6af9
-SHA256sum: cc1184694341d912e719afb6c93fc870561542ea504199a856703572755b0b62
-Size: 624
-Filename: enigma2-plugin-extensions-estalker-dbg_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
+MD5Sum: 21edfa0ce000069df395b9d59a5923b4
+SHA256sum: a158b0be1090c28886cca237c0893c4d4a3880fa18607b1a622a2e0c82073d3c
+Size: 626
+Filename: enigma2-plugin-extensions-estalker-dbg_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-estalker
@@ -899,15 +899,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dev
-Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
-Recommends: enigma2-plugin-extensions-estalker (= 1.14-20250920-git31+075373b0+075373b9c4-r0), enigma2-plugin-systemplugins-serviceapp-dev, gstplayer-dev, gstplayer2-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
+Recommends: enigma2-plugin-extensions-estalker (= 1.16-20251023-git32+6a279320+6a27932f52-r0), enigma2-plugin-systemplugins-serviceapp-dev, gstplayer-dev, gstplayer2-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f8afe3a493025c559b948dc2f5d9e934
-SHA256sum: b2c1496b9aa1d750ded76e0bd62d389ea1185b61451651067ba4156f1843687c
-Size: 726
-Filename: enigma2-plugin-extensions-estalker-dev_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
+MD5Sum: c0ef7d8f1e53500ce218c831d8f57b90
+SHA256sum: aa1e774508e357eeb3cc11cffb966ff04a4e55974b32789911eefe4f09f6dc6f
+Size: 724
+Filename: enigma2-plugin-extensions-estalker-dev_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
 OE: enigma2-plugin-extensions-estalker
@@ -916,14 +916,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-src
-Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
+Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: be764bfca78f225521c992e16eecf4c1
-SHA256sum: 38afb49b0ba7345e036140019b584b3004c50127009104e8b6be8b34fb86c189
-Size: 83246
-Filename: enigma2-plugin-extensions-estalker-src_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
+MD5Sum: 214192df00360281841dc0d0e1a53e88
+SHA256sum: db9c534c5d23c96527572152c354e30664edf518c62f30ade80a5e414bb64bc0
+Size: 84574
+Filename: enigma2-plugin-extensions-estalker-src_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
 OE: enigma2-plugin-extensions-estalker
@@ -932,15 +932,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker
-Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
+Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 28d61835342459829360d644510bda1c
-SHA256sum: 24b58adb3bb400f2dbb7b78902a163c2327fbcd6bf54b1366c2ca0d2bd51a9be
-Size: 2678444
-Filename: enigma2-plugin-extensions-estalker_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
+MD5Sum: 417e67f295758ece7195839e18a78ef1
+SHA256sum: 2f7b131ad7ab02f9ddbd6c27e84ac16c43b292d99af6ab10eff7d8555ae17252
+Size: 2693304
+Filename: enigma2-plugin-extensions-estalker_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
 OE: enigma2-plugin-extensions-estalker
@@ -949,14 +949,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: 0.0-git143+1d3efca0+1d3efcab90-r0
+Version: 0.0-git145+8bd1a570+8bd1a57944-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f5268427e791f0f7235aa3c5fee9f99
-SHA256sum: 0bd78a6d17cdf640aa3983df8ba7eb34feaad746dfe055dd20fb4cf5a4ea25d3
+MD5Sum: 37e0bc7c0996341f569b8012e44eb9ed
+SHA256sum: bf787e05e6ab541f45ce333609b0e607e43d02c7eea88eba0e63efe015ab9780
 Size: 634
-Filename: enigma2-plugin-extensions-footonsat-dbg_0.0-git143+1d3efca0+1d3efcab90-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_0.0-git145+8bd1a570+8bd1a57944-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -964,15 +964,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: 0.0-git143+1d3efca0+1d3efcab90-r0
-Recommends: enigma2-plugin-extensions-footonsat (= 0.0-git143+1d3efca0+1d3efcab90-r0)
+Version: 0.0-git145+8bd1a570+8bd1a57944-r0
+Recommends: enigma2-plugin-extensions-footonsat (= 0.0-git145+8bd1a570+8bd1a57944-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddb1b50c6f741bfa3e84ca544030d32c
-SHA256sum: 4443672b62c1910e64451bbffc095c89d7be311d8f9d77add507d6a2f47b3a18
-Size: 666
-Filename: enigma2-plugin-extensions-footonsat-dev_0.0-git143+1d3efca0+1d3efcab90-r0_all.ipk
+MD5Sum: 7877077b81c24222a29f5f2dddd1fd68
+SHA256sum: a893667d6435a83de6fa67f6703dd1090820d1b9a83e1ba800798e4021f62d08
+Size: 668
+Filename: enigma2-plugin-extensions-footonsat-dev_0.0-git145+8bd1a570+8bd1a57944-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -980,14 +980,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-src
-Version: 0.0-git143+1d3efca0+1d3efcab90-r0
+Version: 0.0-git145+8bd1a570+8bd1a57944-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b97b58fef749f46098650d0008a98c28
-SHA256sum: f141e60ea919c0a87f87355d8d99781e9dd4a63b1423164c4ab249a5b11e1b79
-Size: 55726
-Filename: enigma2-plugin-extensions-footonsat-src_0.0-git143+1d3efca0+1d3efcab90-r0_all.ipk
+MD5Sum: 9d1173f94008b6040dba8dc4586b74d5
+SHA256sum: a851d7a7996c5bfe41144fd7fb1e02ac6b4f147cc620b9b88ad670fd90ef5d72
+Size: 55736
+Filename: enigma2-plugin-extensions-footonsat-src_0.0-git145+8bd1a570+8bd1a57944-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Source files
 OE: enigma2-plugin-extensions-footonsat
@@ -995,14 +995,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: 0.0-git143+1d3efca0+1d3efcab90-r0
+Version: 0.0-git145+8bd1a570+8bd1a57944-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72dbb1eb7a5ff898ecfc60258cbc3abe
-SHA256sum: f63f4acacc17385084e7fc74a094bda2eba09fb45431ff5280f03e46a4e1d3df
-Size: 29555078
-Filename: enigma2-plugin-extensions-footonsat_0.0-git143+1d3efca0+1d3efcab90-r0_all.ipk
+MD5Sum: d52504c814883e7abd8e05e901d11661
+SHA256sum: a654135edd65d52d96a1dfa72ffd41f2cdbe8d4779612c1d87e7b5d060eb6609
+Size: 29555234
+Filename: enigma2-plugin-extensions-footonsat_0.0-git145+8bd1a570+8bd1a57944-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed
 OE: enigma2-plugin-extensions-footonsat
@@ -1113,9 +1113,9 @@ Version: 3.4+git37+73cf9180+73cf9180de-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 0b56c5d969d64e9c1427b3ce916bf8d5
-SHA256sum: 9f5f854e87bda338e731e6b2ad7d58a4a788844744a6666d942f2a5e87c107a4
-Size: 606
+MD5Sum: a9564218b1daf9d75ab137d1d7a1da61
+SHA256sum: e346e9b9ac6512f905e0a4f92b1960adbc2697f9aa044e803b8003f510d4f866
+Size: 608
 Filename: enigma2-plugin-extensions-greekstreamtv-dbg_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
 Description: Watch live stream TV from Greece - Debugging files
@@ -1130,8 +1130,8 @@ Recommends: enigma2-plugin-extensions-greekstreamtv (= 3.4+git37+73cf9180+73cf91
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: cd29581eeb271faee557791ffc442a6f
-SHA256sum: 826d6f565df0fa794f04511d7c25859dcf14682d2a5a9f075ab9320a06042675
+MD5Sum: e7c5ef1717c6510495a797eb952a5d66
+SHA256sum: 42cc2c1ec6f323938ae4b55867461a555d4c3aaf6ec7a7ecb64bc5e58eeca55a
 Size: 688
 Filename: enigma2-plugin-extensions-greekstreamtv-dev_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -1147,8 +1147,8 @@ Depends: python3-core, python3-lxml, python3-requests, rtmpdump, streamlink, str
 Section: multimedia
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 110919a4686c4e74e4ff74452d244f14
-SHA256sum: b8539aea45c211cc4fe1f4dc94120daa8053d9c6a04ea8a71c2da902dbf34c03
+MD5Sum: 4a3a18ecde0bdc0e764c5da6e763cd16
+SHA256sum: e1192c946f3d19438855c05956ee7d62f23d9067ba6a0b22912af6767b95f6b9
 Size: 47654
 Filename: enigma2-plugin-extensions-greekstreamtv_3.4+git37+73cf9180+73cf9180de-r0_all.ipk
 Source: enigma2-plugin-extensions-greekstreamtv.bb
@@ -9810,8 +9810,8 @@ Version: 1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cfee8a0b75136af0650ec32c5d768148
-SHA256sum: ef9fd70b1823188de55e79ed709acefb60f2ca4dfcffed2241faccc14da3de69
+MD5Sum: 22262891f2bb25355140524e75bdd84f
+SHA256sum: cde00794860838bcd69581ea90fd45e6182bded6e2eb1b0c18bc8dbf3711cb2a
 Size: 608
 Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9827,8 +9827,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c4f9a6af3384ad1d78281c584ac6a46a
-SHA256sum: c8be16fb401331810d68a99cd833de1d8e4ca51fa8c8f34f7afd2c1f168e4ef7
+MD5Sum: 09819e8f3a3ac9c3648a8b6bf3d329cf
+SHA256sum: caedc460676236684d091fe705c93db438b3bd414ffac657972a9244641c13ad
 Size: 658
 Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
@@ -9844,8 +9844,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 109007903a74235339cbbaea976943c1
-SHA256sum: de42205a8461b7f79825ceb60920475f7a85850ef74ab67293e09b0c2c8729c3
+MD5Sum: d08cd4e3c85d5ca46c5638079332623e
+SHA256sum: 8c8caa07013dbef0e9d7486b4a0288901e37665d25569ee51305ed86eed94f48
 Size: 85882
 Filename: streamlinksrv_1.8.4+git25+c7ae8ab0+c7ae8ab3f8-r0_all.ipk
 Source: streamlinksrv.bb
