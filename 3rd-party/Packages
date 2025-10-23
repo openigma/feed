@@ -323,15 +323,18 @@ Size: 135666
 MD5Sum: a4d2edeb13322171c18848811d2701b3
 SHA256sum: 98edf8bbc2161c676b4e1916b39a06f2b04e55d051bcf180b4d8312a1dd96388
 
-Package: enigma2-plugin-extensions-footonsat
+Package: enigma2-plugin-extensions-footonsat_2.0
 Version: 2.0
 Section: base
 Priority: optional
 Architecture: all
-Maintainer: ziko & redouane & Raed
+Maintainer: ziko & redouane
 Description: FootOnsat Plugin developed By ziko & redouane
 Depends: alsa-utils-aplay, python3-sqlite3, python3-six
 Source: https://github.com/ziko-ZR1/FootOnsat
+Provides: enigma2-plugin-extensions-footonsat
+Replaces: enigma2-plugin-extensions-footonsat
+Conflicts: enigma2-plugin-extensions-footonsat
 OE: enigma2-plugin-extensions
 Filename: enigma2-plugin-extensions-footonsat_2.0-r0_all.ipk
 Size: 13133264
