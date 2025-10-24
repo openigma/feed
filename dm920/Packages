@@ -23919,6 +23919,54 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
+Package: pngquant-dbg
+Version: 2.+git728+ee7bef80+ee7bef8644-r0
+Recommends: glibc-dbg, libpng-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d0f821544842820e9d07452ca9617b4
+SHA256sum: f9434e1f75aaf8211b7f3ce38985313a3bde848bba2283946b27e72caf9a2b6e
+Size: 126264
+Filename: pngquant-dbg_2.+git728+ee7bef80+ee7bef8644-r0_dm920.ipk
+Source: pngquant.bb
+Description: Lossy PNG compressor - Debugging files
+OE: pngquant
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: pngquant-dev
+Version: 2.+git728+ee7bef80+ee7bef8644-r0
+Recommends: glibc-dev, libpng-dev, pngquant (= 2.+git728+ee7bef80+ee7bef8644-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e906ee602794f43f54331dd0d07a862d
+SHA256sum: 6a9a57facb07309617491e5925e154e9119d7b8b5725bc3bdb9418c8f95b3cb9
+Size: 646
+Filename: pngquant-dev_2.+git728+ee7bef80+ee7bef8644-r0_dm920.ipk
+Source: pngquant.bb
+Description: Lossy PNG compressor - Development files
+OE: pngquant
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: pngquant
+Version: 2.+git728+ee7bef80+ee7bef8644-r0
+Depends: libc6 (>= 2.42+git0+e34453cd6a), libpng16-16 (>= 1.6.50)
+Section: libs/multimedia
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4af3343b2e1bef9311ed3a848ab036ac
+SHA256sum: 5f6536d7a6f351b6926fd2a30c539df7bea510c3a369a7f380489dcd3abf8bad
+Size: 27952
+Filename: pngquant_2.+git728+ee7bef80+ee7bef8644-r0_dm920.ipk
+Source: pngquant.bb
+Description: Lossy PNG compressor
+OE: pngquant
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: pointercal-dbg
 Version: 0.0-r0
 Section: devel
