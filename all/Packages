@@ -887,9 +887,9 @@ Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 21edfa0ce000069df395b9d59a5923b4
-SHA256sum: a158b0be1090c28886cca237c0893c4d4a3880fa18607b1a622a2e0c82073d3c
-Size: 626
+MD5Sum: 08eedec4cbdafa77371e07bc8914cd86
+SHA256sum: e3f96a51111970d4b1045e7cafa8377206288da4c024bb503f3bb9cf96ac7940
+Size: 624
 Filename: enigma2-plugin-extensions-estalker-dbg_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
@@ -904,9 +904,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.16-20251023-git32+6a279320+6
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c0ef7d8f1e53500ce218c831d8f57b90
-SHA256sum: aa1e774508e357eeb3cc11cffb966ff04a4e55974b32789911eefe4f09f6dc6f
-Size: 724
+MD5Sum: 191edfaa3ae907245d188d3c68be1834
+SHA256sum: a75ba87dbadc642602d92f379f2a528d7b9798828412961ab96b6a1e83452dcb
+Size: 726
 Filename: enigma2-plugin-extensions-estalker-dev_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -920,9 +920,9 @@ Version: 1.16-20251023-git32+6a279320+6a27932f52-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 214192df00360281841dc0d0e1a53e88
-SHA256sum: db9c534c5d23c96527572152c354e30664edf518c62f30ade80a5e414bb64bc0
-Size: 84574
+MD5Sum: e06e295580d872f641c69a94c0244246
+SHA256sum: 6f2cf2512d608c6cfc543db68e6e8f3da673ce54655125c6455d3f3ae5550058
+Size: 84544
 Filename: enigma2-plugin-extensions-estalker-src_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -937,9 +937,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 417e67f295758ece7195839e18a78ef1
-SHA256sum: 2f7b131ad7ab02f9ddbd6c27e84ac16c43b292d99af6ab10eff7d8555ae17252
-Size: 2693304
+MD5Sum: 07f2cf63654094e326cc4da4ea090912
+SHA256sum: 2435dc26ca937fb5371e1efbfaa142cac115f2cbdd4ffff154f4981810594f5c
+Size: 2694148
 Filename: enigma2-plugin-extensions-estalker_1.16-20251023-git32+6a279320+6a27932f52-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -1560,14 +1560,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv-dbg
-Version: 3.0-git12+b9caa150+b9caa1510d-r0
+Version: 3.0-git13+c909fa10+c909fa193b-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bb9f608c6f263d42fa0ec0cbc0008940
-SHA256sum: d0348cc09bab0da8b2d4f7faee40d9445fad8c450bc2d3166d1615c5c8631511
+MD5Sum: 29b36c2cfdbec44b0472d3ed8cc63818
+SHA256sum: 44552704382116df5863fc15afb40582b3ef1347e162fa4bebba8a38907b709b
 Size: 614
-Filename: enigma2-plugin-extensions-plutotv-dbg_3.0-git12+b9caa150+b9caa1510d-r0_all.ipk
+Filename: enigma2-plugin-extensions-plutotv-dbg_3.0-git13+c909fa10+c909fa193b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Debugging files
 OE: enigma2-plugin-extensions-plutotv
@@ -1575,15 +1575,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv-dev
-Version: 3.0-git12+b9caa150+b9caa1510d-r0
-Recommends: enigma2-plugin-extensions-plutotv (= 3.0-git12+b9caa150+b9caa1510d-r0), enigma2-plugin-systemplugins-serviceapp-dev, python3-core-dev, python3-dev
+Version: 3.0-git13+c909fa10+c909fa193b-r0
+Recommends: enigma2-plugin-extensions-plutotv (= 3.0-git13+c909fa10+c909fa193b-r0), enigma2-plugin-systemplugins-serviceapp-dev, python3-core-dev, python3-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0598edb7db1541cb62c669a8b63a010d
-SHA256sum: b1988e674a502a815d795090cfaed4d98fbdb29fd5cef2a31c3490102295bcd4
-Size: 676
-Filename: enigma2-plugin-extensions-plutotv-dev_3.0-git12+b9caa150+b9caa1510d-r0_all.ipk
+MD5Sum: 7cff6065dd772319e55563e3757df5a1
+SHA256sum: 0c58ffe4744b1a6b4cbfc770e261e614c2ed751775989481d9aceeec1bc22452
+Size: 678
+Filename: enigma2-plugin-extensions-plutotv-dev_3.0-git13+c909fa10+c909fa193b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Development files
 OE: enigma2-plugin-extensions-plutotv
@@ -1591,14 +1591,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv-src
-Version: 3.0-git12+b9caa150+b9caa1510d-r0
+Version: 3.0-git13+c909fa10+c909fa193b-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: afdc591b82f81a9dcff4fd48c1fe8bf2
-SHA256sum: 1059711a959e0869e5b78ae885c08e240a4b0060ddf0b827caa69055ec94266c
-Size: 27922
-Filename: enigma2-plugin-extensions-plutotv-src_3.0-git12+b9caa150+b9caa1510d-r0_all.ipk
+MD5Sum: b6704d2c23de0115dc9cf6eda6d724f4
+SHA256sum: 4ceccbedfaa2895425d475aeecef2f694533fb188c329675c32ee881b946879f
+Size: 27946
+Filename: enigma2-plugin-extensions-plutotv-src_3.0-git13+c909fa10+c909fa193b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0 - Source files
 OE: enigma2-plugin-extensions-plutotv
@@ -1606,15 +1606,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv
-Version: 3.0-git12+b9caa150+b9caa1510d-r0
+Version: 3.0-git13+c909fa10+c909fa193b-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, python3-core
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c17a83b39c64002f9389b814434004c
-SHA256sum: 81318e1506509ec4ed28a8c519d359797c7700839380d628b279697fbfd1e13e
-Size: 73452
-Filename: enigma2-plugin-extensions-plutotv_3.0-git12+b9caa150+b9caa1510d-r0_all.ipk
+MD5Sum: a51f49cfe126d70f67e8b1578a5d995e
+SHA256sum: bc43a8f5f6ce6742223fb688fa74a2b0a6644535dbca9d1a1c7b32fa26aaa121
+Size: 73440
+Filename: enigma2-plugin-extensions-plutotv_3.0-git13+c909fa10+c909fa193b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
 Description: enigma2-plugin-extensions-plutotv version git-r0
 OE: enigma2-plugin-extensions-plutotv
@@ -9856,14 +9856,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1195+1135f8f0+1135f8fc6e-3
+Version: 2+git1196+42a55630+42a5563cfa-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 88fc59e48d58de51a4976498226872fa
-SHA256sum: 7d0cf0e51f9ad6eec1639770ad8601b5f460427181d026ee4cf51f3d24bbde5c
-Size: 572
-Filename: tuxbox-common-dbg_2+git1195+1135f8f0+1135f8fc6e-3_all.ipk
+MD5Sum: 2c982981ad7eab13dcdfd33af0134595
+SHA256sum: 1f5daefb02d70fa8a062eba9c87ca43ff4a4beca5547eda5c2a93be572c56424
+Size: 568
+Filename: tuxbox-common-dbg_2+git1196+42a55630+42a5563cfa-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9871,15 +9871,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1195+1135f8f0+1135f8fc6e-3
-Recommends: tuxbox-common (>= 2+git1195+1135f8f0+1135f8fc6e-3), tuxbox-common (<< 2+git1195+1135f8f0+1135f8fc6e-3.0), xz-dev
+Version: 2+git1196+42a55630+42a5563cfa-3
+Recommends: tuxbox-common (>= 2+git1196+42a55630+42a5563cfa-3), tuxbox-common (<< 2+git1196+42a55630+42a5563cfa-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: a514d75e4fbdc882fbd4ef37976f9068
-SHA256sum: fbf21209b0410a46502f0effcfba66f7466d525343ebab8439fe0a293d9dcb1a
+MD5Sum: 09b826cac8bd0908a9e4cec07d827721
+SHA256sum: 27ce1b17c8eca7831a170dbfa3c893c867df1d315021ba85f18510b500e5adf7
 Size: 622
-Filename: tuxbox-common-dev_2+git1195+1135f8f0+1135f8fc6e-3_all.ipk
+Filename: tuxbox-common-dev_2+git1196+42a55630+42a5563cfa-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9887,15 +9887,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1195+1135f8f0+1135f8fc6e-3
+Version: 2+git1196+42a55630+42a5563cfa-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 9a7b4962d2fc6e399059da6b87758e3f
-SHA256sum: 66c4a2e9eee0d7eac7e31a673dac9d59e8dae2d048de8a91c84a7a0dab6f1abc
-Size: 71358
-Filename: tuxbox-common_2+git1195+1135f8f0+1135f8fc6e-3_all.ipk
+MD5Sum: 9c10a996fdbdc8833980dd3e4cf16372
+SHA256sum: 4a81c8b3f6f532c9ac7d1256d56f68b9866a72158d754c4415df3110c6bc0d1b
+Size: 71362
+Filename: tuxbox-common_2+git1196+42a55630+42a5563cfa-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
