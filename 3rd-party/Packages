@@ -1461,6 +1461,22 @@ HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3-Clause & IJG
 Priority: optional
 
+Package: kodi-addon-pvr-mythtv
+Version: 22.2.2+git0+373c821d01-r0
+Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c78edb09b5df125f5c504e2efe19e6de
+SHA256sum: ad6fc5846fae20e419285ee0407ce9c5fed521549a6c22934d76d8479e9438fb
+Size: 17451412
+Filename: kodi-addon-pvr-mythtv_22.2.2+git0+373c821d01-r0_dm920.ipk
+Source: kodi-addon-pvr-mythtv.bb
+Description: Kodi Media Center PVR plugins
+OE: kodi-addon-pvr-mythtv
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: libavcodec60
 Version: 6.1.1
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
