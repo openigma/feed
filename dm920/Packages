@@ -174,9 +174,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 026e3304fde23fd1dd5b074fce554815
-SHA256sum: a2daccaa646c5d9c3c547c5eac42a7be5dba2dab58b5cf59270bf879be341fce
-Size: 4708704
+MD5Sum: 8b009f78f34e03f27aa39051efef5d9c
+SHA256sum: bcca64482d0dd64d97c3a1c78a6d05296a10aa6f0ed19d42204b2aedc1c134b5
+Size: 4708706
 Filename: directfb-dbg_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -225,9 +225,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libfreetype6 (>= 2.13.3), libgcc1 (>= 
 Section: libs
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f623e7d99146a17d5f199a578cf9914
-SHA256sum: 462ac95daa29c99d3c48eefe9fe9d985ee2ad912ad77b593ed6c6c173c674df5
-Size: 987116
+MD5Sum: a3d38d803d04d8ab3559914eac2be1a2
+SHA256sum: 97a3d3fb0de15acb0d556b26a5206bcf130d1c1071bde9e3c9b113aa72201ce7
+Size: 987120
 Filename: directfb_1.7.7-r0_dm920.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device
@@ -287,9 +287,9 @@ Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 256e77c4d822921a8ce3b6e7e53ac876
-SHA256sum: 69d70fb9ab538ac535e7886b82cc8b4ee74a5f1afd1214dd7ea4ba2e1254281b
-Size: 1268
+MD5Sum: 79fdb2c9d2680320c2b5ee1e930b6477
+SHA256sum: 4dbfe3355c88ef2e0900229fe6f264d9b1c89c624250030f07ef9bc4265e35ee
+Size: 1270
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -1336,9 +1336,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 57675c81b22df803b9bf954345699175
-SHA256sum: 87da0179340eb4b3860ff6dc6fe6a6dc1e498cc0b7db8352b95fc9b5538ccdff
-Size: 3253908
+MD5Sum: 7f13294be34605d2fb8b54e20bde4459
+SHA256sum: 8e83d5b2d6925d35d604209737e19b0bffd9a3909f567a3833f19bb01776f1bb
+Size: 3254032
 Filename: enigma2-plugin-extensions-openwebif_0.0-252-g3898930-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control Receiver with a Browser
@@ -1632,9 +1632,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fb1601867ba80096da917290153735fd
-SHA256sum: 8072ed9c3e0dfceeb7360da5c94579ce19fe061571a0dd890b22d254579ace74
-Size: 15173238
+MD5Sum: 1daa657eb167ebb61041588f1d1e4c7d
+SHA256sum: 88a94d08fd17b3e9bb3ff3597c2958d746acb52cee3a889c5f2011471df74e91
+Size: 15177220
 Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git21929+9a3a0550+9a3a055e39-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -1659,13 +1659,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
 Version: 3.13+git21929+9a3a0550+9a3a055e39-r0
-Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.6)
+Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.15.0)
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b2450fc9dfb759609f3dd60fecc6064c
-SHA256sum: 03b440616999ae2ea6d270aa91119f10a42ee57df224f3572a649c206948977a
-Size: 13738
+MD5Sum: e3766f8758522cac9113ec02f995865c
+SHA256sum: 961c67a655a3a4c561fc5a713e1dc463c48504338566066f3f6c3b3b1492a557
+Size: 13736
 Filename: enigma2-plugin-extensions-socketmmi_3.13+git21929+9a3a0550+9a3a055e39-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
@@ -2085,8 +2085,8 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a0c93bf79d7f257e01078563e93c570
-SHA256sum: c164ce46a6b26bd37d0d4ca3ab0d126b60faeaae217021290d00fa16d75ad337
+MD5Sum: a3bfc4ac71c0646dcb4fada80db81bfd
+SHA256sum: 7690036af0548e97cfc878914197f76c88010345ee34eaa850cd10d68b8d96ac
 Size: 720
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2102,8 +2102,8 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ec41ca02139e7439555f548dbc4b303
-SHA256sum: 6f720da79a87bf255c7cc0daa8e77e97a09204672ed8e3dc8d38bd004d64bb9b
+MD5Sum: cbca98a9f29c4f216120406a8203cd71
+SHA256sum: f4cf416eb0745bd7171ff189dd1cd495f56c25a8bc66c63aabd19c48743ba0dd
 Size: 782
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2118,9 +2118,9 @@ Version: 0.9.0+gitr562+63d495c0+63d495c3a8-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cbbdc7a48110cd55a360b682aef21bc3
-SHA256sum: 86d35c6d622fcc52e6f86b125747e4503dd8595392390c1ee2ef11511d54bbde
-Size: 3458
+MD5Sum: 978dd14b62f60cca55e9348ce06b6ce6
+SHA256sum: f3b0d46f33b72a66a797b11e12de92ae892723b467f1917f8b0dfd10870324d2
+Size: 3460
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: Handle your EPG on enigma2 - Source files
@@ -2131,13 +2131,13 @@ Priority: optional
 
 Package: enigma2-plugin-systemplugins-crossepg
 Version: 0.9.0+gitr562+63d495c0+63d495c3a8-r0
-Depends: enigma2, libc6 (>= 2.42+git0+e34453cd6a), libcurl4 (>= 8.16.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), python3-compression, python3-core, xz
+Depends: enigma2, libc6 (>= 2.42+git0+e34453cd6a), libcurl4 (>= 8.16.0), libxml2 (>= 2.15.0), libz1 (>= 1.3.1), python3-compression, python3-core, xz
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a23a1c6825a2127939181546a1ce74b0
-SHA256sum: a9f3563cfea6f4a3ac4d0c648d31b67ebfd0e10e7a3cd9e49b8e84141c13f68d
-Size: 298128
+MD5Sum: de03b48f7cd5ec2b0b18cc3475c1804c
+SHA256sum: b2a0315d932b1aa419c8a4cfc3d296abdc4d02f87737ae624274566a66d8635f
+Size: 298080
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr562+63d495c0+63d495c3a8-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2381,8 +2381,8 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6f1d1f23ddc38231ac874b15fa01f79
-SHA256sum: 3e327759e447abb443daeeb89845c0918d2b5ed639fa1f6a5e3796bbb775876e
+MD5Sum: 4c417f9ca5ca3857ee89d774c906f22b
+SHA256sum: 4724b39fd53fbec6e624064ce1396e3e40b2df1ec17638dd5144c1f9055667cc
 Size: 1457202
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r1_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -2397,8 +2397,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2e739d3a11cfc35e95f66cdaeb88f35
-SHA256sum: b3add5ff34178c75b1d608c8afa93ef4d65e3c107350b7dd58485ff878889ac5
+MD5Sum: ace4101a4d8f5d8f164581c5cb2e5a98
+SHA256sum: 47b5eceacc942054fab9dc561e4fa87665310cc5a33936aae6ef1eb4d085f23b
 Size: 706
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r1_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
@@ -2414,9 +2414,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c08612f7942e5cd512e708648e730c46
-SHA256sum: 40d0c7b8254df527448e12eea31d3e489484fa916975d764158b6051bb7d2b34
-Size: 113944
+MD5Sum: db070d477a90299456326e4a65c0426d
+SHA256sum: 4787e3b24afa82027aaf90920b970ab8040abf6c5664027af64a3a73a6ab11a5
+Size: 113938
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r1_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r1
@@ -2692,15 +2692,15 @@ Priority: optional
 
 Package: enigma2
 Version: 3.13+git21929+9a3a0550+9a3a055e39-r0
-Depends: alsa-conf, enigma-info, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+e34453cd6a), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.6.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.86.0), libgomp1 (>= 15.2.0), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50), libpython3.13-1.0 (>= 3.13.9), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.6), python3-asyncio, python3-beautifulsoup4, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-dateutil, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-rarfile, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-threading, python3-treq, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, virtual-blindscan-dvbc
+Depends: alsa-conf, enigma-info, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+e34453cd6a), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.6.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.86.0), libgomp1 (>= 15.2.0), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50), libpython3.13-1.0 (>= 3.13.9), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.15.0), python3-asyncio, python3-beautifulsoup4, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-dateutil, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-rarfile, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-threading, python3-treq, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, virtual-blindscan-dvbc
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
 Recommends: enigma2-plugin-skins-pli-hd, glib-networking, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss, python3-compat2, softcam-support, virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3578d3f6a7e28e80b03cc2d451a4b5dd
-SHA256sum: 8bf8e58ca5fe75fd97c58ce302feb7be064792f33b1ee85e1660a4503f5c178d
+MD5Sum: 6639a491c95273629d96d56a5aa6ef85
+SHA256sum: 4edf54caa5f5dbc05b955c5295c82d81dd07f64ffdc9fc982a933a60d669c060
 Size: 9729360
 Filename: enigma2_3.13+git21929+9a3a0550+9a3a055e39-r0_dm920.ipk
 Source: enigma2.bb
@@ -2866,9 +2866,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: feb56a9c5d89ded8f1f99ee7cbcd825c
-SHA256sum: bf5c5377795e55e306ebedd8b7b4a7697a324f788a66d594c9eeb1a53186bb1f
-Size: 35845956
+MD5Sum: a0910d4153fe30f89e7c52f33ac8e322
+SHA256sum: 2a60cfe78d803e56753b67ef45392a20dcf77954786858d22200b28bf66e44c7
+Size: 35845952
 Filename: kernel-dbg_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -3320,9 +3320,9 @@ Provides: kernel-image-zimage
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fdd3bfdbde19d8a25b79cbf3e21e505
-SHA256sum: d23b0ead63952afc2d6e7f41776800989e46c6eb72dd92e541b28a0b6ff50849
-Size: 4342360
+MD5Sum: 806ee70edc0171b8c6e5ebb280abb00d
+SHA256sum: 9386a6fa48516b161ffd6eed43ac270e5abe1b738d71288daabe072820f2b21c
+Size: 4340454
 Filename: kernel-image-zimage-3.14-1.17-dm920_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -22020,9 +22020,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7585c0093e65446b1a4b75c7ccd790e6
-SHA256sum: a70b421bc6c5f03e89e9caf6584e27bfd63db6d52de32ea5d3c27a0ca28945fe
-Size: 4567824
+MD5Sum: 08af6980946bc8c6f2fa073ac8fa0fab
+SHA256sum: 83b63b6265c7fcbaa65129d53a4ed9e4410b20cf938d2303570e55f362f87c16
+Size: 4567818
 Filename: kernel-vmlinux_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -22085,9 +22085,9 @@ Recommends: kernel-module-ext2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ab4a16c6c2a6603c6409ae5fe4e293c
-SHA256sum: 4af32a8955a2b253bfaeede49462f294bb8feeffe2298d4954c2932f372186df
-Size: 43527136
+MD5Sum: 1163603b9c1a5d17b969e36f29ad5af3
+SHA256sum: ffa787a4f92c33f378d525e726bef4c704fe42400827b1ce707b2c724e739c90
+Size: 43527140
 Filename: kodi-addon-inputstream-adaptive-piers_22.3.1+gitr0+1f5496b8cb-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types
@@ -22133,9 +22133,9 @@ Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 78954c94206b248d7fba04aba7392dab
-SHA256sum: d7d4b04c327228dfde16c9c20372f1e9373a75b802b254e0be13f7c16309a9bb
-Size: 8207396
+MD5Sum: 06f7f6caff65a0b8eb27494ab1dd776b
+SHA256sum: 3db99ee63b8a105fe88eb52c5718ea1dcd25ee16b52ba62279f6a9c2bdfed0e2
+Size: 8207390
 Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.2.0+gitr0+29a54f8281-r0_dm920.ipk
 Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
 Description: Kodi inputstream addon for ffmpeg
@@ -22144,15 +22144,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-rtmp-piers-dbg
-Version: 22.1.0+gitr0+28b3a8c515-r0
+Version: 22.1.0+gitr0+74d1e7654e-r0
 Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, rtmpdump-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7d41e6847890ed096d7709dde1ebf53
-SHA256sum: bbf52bb76ead1d53fadf323902a63f0e5f7530da72ec3030a0ad4854f457442c
-Size: 280422
-Filename: kodi-addon-inputstream-rtmp-piers-dbg_22.1.0+gitr0+28b3a8c515-r0_dm920.ipk
+MD5Sum: 8b72ba36b2a5d9b1154be5068a22935e
+SHA256sum: 47e9d1524365cca3a3fcbf16d5276f7d17caaca07c08f1f1d280eb26d9af4c63
+Size: 280444
+Filename: kodi-addon-inputstream-rtmp-piers-dbg_22.1.0+gitr0+74d1e7654e-r0_dm920.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: Kodi inputstream addon for rtmp - Debugging files
 OE: kodi-addon-inputstream-rtmp-piers
@@ -22160,15 +22160,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-rtmp-piers-dev
-Version: 22.1.0+gitr0+28b3a8c515-r0
-Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-rtmp-piers (= 22.1.0+gitr0+28b3a8c515-r0), kodi-platform-dev, libcrypto-dev, libgcc-dev, libkodiplatform-dev, libssl-dev, libstdc++-dev, p8platform-dev, rtmpdump-dev, zlib-dev
+Version: 22.1.0+gitr0+74d1e7654e-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-rtmp-piers (= 22.1.0+gitr0+74d1e7654e-r0), kodi-platform-dev, libcrypto-dev, libgcc-dev, libkodiplatform-dev, libssl-dev, libstdc++-dev, p8platform-dev, rtmpdump-dev, zlib-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 491c312e4c6aff08363c7f345ca39a70
-SHA256sum: 398c991f9fddfa2757b13179e5a97f99c2bd006073864aedbabd9d1848645523
+MD5Sum: d057cbdf7999c040d1217226de5d9b20
+SHA256sum: 22c2075cf3ed2a1438df9a77c1420073e9d4cfe3a580a2a0816eb8dde8bbeafa
 Size: 714
-Filename: kodi-addon-inputstream-rtmp-piers-dev_22.1.0+gitr0+28b3a8c515-r0_dm920.ipk
+Filename: kodi-addon-inputstream-rtmp-piers-dev_22.1.0+gitr0+74d1e7654e-r0_dm920.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: Kodi inputstream addon for rtmp - Development files
 OE: kodi-addon-inputstream-rtmp-piers
@@ -22176,15 +22176,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-rtmp-piers
-Version: 22.1.0+gitr0+28b3a8c515-r0
+Version: 22.1.0+gitr0+74d1e7654e-r0
 Depends: libc6 (>= 2.42+git0+e34453cd6a), libcrypto3 (>= 3.6.0), libgcc1 (>= 15.2.0), libkodiplatform, libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec5c2540c94bf8ea52eacde6ef66e62f
-SHA256sum: a0a30110aa48b55959e491921658cfa28642f70972209cf1e481d56332a258ed
-Size: 472290
-Filename: kodi-addon-inputstream-rtmp-piers_22.1.0+gitr0+28b3a8c515-r0_dm920.ipk
+MD5Sum: dba9cab3659285220841844f032585ff
+SHA256sum: 8a036e8ffbcb4f3ded86513974bc487566677065f469c3c91c7a0a2423112d3b
+Size: 475534
+Filename: kodi-addon-inputstream-rtmp-piers_22.1.0+gitr0+74d1e7654e-r0_dm920.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: Kodi inputstream addon for rtmp
 OE: kodi-addon-inputstream-rtmp-piers
@@ -22229,9 +22229,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e103560631f24c87e8e6d2b11975b60f
-SHA256sum: d105878c2b1e7a2652df10f03a7f71ae149ebb28efe6c316128a0cd64b38f0f8
-Size: 849660
+MD5Sum: de0e47b5f7056ef7ad619132b84c75e3
+SHA256sum: 475291ca84f50833b847dea56e7a4eaac6fc4d71e6fdac94f61b11dde18e9551
+Size: 849438
 Filename: kodi-addon-pvr-demo_22.4.3+git0+ac17a1f683-r0_dm920.ipk
 Source: kodi-addon-pvr-demo.bb
 Description: Kodi Media Center PVR plugins
@@ -22277,9 +22277,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dce85cb816943ce79e2754c63b2097d9
-SHA256sum: f40c664d0bd6adf078f11e2b92580d0e166c6783caad5737faa1a724dd3a8aa3
-Size: 6925466
+MD5Sum: ac3da0fa25cfcbbcd39b96eec2333ee0
+SHA256sum: b1db6a27bf9bc97e56c07e2c05593e01fd766caaf60af810dc11c2bbbe102c76
+Size: 6925408
 Filename: kodi-addon-pvr-dvblink_22.3.0+git0+9e58464ee5-r0_dm920.ipk
 Source: kodi-addon-pvr-dvblink.bb
 Description: Kodi Media Center PVR plugins
@@ -22325,9 +22325,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e810d464e9986db730ff63374bcb903
-SHA256sum: 8779237f8fbf78dad761778219bdb104198a817766ff3f17f64a60aa235605d5
-Size: 1990650
+MD5Sum: 651e738f6774513264525dc25e18b4a3
+SHA256sum: 7397c087c4c97fe05e51495c9e87e368d628115b9f943cc007659d7a424dcfdf
+Size: 1990656
 Filename: kodi-addon-pvr-dvbviewer_22.3.0+git0+bd50490e1f-r0_dm920.ipk
 Source: kodi-addon-pvr-dvbviewer.bb
 Description: Kodi Media Center PVR plugins
@@ -22373,9 +22373,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f4a40892bf7da5d7bc42f402229473f
-SHA256sum: 20d9dd798e1f6b964412aff2b920f70ee39c885a9a8fd5062be35efc7ca906b1
-Size: 883024
+MD5Sum: 502ac78f3d3417fa9f867cadac69ba58
+SHA256sum: c52a267db21ed4a0ec94c90b91c477585f07db1e002c18c1db68902530f39634
+Size: 883022
 Filename: kodi-addon-pvr-filmon_22.2.3+git0+752899eb7d-r0_dm920.ipk
 Source: kodi-addon-pvr-filmon.bb
 Description: Kodi Media Center PVR plugins
@@ -22421,9 +22421,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 751a89b6d5b858ebf065e5dde9b947fd
-SHA256sum: b843adde455352f8e898faa5c85abb1d998dbbdd8f21938a2bbd438af61ce322
-Size: 10098586
+MD5Sum: cc9b4a2332634e95c6e5cc9fb74cf433
+SHA256sum: bb0e036f65b18deae311bbd1660029808efe7fc6b290ca0ce7c312b042f88c83
+Size: 10098508
 Filename: kodi-addon-pvr-hts_22.7.2+git0+0942d66991-r0_dm920.ipk
 Source: kodi-addon-pvr-hts.bb
 Description: Kodi Media Center PVR plugins
@@ -22437,9 +22437,9 @@ Recommends: glibc-dbg, libgcc-dbg, liblzma-dbg, libstdc++-dbg, pugixml-dbg, zlib
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c90ac483f34b858b2266aab7ceae96b5
-SHA256sum: da9ba1136111723f8a82b8d6525f0b5643bf6cbdd8ddac2b2c81aad458f28270
-Size: 5672408
+MD5Sum: d8bc0865124432e9b25f0b478071ede7
+SHA256sum: 2e0eea49c85cb8476b6d0b3e1e5e6d7c006e950ead0142fff06ff2545fdbdb33
+Size: 5672394
 Filename: kodi-addon-pvr-iptvsimple-dbg_22.6.0+git0+f0b4e98a99-r0_dm920.ipk
 Source: kodi-addon-pvr-iptvsimple.bb
 Description: Kodi Media Center PVR plugins - Debugging files
@@ -22453,8 +22453,8 @@ Recommends: boost-dev, glibc-dev, jsoncpp-dev, jsonrpc-dev, kodi-addon-pvr-iptvs
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb20fc6406e75d18f8c6a0ebebf13e37
-SHA256sum: 45f83946258250274e0343ba60771d7c547b84d2b27fb74a1874dd4b441af1b1
+MD5Sum: 934480180d34d65f24788050020977b3
+SHA256sum: f93b313de1146310b5a8575c573019f6bd2a8f1072cd04b8e7a23f44dd889d54
 Size: 728
 Filename: kodi-addon-pvr-iptvsimple-dev_22.6.0+git0+f0b4e98a99-r0_dm920.ipk
 Source: kodi-addon-pvr-iptvsimple.bb
@@ -22469,9 +22469,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec92d9f42a31634b6d38c6372be9be02
-SHA256sum: a1a48d85ed7fe95e9f00dfb7c431baa1fc71e5cc99b34f2ca7476d3e992684d4
-Size: 20074436
+MD5Sum: 7f4ef3085686635227b34d48460c53cb
+SHA256sum: 1d34efc7aadad71c4f31b1978c1789754e948a8e17f91d290c321f247e4d5754
+Size: 20074116
 Filename: kodi-addon-pvr-iptvsimple_22.6.0+git0+f0b4e98a99-r0_dm920.ipk
 Source: kodi-addon-pvr-iptvsimple.bb
 Description: Kodi Media Center PVR plugins
@@ -22480,15 +22480,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-pvr-nextpvr-dbg
-Version: 22.4.6+git0+0e90e7376f-r0
+Version: 22.5.1+git0+558cbcc304-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libtinyxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb5e13b1ad116b6d8ffea5049b391167
-SHA256sum: bf8908ec428bb7d86c8418dc3aa549097a222b7fa4a348e499e5265890e7b40b
-Size: 3453860
-Filename: kodi-addon-pvr-nextpvr-dbg_22.4.6+git0+0e90e7376f-r0_dm920.ipk
+MD5Sum: c649d93b4101d3b83be6bec3bb03d7a4
+SHA256sum: 8f881ece16a8442cd7bb22a8bcb4b659f4ddde43c893d81c25450575f3aac58f
+Size: 3456790
+Filename: kodi-addon-pvr-nextpvr-dbg_22.5.1+git0+558cbcc304-r0_dm920.ipk
 Source: kodi-addon-pvr-nextpvr.bb
 Description: Kodi Media Center PVR plugins - Debugging files
 OE: kodi-addon-pvr-nextpvr
@@ -22496,15 +22496,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-pvr-nextpvr-dev
-Version: 22.4.6+git0+0e90e7376f-r0
-Recommends: boost-dev, glibc-dev, jsoncpp-dev, jsonrpc-dev, kodi-addon-pvr-nextpvr (= 22.4.6+git0+0e90e7376f-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libtinyxml2-dev, p8platform-dev, zlib-dev
+Version: 22.5.1+git0+558cbcc304-r0
+Recommends: boost-dev, glibc-dev, jsoncpp-dev, jsonrpc-dev, kodi-addon-pvr-nextpvr (= 22.5.1+git0+558cbcc304-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libtinyxml2-dev, p8platform-dev, zlib-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82e752fe8760ee0929d45bff3aec4971
-SHA256sum: 9080433faecfd4234a870ae4b3184f6cffdcac205252c58251cd242977338148
-Size: 712
-Filename: kodi-addon-pvr-nextpvr-dev_22.4.6+git0+0e90e7376f-r0_dm920.ipk
+MD5Sum: f048c2cdbb647ac783e9688a8c5a1af8
+SHA256sum: 1fa7c9e8b362fc8cae9b8c97bc1ccc56252ceb1d3a0b5e5b1766196d5753a953
+Size: 710
+Filename: kodi-addon-pvr-nextpvr-dev_22.5.1+git0+558cbcc304-r0_dm920.ipk
 Source: kodi-addon-pvr-nextpvr.bb
 Description: Kodi Media Center PVR plugins - Development files
 OE: kodi-addon-pvr-nextpvr
@@ -22512,15 +22512,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-pvr-nextpvr
-Version: 22.4.6+git0+0e90e7376f-r0
+Version: 22.5.1+git0+558cbcc304-r0
 Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libtinyxml2-11 (>= 11.0.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7cd64b778d87ac8ce3ffdd63a7e1cf53
-SHA256sum: fdf9b19f1cbee1afa3e7ce025b4b31db0736b347071f61edd49c4d5cfad062fe
-Size: 11582740
-Filename: kodi-addon-pvr-nextpvr_22.4.6+git0+0e90e7376f-r0_dm920.ipk
+MD5Sum: 0c48d63f28f09d366c0a61ac54963776
+SHA256sum: daa0930c52be323ed00673a3b94e8a47eab4a1a37404499d9452d0110c4fe931
+Size: 11625384
+Filename: kodi-addon-pvr-nextpvr_22.5.1+git0+558cbcc304-r0_dm920.ipk
 Source: kodi-addon-pvr-nextpvr.bb
 Description: Kodi Media Center PVR plugins
 OE: kodi-addon-pvr-nextpvr
@@ -22565,9 +22565,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9791614c4e53562621275c801251a5e1
-SHA256sum: 6fca2140d8617c74bd5acb04ad6f7209433727dfb4657a972e00c8fabcf7e4ab
-Size: 434252
+MD5Sum: c414388718ca932ff0be1907c32699aa
+SHA256sum: 7cccb556f7aa7d293ad6a90c74adb8d8e24586d81c2c2429122901ab19b44d6c
+Size: 434256
 Filename: kodi-addon-pvr-njoy_22.2.2+git0+bdc306faa7-r0_dm920.ipk
 Source: kodi-addon-pvr-njoy.bb
 Description: Kodi Media Center PVR plugins
@@ -22613,9 +22613,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a4abe8363cc3933ccd7ce3b47c08f71
-SHA256sum: ec909f0f147af1ac4966ca69ea42cd534f72bd39992ae5862e78c68837ef8b3e
-Size: 901518
+MD5Sum: 07d99177fca2f4b85a53cea48df0bfb7
+SHA256sum: 78894eae1c1ce239321ca7dcff48f59a057f4cb33cbf51be40f7dcbebdcf85ff
+Size: 901524
 Filename: kodi-addon-pvr-pctv_22.2.3+git0+53364a0d28-r0_dm920.ipk
 Source: kodi-addon-pvr-pctv.bb
 Description: Kodi Media Center PVR plugins
@@ -22629,9 +22629,9 @@ Recommends: glibc-dbg, jsoncpp-dbg, libgcc-dbg, libstdc++-dbg, libxml2-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d99d4af378684a5242ce933c3d58408
-SHA256sum: 60321a28f6f86f51e9f679ce6f6986628b25acdb23e057cb4349b3cd76535c49
-Size: 1400088
+MD5Sum: d10afcb251931525701145d85de3c1dd
+SHA256sum: f435e5dadc2056476ce58d78774bdd1ee4d736949a29594512d08d74612e4a02
+Size: 1400050
 Filename: kodi-addon-pvr-stalker-dbg_22.2.3+git0+16a2c80451-r0_dm920.ipk
 Source: kodi-addon-pvr-stalker.bb
 Description: Kodi Media Center PVR plugins - Debugging files
@@ -22657,13 +22657,13 @@ Priority: optional
 
 Package: kodi-addon-pvr-stalker
 Version: 22.2.3+git0+16a2c80451-r0
-Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0), libxml2 (>= 2.14.6)
+Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 1.9.6), libkodiplatform, libstdc++6 (>= 15.2.0), libxml2 (>= 2.15.0)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 28572f7378e6aacd9adb3bedbe6d2f2a
-SHA256sum: a8631faa8a1df181edf50a901e1bcfefe610efc698adfa8b80a76b3024b797c1
-Size: 1802448
+MD5Sum: 64e1041510abca3b0e43580f7b3a6aba
+SHA256sum: adcdad865e1e95b12c2c83d10d05ad0f18321b63340c78422baaa2454c39e56d
+Size: 1802228
 Filename: kodi-addon-pvr-stalker_22.2.3+git0+16a2c80451-r0_dm920.ipk
 Source: kodi-addon-pvr-stalker.bb
 Description: Kodi Media Center PVR plugins
@@ -22709,9 +22709,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9148b8da7dfdc2e0d3f83ebe68208b78
-SHA256sum: 284249503dc0be0027c8f18f422fe1d8766ab4a67917da017af0115463274abd
-Size: 4491040
+MD5Sum: e9965fb1a337318dcb8176b6726a4b1e
+SHA256sum: 6ea32d7dcd90c41faad11d4ff7ce1e5b08c7626fe8611a818d56e5c70523b81b
+Size: 4491026
 Filename: kodi-addon-pvr-vbox_22.2.1+git0+42226ae6ea-r0_dm920.ipk
 Source: kodi-addon-pvr-vbox.bb
 Description: Kodi Media Center PVR plugins
@@ -22757,9 +22757,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8f229d026377e8f388e7cc1906534d7
-SHA256sum: aaaf20c3f9c5ac675a69161b84417c2899c25bacf3201c610d7b59504bec8aee
-Size: 2173514
+MD5Sum: 0242b7ea3c25dc846adca17262c6213e
+SHA256sum: 1a4751639b9fefe2f53629763e019d0bbbe9214d973df7653bff5ce26acd5cd3
+Size: 2173298
 Filename: kodi-addon-pvr-vdr.vnsi_22.3.0+git0+a576ed7e0c-r0_dm920.ipk
 Source: kodi-addon-pvr-vdr.vnsi.bb
 Description: Kodi Media Center PVR plugins
@@ -22805,9 +22805,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41d2b7835c8d46096834eb660790fdfd
-SHA256sum: b869298c69f3a358e492d681d9e4f66f09cded2e2b93cce1e24da4d49654608e
-Size: 29044950
+MD5Sum: b3dc31545a1af664648d2d0b3a9714b4
+SHA256sum: 36dfbebfe23c7e35b0e421fd87dae02e00bd985527da1027fc9a25189757b50d
+Size: 29044896
 Filename: kodi-addon-pvr-vuplus_22.3.4+git0+de97600867-r0_dm920.ipk
 Source: kodi-addon-pvr-vuplus.bb
 Description: Kodi Media Center PVR plugins
@@ -22853,9 +22853,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16b8fc0559e1cd54163cd9eba268adc5
-SHA256sum: a506aec6264647eae3de9d4559657ebc91b013b7acceed48241fe6be4f59a7f2
-Size: 1201044
+MD5Sum: 0facf10db69ea8d7691c6dc78b730fd0
+SHA256sum: 2604e18f0b12d8c44854e97d3a5993428c4943414f08b3efd28b889d647810f6
+Size: 1200708
 Filename: kodi-addon-pvr-wmc_22.2.3+git0+bfbcab6619-r0_dm920.ipk
 Source: kodi-addon-pvr-wmc.bb
 Description: Kodi Media Center PVR plugins
@@ -24088,9 +24088,9 @@ Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, pigz, recovery-autofla
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24a719ac0bd1b7041ec1ffb35e014213
-SHA256sum: 3c006b11f3e00473e2f4ca463ccbc37d14657d5ad009f603e6e8d7ceef62bc79
-Size: 21976
+MD5Sum: e7d5bd3426388fe1169a96b095f25e2d
+SHA256sum: fcdde403ad2dfb53192327bf2b2cca947ade95e11fe76a416695921d2e2ba05c
+Size: 21982
 Filename: recovery_1.2+git162+81ff8d40+81ff8d40bb-r0_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox
@@ -24195,15 +24195,15 @@ License: MIT
 Priority: optional
 
 Package: stb-kodi-dm920-dbg
-Version: 22.0+gitr0+a9525c4f43-r3
-Recommends: alsa-lib-dbg, bluez5-dbg, dbus-lib-dbg, exiv2-dbg, fmt-dbg, freetype-dbg, fribidi-dbg, fstrcmp-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, lcms-dbg, libass-dbg, libavahi-client-dbg, libavahi-common-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbluray-dbg, libcap-dbg, libcdio-dbg, libcec-dbg, libcrypto-dbg, libcurl-dbg, libgcc-dbg, libgstpbutils-1.0-dbg, libinput-dbg, libiso9660-dbg, libmicrohttpd-dbg, libpcre2-dbg, libplist-dbg, libpulse-dbg, libpulse-simple-dbg, libpython3-dbg, libsqlite3-dbg, libstdc++-dbg, libswresample-dbg, libswscale-dbg, libtinyxml-dbg, libtinyxml2-dbg, libudev-dbg, libudfread-dbg, libvc5dream-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, lzo-dbg, spdlog-dbg, taglib-dbg, util-linux-libuuid-dbg, zlib-dbg
+Version: 22.0+gitr0+2b5a899b37-r3
+Recommends: alsa-lib-dbg, bluez5-dbg, dbus-lib-dbg, exiv2-dbg, fmt-dbg, freetype-dbg, fribidi-dbg, fstrcmp-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, lcms-dbg, libass-dbg, libavahi-client-dbg, libavahi-common-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbluray-dbg, libcap-dbg, libcdio-dbg, libcec-dbg, libcrypto-dbg, libcurl-dbg, libgcc-dbg, libgstpbutils-1.0-dbg, libinput-dbg, libiso9660-dbg, libmicrohttpd-dbg, libpcre2-dbg, libplist-dbg, libpulse-dbg, libpulse-simple-dbg, libpython3-dbg, libsqlite3-dbg, libstdc++-dbg, libswresample-dbg, libswscale-dbg, libtinyxml-dbg, libtinyxml2-dbg, libudev-dbg, libudfread-dbg, libvc5dream-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, lzo-dbg, taglib-dbg, util-linux-libuuid-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a1c5e37f72cce64ac1b5006980f07409
-SHA256sum: 8b41a0c19a1d56498abef3de91698fe83242425913e32ab1abb2850d6588ae21
-Size: 220253750
-Filename: stb-kodi-dm920-dbg_22.0+gitr0+a9525c4f43-r3_dm920.ipk
+MD5Sum: bebff3573c01cf2871b0dd94829e4eeb
+SHA256sum: 7f7b7eaf0132ea0b7120d49fef905d91f9ee68d528935407681b5221e7676bbd
+Size: 221607908
+Filename: stb-kodi-dm920-dbg_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center - Debugging files
 OE: stb-kodi-dm920
@@ -24211,15 +24211,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: stb-kodi-dm920-dev
-Version: 22.0+gitr0+a9525c4f43-r3
-Recommends: alsa-lib-dev, avahi-dev, bluez5-dev, bzip2-dev, crossguid-dev, curl-dev, dbus-lib-dev, exiv2-dev, expat-dev, faad2-dev, ffmpeg-dev, flatbuffers-dev, fmt-dev, fontconfig-dev, freetype-dev, fribidi-dev, fstrcmp-dev, giflib-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, harfbuzz-dev, lcms-dev, libass-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libcap-dev, libcdio-dev, libcec-dev, libcrypto-dev, libcurl-dev, libdcadec-dev, libgcc-dev, libgstpbutils-1.0-dev, libinput-dev, libiso9660-dev, libmicrohttpd-dev, libnfs-dev, libpcre-dev, libpcre2-dev, libplist-dev, libpulse-dev, libpulse-simple-dev, libpython3-dev, libsqlite3-dev, libsquish-dev, libssh-dev, libstdc++-dev, libswresample-dev, libswscale-dev, libtinyxml-dev, libtinyxml2-dev, libudev-dev, libudfread-dev, libvc5dream-dev, libxkbcommon-dev, libxml2-dev, libxslt-dev, lzo-dev, mpeg2dec-dev, nlohmann-json-dev, openssl-dev, pcre2-dev, pulseaudio-dev, python3-dev, rapidjson-dev, samba-dev, spdlog-dev, sqlite3-dev, stb-kodi-dm920 (= 22.0+gitr0+a9525c4f43-r3), taglib-dev, util-linux-libuuid-dev, wavpack-dev, zlib-dev
+Version: 22.0+gitr0+2b5a899b37-r3
+Recommends: alsa-lib-dev, avahi-dev, bluez5-dev, bzip2-dev, crossguid-dev, curl-dev, dbus-lib-dev, exiv2-dev, expat-dev, faad2-dev, ffmpeg-dev, flatbuffers-dev, fmt-dev, fontconfig-dev, freetype-dev, fribidi-dev, fstrcmp-dev, giflib-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, harfbuzz-dev, lcms-dev, libass-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libcap-dev, libcdio-dev, libcec-dev, libcrypto-dev, libcurl-dev, libdcadec-dev, libgcc-dev, libgstpbutils-1.0-dev, libinput-dev, libiso9660-dev, libmicrohttpd-dev, libnfs-dev, libpcre-dev, libpcre2-dev, libplist-dev, libpulse-dev, libpulse-simple-dev, libpython3-dev, libsqlite3-dev, libsquish-dev, libssh-dev, libstdc++-dev, libswresample-dev, libswscale-dev, libtinyxml-dev, libtinyxml2-dev, libudev-dev, libudfread-dev, libvc5dream-dev, libxkbcommon-dev, libxml2-dev, libxslt-dev, lzo-dev, mpeg2dec-dev, nlohmann-json-dev, openssl-dev, pcre2-dev, pulseaudio-dev, python3-dev, rapidjson-dev, samba-dev, spdlog-dev, sqlite3-dev, stb-kodi-dm920 (= 22.0+gitr0+2b5a899b37-r3), taglib-dev, util-linux-libuuid-dev, wavpack-dev, zlib-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9cffcf91cdca3755d5eb3b8160eba8e
-SHA256sum: c59a8352f4c2593fcf7ca3ba0b317f42618c3cf4cf5aa659551f53d87046b9e8
-Size: 296866
-Filename: stb-kodi-dm920-dev_22.0+gitr0+a9525c4f43-r3_dm920.ipk
+MD5Sum: 8ddbdfed5d678cc25a2b0081e385ce21
+SHA256sum: 94bbc58759cbe67a14d3308ea4e8855cce2dfe16d871f2dc37e0071cbe2ae127
+Size: 296902
+Filename: stb-kodi-dm920-dev_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center - Development files
 OE: stb-kodi-dm920
@@ -24227,14 +24227,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: stb-kodi-dm920-doc
-Version: 22.0+gitr0+a9525c4f43-r3
+Version: 22.0+gitr0+2b5a899b37-r3
 Section: doc
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3777b3563175266521fa7f033fb54fc
-SHA256sum: 43979dc63dc381ba4f24fffc34f7be11ea7422d5b55fb2aaaf8c8c65c6a5fda9
-Size: 6924
-Filename: stb-kodi-dm920-doc_22.0+gitr0+a9525c4f43-r3_dm920.ipk
+MD5Sum: b75be6cb17402a3d62e99fbeb7103807
+SHA256sum: 31645d2ffd4c2f3be0951dd279f0181f76a8eb3ed730379aa3e03a15455d13f6
+Size: 6926
+Filename: stb-kodi-dm920-doc_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center - Documentation files
 OE: stb-kodi-dm920
@@ -24242,17 +24242,17 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: stb-kodi-dm920
-Version: 22.0+gitr0+a9525c4f43-r3
-Depends: bluez5 (>= 5.84), exiv2 (>= 0.28.7), fstrcmp (>= 0.7), gstreamer1.0 (>= 1.26.7), lcms (>= 2.16), libasound2 (>= 1.2.14), libass9 (>= 0.17.4), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libbluray (>= v1.4.0+git3075+48d76410+48d7641445), libc6 (>= 2.42+git0+e34453cd6a), libcap (>= 2.76), libcdio19 (>= 2.1.0), libcec7 (>= 7.1.1), libcrypto3 (>= 3.6.0), libcurl4 (>= 8.16.0), libdbus-1-3 (>= 1.16.2), libfmt12 (>= 12.0.0), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.86.0), libgstpbutils-1.0-0 (>= 1.26.7), libharfbuzz0 (>= 11.4.5), libinput10 (>= 1.29.1), libiso9660-11 (>= 2.1.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.2), libpcre2 (>= 10.46), libplist-2.0-4 (>= 2.6.0), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.13-1.0 (>= 3.13.9), libspdlog1.16 (>= 1.16.0), libsqlite3-0 (>= 3.48.0), libstdc++6 (>= 15.2.0), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libtag2 (>= 2.1.1), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libuuid1 (>= 2.41.1), libvc5dream (>= 1.0.5), libxkbcommon0 (>= 1.11.0), libxml2 (>= 2.14.6), libxslt (>= 1.1.43), libz1 (>= 1.3.1)
+Version: 22.0+gitr0+2b5a899b37-r3
+Depends: bluez5 (>= 5.84), exiv2 (>= 0.28.7), fstrcmp (>= 0.7), gstreamer1.0 (>= 1.26.7), lcms (>= 2.16), libasound2 (>= 1.2.14), libass9 (>= 0.17.4), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libbluray (>= v1.4.0+git3076+6155d650+6155d6512d), libc6 (>= 2.42+git0+e34453cd6a), libcap (>= 2.76), libcdio19 (>= 2.1.0), libcec7 (>= 7.1.1), libcrypto3 (>= 3.6.0), libcurl4 (>= 8.16.0), libdbus-1-3 (>= 1.16.2), libfmt12 (>= 12.0.0), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.86.0), libgstpbutils-1.0-0 (>= 1.26.7), libharfbuzz0 (>= 11.4.5), libinput10 (>= 1.29.1), libiso9660-11 (>= 2.1.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.2), libpcre2 (>= 10.46), libplist-2.0-4 (>= 2.6.0), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.13-1.0 (>= 3.13.9), libsqlite3-0 (>= 3.50.4), libstdc++6 (>= 15.2.0), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libtag2 (>= 2.1.1), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libuuid1 (>= 2.41.1), libvc5dream (>= 1.0.5), libxkbcommon0 (>= 1.11.0), libxml2 (>= 2.15.0), libxslt (>= 1.1.43), libz1 (>= 1.3.1)
 Provides: kodi, virtual-kodi
 Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-charmap-utf-8, glibc-gconv-ibm437, glibc-gconv-ibm850, glibc-gconv-unicode, glibc-gconv-utf-32, glibc-localedata-en-us, kodi-addon-inputstream-adaptive-piers, kodi-addon-inputstream-ffmpegdirect-piers, kodi-addon-inputstream-rtmp-piers, libcec, libcurl, libnfs, nss, os-release, python3, python3-beautifulsoup4, python3-compression, python3-crypt, python3-ctypes, python3-datetime, python3-db, python3-difflib, python3-email, python3-html, python3-image, python3-json, python3-mechanize, python3-mmap, python3-multiprocessing, python3-netclient, python3-numpy, python3-pickle, python3-pillow, python3-profile, python3-pycryptodome, python3-pycryptodomex, python3-regex, python3-setuptools, python3-shell, python3-six, python3-sqlite3, python3-threading, python3-tkinter, python3-urllib3, python3-xmlrpc, tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-europe, tzdata-pacific, xkeyboard-config
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a6f31c6feb1c01b2f955dca4856be34
-SHA256sum: 4319ec8dd9dc43d0d66814595377317eef4e9b3be5f0ce606af04c7a16eb7884
-Size: 28158866
-Filename: stb-kodi-dm920_22.0+gitr0+a9525c4f43-r3_dm920.ipk
+MD5Sum: d8714388590107ac82ddd7c4ee2401b8
+SHA256sum: bab73728d9cbbba87540c939535e1d567df6bc4e5ed34532fd01a2abfcd99ed0
+Size: 28239312
+Filename: stb-kodi-dm920_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center
 OE: stb-kodi-dm920
