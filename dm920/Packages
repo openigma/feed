@@ -22047,15 +22047,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dbg
-Version: 22.3.1+gitr0+1f5496b8cb-r0
+Version: 22.3.1+gitr0+b8718f9169-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, pugixml-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65cff0c502409ad844acaaefdf8fcbf2
-SHA256sum: 76bc226b9484023554baa17f0b28083118e66673ae26961a00d82587f348dbd3
-Size: 13323058
-Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.1+gitr0+1f5496b8cb-r0_dm920.ipk
+MD5Sum: 290a55e0a40bf50b05ae66a68d39134c
+SHA256sum: 5943cc9aa90efc0316463e5f1c4c3e00db1ffb02d0d1c7a4a1dc045a3298dbff
+Size: 13472974
+Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.1+gitr0+b8718f9169-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types - Debugging files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -22063,15 +22063,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dev
-Version: 22.3.1+gitr0+1f5496b8cb-r0
-Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.1+gitr0+1f5496b8cb-r0), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, pugixml-dev
+Version: 22.3.1+gitr0+b8718f9169-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.1+gitr0+b8718f9169-r0), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, pugixml-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ccc199dcb89ca3c5fd89aa1136a964d
-SHA256sum: 6257b0b216afbeba0c27ba30633263241068b773e0b8ed83aaa040f3c4665e67
-Size: 722
-Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.1+gitr0+1f5496b8cb-r0_dm920.ipk
+MD5Sum: 7d480495696f64bac3936e999b315604
+SHA256sum: 83d21bfdf3fd4f2afbd7ceb4727c13d43baed4c0117e9a96f80bf062846201f9
+Size: 720
+Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.1+gitr0+b8718f9169-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types - Development files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -22079,16 +22079,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers
-Version: 22.3.1+gitr0+1f5496b8cb-r0
+Version: 22.3.1+gitr0+b8718f9169-r0
 Depends: ldd, libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0)
 Recommends: kernel-module-ext2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4ce3079191b95acff7f457afe50e297
-SHA256sum: d7518d2415ca554c847c6d067768087af7fff14ab472c0887174de0446183053
-Size: 43527140
-Filename: kodi-addon-inputstream-adaptive-piers_22.3.1+gitr0+1f5496b8cb-r0_dm920.ipk
+MD5Sum: 72722aff3f6e6b5fce55d8acea4c9a8e
+SHA256sum: db8037d0d1574f9296b29dead06ac5b69aab357f266d92650d5b6cd71164aacd
+Size: 44069760
+Filename: kodi-addon-inputstream-adaptive-piers_22.3.1+gitr0+b8718f9169-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types
 OE: kodi-addon-inputstream-adaptive-piers
@@ -24200,9 +24200,9 @@ Recommends: alsa-lib-dbg, bluez5-dbg, dbus-lib-dbg, exiv2-dbg, fmt-dbg, freetype
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 432047daf437305bfcea028393b7c223
-SHA256sum: f3baeab481a343635fd800ffc3b45c5d9d7fba58b41f14f13abeb8667072448d
-Size: 221607906
+MD5Sum: 1aabcc3bf18fbe78f594e27646899a11
+SHA256sum: f4e5f630de1cdba718518603931dbdc8f8eadde2b42fcd0e8d2e3eb00311a463
+Size: 221607902
 Filename: stb-kodi-dm920-dbg_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center - Debugging files
@@ -24216,9 +24216,9 @@ Recommends: alsa-lib-dev, avahi-dev, bluez5-dev, bzip2-dev, crossguid-dev, curl-
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ddbdfed5d678cc25a2b0081e385ce21
-SHA256sum: 94bbc58759cbe67a14d3308ea4e8855cce2dfe16d871f2dc37e0071cbe2ae127
-Size: 296902
+MD5Sum: 754dab921f0d8e576dcba3f12fdecc30
+SHA256sum: 43916a283b0e16faecd05993b0d34fdfc9fd66d3c4fddecb89ab882406ded5dc
+Size: 296890
 Filename: stb-kodi-dm920-dev_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center - Development files
@@ -24231,8 +24231,8 @@ Version: 22.0+gitr0+2b5a899b37-r3
 Section: doc
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b75be6cb17402a3d62e99fbeb7103807
-SHA256sum: 31645d2ffd4c2f3be0951dd279f0181f76a8eb3ed730379aa3e03a15455d13f6
+MD5Sum: b0c0079cae12f9456fa123a88e7f2cac
+SHA256sum: f60601ad698a7f253258783eee409f1c9edd25bf498559b306b44bfccab8d1b5
 Size: 6926
 Filename: stb-kodi-dm920-doc_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
@@ -24249,9 +24249,9 @@ Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-char
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e6a2dd1727cc616c39b610ee738f3aa
-SHA256sum: e77dddc111524d3c635eb7058cb453363c44b454e48d86664660150bd735fe47
-Size: 28239308
+MD5Sum: 7e267a78f29722af1029eeb7f588fdfd
+SHA256sum: 63f77b8bab486f664f523b9781f306cbe2af9d7161387db2ebdc6364f4dbc903
+Size: 28239024
 Filename: stb-kodi-dm920_22.0+gitr0+2b5a899b37-r3_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center
