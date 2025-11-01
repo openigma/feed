@@ -1891,39 +1891,6 @@ Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
 
-Package: python3-thefuzz
-Version: 0.22.1-r0
-Depends: python3-core, rapidfuzz
-Section: devel/python
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db879860b89b6aa9bb540afd2767bbca
-SHA256sum: 563780f847fbb495987fa0736cac6e684e4feda5cce1c2c7a65e5b9281a4f272
-Size: 11154
-Filename: python3-thefuzz_0.22.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-thefuzz_0.22.1.bb
-Description: Fuzzy string matching in python
-OE: python3-thefuzz
-HomePage: https://github.com/seatgeek/thefuzz
-License: GPL-2.0-only
-Priority: optional
-
-Package: rapidfuzz
-Version: 3.14.1+git876+ec38e810+ec38e81830-r0
-Depends: python3-core
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddb9c04418f09b1537a8a64261cbe123
-SHA256sum: 46f93fe2b09c94db2a3387937d29918438f509a0b2a677709a88e1e1ad3fc0e9
-Size: 86228
-Filename: rapidfuzz_3.14.1+git876+ec38e810+ec38e81830-r0_cortexa15hf-neon-vfpv4.ipk
-Source: rapidfuzz.bb
-Description: rapidfuzz version 3.14.1.+git-r0
-OE: rapidfuzz
-License: MIT
-Priority: optional
-
 Package: streamlinksrv
 Version: 1.8.6
 Description: streamlinksrv is a helper deamon for streamlink
