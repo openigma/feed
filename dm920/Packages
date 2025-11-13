@@ -287,9 +287,9 @@ Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: a857e94ab8667a3468f0301acdcdd7d7
-SHA256sum: 31349efbf408134e3f0c62a7689b37fb0262f62affb92aeafaab92b4a1206e13
-Size: 1270
+MD5Sum: 891629ad257561496b020d81d4040b12
+SHA256sum: c7b5b2ea0f5b3c3ce51828066dcdecfa9d4cf78d319e65f07443647cd4679219
+Size: 1268
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -22047,15 +22047,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dbg
-Version: 22.3.1+gitr0+38286ff171-r0
+Version: 22.3.1+gitr0+bbcf0500f1-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, pugixml-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 005edfb9f59ea62db81a50639588f69b
-SHA256sum: c91a615d6b01976e550a1ac13b2e90a43518010d849fc6fdcf92138ab597d20a
-Size: 13472390
-Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.1+gitr0+38286ff171-r0_dm920.ipk
+MD5Sum: 93aecd4eccb202c09bf8c1c25b64988d
+SHA256sum: c044af2d852771cdfbed910bf98b333b9b652d587658e3a1f81b77598417fcca
+Size: 13480780
+Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.1+gitr0+bbcf0500f1-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types - Debugging files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -22063,15 +22063,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dev
-Version: 22.3.1+gitr0+38286ff171-r0
-Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.1+gitr0+38286ff171-r0), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, pugixml-dev
+Version: 22.3.1+gitr0+bbcf0500f1-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.1+gitr0+bbcf0500f1-r0), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, pugixml-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb82172eda9d88b38df953fd6e1d70f5
-SHA256sum: 6da9cb119c4486e4985abdbb4f2d9bb78a0cc5e580c53582e440ca56003667fc
+MD5Sum: 3519d1cd19374636d1f714d302916b2c
+SHA256sum: 31bd8aa77773c264cb9aeaf37bbe7e9d76cdab2b10032d4168ee3c33ad09d692
 Size: 720
-Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.1+gitr0+38286ff171-r0_dm920.ipk
+Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.1+gitr0+bbcf0500f1-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types - Development files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -22079,16 +22079,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers
-Version: 22.3.1+gitr0+38286ff171-r0
+Version: 22.3.1+gitr0+bbcf0500f1-r0
 Depends: ldd, libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libpugixml1 (>= 1.15), libstdc++6 (>= 15.2.0)
 Recommends: kernel-module-ext2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f71f80c726ad9c6cab36aedb097d872
-SHA256sum: 1b75ca5f73945aaf26e343bda401e3a41f5b69b4280630780234b8c47cb9c907
-Size: 44073468
-Filename: kodi-addon-inputstream-adaptive-piers_22.3.1+gitr0+38286ff171-r0_dm920.ipk
+MD5Sum: 9bc8e0facb4775fcbfebeb75f5825393
+SHA256sum: 0aceb6985e78cad8a605b10d0a820ba9f9ffc8d20d82f6b6d48bac75c1203de3
+Size: 44090894
+Filename: kodi-addon-inputstream-adaptive-piers_22.3.1+gitr0+bbcf0500f1-r0_dm920.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: Kodi inputstream addon for several manifest types
 OE: kodi-addon-inputstream-adaptive-piers
@@ -22096,15 +22096,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-ffmpegdirect-piers-dbg
-Version: 22.2.0+gitr0+68fe143bc8-r0
+Version: 22.2.0+gitr0+02d007757b-r0
 Recommends: glibc-dbg, libbz2-dbg, libgcc-dbg, libstdc++-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 081293cbd89a6654a99658b1ec8a4b6a
-SHA256sum: c60c0fdc01bda3a2d63daa9ae9e8174f07a29bb478fbf8d3d0f1622120cce005
-Size: 2344602
-Filename: kodi-addon-inputstream-ffmpegdirect-piers-dbg_22.2.0+gitr0+68fe143bc8-r0_dm920.ipk
+MD5Sum: 75dbf9c87173569c470b92c9fead5790
+SHA256sum: 5cafd2e5a9877bb17ba696e6394bc1d1d7f70394d872b885ac19cfefdca6c76f
+Size: 2344590
+Filename: kodi-addon-inputstream-ffmpegdirect-piers-dbg_22.2.0+gitr0+02d007757b-r0_dm920.ipk
 Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
 Description: Kodi inputstream addon for ffmpeg - Debugging files
 OE: kodi-addon-inputstream-ffmpegdirect-piers
@@ -22112,15 +22112,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-ffmpegdirect-piers-dev
-Version: 22.2.0+gitr0+68fe143bc8-r0
-Recommends: glibc-dev, kodi-addon-inputstream-ffmpegdirect-piers (= 22.2.0+gitr0+68fe143bc8-r0), kodi-platform-dev, libbz2-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, zlib-dev
+Version: 22.2.0+gitr0+02d007757b-r0
+Recommends: glibc-dev, kodi-addon-inputstream-ffmpegdirect-piers (= 22.2.0+gitr0+02d007757b-r0), kodi-platform-dev, libbz2-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, p8platform-dev, zlib-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f08353ef03f02b22eae60008d9d4b88
-SHA256sum: 3321b1379e1fb176effe966f759d360a41c4eab6f4966e3cecc5c1a7e4f5559b
-Size: 704
-Filename: kodi-addon-inputstream-ffmpegdirect-piers-dev_22.2.0+gitr0+68fe143bc8-r0_dm920.ipk
+MD5Sum: 3fc8a0673575756e4d5b6d9fe9bd638d
+SHA256sum: 85683e8cfdc7fc96388fe6530c0353c7b07ea3d179e7532259a6a5522e43f6ee
+Size: 700
+Filename: kodi-addon-inputstream-ffmpegdirect-piers-dev_22.2.0+gitr0+02d007757b-r0_dm920.ipk
 Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
 Description: Kodi inputstream addon for ffmpeg - Development files
 OE: kodi-addon-inputstream-ffmpegdirect-piers
@@ -22128,15 +22128,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-ffmpegdirect-piers
-Version: 22.2.0+gitr0+68fe143bc8-r0
+Version: 22.2.0+gitr0+02d007757b-r0
 Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d28a858e18d8da1b66fab8929fcf566
-SHA256sum: 1b8ed6ef4e8a9ada5a8f488d6ce2271590118c2de589d078482f24d538b37844
-Size: 8211470
-Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.2.0+gitr0+68fe143bc8-r0_dm920.ipk
+MD5Sum: f09471dfc1944a58bf36fe79e1f11358
+SHA256sum: 5f7b4ff460542665037f146e77647a1b3e18d4c7ac0b2fc078dcc4118267c036
+Size: 8211430
+Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.2.0+gitr0+02d007757b-r0_dm920.ipk
 Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
 Description: Kodi inputstream addon for ffmpeg
 OE: kodi-addon-inputstream-ffmpegdirect-piers
@@ -22181,9 +22181,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libcrypto3 (>= 3.6.0), libgcc1 (>= 15.
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 053063a8bc6b33fd564c1ec1ed7f1059
-SHA256sum: b7bbfa984d7bf2abdec90636b8a92bac0e725c149391825c533c63712707de40
-Size: 475812
+MD5Sum: 8e4689853f5bf7a787a2345fd065e4d2
+SHA256sum: 1e50d84605d2e7043e7225cf739332f597a7773ceb5e09886a850e9eee6b45df
+Size: 476044
 Filename: kodi-addon-inputstream-rtmp-piers_22.1.0+gitr0+74d1e7654e-r0_dm920.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: Kodi inputstream addon for rtmp
@@ -22229,9 +22229,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9fa9d8d0a1f1bb1607400f7f71c3924
-SHA256sum: 3b7dfb11d9e3bb85ba3e479772e183366e86aada3682fdd60ff24a7d8a7e5839
-Size: 849804
+MD5Sum: 7235d2c29dea7c93f25d6f60ffd963e9
+SHA256sum: ebb25bfe9981dafa1416ce936f9e755a6b1a49b2431336efed9094e980f52f93
+Size: 850114
 Filename: kodi-addon-pvr-demo_22.4.3+git0+ac17a1f683-r0_dm920.ipk
 Source: kodi-addon-pvr-demo.bb
 Description: Kodi Media Center PVR plugins
@@ -22277,9 +22277,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6bdebbaef219128a9cf4863912ca465
-SHA256sum: 6f6bc575d6aefe230427e2bff42d1128ea59222862e32b5297702978811bcef8
-Size: 6925520
+MD5Sum: 75c2b45ab095476101f1e2c118623032
+SHA256sum: 63a81617056b41f144b055bb0f543d6a1a8d56d3ed0001d371d626a6c5912534
+Size: 6926044
 Filename: kodi-addon-pvr-dvblink_22.3.0+git0+9e58464ee5-r0_dm920.ipk
 Source: kodi-addon-pvr-dvblink.bb
 Description: Kodi Media Center PVR plugins
@@ -22325,9 +22325,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d7ded808aa6fe2d23d1ce0275b1857f9
-SHA256sum: e9c9c9433da91a6bdebf8b3aaa7dcc963224055b4005d8beeff299c2fc707c38
-Size: 1994202
+MD5Sum: 6ac30574b6ca46a4af26d4d43eb8735d
+SHA256sum: cc60318f3c958d61f55c29bb57309a5d1e5ea16c62860404f54a20f90b40f726
+Size: 1994204
 Filename: kodi-addon-pvr-dvbviewer_22.3.0+git0+bd50490e1f-r0_dm920.ipk
 Source: kodi-addon-pvr-dvbviewer.bb
 Description: Kodi Media Center PVR plugins
@@ -22373,9 +22373,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a18332c44d3279a618d2acc32b0db9c0
-SHA256sum: ba0cfc33f98f68b3f780dba705ea966860204c29de9821bb103e86f857661114
-Size: 883024
+MD5Sum: 32b5c0a83c065a352e57fb657bc6f7c5
+SHA256sum: 3bdd0112b05438ded84190aaa7a20ac313d69d24fc7ecb0faba3c88bbb50db16
+Size: 883130
 Filename: kodi-addon-pvr-filmon_22.2.3+git0+752899eb7d-r0_dm920.ipk
 Source: kodi-addon-pvr-filmon.bb
 Description: Kodi Media Center PVR plugins
@@ -22421,8 +22421,8 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 42f508cdda6bf693d441cbb525ca4fc1
-SHA256sum: 57d0230443b4cf4cada269c105bb809a86798089bced45639efe935140d0468f
+MD5Sum: 7be6e729fc0ce7ff05d427c2fd9df611
+SHA256sum: 3f8403dff97843bcce204338e409297745bad949fa055d92430f42c85d4e389e
 Size: 10098530
 Filename: kodi-addon-pvr-hts_22.7.2+git0+0942d66991-r0_dm920.ipk
 Source: kodi-addon-pvr-hts.bb
@@ -22469,9 +22469,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68c3555b164c403bc05b13fc3fa716db
-SHA256sum: 03c1b8da86ec24b65537f2ab0d0459db3e8a553131cd7b595c8a67dffa711b9e
-Size: 20076598
+MD5Sum: 6562234b2e19931c7cfced652dcb2586
+SHA256sum: 81eeaa9487d6a3014e374c6e8567aa3a217d80b6777bb07581897ddb721fa2a5
+Size: 20078184
 Filename: kodi-addon-pvr-iptvsimple_22.6.1+git0+88099903a9-r0_dm920.ipk
 Source: kodi-addon-pvr-iptvsimple.bb
 Description: Kodi Media Center PVR plugins
@@ -22517,9 +22517,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db4165d005882325c160736b293545bd
-SHA256sum: d27b1e783b5fa60510572e2e4f8e7b03a5afdf51b99807c0972ae6ce6aa52399
-Size: 11626640
+MD5Sum: 8f7484bfa355fd6ed14c02804c242ec1
+SHA256sum: 7e6d9355c0c13be8e151343f4a2bb7db26cb9b0b99e34b28ee7620e3e2bb4f37
+Size: 11626986
 Filename: kodi-addon-pvr-nextpvr_22.5.1+git0+128f3593cc-r0_dm920.ipk
 Source: kodi-addon-pvr-nextpvr.bb
 Description: Kodi Media Center PVR plugins
@@ -22565,9 +22565,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 898847d7d4f6166ac05bac2521fd2f04
-SHA256sum: d24637180c57dc15a9505e691f540447eb1c4fd49b8753491b1ec0116f9a2ea2
-Size: 434232
+MD5Sum: b16e857a480f699435cba2e748ffe43f
+SHA256sum: e3ec0317f0274826d5a381c616a1ab9a1170cdfa134f3df04496e9540561add5
+Size: 434754
 Filename: kodi-addon-pvr-njoy_22.2.2+git0+bdc306faa7-r0_dm920.ipk
 Source: kodi-addon-pvr-njoy.bb
 Description: Kodi Media Center PVR plugins
@@ -22613,9 +22613,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f6175495d2a47c4780f69ca423c2425c
-SHA256sum: 86adadb367539d2e29f641fddf80aca6fc27e7eece839c939111ea3ffbe14b38
-Size: 901516
+MD5Sum: f5d253fb239e9466e3659837d297b8b9
+SHA256sum: 76e0627bf6c0ee9d8a9618751f4bd3dcb85c3a64a5b87bcfbab0aaa4fa139cb7
+Size: 901940
 Filename: kodi-addon-pvr-pctv_22.2.3+git0+53364a0d28-r0_dm920.ipk
 Source: kodi-addon-pvr-pctv.bb
 Description: Kodi Media Center PVR plugins
@@ -22661,9 +22661,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libjsoncpp26 (>= 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 283c1dc319fc765f3991c225c62112d4
-SHA256sum: c95abb22ea8e58d2e6abffe2d23fc8703f96ab6131e1bc2336329935a323b43b
-Size: 1802244
+MD5Sum: 957676d1dd803e80de44995c835d86e8
+SHA256sum: 05856cc4b357fc76bf13fb664e3844a81e3c999f84713156e96862d403d00124
+Size: 1802676
 Filename: kodi-addon-pvr-stalker_22.2.3+git0+16a2c80451-r0_dm920.ipk
 Source: kodi-addon-pvr-stalker.bb
 Description: Kodi Media Center PVR plugins
@@ -22709,9 +22709,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1a7efa2bf1d28501a1efc7b975a2665
-SHA256sum: 9a6be8f009ff415e8f0800f38acdf0329d3b9971bb194b4d5e2f47a7ad3660f5
-Size: 4491108
+MD5Sum: aae1b0227eef4589526dfbb310c8e278
+SHA256sum: d49569b02b88473cbfb02d8b93d7e449290ac2c6044f7400ccfb04a41c5a3c6d
+Size: 4491082
 Filename: kodi-addon-pvr-vbox_22.2.1+git0+42226ae6ea-r0_dm920.ipk
 Source: kodi-addon-pvr-vbox.bb
 Description: Kodi Media Center PVR plugins
@@ -22757,9 +22757,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63eeee4e068976c37836f44b0133210f
-SHA256sum: cbe8a7b1081a60290cbdd4d0d93c2996b7bd483c1ba827618909d75206e7b78e
-Size: 2173288
+MD5Sum: 53a244514cb4901ed34d8f62b413430a
+SHA256sum: e8aa71b1ef3f0e1229eee68a41642ed54e15bdf4f35d4ecc612a0c1337059e1b
+Size: 2173324
 Filename: kodi-addon-pvr-vdr.vnsi_22.3.0+git0+a576ed7e0c-r0_dm920.ipk
 Source: kodi-addon-pvr-vdr.vnsi.bb
 Description: Kodi Media Center PVR plugins
@@ -22805,9 +22805,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 952c8f3034cdb53da1822d446361a7b3
-SHA256sum: 422e5cfbf7419985efdfd1aff357af03a1049f5a25b8b6a6a515dfec3dd88930
-Size: 29044644
+MD5Sum: b9693cdaf4419ca421ea492c22934e10
+SHA256sum: d90d16de8749fe08b58eae3afebce98890e2a0abffb872849b708e4a59709b96
+Size: 29044918
 Filename: kodi-addon-pvr-vuplus_22.3.4+git0+de97600867-r0_dm920.ipk
 Source: kodi-addon-pvr-vuplus.bb
 Description: Kodi Media Center PVR plugins
@@ -22853,9 +22853,9 @@ Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, 
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2ca7445fcde9517a4231268b0d02aa1
-SHA256sum: 13cefb22e9757c352d13e9266c7192f56dd7972805811cf66497d93886a81193
-Size: 1200760
+MD5Sum: 2a293e7e6f578a5c17caeaf0e4c79b09
+SHA256sum: b55f4ade0db10bafbe8d7270535a810d42689e884cecba16dce1ffa81943ee80
+Size: 1200726
 Filename: kodi-addon-pvr-wmc_22.2.3+git0+bfbcab6619-r0_dm920.ipk
 Source: kodi-addon-pvr-wmc.bb
 Description: Kodi Media Center PVR plugins
@@ -24345,9 +24345,9 @@ Recommends: alsa-lib-dbg, bluez5-dbg, dbus-lib-dbg, exiv2-dbg, fmt-dbg, freetype
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f5e8e3e5a46b50137901f036dd48736
-SHA256sum: a09bdaa41f4c57deec239c767fe2aef7680b22f9b309c26b77f34ef9ebeb4733
-Size: 222868218
+MD5Sum: ff081008b3d82101937c7951542e5165
+SHA256sum: f383fc532aee8445598cafacd0afec61dd64af79ec3da38c5e841ecd9cdda350
+Size: 222868220
 Filename: stb-kodi-dm920-dbg_22.0+gitr0+d19d9ebb8a-r2_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center [Piers] Release 22.0 Alpha 2 - Debugging files
@@ -24394,9 +24394,9 @@ Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-char
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15c4a88a64b8f7d31d1cd35ccd83c440
-SHA256sum: 2c26647c052ae6dba76412af40c6eab24a3130d4cd385ad9f05a727ccc11f402
-Size: 28300698
+MD5Sum: 0431a7dd62ddc816a69e5d2b69900b08
+SHA256sum: c3ede2daa60c435a8fd544addf6d49da11c4dcdae5f86bffedb269609f2120d4
+Size: 28300700
 Filename: stb-kodi-dm920_22.0+gitr0+d19d9ebb8a-r2_dm920.ipk
 Source: stb-kodi-dm920_22.bb
 Description: Kodi Media Center [Piers] Release 22.0 Alpha 2
