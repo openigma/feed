@@ -887,9 +887,9 @@ Version: 1.23-20251111-git37+c0014a70+c0014a79e0-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 010eb078610387b9a837df27d6bdbfa4
-SHA256sum: e6dc1526358d08cce9d60aa2e1b38d4d0bc9bab13310cb9a239b3fbd073684db
-Size: 624
+MD5Sum: 588e2162a786d5d528e79bfe31a0cbe2
+SHA256sum: 6dcd2936454b870e667b4a32c606eaf3870259b54ac2532308c150edadb92177
+Size: 622
 Filename: enigma2-plugin-extensions-estalker-dbg_1.23-20251111-git37+c0014a70+c0014a79e0-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
@@ -904,9 +904,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.23-20251111-git37+c0014a70+c
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: bac19ebe9299330978941f1a0666e86f
-SHA256sum: 4a48278c4b53bb14f19a1e930d24cac45b87a58e192d47cc27a820ca816e9377
-Size: 720
+MD5Sum: 34624441809c9e1e344b2d074cacc4c9
+SHA256sum: a542706da1755eea2bee8049b7ccd217733469059ee648bcaa8d01b604b149bc
+Size: 718
 Filename: enigma2-plugin-extensions-estalker-dev_1.23-20251111-git37+c0014a70+c0014a79e0-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -920,9 +920,9 @@ Version: 1.23-20251111-git37+c0014a70+c0014a79e0-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9f68c3849f4413467d504b60119b6001
-SHA256sum: 8ad7b38b8cdf4461225b0a8305551bd242f758b203dc67468023ead9705d2ae4
-Size: 86430
+MD5Sum: 52767a333ccdc36874c8a2a9c0e27349
+SHA256sum: fc412af1b1374b00a674e6fc49bc75d3e83ef012023dd6fb3fed5f21727e60fa
+Size: 86408
 Filename: enigma2-plugin-extensions-estalker-src_1.23-20251111-git37+c0014a70+c0014a79e0-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -937,9 +937,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, python3-multiproces
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cd22a66bd83541c1d730bb4d4558458c
-SHA256sum: 946c487d9c0d997d806451eedd0f0e0378dd4374056d46c9984ff5e81a7cbfef
-Size: 2700552
+MD5Sum: 4715482061f37650a7b3e36c064028b6
+SHA256sum: 064c9ae9aede335a049547ed1eda802d8c8c7d19735b04eec40a084492ab8adc
+Size: 2700620
 Filename: enigma2-plugin-extensions-estalker_1.23-20251111-git37+c0014a70+c0014a79e0-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -1642,76 +1642,62 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv-dbg
-Version: 1.0+git92+c358bea0+c358bea36d-r0
+Version: 1.1+git92+c358bea0+c358bea36d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54abf1de186378af101bf8f5e36b5343
-SHA256sum: f10eed0f53e34248a4663cbc092c8b7ec72ad3a55798aaad1693aebaacb4a41c
+MD5Sum: 51bc33f2d30449928a7ffdd4dbc7f663
+SHA256sum: 8f2d877b77a1901cacccf79e172eb936b99b6ac475503d843176a205268ad007
 Size: 614
-Filename: enigma2-plugin-extensions-plutotv-dbg_1.0+git92+c358bea0+c358bea36d-r0_all.ipk
+Filename: enigma2-plugin-extensions-plutotv-dbg_1.1+git92+c358bea0+c358bea36d-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
-Description: enigma2-plugin-extensions-plutotv version 1.0+git-r0 - Debugging files
+Description: enigma2-plugin-extensions-plutotv version 1.1+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-plutotv
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv-dev
-Version: 1.0+git92+c358bea0+c358bea36d-r0
-Recommends: enigma2-plugin-extensions-plutotv (= 1.0+git92+c358bea0+c358bea36d-r0), python3-core-dev, python3-dev, python3-requests-dev
+Version: 1.1+git92+c358bea0+c358bea36d-r0
+Recommends: enigma2-plugin-extensions-plutotv (= 1.1+git92+c358bea0+c358bea36d-r0), python3-core-dev, python3-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ff6672348182af3760882b1aa84b80d
-SHA256sum: 8644a1e951d3b00d943f469a124ae4d197350bad7f6358c99fc743be4c67ba55
+MD5Sum: c0408b2f8b1b5d2fec31414061d01c36
+SHA256sum: fe7bd3903d8c5ba11e379a6d978eceb708a5cd985184a7aa94bd37e46d3343a3
 Size: 668
-Filename: enigma2-plugin-extensions-plutotv-dev_1.0+git92+c358bea0+c358bea36d-r0_all.ipk
+Filename: enigma2-plugin-extensions-plutotv-dev_1.1+git92+c358bea0+c358bea36d-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
-Description: enigma2-plugin-extensions-plutotv version 1.0+git-r0 - Development files
-OE: enigma2-plugin-extensions-plutotv
-License: GPL-2.0-only
-Priority: optional
-
-Package: enigma2-plugin-extensions-plutotv-src
-Version: 1.0+git92+c358bea0+c358bea36d-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29b2888241ec59858494563635671b69
-SHA256sum: b6a673e123c3cfdf038090e8161a8a1827918108b80fedea82ca1bf1dd3846ce
-Size: 19070
-Filename: enigma2-plugin-extensions-plutotv-src_1.0+git92+c358bea0+c358bea36d-r0_all.ipk
-Source: enigma2-plugin-extensions-plutotv.bb
-Description: enigma2-plugin-extensions-plutotv version 1.0+git-r0 - Source files
+Description: enigma2-plugin-extensions-plutotv version 1.1+git-r0 - Development files
 OE: enigma2-plugin-extensions-plutotv
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotv
-Version: 1.0+git92+c358bea0+c358bea36d-r0
+Version: 1.1+git92+c358bea0+c358bea36d-r0
 Depends: python3-core, python3-requests
+Replaces: enigma2-plugin-extensions-pluto
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 407520c4497f1195d08f512d26acebc1
-SHA256sum: 89d503dd2aaa7853718e28b507ca4b72ce0bc054f7754750c49141b0ebb02b6b
-Size: 157278
-Filename: enigma2-plugin-extensions-plutotv_1.0+git92+c358bea0+c358bea36d-r0_all.ipk
+MD5Sum: 5026b5ebc8ef5cbc27765c905d878c84
+SHA256sum: ab6b9acff67255eae47aba8f124b2385a78c0bbfa2a9f3296e68ecdd54033697
+Size: 173682
+Filename: enigma2-plugin-extensions-plutotv_1.1+git92+c358bea0+c358bea36d-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotv.bb
-Description: enigma2-plugin-extensions-plutotv version 1.0+git-r0
+Description: enigma2-plugin-extensions-plutotv version 1.1+git-r0
 OE: enigma2-plugin-extensions-plutotv
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dbg
-Version: 0.0-git124+dba04a70+dba04a764a-r0
+Version: 0.0-git125+2b94a7f0+2b94a7fcab-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: 1c4dbc5b73b8811f5edd3b5af2456570
-SHA256sum: a55949eeaf6e06dccfb95b4b6204f1037ca8b74a63b6eaf4b647de32ca749e7c
+MD5Sum: 5bef494b03598e428639c11ab01bdb91
+SHA256sum: 8133eb0975ae95fd78009a8c4cc6d4a1cf521b4bddd97b39846501e319ceb9a0
 Size: 652
-Filename: enigma2-plugin-extensions-raedquicksignal-dbg_0.0-git124+dba04a70+dba04a764a-r0_all.ipk
+Filename: enigma2-plugin-extensions-raedquicksignal-dbg_0.0-git125+2b94a7f0+2b94a7fcab-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Debugging files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1719,15 +1705,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-dev
-Version: 0.0-git124+dba04a70+dba04a764a-r0
-Recommends: enigma2-plugin-extensions-raedquicksignal (= 0.0-git124+dba04a70+dba04a764a-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
+Version: 0.0-git125+2b94a7f0+2b94a7fcab-r0
+Recommends: enigma2-plugin-extensions-raedquicksignal (= 0.0-git125+2b94a7f0+2b94a7fcab-r0), python3-core-dev, python3-dev, python3-requests-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: a4bca46626ec901655e34e8fb9d70f45
-SHA256sum: c0c0a28e14528b7f366adb1d08b90bf33689fde243cf92eea7e91322d703a0ed
+MD5Sum: fd3d49b109615aec7dcbb8c0729a9c35
+SHA256sum: 851f7528511a8b19e68033634e4ffc5808cba3c09805c745c589c5b818fa8704
 Size: 714
-Filename: enigma2-plugin-extensions-raedquicksignal-dev_0.0-git124+dba04a70+dba04a764a-r0_all.ipk
+Filename: enigma2-plugin-extensions-raedquicksignal-dev_0.0-git125+2b94a7f0+2b94a7fcab-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Development files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1735,14 +1721,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal-src
-Version: 0.0-git124+dba04a70+dba04a764a-r0
+Version: 0.0-git125+2b94a7f0+2b94a7fcab-r0
 Section: devel
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: ec1623cb87263c4f112cfa4ad33b15b7
-SHA256sum: aa2b73e8027644ab21cf5f0e88d66d65818722ee09ec59342b00dec4d2d2b007
-Size: 101760
-Filename: enigma2-plugin-extensions-raedquicksignal-src_0.0-git124+dba04a70+dba04a764a-r0_all.ipk
+MD5Sum: 463c44e48b6f2a1e107493aeefd9a81e
+SHA256sum: e23f1cc91673f1f78a802db6e5c0c5486cfd7376044d47381c5c032ea3a0af14
+Size: 101800
+Filename: enigma2-plugin-extensions-raedquicksignal-src_0.0-git125+2b94a7f0+2b94a7fcab-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information - Source files
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -1750,15 +1736,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raedquicksignal
-Version: 0.0-git124+dba04a70+dba04a764a-r0
+Version: 0.0-git125+2b94a7f0+2b94a7fcab-r0
 Depends: python3-core, python3-requests, python3-six
 Section: base
 Architecture: all
 Maintainer: RAED - fairbird
-MD5Sum: da714224ee3dc6c1743c7020e1f92a61
-SHA256sum: d72f838ecbfaa79f78b68d13dd6efd7b0d658e122874199e190e39b74dd3bca7
-Size: 5497894
-Filename: enigma2-plugin-extensions-raedquicksignal_0.0-git124+dba04a70+dba04a764a-r0_all.ipk
+MD5Sum: 97c4dba853b8b24956398438ac855320
+SHA256sum: 0d5db54c35d61a75f2a54e4fb71b79ecb7100e023e4f786c716e55ad28ed3461
+Size: 5497762
+Filename: enigma2-plugin-extensions-raedquicksignal_0.0-git125+2b94a7f0+2b94a7fcab-r0_all.ipk
 Source: enigma2-plugin-extensions-raedquicksignal.bb
 Description: Show information
 OE: enigma2-plugin-extensions-raedquicksignal
@@ -2501,14 +2487,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: 6.1+git408+0d971eb0+0d971eb24a-r0
+Version: 6.1+git407+4b18d4e0+4b18d4e4b7-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 694c8d9e0287cf4f08614fe552c3a770
-SHA256sum: 58ff88a4afb0a3b71a2b516e205ba31b0568b61c732d952412544d879c08fddb
+MD5Sum: df562f2a38c9a4cfef700d701b98b0b2
+SHA256sum: 8e52e17c70ebaa496a8ced3fe80899d4b467973465d8ccb10b97cfab7bc32d0f
 Size: 640
-Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git408+0d971eb0+0d971eb24a-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dbg_6.1+git407+4b18d4e0+4b18d4e4b7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -2517,15 +2503,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: 6.1+git408+0d971eb0+0d971eb24a-r0
-Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git408+0d971eb0+0d971eb24a-r0)
+Version: 6.1+git407+4b18d4e0+4b18d4e4b7-r0
+Recommends: enigma2-plugin-extensions-worldcam (= 6.1+git407+4b18d4e0+4b18d4e4b7-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: d7b593dbc51bc2ad4d5cb4487fc80442
-SHA256sum: c9588c5562628442f09fc23c035c889f419dc5a1f35b8e3c3c2d209716e1ae80
+MD5Sum: 8cf7d0c4e08ea4004d3a9e74ae72b486
+SHA256sum: 9fc691d013e36cae3fcbd1ce479f8d67006076a9eb8a68ffa3a06c0b3621700b
 Size: 676
-Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git408+0d971eb0+0d971eb24a-r0_all.ipk
+Filename: enigma2-plugin-extensions-worldcam-dev_6.1+git407+4b18d4e0+4b18d4e4b7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -2534,14 +2520,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam-src
-Version: 6.1+git408+0d971eb0+0d971eb24a-r0
+Version: 6.1+git407+4b18d4e0+4b18d4e4b7-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 154bff7eb6b75ed7408f57ebc2100ee9
-SHA256sum: 713d808b7e2be75b0957fd6484f2f68646da668c5ffac70193f0d30ba362cc15
-Size: 2457730
-Filename: enigma2-plugin-extensions-worldcam-src_6.1+git408+0d971eb0+0d971eb24a-r0_all.ipk
+MD5Sum: 14c42871eff7099bd4a6c48c2f8b3e39
+SHA256sum: 9b19e9e0b35e1fda1f01aec4d8c11c79ada697543eedacff3cef0bea4c8589c4
+Size: 2457516
+Filename: enigma2-plugin-extensions-worldcam-src_6.1+git407+4b18d4e0+4b18d4e4b7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists - Source files
 OE: enigma2-plugin-extensions-worldcam
@@ -2550,14 +2536,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-worldcam
-Version: 6.1+git408+0d971eb0+0d971eb24a-r0
+Version: 6.1+git407+4b18d4e0+4b18d4e4b7-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8facc7d137fd44c130849b78d99b79ce
-SHA256sum: 827e23d244605e0ce05b762c20a102ab40a06046e16ff8899e5bd945e761ccc4
-Size: 6836864
-Filename: enigma2-plugin-extensions-worldcam_6.1+git408+0d971eb0+0d971eb24a-r0_all.ipk
+MD5Sum: db5cc31abb79385ebe88be8df66b1753
+SHA256sum: 7730b17e48d8db3afc3ed3969912518172d3560dc7f324cfd8ada6262d48bf46
+Size: 6836940
+Filename: enigma2-plugin-extensions-worldcam_6.1+git407+4b18d4e0+4b18d4e4b7-r0_all.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: WorldCam View webcam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
@@ -5080,14 +5066,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-whitelist-dbg
-Version: 2.0+git0+e5780a5289-r0
+Version: 2.0+git0+2afe8ba139-r0
 Section: devel
 Architecture: all
 Maintainer: AbuBaniaz
-MD5Sum: 11579d95a1000e45ffa87a35547a50fa
-SHA256sum: bf02449704d03c81e311247551ddc18f9a000fc925379d392a11c4fcea356175
+MD5Sum: b0602b3eaa3d6113987738306275689f
+SHA256sum: f349f21108be80130403aa1a536fcedcd4aa1aeff044770211afb4c59b8684ba
 Size: 586
-Filename: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git0+e5780a5289-r0_all.ipk
+Filename: enigma2-plugin-softcams-oscam-whitelist-dbg_2.0+git0+2afe8ba139-r0_all.ipk
 Source: enigma2-plugin-softcams-oscam-whitelist.bb
 Description: Whitelist for oscam icam channels - Debugging files
 OE: enigma2-plugin-softcams-oscam-whitelist
@@ -5095,15 +5081,15 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-whitelist-dev
-Version: 2.0+git0+e5780a5289-r0
-Recommends: enigma2-plugin-softcams-oscam-dev, enigma2-plugin-softcams-oscam-whitelist (= 2.0+git0+e5780a5289-r0)
+Version: 2.0+git0+2afe8ba139-r0
+Recommends: enigma2-plugin-softcams-oscam-dev, enigma2-plugin-softcams-oscam-whitelist (= 2.0+git0+2afe8ba139-r0)
 Section: devel
 Architecture: all
 Maintainer: AbuBaniaz
-MD5Sum: d59e17792b0645ed30dcbf4ecbc8fde9
-SHA256sum: ca7b357cb07589ebb6a3a3b6d996a01503567863815acb5d3ef355d1237fe8db
-Size: 626
-Filename: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git0+e5780a5289-r0_all.ipk
+MD5Sum: b694f3d171272ef87f4897b8c1d1f658
+SHA256sum: 89d0ee15ff9508e6ccda16949cd8ee7383dcc673a7ba69f879276a1ad71910f0
+Size: 624
+Filename: enigma2-plugin-softcams-oscam-whitelist-dev_2.0+git0+2afe8ba139-r0_all.ipk
 Source: enigma2-plugin-softcams-oscam-whitelist.bb
 Description: Whitelist for oscam icam channels - Development files
 OE: enigma2-plugin-softcams-oscam-whitelist
@@ -5111,14 +5097,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-whitelist
-Version: 2.0+git0+e5780a5289-r0
+Version: 2.0+git0+2afe8ba139-r0
 Section: base
 Architecture: all
 Maintainer: AbuBaniaz
-MD5Sum: 45cbc8bbe6cf0442971e9e66ce60ef02
-SHA256sum: 5c9493a51f9ade4c3efe66814745843164ee7b5223b9f4f38a093fcd075cfc15
-Size: 1184
-Filename: enigma2-plugin-softcams-oscam-whitelist_2.0+git0+e5780a5289-r0_all.ipk
+MD5Sum: 20718cd41bd807ef5f90ea7da35786c9
+SHA256sum: 2aaf4be471484a407e70b10e073332dffbae66a286d38a008753db3c51a62d60
+Size: 1160
+Filename: enigma2-plugin-softcams-oscam-whitelist_2.0+git0+2afe8ba139-r0_all.ipk
 Source: enigma2-plugin-softcams-oscam-whitelist.bb
 Description: Whitelist for oscam icam channels
 OE: enigma2-plugin-softcams-oscam-whitelist
@@ -10121,14 +10107,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1215+8fc3ed10+8fc3ed1555-3
+Version: 2+git1216+6d78e170+6d78e17f4a-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8a083af51b3ac596a717a09bbd2de1e1
-SHA256sum: dc9125ad18dbea194e18657edd4dd2ed465b7b3256094dbf0766171eb8b63295
+MD5Sum: fcccde19bfc6f1d975246a54ff5acfce
+SHA256sum: e04f1f2e53e8d9e10cc7cc0aa741eedb4f02f086350b819624929547c019efa1
 Size: 568
-Filename: tuxbox-common-dbg_2+git1215+8fc3ed10+8fc3ed1555-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1216+6d78e170+6d78e17f4a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10136,15 +10122,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1215+8fc3ed10+8fc3ed1555-3
-Recommends: tuxbox-common (>= 2+git1215+8fc3ed10+8fc3ed1555-3), tuxbox-common (<< 2+git1215+8fc3ed10+8fc3ed1555-3.0), xz-dev
+Version: 2+git1216+6d78e170+6d78e17f4a-3
+Recommends: tuxbox-common (>= 2+git1216+6d78e170+6d78e17f4a-3), tuxbox-common (<< 2+git1216+6d78e170+6d78e17f4a-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4a807ec0c52854d025eec73ad6601e62
-SHA256sum: 0a66d5f74c14e02700654c9558e51102d52c4099e2d6d3537f99e6cdd38b14a9
+MD5Sum: 188ca9565595a3c75730f4ee857427cd
+SHA256sum: 9a6e5dba6e1ec680febae2ad8236fb2cecee212c85f112f99e1c5e6655f29a5b
 Size: 620
-Filename: tuxbox-common-dev_2+git1215+8fc3ed10+8fc3ed1555-3_all.ipk
+Filename: tuxbox-common-dev_2+git1216+6d78e170+6d78e17f4a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10152,15 +10138,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1215+8fc3ed10+8fc3ed1555-3
+Version: 2+git1216+6d78e170+6d78e17f4a-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: ce0c6399cd96198900652506016206b9
-SHA256sum: 674f95177120e482a0ec3784646a09e7e96acb4f33eb4326f3f61b3cea736baf
-Size: 71188
-Filename: tuxbox-common_2+git1215+8fc3ed10+8fc3ed1555-3_all.ipk
+MD5Sum: bcf12544fa6cb9a1dd23293f7cb7c892
+SHA256sum: 0c7b927bef52981b3e59c236e485543a98ade3d8b0dae95b254e9b51c376fa1d
+Size: 71146
+Filename: tuxbox-common_2+git1216+6d78e170+6d78e17f4a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
