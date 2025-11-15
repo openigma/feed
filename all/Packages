@@ -949,14 +949,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: 4.2+git214+16106da0+16106da575-r0
+Version: 4.2+git215+cb2cdcb0+cb2cdcb88f-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44e223d61dc3344a841eced395dc87f5
-SHA256sum: d05f5920f3ce5dcb75a403c7703d0765723f0fdfb60d948455fdaf82648b2bd8
+MD5Sum: 873c525ffc9af194d16226c7750dfaaf
+SHA256sum: 034f9f8d39434a277827af9cf419503519a6c549a4e3cc0ade17251b9603560a
 Size: 640
-Filename: enigma2-plugin-extensions-footonsat-dbg_4.2+git214+16106da0+16106da575-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_4.2+git215+cb2cdcb0+cb2cdcb88f-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -964,15 +964,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: 4.2+git214+16106da0+16106da575-r0
-Recommends: alsa-utils-aplay-dev, enigma2-plugin-extensions-footonsat (= 4.2+git214+16106da0+16106da575-r0), python3-beautifulsoup4-dev, python3-difflib-dev, python3-pillow-dev, python3-requests-dev, python3-six-dev, python3-sqlite3-dev, python3-threading-dev
+Version: 4.2+git215+cb2cdcb0+cb2cdcb88f-r0
+Recommends: alsa-utils-aplay-dev, enigma2-plugin-extensions-footonsat (= 4.2+git215+cb2cdcb0+cb2cdcb88f-r0), python3-beautifulsoup4-dev, python3-difflib-dev, python3-pillow-dev, python3-requests-dev, python3-six-dev, python3-sqlite3-dev, python3-threading-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12ba019fd2f21f9abd445bc93fae8c61
-SHA256sum: 27c413d71282870f00878b4e3c0b6c8c7857b0a8d94df0ba52cfb2f2bff721a3
+MD5Sum: 70fab4627913dbc0fd036409391701ad
+SHA256sum: 49d0ac918c1a3037ea594bfe1815402a00d744a5b78239ac146636b64329f2d6
 Size: 750
-Filename: enigma2-plugin-extensions-footonsat-dev_4.2+git214+16106da0+16106da575-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_4.2+git215+cb2cdcb0+cb2cdcb88f-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -980,14 +980,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-src
-Version: 4.2+git214+16106da0+16106da575-r0
+Version: 4.2+git215+cb2cdcb0+cb2cdcb88f-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3e8dd780ffe4f91cab4acc7e371f8964
-SHA256sum: aecfa5b3c4aefc5ef22611e42f41618fec7a702a29d46ad29e0daf590060eb94
-Size: 63810
-Filename: enigma2-plugin-extensions-footonsat-src_4.2+git214+16106da0+16106da575-r0_all.ipk
+MD5Sum: 97083fd136ea3c5dbbbfe55d85083a49
+SHA256sum: 02b6e8f3613328a9d9b48d7336f87bb80b5d94ec80cf99ec9738ad092772e26d
+Size: 63806
+Filename: enigma2-plugin-extensions-footonsat-src_4.2+git215+cb2cdcb0+cb2cdcb88f-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Source files
 OE: enigma2-plugin-extensions-footonsat
@@ -995,15 +995,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: 4.2+git214+16106da0+16106da575-r0
+Version: 4.2+git215+cb2cdcb0+cb2cdcb88f-r0
 Depends: alsa-utils-aplay, python3-beautifulsoup4, python3-difflib, python3-pillow, python3-requests, python3-six, python3-sqlite3, python3-threading
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b021fcdeb34e10ce5f03b0e8e701b025
-SHA256sum: 2bd2ac15b89c4fb3843a12641773361acafa4458b89fa4e54045b7b2afa405c5
-Size: 34468584
-Filename: enigma2-plugin-extensions-footonsat_4.2+git214+16106da0+16106da575-r0_all.ipk
+MD5Sum: 9d693a1d9b299b1ccee43fb05b1a57cc
+SHA256sum: 6a494d5641e6d5b6da401448acf4f90ff7e6ae22e8d0b34d4ee05b9fcfb4b766
+Size: 34467872
+Filename: enigma2-plugin-extensions-footonsat_4.2+git215+cb2cdcb0+cb2cdcb88f-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed
 OE: enigma2-plugin-extensions-footonsat
@@ -2402,14 +2402,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-wifimanager-dbg
-Version: 1.0+git27+bb134700+bb134706cd-r0
+Version: 1.0+git28+d3823d70+d3823d7055-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2e76b5baa027b30c9363b48e4943b371
-SHA256sum: c96317ea1886ab57072609144b62afd07ec78c248ab93ca25c7791ed6ca70b25
+MD5Sum: 24cbd24585a2254f1ae3af1ab66ab30d
+SHA256sum: ed7877612777be06a12a0c4b6cdf8f28497c9b380f1b7a447e66eaa3326aa867
 Size: 628
-Filename: enigma2-plugin-extensions-wifimanager-dbg_1.0+git27+bb134700+bb134706cd-r0_all.ipk
+Filename: enigma2-plugin-extensions-wifimanager-dbg_1.0+git28+d3823d70+d3823d7055-r0_all.ipk
 Source: enigma2-plugin-extensions-wifimanager.bb
 Description: WiFi-Manager - Debugging files
 OE: enigma2-plugin-extensions-wifimanager
@@ -2418,15 +2418,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-wifimanager-dev
-Version: 1.0+git27+bb134700+bb134706cd-r0
-Recommends: enigma2-plugin-extensions-wifimanager (= 1.0+git27+bb134700+bb134706cd-r0), python3-requests-dev
+Version: 1.0+git28+d3823d70+d3823d7055-r0
+Recommends: enigma2-plugin-extensions-wifimanager (= 1.0+git28+d3823d70+d3823d7055-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9c086ac7ba4b80dee0c3d0f80faa810c
-SHA256sum: 606e475b6a11aa5912a49221f076f91d1468ad28f7d625d173ee042647bcfe03
+MD5Sum: b84375fee4073dcb5191064a3b37bcc1
+SHA256sum: 763a24e4d5f2c50c95abe1a3bcf3e40dc050d0b243c484e262fef5278ef9eadf
 Size: 680
-Filename: enigma2-plugin-extensions-wifimanager-dev_1.0+git27+bb134700+bb134706cd-r0_all.ipk
+Filename: enigma2-plugin-extensions-wifimanager-dev_1.0+git28+d3823d70+d3823d7055-r0_all.ipk
 Source: enigma2-plugin-extensions-wifimanager.bb
 Description: WiFi-Manager - Development files
 OE: enigma2-plugin-extensions-wifimanager
@@ -2435,14 +2435,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-wifimanager-src
-Version: 1.0+git27+bb134700+bb134706cd-r0
+Version: 1.0+git28+d3823d70+d3823d7055-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: caab8517d75a0844eb0b5c3001c05956
-SHA256sum: efabd941a86d5cbd6723f00ba95dd7be2598209c42e52a83767361fd14149046
-Size: 80252
-Filename: enigma2-plugin-extensions-wifimanager-src_1.0+git27+bb134700+bb134706cd-r0_all.ipk
+MD5Sum: 1977f99440e25e8257efb7d8bacc3b85
+SHA256sum: edb23eb7452e55f7cdef43e8c9587a0c7b0a23868d115c2a8e82a9073c28ff5c
+Size: 79942
+Filename: enigma2-plugin-extensions-wifimanager-src_1.0+git28+d3823d70+d3823d7055-r0_all.ipk
 Source: enigma2-plugin-extensions-wifimanager.bb
 Description: WiFi-Manager - Source files
 OE: enigma2-plugin-extensions-wifimanager
@@ -2451,15 +2451,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-wifimanager
-Version: 1.0+git27+bb134700+bb134706cd-r0
+Version: 1.0+git28+d3823d70+d3823d7055-r0
 Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1a9f8960e0fd1cf5fbf6d7484b7ef0e4
-SHA256sum: 86e1efac2410aa7829c7957d385ef752ba5b46d7222191870a1dada375043588
-Size: 966438
-Filename: enigma2-plugin-extensions-wifimanager_1.0+git27+bb134700+bb134706cd-r0_all.ipk
+MD5Sum: 651b998b4ef33cb3be64574099819c8e
+SHA256sum: 73d0947761092d714b2460bff53d74f6e68b121bad7dc9344b8720b9e546a9e2
+Size: 968058
+Filename: enigma2-plugin-extensions-wifimanager_1.0+git28+d3823d70+d3823d7055-r0_all.ipk
 Source: enigma2-plugin-extensions-wifimanager.bb
 Description: WiFi-Manager
 OE: enigma2-plugin-extensions-wifimanager
@@ -10107,14 +10107,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1217+cb463680+cb46368ace-3
+Version: 2+git1218+649c1d10+649c1d179b-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: fff20ff0365b6fa66ba11b80bd0c1d39
-SHA256sum: 409d739a23d1f7e7a45135c54fe308fced3dcd8fa555e63656f896e94ef74748
+MD5Sum: 68a768cf7fa8dd9ad3d8150eeb247507
+SHA256sum: 903d5c1c33492bdff1e79926c5a59a0078a3c0bc3548cd9095100ef83294658a
 Size: 568
-Filename: tuxbox-common-dbg_2+git1217+cb463680+cb46368ace-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1218+649c1d10+649c1d179b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10122,15 +10122,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1217+cb463680+cb46368ace-3
-Recommends: tuxbox-common (>= 2+git1217+cb463680+cb46368ace-3), tuxbox-common (<< 2+git1217+cb463680+cb46368ace-3.0), xz-dev
+Version: 2+git1218+649c1d10+649c1d179b-3
+Recommends: tuxbox-common (>= 2+git1218+649c1d10+649c1d179b-3), tuxbox-common (<< 2+git1218+649c1d10+649c1d179b-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d83c1f6631c7700f5f740411d07dd995
-SHA256sum: b3c1e7953a0658a4681318ea00e79e7de449b7689729314c66ec4776380eae78
+MD5Sum: e5e15978430d43ee47f12b02ad0d5b06
+SHA256sum: 998c55a0307e587cf25fd9a678e5591796f2950035ed529c872b55ee24c7f4ef
 Size: 622
-Filename: tuxbox-common-dev_2+git1217+cb463680+cb46368ace-3_all.ipk
+Filename: tuxbox-common-dev_2+git1218+649c1d10+649c1d179b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10138,15 +10138,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1217+cb463680+cb46368ace-3
+Version: 2+git1218+649c1d10+649c1d179b-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d42b918059c86953219e4edebf30ee37
-SHA256sum: 683cc7fc3981ae880dbf5e2f5ed32ceb806e1858aed571405ed309fce9ce9198
-Size: 71152
-Filename: tuxbox-common_2+git1217+cb463680+cb46368ace-3_all.ipk
+MD5Sum: 5f53951479af3e9a3a9e83bbcc4516c7
+SHA256sum: b7b1640048b2f054dbad6e982bf132a9b04fed7602dfac368bb7832b22ffa0a5
+Size: 71176
+Filename: tuxbox-common_2+git1218+649c1d10+649c1d179b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
