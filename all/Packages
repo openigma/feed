@@ -949,14 +949,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: 4.2+git217+78560d00+78560d05ae-r0
+Version: 4.3+git219+27020530+2702053b9e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b83687871044aa7f15f0f2e46cf3e9a0
-SHA256sum: e364b50e4c7a1715db01c8dded7bd8bda0d8f5fe52a31c5cf9cf13bd7ef2ad0a
+MD5Sum: b53fe23f2a18f6bda904eeea011fb957
+SHA256sum: d9e8f34b5146cccc5d40745661f520513a2f852b70203ef76c4b78370eea0701
 Size: 642
-Filename: enigma2-plugin-extensions-footonsat-dbg_4.2+git217+78560d00+78560d05ae-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_4.3+git219+27020530+2702053b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -964,15 +964,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: 4.2+git217+78560d00+78560d05ae-r0
-Recommends: alsa-utils-aplay-dev, enigma2-plugin-extensions-footonsat (= 4.2+git217+78560d00+78560d05ae-r0), python3-beautifulsoup4-dev, python3-difflib-dev, python3-pillow-dev, python3-requests-dev, python3-six-dev, python3-sqlite3-dev, python3-threading-dev
+Version: 4.3+git219+27020530+2702053b9e-r0
+Recommends: alsa-utils-aplay-dev, enigma2-plugin-extensions-footonsat (= 4.3+git219+27020530+2702053b9e-r0), python3-beautifulsoup4-dev, python3-difflib-dev, python3-pillow-dev, python3-requests-dev, python3-six-dev, python3-sqlite3-dev, python3-threading-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 991c650fdcd84d0563b02cefa1981f8c
-SHA256sum: e2874773594d3eedcbb68cf4fdda826dfa01fce423f19b64b3a9b6743336b036
+MD5Sum: 594761d3b87e955f2bfe41855b9528a9
+SHA256sum: 7d527942f25df7eb2fb6f9f3c665e71c0b079411c1cafe65b9030d9367674122
 Size: 752
-Filename: enigma2-plugin-extensions-footonsat-dev_4.2+git217+78560d00+78560d05ae-r0_all.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_4.3+git219+27020530+2702053b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -980,14 +980,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-src
-Version: 4.2+git217+78560d00+78560d05ae-r0
+Version: 4.3+git219+27020530+2702053b9e-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d569549d2fb1f2314ee59f836e196fb
-SHA256sum: bc1df1b8424e1030ae28fca30aa432b6ce44aee923fba79154a94cded6a5dac5
-Size: 63850
-Filename: enigma2-plugin-extensions-footonsat-src_4.2+git217+78560d00+78560d05ae-r0_all.ipk
+MD5Sum: c35b474169762f8b75bd7effc7edaa4d
+SHA256sum: e5330dd2e8e51531709517f25614cc168c93bd3f756186d3e6bfec0135221843
+Size: 63810
+Filename: enigma2-plugin-extensions-footonsat-src_4.3+git219+27020530+2702053b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed - Source files
 OE: enigma2-plugin-extensions-footonsat
@@ -995,15 +995,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: 4.2+git217+78560d00+78560d05ae-r0
+Version: 4.3+git219+27020530+2702053b9e-r0
 Depends: alsa-utils-aplay, python3-beautifulsoup4, python3-difflib, python3-pillow, python3-requests, python3-six, python3-sqlite3, python3-threading
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3bbec14192b6b4881353d22ad865dd2
-SHA256sum: a58be97dca884117553720a88b7ebad7a318f9147179f4337a4f92dc31324a7f
-Size: 35020574
-Filename: enigma2-plugin-extensions-footonsat_4.2+git217+78560d00+78560d05ae-r0_all.ipk
+MD5Sum: 2fe88229c2265294f489d17713ae146a
+SHA256sum: 1d3c5c206bca14b6d18fd488f60b0bcb0cd186254520931f2814f3043a766896
+Size: 35020736
+Filename: enigma2-plugin-extensions-footonsat_4.3+git219+27020530+2702053b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat Plugin Raed
 OE: enigma2-plugin-extensions-footonsat
@@ -1869,10 +1869,10 @@ Version: 2.3.3+git48+3ea35a90+3ea35a90e8-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 29eb3587d63498a93fb51dd5d0c41703
-SHA256sum: a92b6bc1142e46c9d1ab0d2b8da0ce4dff66ef80f678240205cadf9186d5e5a4
+MD5Sum: f390c7b48a6e8e0ba354e1e6e0a1be1c
+SHA256sum: 8c00d9a8a4918ec51f83c2416b3baad479a9d01e66bfeb04c8b33877b44d71d8
 Size: 688
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.3.1+git48+3ea35a90+3ea35a90e8-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dbg_2.3.3+git48+3ea35a90+3ea35a90e8-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Debugging files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1882,14 +1882,14 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-simple-zoom-panel-dev
 Version: 2.3.3+git48+3ea35a90+3ea35a90e8-r0
-Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.3.1+git48+3ea35a90+3ea35a90e8-r0), python3-requests-dev
+Recommends: enigma2-plugin-extensions-simple-zoom-panel (= 2.3.3+git48+3ea35a90+3ea35a90e8-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: b126dcfadc55e6c2396842c05013a8c5
-SHA256sum: cd4d0aeb43499da3c06479cb15bee461fdf3f6de2ca6c12451a1ebe14229c262
+MD5Sum: 738cf91dfd2fedb53e27b97b71ab4f79
+SHA256sum: 306971e1382c64cb8d791f3343d1237d82952b3c38a1b0933b241aa9e147c9f3
 Size: 738
-Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.3.1+git48+3ea35a90+3ea35a90e8-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-dev_2.3.3+git48+3ea35a90+3ea35a90e8-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Development files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1902,10 +1902,10 @@ Version: 2.3.3+git48+3ea35a90+3ea35a90e8-r0
 Section: devel
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: acf11e082fbf5f57cee00fc84b71ea62
-SHA256sum: 06fbc22391e16d8826b9d6973108c795a46366f04932c1fe763825fab4fe93c4
+MD5Sum: 84ddb3228fad06f45bde2936ef7c74de
+SHA256sum: fc95d8e582021fda0e1a439d4e1b09e2d49eab2adf3fe1087e9efbb5a906a4b3
 Size: 16722
-Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.3.1+git48+3ea35a90+3ea35a90e8-r0_all.ipk
+Filename: enigma2-plugin-extensions-simple-zoom-panel-src_2.3.3+git48+3ea35a90+3ea35a90e8-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2 - Source files
 OE: enigma2-plugin-extensions-simple-zoom-panel
@@ -1919,10 +1919,10 @@ Depends: python3-requests
 Section: multimedia
 Architecture: all
 Maintainer: E2W!zard & HIUMAN
-MD5Sum: 9f13c3630b0dd0aaae8f9c2fe24f1690
-SHA256sum: 1ed1ce307d479f1183b7263e041eb41bf3e4d8f89b8ef8415264c2c5a8014b46
-Size: 205430
-Filename: enigma2-plugin-extensions-simple-zoom-panel_2.3.1+git48+3ea35a90+3ea35a90e8-r0_all.ipk
+MD5Sum: 3b1214d1b358f9738add10ffb0b470a0
+SHA256sum: d0711c9802b93bc244cdef5e16e8b61986f9b28d14b73361960c1c1e3f42825a
+Size: 205428
+Filename: enigma2-plugin-extensions-simple-zoom-panel_2.3.3+git48+3ea35a90+3ea35a90e8-r0_all.ipk
 Source: enigma2-plugin-extensions-simple-zoom-panel.bb
 Description: Symple Zoom Panel on enigma2
 OE: enigma2-plugin-extensions-simple-zoom-panel
