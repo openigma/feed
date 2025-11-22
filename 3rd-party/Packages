@@ -1,0 +1,2027 @@
+Package: enigma2-oe-alliance-plugins
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: Additional plugins for Enigma2
+ Additional plugins for Enigma2.
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://github.com/
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-oe-alliance-plugins_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 536
+MD5Sum: 0cb7fbbc9180f6357c7ed27570e41582
+
+Package: enigma2-plugin-display-skins-pack
+Version: 2.0
+Description: Front Display Skin Package (18 Front Display Skins)
+Section: base
+Priority: optional
+Maintainer: me
+License: Proprietary
+Architecture: dm920
+OE: enigma2-display-skins
+Source: enigma2-display-skins.bb
+Filename: enigma2-plugin-display-skins-pack_2.0_dm920.ipk
+Size: 652022
+MD5Sum: 62091397cffeb65b02b4fdd823d09bd1
+SHA256sum: 8eeee688da7019698368217df1934577daf96b71d6715fc7a8410fbe44d06e4f
+
+Package: enigma2-plugin-extensions-abertis
+Version: 1.0
+Description: Abertis DTT Streamrelay Hispasat 30°W Bouquet + script + astra-sm
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions
+Source: enigma2-plugin-extensions-abertis.bb
+Depends: libaio1, astra-sm
+Filename: enigma2-plugin-extensions-abertis_1.0_cortexa15hf-neon-vfpv4.ipk
+Size: 4410
+MD5Sum: 4d8876122eeb2b09d81982119c51e0ef
+SHA256sum: 47b3ca68be296fab4f6b897289b0e11f29b26e22a63e1694d83b871255ab5375
+
+Package: enigma2-plugin-extensions-acherone
+Version: 1.2
+Section: enigma2
+Priority: optional
+Architecture: all
+Maintainer: Lululla
+Description: Script Executor
+Source: enigma2-plugin-extensions-acherone.bb
+Homepage: https://github.com/
+OE: enigma2-plugin-extensions
+License: Proprietary
+Filename: enigma2-plugin-extensions-acherone_1.2_all.ipk
+Size: 11386
+MD5Sum: 14941b49f6c0bc840c0f82e85c5951e5
+SHA256sum: 641ee9dfbdba4f4a65e49c455b250724c17ec26c87a590ff98559d57919f7d96
+
+Package: enigma2-plugin-extensions-ajpanel
+Version: v10.8.5
+Section: base
+Architecture: all
+Maintainer: AMAJamry
+MD5Sum: 668675149bd7cffefc2cecbd11e586b2
+SHA256sum: a04906e554b363ad4cb53341bc548d3bfcccf94531dd5a596f6bb738ee993a5f
+Size: 541618
+Filename: enigma2-plugin-extensions-ajpanel_v10.8.5_all.ipk
+Depends: python3, python3-requests, python3-imaging, python3-pillow
+Recommends: xz, zip, 7zip, unrar, bzip2, ffmpeg
+Source: enigma2-plugin-extensions-ajpanel.bb
+Description: Panel Tools 4 enigma2
+OE: enigma2-plug541618in-extensions
+Homepage: https://github.com/AMAJamry/AJPanel
+License: none
+Priority: optional
+
+Package: enigma2-plugin-extensions-archivczsk
+Version: 3.4.9-20251021
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: archivczsk
+Description: Enigma2 plugin for playing cz/sk video archives
+Source: enigma2-plugin-extensions-archivczsk.bb
+Homepage: https://github.com/archivczsk/archivczsk
+OE: enigma2-plugin-extensions
+License: Proprietary
+Filename: archivczsk_3.4.9-20251021.ipk
+Depends: rtmpdump, ffmpeg, python3-pickle, python3-html, python3-threading, python3-json, python3-compression, python3-requests, python3-codecs, python3-email, python3-pycryptodome, python3-beautifulsoup4
+Size: 358096
+MD5Sum: e10bf9b2cb20b27c0af79c61dc6fe395
+SHA256sum: e7eea439ad3100d60f5a4822970a8d7c7863fb10088120cf4d1a1838ea15b26f
+
+Package: enigma2-plugin-extensions-audiorestart
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-audiorestart
+ Restart Audio after restart / standby
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-audiorestart_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 17296
+MD5Sum: 4f18b99de01ddd7cd8d448c74be58423
+
+Package: enigma2-plugin-extensions-auto-dcw-key-add
+Version: 1.0.8
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Youchie
+Description: ADD Manual BISS Key And Add Auto DCW Key Plugin for Enigma2
+Source: enigma2-plugin-extensions-auto-dcw-key-add.bb
+HomePage: https://github.com/smcam/Auto-DCW-Key-ADD
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-auto-dcw-key-add_v1.0.8_all.ipk
+Size: 88078
+MD5Sum: bfb5ac8ebf641fc441401f2d69be5941
+SHA256sum: 6c387b04a708fdddbf4d2570e107ba326fd02096d5489980ee24f3c05aa00eff
+
+Package: enigma2-plugin-extensions-azmanpanel
+Version: 1.5.5
+Description: Download IPTV bouquets, EPG sources, Picons and E2 Kodi addons
+Architecture: all
+Section: extensions
+Priority: optional
+Maintainer: azman
+License: GPL-2.0-or-later
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-azmanpanel_1.5.5_all.ipk
+Size: 371402
+MD5Sum: b598f44aaea0d04114abe8eac8232fa5
+SHA256sum: 7f95a2753296d1db9372baebb8cd4979abbabab4d59e426f9587a206ae6564f8
+
+Package: enigma2-plugin-extensions-birthdayreminder
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-birthdayreminder
+ Birthday Reminder: Reminds you of birthdays
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-birthdayreminder_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 40156
+MD5Sum: 9d9a563dfd671bd63219e0decccc300d
+
+Package: enigma2-plugin-extensions-chefkoch
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-chefkoch
+ extensions-chefkoch
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-chefkoch_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 108992
+MD5Sum: 60aaae574f0409e74bfbb8598f7d999d
+
+Package: enigma2-plugin-extensions-clearmem
+Version: 1.11
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Shamann-moulikpeta-lululla
+Description: Clear Box Memory
+Source: enigma2-plugin-extensions-clearmem.bb
+Homepage: https://github.com/
+OE: enigma2-plugin-extensions
+License: Free
+Filename: enigma2-plugin-extensions-clearmem_1.11_all.ipk
+Size: 11096
+MD5Sum: 1b030329e6bd77d79300c04afea766f4
+
+Package: enigma2-plugin-extensions-clevertanken
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-clevertanken
+ extensions-clevertanken
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-clevertanken_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 46932
+MD5Sum: eaf0038df64da6974b239344c8774228
+
+Package: enigma2-plugin-extensions-cooltvguide
+Version: Coolman_V8.1
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Coolman <cooltvguide@gmail.com>
+Description: Cool TV Guide 3D EPG with switchable 6-24 TV-Lines and changeable Buttons with Setup
+Source: enigma2-plugin-extensions-cooltvguide.bb
+Homepage: *
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-cooltvguide_Coolman_V8.1_all.ipk
+Size: 2327528
+MD5Sum: 7b330fa2d2bed7cb1a465cb711c2b048
+SHA256sum: 78d26168e784cce2af97c5f74a75db7c75baef5d8920f31d2456277fe86474a7
+
+Package: enigma2-plugin-extensions-curlytx
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-curlytx
+ Fetch and display remote text files via HTTP
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: python3-twisted-web
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-curlytx_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 22022
+MD5Sum: d934fa735c7325223c042ce1ae284ec4
+
+Package: enigma2-plugin-extensions-e2m3u2bouquet
+Version: 2.0.12
+Description: E2m3u Bouquet Plugin
+Section: extra
+Priority: optional
+Maintainer: Suls, Pepsik
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions
+Homepage: https://www.suls.co.uk/
+Depends: python3-image, python3-pillow, python3-multiprocessing
+Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_2.0.12_all.ipk
+Size: 2486494
+MD5Sum: 259e5746e2e38ad4c10d0c2a0974817a
+SHA256sum: 4f37de44324fc4f00d6f41a3c8c86802532411da4619d7fb67b58027459c0922
+
+Package: enigma2-plugin-extensions-emission
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-emission
+ basic frontend to the transmission bittorrent client
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: python3-transmission-rpc, transmission, transmission-client
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-emission_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 24816
+MD5Sum: 2ed1ac01ae225faca85cdef43e1bd688
+
+Package: enigma2-plugin-extensions-epgtranslator
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-epgtranslator
+ extensions-epgtranslator
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-epgtranslator_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 100470
+MD5Sum: 083da9e667d4605d6f041912f63301dd
+
+Package: enigma2-plugin-extensions-esame
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-esame
+ eSame game for enigma2
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-esame_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 20588
+MD5Sum: c7f65fb2242d1866a3c7714bdd98efa5
+
+Package: enigma2-plugin-extensions-estalkerwebcontrol
+Version: 1.0
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mnasr
+Description: Add portals and macs through web interface
+Source: enigma2-plugin-extensions-estalkerwebcontrol.bb
+Depends: python3-twisted
+OE: enigma2-plugin-extensions
+License: GPLv2+
+Filename: enigma2-plugin-extensions-estalkerwebcontrol_1.0_all.ipk
+Size: 17404
+MD5Sum: 1d9a5ba976364d1ffa8386fc762baa12
+SHA256sum: c736e658624ba68a9c8539def3d2a30d6a1c26566bedab542144e754bb3606b4
+
+Package: enigma2-plugin-extensions-fancontrol2
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: Temperature dependent fan control
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: hdparm, smartmontools
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-fancontrol2_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 135666
+MD5Sum: a4d2edeb13322171c18848811d2701b3
+SHA256sum: 98edf8bbc2161c676b4e1916b39a06f2b04e55d051bcf180b4d8312a1dd96388
+
+Package: enigma2-plugin-extensions-freeserver
+Version: 8.3.8.r1
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: mino60
+Description: Free Server Online Generator Ncam OScam adddon
+Depends: coreutils, coreutils-truefalse, curl, python3-pillow, python3-requests, wget
+Homepage: www.tunisia-sat.com
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-freeserver_8.3.8.r1_all.ipk
+Size: 2090678
+MD5Sum: 8f8f27d1beddfd9535baa342940b76af
+
+Package: enigma2-plugin-extensions-hdfradio
+Version: 2.22.7
+Description: Webradio Plugin
+Section: base
+Priority: required
+Maintainer: koivo & oerlgrey
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-hdfradio
+Depends: gstplayer, libc6 (>= 2.42), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
+Source: enigma2-plugin-extensions-hdfradio.bb
+Filename: enigma2-plugin-extensions-hdfradio_2.22.7_py3_3.13_cortexa15hf-neon-vfpv4.ipk
+Size: 4010424
+MD5Sum: d482fee8228a71044c779c37f97e94ce
+SHA256sum: c424a57f8789e4378d4b5141928dc431c046c252f49f346c000d7b05c9850283
+
+Package: enigma2-plugin-extensions-internet-speedtest
+Version: 1.8
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: madhouse
+MD5Sum: de14ef828f74028940353128c38eadb0
+SHA256sum: ad6627e0c649c157c934ccd19f6c89c137fa72fd4bf52e6ca36570b11e90a828
+Size: 717898
+Filename: enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk
+Source: enigma2-plugin-extensions-internet-speedtest.bb
+Description: Internet speed test for enigma2
+OE: enigma2-plugin-extensions
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ipaudiopro
+Version: 1.5
+Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the
+ background while watching something else
+Section: base
+Priority: optional
+Maintainer: zKhadiri
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions
+Homepage: https://github.com/zKhadiri/IPAudioPro
+Depends: alsa-plugins, enigma2, libasound2, libavcodec61, libavformat61, libc6 (>= 2.42), libgcc1 (>= 15.2.0), libpython3.13-1.0, libstdc++6, python3-cryptography
+Source: enigma2-plugin-extensions-ipaudiopro.bb
+Filename: enigma2-plugin-extensions-ipaudiopro_1.5_cortexa15hf-neon-vfpv4_py3.13_ff7.1.ipk
+Size: 1151628
+MD5Sum: 12818433777728bd5038dd2d6b345f85
+SHA256sum: e75b1110f04057fa366a8eb56dd13f37ffd41e1a8d99707dadf03daebc40558e
+
+Package: enigma2-plugin-extensions-iptvarchive
+Version: 2.0.91
+Section: base
+Architecture: all
+Maintainer: pepsik
+MD5Sum: 2305e1753639e56219d755412eb01d84
+SHA256sum: 9871c38efdb73a2a77e3862cf6cadf846b0211557fa8d76d76efa1003a2b4eea
+Size: 1168476
+Filename: enigma2-plugin-extensions-iptvarchive_2.0.91_all.ipk
+Depends: python3, python3-pillow, python3-requests
+Source: enigma2-plugin-extensions-iptvarchive.bb
+Description: IPTV archive
+OE: enigma2-plugin-extensions
+HomePage: https://github.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-jedimakerxtream
+Version: 6.38.20241030
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: ffdf3e874a7c7bfd0bd298419bf4f9c3
+SHA256sum: aa16241a0e03022f84e542d37841a963798024efa20d1dc9b2563c1a2bad52bd
+Size: 3693448
+Filename: enigma2-plugin-extensions-jedimakerxtream_6.38.20241030_all.ipk
+Depends: python3, python3-pillow, python3-requests
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Description: Jedi Maker Xtream - Enigma2 IPTV Bouquet Creator
+OE: enigma2-plugin-extensions
+HomePage: https://github.com/kiddac
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
+Version: 1.05.20251116
+Section: misc
+Architecture: all
+Maintainer: kiddac
+Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
+Source: https://github.com/kiddac
+MD5Sum: 1cda523843d84cd60384a89f926423c6
+SHA256sum: 697f0c269dadbedfa4c1b1433e6e1a2c3d4ce1e23f8dba3bf6d88767d4bd5374
+Size: 1246486
+Filename: enigma2-plugin-extensions-kiddac-skin-e2sentials_1.05.20251116_all.ipk
+OE: enigma2-plugin-extensions
+HomePage: https://github.com/kiddac
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-lottoextended
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: extensions-lottoextended
+ extensions-lottoextended
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://www.github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-extensions-lottoextended_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 48644
+MD5Sum: 38fd7d0a76d8fa956533e96db7bc0105
+
+Package: enigma2-plugin-extensions-mediastream
+Version: 20250507-python3.13-r0
+Description: MediaStream-MediaPortal-IPTV Stream for Free
+Section: base
+Priority: optional
+Maintainer: MS
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-mediastream
+Homepage: https://github.com/MP4ALL
+Depends: nodejs, libc6 (>= 2.42), python3-compression, python3-core, python3-db, python3-email, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
+Recommends: gstreamer1.0-plugins-base-opus, python3-pycryptodome
+Provides: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Replaces: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Conflicts: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Source: enigma2-plugin-extensions-mediastream.bb
+Filename: enigma2-plugin-extensions-mediastream_20250507-python3.13-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 13811604
+MD5Sum: c3ec0c108ca2b9b7c012f228157a8e0f
+SHA256sum: ea2df401cef681fbd75fed6ca960fe5e6eaaa603e91452bdd918d61ceeff9d06
+
+Package: enigma2-plugin-extensions-merlinmusicplayer
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-merlinmusicplayer
+ Merlin Music Player and iDream (music management)
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-merlinmusicplayer_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 1023836
+MD5Sum: 7f4bb81fa2275afdd57dad8d1c8d5bb8
+
+Package: enigma2-plugin-extensions-mosaic
+Version: 2.1
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: mod @lululla
+Description: Take mosaic screen of enigma2 box screen
+Source: enigma2-plugin-extensions-mosaic.bb
+Homepage: https://github.com/Belfagor2005/mosaic
+Filename: enigma2-plugin-extensions-mosaic_2.1_all.ipk
+Size: 40584
+MD5Sum: 046a25262d7cf13e0538cb690f59afdc
+SHA256sum: 0606e963adbe489f3fdeb133b7ba3d2db28542ee3ce7b457d4a06c9783fa97d1
+
+Package: enigma2-plugin-extensions-moviesmanager
+Version: 4.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: ostende
+Description: Movies & Series Manager Plugin
+Depends: python3-beautifulsoup4, python3-difflib, python3-imaging, python3-pillow
+Source: enigma2-plugin-extensions-moviesmanager.bb
+Filename: enigma2-plugin-extensions-moviesmanager_4.0_all.ipk
+Size: 523366
+MD5Sum: 7fb627fe5650da0b99d6a855a810c831
+SHA256sum: f946143c30bf8f841679acfa11165744a9de8f72aaa16e5e1d2a66f04b57377f
+
+Package: enigma2-plugin-extensions-ngsetting-fhd
+Version: 2.9
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: m43c0, ftp21, mmark, lululla
+Description: NGsetting - setting di Vhannibal 
+Source: <m43c0@live.it>
+Homepage: http://www.dream-elite.net
+OE: enigma2-plugin-extensions
+Filename: enigma2-plugin-extensions-ngsetting-fhd_2.9_all.ipk
+Size: 502900
+MD5Sum: ec00c684c0325648d819cc1a563d8493
+SHA256sum: 402be0078f50a8473021a9065584b406e4da96dfe12b706dcfab96903ee25497
+
+Package: enigma2-plugin-extensions-oscambutler
+Version: 2.0
+Description: Create basic configuration files for OScam
+Section: base
+Priority: optional
+Maintainer: oscambutler
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions
+Depends: python3-core
+Source: enigma2-plugin-extensions-oscambutler.bb
+Filename: enigma2-plugin-extensions-oscambutler_2.0_all.ipk
+Size: 157686
+MD5Sum: f7acda5580857cf5b33acd4fc3ad2c22
+SHA256sum: 58a2e00b726128f32c6552c9723e5effb42dc4f2a1d14d2241f8fba57cb0558b
+
+Package: enigma2-plugin-extensions-oscamncamstatus
+Version: 6.4
+Description: OscamNcamStatus shows status of your OScam and Ncam server
+Section: base
+Priority: optional
+Maintainer: oscamncamstatus
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-extensions
+Depends: python3-core
+Source: enigma2-plugin-extensions-oscamncamstatus.bb
+Filename: enigma2-plugin-extensions-oscamncamstatus_6.4_all.ipk
+Size: 165838
+MD5Sum: a1aad7dec3c20078079d5df56a747eec
+SHA256sum: 60597476918465750f88ee153683e0d4f7e3bd684879a36a522023a3b68d62ce
+
+Package: enigma2-plugin-extensions-pliweather
+Version: 2.0
+Description: Weather Forecast Plugin (OAWeather-PLIWeather)
+Section: extra
+Priority: optional
+Maintainer: jbleyel, me
+License: GPL-3.0-only
+Architecture: all
+OE: enigma2-plugin-extensions
+Source: enigma2-plugin-extensions-pliweather.bb
+Filename: enigma2-plugin-extensions-pliweather_2.0_all.ipk
+Size: 1412088
+MD5Sum: f1149f67ed8ec0354a27c58c882308ca
+SHA256sum: ee2c821a49d70068db671b1d408936f7f08425b3f9f48ae831d419d960d83487
+
+Package: enigma2-plugin-extensions-purevpn
+Version: 1.1.5-py3
+Description: Manage PureVPN connections
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Source: https://www.purevpn.com
+Homepage: https://www.purevpn.com
+Architecture: all
+License: free
+Depends: openvpn, openresolv, bash, python3-json, python3-requests
+Filename: enigma2-plugin-extensions-purevpn_1.1.5-py3_all.ipk
+OE: enigma2-plugin-extensions
+Size: 358510
+MD5Sum: 8d513ff1979d2317c940524d2e009ffa
+
+Package: enigma2-plugin-extensions-quarterpounder
+Version: 6.2.0v
+Description: Attempts to detect a stuck stream and restart it
+Section: extra
+Priority: optional
+Maintainer: @oottppxx
+Architecture: all
+OE: enigma2-plugin-extensions-quarterpounder
+Depends:
+Recommends:
+Homepage: https://github.com/oottppxx/enigma2/
+Filename: enigma2-plugin-extensions-quarterpounder_6.2.0v_all.ipk
+Size: 11998
+MD5Sum: dd0fd1300a6b11d79ea715de37b4d03f
+SHA256sum: 6ad98b01ed00fb9ed5c7ba6387845c0938e154015e1feaf162370fcafaf2b934
+
+Package: enigma2-plugin-extensions-rakutentv
+Version: 20251115
+Section: extensions
+Priority: optional
+Architecture: all
+Maintainer: Billy2011
+Description: Rakuten TV - Free ad-supported streaming TV
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Source: enigma2-plugin-extensions-rakutentv.bb
+Homepage: https://github.com/Billy2011
+Filename: enigma2-plugin-extensions-rakutentv_20251115_all.ipk
+OE: enigma2-plugin-extensions
+Size: 643942
+MD5Sum: c1ea2b7f218f0bd85ddd3ac71af8d1a7
+SHA256sum: 5365d8fcefd1e726589c5fea578d52073ea6172a832a5286ec405e2df2e0271c
+
+Package: enigma2-plugin-extensions-samsungtvplus
+Version: 20250815
+Section: extensions
+Architecture: all
+Maintainer: Billy2011
+Description: Samsung TV Plus - Stream free TV & movies 
+Depends: enigma2-plugin-extensions-epgimport
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Source: enigma2-plugin-extensions-samsungtvplus.bb
+Homepage: https://github.com/Billy2011
+Filename: enigma2-plugin-extensions-samsungtvplus_20250815_all.ipk
+OE: enigma2-plugin-extensions
+Size: 174972
+MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
+SHA256sum: 84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0
+Priority: optional
+
+Package: enigma2-plugin-extensions-schiffe
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-schiffe
+ Schiffe Battleship Game FHD Modded by Lululla
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-schiffe_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 170144
+MD5Sum: a7a1c19058ab9a6a02e9a7ab59a24992
+
+Package: enigma2-plugin-extensions-sherlockmod
+Version: 1.4.2
+Description: Sherlock for Dreambox-Enigma2
+Section: base
+Maintainer: Evg77734
+Architecture: all
+Depends: enigma2-plugin-extensions-bitrate
+Filename: enigma2-plugin-extensions-sherlockmod_1.4.2_all.ipk
+Source: enigma2-plugin-extensions-sherlockmod.bb
+OE: enigma2-plugin-extensions
+Size: 2588664
+MD5Sum: 9afd74e96de7bace6491c2809f3eab6d
+SHA256sum: 2e7a599539d417ea1e5e448c92b0fa8d5c5ab64ecaec9fa7e571ea62ebc622f0
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-simple-zoom-panel
+Version: 2.3.3+git48+3ea35a90+3ea35a90e8-r0
+Depends: python3-requests
+Section: multimedia
+Architecture: all
+Maintainer: E2W!zard & HIUMAN
+MD5Sum: 3b1214d1b358f9738add10ffb0b470a0
+SHA256sum: d0711c9802b93bc244cdef5e16e8b61986f9b28d14b73361960c1c1e3f42825a
+Size: 205428
+Filename: enigma2-plugin-extensions-simple-zoom-panel_2.3.3+git48+3ea35a90+3ea35a90e8-r0_all.ipk
+Source: enigma2-plugin-extensions-simple-zoom-panel.bb
+Description: Symple Zoom Panel on enigma2
+OE: enigma2-plugin-extensions-simple-zoom-panel
+HomePage: https://github.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamlink-bouquets
+Version: 8.0
+Description: Streamlink Bouquets (Streams from various websites)
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: all
+OE: enigma2-plugin-extensions
+Homepage: https://github.com/streamlink/streamlink
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, streamlink, streamlinksrv
+Source: enigma2-plugin-extensions-streamlink-bouquets.bb
+Filename: enigma2-plugin-extensions-streamlink-bouquets_8.0_cortexa15hf-neon-vfpv4.ipk
+Size: 44210
+MD5Sum: 113280999edc2f30f0ca5a54db0b47d9
+SHA256sum: 29733d66c0b69ffa8e111559d0e9b4441ea7ce7772c811c5bfa6541441a2944c
+
+Package: enigma2-plugin-extensions-streamlinkwrapper
+Version: 3.13+git34590+274eaf80+274eaf829e-r1
+Description: Enables support for streamlink url scheme in bouquet list
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2
+Homepage: https://github.com/
+Depends: enigma2, streamlink
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-streamlinkwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2186
+MD5Sum: aa36069d9dd102e8869c72bedb64bc29
+
+Package: enigma2-plugin-extensions-sudoku
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-sudoku
+ Sudoku Game FHD modded by Lululla
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-sudoku_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 315980
+MD5Sum: 0cd42ef2484a0aa06021902852f98f26
+
+Package: enigma2-plugin-extensions-suptv
+Version: 4.4
+Description: SupTV IPTV
+Section: extra
+Priority: optional
+Maintainer: Goochi mod par Meknes
+License: free
+Architecture:all
+Filename: enigma2-plugin-extensions-suptv_4.4_all.ipk
+OE: enigma2-plugin-extensions
+Size: 205910
+MD5Sum: add3301fa7ef2b2a67dbaf5fab10ce7d
+SHA256sum: d01ad5ad3e1e8abedac7bae32a6f4a4b1151ff5c93f3918a3e4ddbf26fee538f
+
+Package: enigma2-plugin-extensions-surfsharkvpn
+Version: 1.0.9-py3
+Description: Manage SurfSharkVPN connections
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Source: https://surfshark.com/
+Homepage: https://surfshark.com/
+Architecture: all
+License: free
+Depends: openvpn, openresolv, bash, python3-json, python3-requests
+Filename: enigma2-plugin-extensions-surfsharkvpn_1.0.9-py3_all.ipk
+OE: enigma2-plugin-extensions
+Size: 927526
+MD5Sum: fda0075fe5f6ada0bc7c2fc43df1b725
+
+Package: enigma2-plugin-extensions-tetris
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-tetris
+ Tetris-Clone HD/FHD modded by Lululla
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-tetris_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 136640
+MD5Sum: 190686ccae10ddcb68852fe7d7455050
+
+Package: enigma2-plugin-extensions-transmission
+Version: 5.2
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: ostende
+Description: Transmission torrent client plugin
+Depends: python3-beautifulsoup4, python3-difflib, python3-imaging, python3-pillow, python3-transmission-rpc, transmission, transmission-client
+Recommends: enigma2-plugin-extensions-subssupport
+Source: enigma2-plugin-extensions-transmission.bb
+Filename: enigma2-plugin-extensions-transmission_5.2_all.ipk
+OE: enigma2-plugin-extensions
+Size: 7995370
+MD5Sum: 94cfdeea9ebc9a305d278e28063adc18
+SHA256sum: 39b61703ce032b3769f953998c1b96b8ed30ba86aa260a18aa0c3d5083a7a5c7
+
+Package: enigma2-plugin-extensions-turkvod
+Version: 16.00
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Berkenkey
+Description: TURKvod version 16
+Depends: libc6 (>= 2.42), python3-core, python3-pillow, python3-requests
+Source: enigma2-plugin-extensions-turkvod.bb
+Homepage: https://turkvod.com/forum/
+Filename: enigma2-plugin-extensions-turkvod_16.00_all.ipk
+OE: enigma2-plugin-extensions
+Size: 2011432
+MD5Sum: 54441c5b283a48ddd930410e233d9059
+SHA256sum: 3069c1d87c27c0ce72861d8d661bd54ed6a8ecb028e46dc37807d586b37556af
+
+Package: enigma2-plugin-extensions-vavoo
+Version: 1.20
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: lululla
+Description: Vavoo stream (old 1.20)
+Source: enigma2-plugin-extensions-vavoo.bb
+Homepage: https://github.com/Belfagor2005/vavoo
+Provides: enigma2-plugin-extensions-vavoo
+Replaces: enigma2-plugin-extensions-vavoo
+Conflicts: enigma2-plugin-extensions-vavoo
+OE: enigma2-plugin-extensions
+License: free
+Filename: enigma2-plugin-extensions-vavoo_1.20_all.ipk
+Size: 5270696
+MD5Sum: 2f9211f1e8e9bade8fd7c42d82e2fa10
+SHA256sum: 03508d93318866e0034e6a118143a2f5c2825cfe49506c732474c15a4ccc8efd
+
+Package: enigma2-plugin-extensions-videoplayersimple
+Version: 2.0+git1+52f4e2c0+52f4e2c177-r0
+Depends: python3-codecs, python3-compression, python3-difflib, python3-image, python3-xmlrpc
+Section: multimedia
+Architecture: all
+Maintainer: mrvica
+MD5Sum: 42a7e1dd24cc797d42dec1ec09ae6675
+SHA256sum: b687023c0d81e69d461aadb7d2947aa263a583df39a78c03d8bb234bf70bbaad
+Size: 50484
+Filename: enigma2-plugin-extensions-videoplayersimple_2.0+git1+52f4e2c0+52f4e2c177-r0_all.ipk
+Source: enigma2-plugin-extensions-videoplayersimple.bb
+Description: VideoPlayerSimple - MediaPlayer for Enigma2
+OE: enigma2-plugin-extensions-videoplayersimple
+HomePage: https://forums.openpli.org/topic/82327-video-player-simple/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-vierg
+Version: 3.13+gitr7807+045af020+045af0203e-r8
+Description: extensions-vierg
+ Four wins game
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-plugins
+Homepage: https://www.github.com/
+Source: enigma2-plugins.bb
+Filename: enigma2-plugin-extensions-vierg_7.6.0+gitr7807+045af020+045af0203e-r8_dm920.ipk
+Size: 38688
+MD5Sum: 6c43582a9db53614930c79b1d611f10b
+
+Package: enigma2-plugin-extensions-vpnmanager
+Version: 1.1.7-py3
+Description: Manage OpenVPN connections
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Architecture: all
+License: free
+Homepage: https://www.boxpirates.to
+Depends: python3-future, python3-json, openvpn, bash, openresolv, python3-beautifulsoup4
+Source: https://www.boxpirates.to
+Filename: enigma2-plugin-extensions-vpnmanager_1.1.7-py3_all.ipk
+OE: enigma2-plugin-extensions
+Size: 491660
+MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
+
+Package: enigma2-plugin-extensions-wireguard-vpn
+Version: 15.9
+Section: enigma2
+Architecture: all
+Maintainer: madhouse
+MD5Sum: af3f217e59fce631393ab639371eeb54
+SHA256sum: 39a7b61ea6658d823fc97831107d74b27018cf7e462484284e54fb60a522d8ec
+Size: 2973760
+Filename: enigma2-plugin-extensions-wireguard-vpn_15.9_all.ipk
+Depends: kernel-module-wireguard, wireguard-module, wireguard-tools, wireguard-tools-bash-completion, openresolv, python3-requests, iptables, alsa-utils
+Source: enigma2-plugin-extensions-wireguard-vpn.bb
+Description: Wireguard Vpn for enigma2 boxes
+OE: enigma2-plugin-extensions
+Homepage: https://github.com/m4dhouse/Wireguard-Vpn
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 5.0
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Lululla <ekekaz@gmail.com>
+Description: plugin, for the free streaming.
+Source: enigma2-plugin-extensions-xcplugin-forever
+Homepage: https://github.com/
+OE: OE2.0
+Filename: enigma2-plugin-extensions-xcplugin-forever_5.0_all.ipk
+Size: 1722022
+MD5Sum: 7ce2b65a94b56635e8b6c1e36c631bd5
+SHA256sum: a81189561bdb693feaea006e6dcb74cacf1f7eb5ada18c1b84f1f46a32cf37b6
+
+Package: enigma2-plugin-extensions-xtraevent
+Version: 6.892
+Description: Poster, background, banner, info support for enigma2
+ xtraEvent plugin to show extra events for enigma2 skins.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only
+Architecture: all
+OE: enigma2-plugin-extensions-xtraevent
+Depends: python3-core, python3-image, python3-imaging, python3-pillow, python3-requests
+Source: enigma2-plugin-extensions-xtraevent.bb
+Filename: enigma2-plugin-extensions-xtraevent_6.892_all.ipk
+Size: 2760004
+MD5Sum: 66e9fdf5db824e8f75a1faf7e37e6297
+SHA256sum: 0ab8467bd811596adf1878e07e787b23b0b85246e13a2284fd7bb3283c259313
+
+Package: enigma2-plugin-extensions-ytdlpwrapper
+Version: 3.13+git34590+274eaf80+274eaf829e-r1
+Description: Enables support for YT-DLP url scheme in bouquet list.
+ extensions-ytdlpwrapper
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2
+Homepage: https://github.com/
+Depends: enigma2, python3-yt-dlp
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-ytdlpwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2318
+MD5Sum: cdb7e1706cae58b88b5b21477af504cd
+
+Package: enigma2-plugin-extensions-ytdlwrapper
+Version: 3.13+git34590+274eaf80+274eaf829e-r1
+Description: Enables support for Youtube-DL url scheme in bouquet list.
+ extensions-ytdlwrapper
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: dm920
+OE: enigma2
+Homepage: https://github.com/
+Depends: enigma2, python3-youtube-dl
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-ytdlwrapper_7.6.0+git34590+274eaf80+274eaf829e-r1_dm920.ipk
+Size: 2262
+MD5Sum: e0e22688f999e2df415b895a4bab4ecf
+
+Package: enigma2-plugin-skins-aeonfhd
+Version: 3.4
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: 88fc423020b7c312f2353b2624a70bf7
+SHA256sum: 24a3d7a968a1d234edcd0d8a7a8fd692bd55479a8c8ec1e0fda2110cfec82d04
+Size: 10411742
+Filename: enigma2-plugin-skins-aeonfhd_3.4_all.ipk
+Source: enigma2-plugin-skins-aeonfhd.bb
+Description: Skin Aeon-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-aglare-fhd-pli
+Version: 6.3-r1
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mnasr, me
+MD5Sum: b2280625e01f4ce1ab48723b0f1d23d2
+SHA256sum: 64e274692932ebd982f1162908a4e6d954f72be21f5ca904dc08175d0dae92aa
+Size: 10510052
+Filename: enigma2-plugin-skins-aglare-fhd-pli_6.3_all.ipk
+Description: Skin Aglare-FHD-PLi
+Source: enigma2-plugin-skins-aglare-fhd-pli.bb
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow
+Homepage: https://github.com/popking159/skins
+OE: enigma2-plugin-skins
+License: GPLv2+
+
+Package: enigma2-plugin-skins-cobaltfhd
+Version: OpenPLI-V3-16.11.2025
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: fhroma
+MD5Sum: 2bd84f9acf3de9477ba1ee3ff126ca30
+SHA256sum: f701f58acaf9a76520100dd3f51c46a828ee0bf3a1f7327ed9ae6f9f240e83b9
+Size: 58478278
+Filename: enigma2-plugin-skins-cobaltfhd_OpenPLI-V3-16.11.2025_all.ipk
+Source: enigma2-plugin-skins-cobaltfhd.bb
+Description: Skin Cobalt-FHD
+OE: enigma2-plugin-skins
+Homepage: unknown
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-creamline-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: 7cffb1e332c5d8fea2d58a2440f10e59
+SHA256sum: 8919db3cc491d8dcbe1305c005411aabe3402c89c198497081b4bc07e6debeca
+Size: 9461376
+Filename: enigma2-plugin-skins-creamline-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-creamline-fhd.bb
+Description: Skin CreamLine-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-fullhdglass17
+Version: 9.50-r1
+Section: skins
+Architecture: all
+Maintainer: Shamann, me
+MD5Sum: 1c93f691163b761cf27749cee93f4783
+SHA256sum: bebe96f169f51bc9f4b281852b5840d4879c09ff160caadb0d1920fb4d3a7712
+Size: 11294658
+Filename: enigma2-plugin-skins-fullhdglass17_9.50-r1_all.ipk
+Source: enigma2-plugin-skins-fullhdglass17.bb
+Description: Skin Full HD Glass 17
+OE: enigma2-plugin-skins
+Homepage: unknown
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd
+Version: 6.0.5
+Section: skins
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 57c45d89ba08cd94b1c1d66b9f3a7312
+SHA256sum: b2fa27430a65bfcca2169c795a68a57e1cdac7c0967c63221be65f342c953ca0
+Size: 12709636
+Filename: enigma2-plugin-skins-glamouraurafhd_6.0.5_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Skin Glamour-Aura-FHD for OpenPLi based images
+OE: enigma2-plugin-skins
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-gradient-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: 412690dc0ebfe91d1f21f25abfeb81c3
+SHA256sum: 73cae16563ebb570227ec496f43847426ae13f4ffbf8aa1c3d2672bb64761f75
+Size: 6364466
+Filename: enigma2-plugin-skins-gradient-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-gradient-fhd.bb
+Description: Skin Gradient-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-luka-fhd-pli
+Version: 1.2
+Section: skins
+Architecture: all
+Maintainer: mnasr, me
+MD5Sum: 9446b635d7a8e26247d0d6aa9725f523
+SHA256sum: e2cb52e7e742ea2f2029e26042a1e94c2f683e51ae8ef7d2ddf38ad71f43bedb
+Size: 15555418
+Filename: enigma2-plugin-skins-luka-fhd-pli_1.2_all.ipk
+Source: enigma2-plugin-skins-luka-fhd-pli.bb
+Description: Skin Luka-FHD-PLi
+OE: enigma2-plugin-skins
+Homepage: https://github.com/popking159/skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-madmax-impossible
+Version: 3.4
+Section: skins
+Architecture: all
+Maintainer: madhouse, me
+Description: Skin MadMax-Impossible-FHD
+Recommends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-madmax-impossible.bb
+Homepage: https://github.com/m4dhouse
+OE: enigma2-plugin-skins
+License: open
+Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
+Size: 6320924
+MD5Sum: 4871fa620a274e2c2b25c661141522f2
+SHA256sum: f5904c6e4db4b8df6358932662be63ebbb1f600568b66d4cc4464618fe12dc1a
+Priority: optional
+
+Package: enigma2-plugin-skins-maxy-fhd-pli
+Version: 1.0
+Section: skins
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 7bcba6101190392a35e54465532c45b9
+SHA256sum: 35b73843f56d13e229e05466c573f18d776507fe15a7886cf0e8b7b5d9fb02b5
+Size: 5794160
+Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
+Source: enigma2-plugin-skins-maxy-fhd-pli.bb
+Description: Skin Maxy-FHD-PLi
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-moderon-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: 25a58bb1f2369b722686e457a8564565
+SHA256sum: 8735040de3de130cdf21ed270fbab5992462fadaf47f0ac21201de73635fb359
+Size: 7721518
+Filename: enigma2-plugin-skins-moderon-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-moderon-fhd.bb
+Description: Skin Moderon-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-multibox-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: stein17, me
+MD5Sum: 21a74088b34756110c81853a6c13be16
+SHA256sum: 923ad71df4cd352eaf5628a41335c5afde0d396f3330ff47c70298938353a1ae
+Size: 24020212
+Filename: enigma2-plugin-skins-multibox-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-multibox-fhd.bb
+Description: Skin Multibox-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-nuitneon-fhd
+Version: 1.0-r2
+Section: skins
+Architecture: all
+Maintainer: digiteng, me
+MD5Sum: 505a93349beddd3cee6bb7f9c8f58e6d
+SHA256sum: 98a3bd7e15f4d4fdeab525bdc512697ef152c7417686d9b5b5c84a14184c6249
+Size: 3760162
+Filename: enigma2-plugin-skins-nuitneon-fhd_1.0_all.ipk
+Source: enigma2-plugin-skins-nuitneonfhd.bb
+Description: Skin Nuit-Neon-FHD
+Recommends: enigma2-plugin-extensions-oaweather
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-pdreamy-fhd
+Version: 1.0-r4
+Section: skins
+Architecture: all
+Maintainer: pdreamy
+MD5Sum: 38c0d76dfc986327bf4e943b985f1792
+SHA256sum: 74918218846f2f2950db34b969d7b78af9dcd40f1fc618681b131a6eac7c520b
+Size: 1291866
+Filename: enigma2-plugin-skins-pdreamy-fhd_1.0-r4_all.ipk
+Source: enigma2-plugin-skins-pdreamy-fhd.bb
+Description: Skin pDreamy-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-like-fhd
+Version: 1.0
+Description: Skin PLi.Like FHD
+Section: skins
+Priority: optional
+Maintainer: mrvica
+License: Proprietary
+Architecture: all
+OE: enigma2-plugin-skins
+Source: enigma2-plugin-skins-pli-like-fhd.bb
+Filename: enigma2-plugin-skins-pli-like-fhd_1.0_all.ipk
+Size: 399494
+MD5Sum: 8a30e759ba660e102ceff89bb2772e30
+SHA256sum: 2d04563cf46e7dce6b7fe9a4762fd8bdc46dd7a516d9c2eaf45d4c2a3a83d341
+
+Package: enigma2-plugin-skins-premium-fhd-blue
+Version: 2.7
+Section: skins
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 73ab22b9d990d069b866df309f38d630
+SHA256sum: 45a9c5d52f7acb789b37802ab7e20b81dc97bf4cce406f8f19540438fdc9254f
+Size: 11161352
+Filename: enigma2-plugin-skins-premium-fhd-blue_2.7_all.ipk
+Source: enigma2-plugin-skins-premium-fhd-blue.bb
+Description: Skin Premium-FHD-Blue
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-simple-ten-eighty-fhd
+Version: 1.0
+Section: skins
+Architecture: dm920
+Maintainer: open
+Source: enigma2-plugin-skins-simple-ten-eighty-fhd.bb
+Description: Skin Simple-Ten-Eighty FHD
+OE: enigma2-plugin-skins
+License: Proprietary
+Priority: optional
+Filename: enigma2-plugin-skins-simple-ten-eighty-fhd_1.0_dm920.ipk
+Size: 579626
+MD5Sum: 6d5363e48b0df24ef02423f33088c4a7
+SHA256sum: ac928d974682f6a445deb41b44530a310bcc065124d8c9e05aa580cfa62ab8b7
+
+Package: enigma2-plugin-skins-slyk-qk-1080-ovix
+Version: 2.0
+Description: Skin Slyk-Q-Xklass-FHD Mod
+Section: skins
+Priority: optional
+Maintainer: Kiddac
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-skins-slyk-qk-1080-ovix
+Homepage: https://github.com/
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Source: enigma2-plugin-skins-slyk-qk-1080-ovix.bb
+Filename: enigma2-plugin-skins-slyk-qk-1080-ovix_2.0_all.ipk
+Size: 12139554
+MD5Sum: a0307571a3aa6ff98420679d6ab31a35
+SHA256sum: 67b08ff638d3199a14a60eedd608088af76ffc460b914949ac88ad333a880fdc
+Priority: optional
+
+Package: enigma2-plugin-skins-slyk-toppicks
+Version: 7.6.20240529
+Section: skins
+Priority: optional
+Architecture: all
+Maintainer: kiddac
+Description: Slyk Top Picks
+Source: enigma2-plugin-skins-slyk-toppicks.bb
+OE: enigma2-plugin-skins
+Filename: enigma2-plugin-skins-slyk-toppicks_7.6.20240529_all.ipk
+Size: 646578
+MD5Sum: 835019ee4c25046c34c17e8ae7249adc
+SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
+Priority: optional
+
+Package: enigma2-plugin-skins-whiteshadow-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: ae7d3fcac5af88c8a6e096c4c2d2cd13
+SHA256sum: 5c5a8454fef052c12e8fe73a86f8fb362f5557412eb96c07edb6a5afefc9b09b
+Size: 8265044
+Filename: enigma2-plugin-skins-whiteshadow-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-whiteshadow-fhd.bb
+Description: Skin WhiteShadow-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-xdreamy
+Version: 6.5.0
+Section: base
+Architecture: all
+Maintainer: Mahmoud Hussein
+MD5Sum: 66cdcacfdadd0241ab5264f7301035dc
+SHA256sum: ad1a312745bb1d4bd0ed25a8125fbe66e6c4cb0a28d34ee86a485ac661154572
+Size: 18091752
+Filename: enigma2-plugin-skins-xdreamy_6.5.0_all.ipk
+Source: enigma2-plugin-skins-xdreamy.bb
+Depends: python3-image, python3-imaging, python3-pillow, python3-requests, python3-urllib3
+Description: Skin xDreamy FHD - New Vision Skin By Inspiron
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-zflatgyr-fhd
+Version: 2.0
+Section: skins
+Architecture: all
+Maintainer: sharp987, me
+MD5Sum: 1f5e689e78323684e02d8037450e18df
+SHA256sum: c0154a3711b602bb4bdef1e5cdfd6d5334d47355d26a892c61a43245e4abb6b0
+Size: 6888144
+Filename: enigma2-plugin-skins-zflatgyr-fhd_2.0_all.ipk
+Source: enigma2-plugin-skins-zflatgyr-fhd.bb
+Description: Skin ZFlatGYR-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-2.3.9
+Version: 2.3.9-r1
+Description: Softcam CCcam 2.3.9
+ An outdated binary only softcam
+Section: base
+Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-cccam-2.3.9
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libstdc++6 (>= 15.2.0), softcam-support
+Source: enigma2-plugin-softcams-cccam-2.3.9.bb
+Filename: enigma2-plugin-softcams-cccam-2.3.9_2.3.9-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 291388
+MD5Sum: cfde1bef7ce52a5332811c20539a39c2
+
+Package: enigma2-plugin-softcams-doscam-0.2.5
+Version: 0.2.5-r1
+Description: Softcam doscam 0.2.5
+ enigma2-plugin-softcams-doscam-0.2.5 version 0.2.5-r1.
+Section: base
+Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-doscam-0.2.5
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), softcam-support
+Source: enigma2-plugin-softcams-doscam-0.2.5.bb
+Filename: enigma2-plugin-softcams-doscam-0.2.5_0.2.5-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 413252
+MD5Sum: f499dd448bd6acebfce6d80edfc30f5b
+
+Package: enigma2-plugin-softcams-gbox-811k
+Version: 811k-r1
+Description: Softcam gbox 811k
+ enigma2-plugin-softcams-gbox-811k version 811k-r1.
+Section: base
+Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-gbox-811k
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
+Source: enigma2-plugin-softcams-gbox-811k.bb
+Filename: enigma2-plugin-softcams-gbox-811k_811k-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 329394
+MD5Sum: e629b8982b952f2303eaf0b8e554e4c9
+
+Package: enigma2-plugin-softcams-mgcamd-1.46
+Version: 1.46-r1
+Description: Softcam mgcamd 1.46
+ enigma2-plugin-softcams-mgcamd-1.46 version 1.46-r1.
+Section: base
+Priority: optional
+Maintainer: open
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-mgcamd-1.46
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
+Source: enigma2-plugin-softcams-mgcamd-1.46.bb
+Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 348438
+MD5Sum: be8468fec4d7ea0b52c7600ce93fcdde
+
+Package: enigma2-plugin-softcams-oscam-master
+Version: 11894-git10809+69f0d900+69f0d907f1-r3
+Description: Softcam OSCam (IPv6/IPv4 Dual-Stack support)
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: open
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-oscam-master
+Homepage: https://www.github.com/
+Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv, oscam-master
+Replaces: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
+Conflicts: enigma2-plugin-softcams-oscam-atv, oscam-master-ipv4only
+Source: enigma2-plugin-softcams-oscam-master.bb
+Filename: enigma2-plugin-softcams-oscam-master_11894-git10809+69f0d900+69f0d907f1-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 634126
+MD5Sum: d6bef9a83242179c3484595a8e32cbea
+
+Package: enigma2-plugin-softcams-oscam-samur
+Version: 11878-802
+Description: Softcam OSCam-samur-11878-802 (libusb pcsc)
+Section: base
+Priority: optional
+Maintainer: samur
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-oscam-samur
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.6.0), libusb-1.0-0 (>= 1.0.28), softcam-support
+Source: enigma2-plugin-softcams-oscam-smod.bb
+Filename: enigma2-plugin-softcams-oscam-samur_11878-802_cortexa15hf-neon-vfpv4.ipk
+Size: 779474
+MD5Sum: c85f643d63d6a873ea8cc7f9222bbd8e
+SHA256sum: d17a195af0efdac6269785636dcd3e24f0f7216e56a74cd352393e2977eadc14
+
+Package: enigma2-plugin-softcams-oscam-smod
+Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r3
+Description: Softcam OSCam-smod 1.20+git2389+01bc9cd0+01bc9cdbdc (IPv6/IPv4 Dual-Stack support)
+ Combining the benefits of
+ - latest trunk
+ - modern interface
+ - emu support
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: smod
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-oscam-smod
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libdvbcsa1 (>= 1.1.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.6.0), libusb-1.0-0 (>= 1.0.29), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
+Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
+Conflicts: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4only
+Source: enigma2-plugin-softcams-oscam-smod.bb
+Filename: enigma2-plugin-softcams-oscam-smod_1.20+git2389+01bc9cd0+01bc9cdbdc-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 1161040
+MD5Sum: cde1ef749d0fc8265407515eb59224b4
+
+Package: enigma2-plugin-softcams-wicardd-1.19
+Version: 1.19.r1
+Description: Softcam Wicardd 1.19
+Section: base
+Priority: optional
+Maintainer: ok
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-softcams-wicardd-1.19
+Homepage: https://github.com/
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), softcam-support
+Source: enigma2-plugin-softcams-wicardd-1.19.bb
+Filename: enigma2-plugin-softcams-wicardd-1.19_r1_cortexa15hf-neon-vfpv4.ipk
+Size: 264142
+MD5Sum: 085dfd195056423fef8cb9c8f98b8b34
+SHA256sum: 18bd1c467291d87488bc5a1b961ce089d1d49a895359fe861e8394e42abaec3b
+
+Package: enigma2-plugin-systemplugins-aboutboxbranding
+Version: 3.13+gitr3901+1efaf0d0+1efaf0df89-r3
+Description: systemplugins-aboutboxbranding
+ View Boxbranding data from the GUI
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: dm920
+OE: enigma2-oe-alliance-plugins
+Homepage: https://github.com/
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb
+Filename: enigma2-plugin-systemplugins-aboutboxbranding_7.6.0+gitr3901+1efaf0d0+1efaf0df89-r3_dm920.ipk
+Size: 6572
+MD5Sum: 81f9004faf8ef26e2138b88b69acd55d
+
+Package: enigma2-plugin-systemplugins-newvirtualkeyboard
+Version: 13.6+git76+670e9050+670e905f4b-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: RAED - fairbird
+MD5Sum: e88cf3c88751b0c1c7d7a33199b11f4e
+SHA256sum: e2918aaab732aad7efd5c483578ca23dbac845a0eb0d2308e1279d4b88a00d89
+Size: 266736
+Filename: enigma2-plugin-systemplugins-newvirtualkeyboard_13.6+git76+670e9050+670e905f4b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-newvirtualkeyboard.bb
+Description: enigma2-plugin-systemplugins-newvirtualkeyboard version 13.6+git-r0
+OE: enigma2-plugin-systemplugins-newvirtualkeyboard
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: ffmpeg
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavdevice61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42), libpostproc58 (>= 7.1.1), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7be10247f194beb8f746a33d8dc97e79
+SHA256sum: 25e3e1b5b82262bffc0251863d8fc3d6674cfca6b616f5d7f96f877914b3a41c
+Size: 224700
+Filename: ffmpeg_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: ffmpeg-examples
+Version: 7.1.1-r1
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c41015a485da9dcdb1ae061017f4a753
+SHA256sum: 60177e2e9194356577347071332def1477f96a564cc9996f39e89a26435aef3a
+Size: 48622
+Filename: ffmpeg-examples_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3-Clause & IJG
+Priority: optional
+
+Package: kodi-addon-pvr-mythtv
+Version: 22.2.2+git0+373c821d01-r0
+Depends: libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libkodiplatform, libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c78edb09b5df125f5c504e2efe19e6de
+SHA256sum: ad6fc5846fae20e419285ee0407ce9c5fed521549a6c22934d76d8479e9438fb
+Size: 17451412
+Filename: kodi-addon-pvr-mythtv_22.2.2+git0+373c821d01-r0_dm920.ipk
+Source: kodi-addon-pvr-mythtv.bb
+Description: Kodi Media Center PVR plugins
+OE: kodi-addon-pvr-mythtv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libavcodec60
+Version: 6.1.1
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode, mux, demux, stream, filter and play pretty much
+ anything that humans and machines have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: ok
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: dav1d (>= 1.5.2), libavutil58 (>= 6.1.1), libc6 (>= 2.42), liblzma5 (>= 5.8.1), libswresample4 (>= 6.1.1), libx264-165, libz1 (>= 1.3.1)
+Provides: libavcodec
+Source: ffmpeg_6.1.1.bb
+Filename: libavcodec60_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 5559286
+MD5Sum: 45a5e164f308138ca87f61c4c766241f
+
+Package: libavcodec61
+Version: 7.1.1-r1
+Depends: dav1d (>= 1.5.2), libavutil59 (>= 7.1.1), libc6 (>= 2.42), liblzma5 (>= 5.8.1), libswresample5 (>= 7.1.1), libx264-165, libz1 (>= 1.3.1)
+Provides: libavcodec
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e69855ce1d4b4083add8b0f715b42526
+SHA256sum: d64d7663d6638933d179b93160eb134fdfa1ed2d5f75431d1e8ed15be582ba49
+Size: 5987232
+Filename: libavcodec61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libavdevice61
+Version: 7.1.1-r1
+Depends: libasound2 (>= 1.2.14), libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42)
+Provides: libavdevice
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df80bf47397bfe8ed4eccbcecb21529b
+SHA256sum: 87e663b1dd9e6c92a3819b2bcacaa672a39085be9a442daf779da5f98e563ebb
+Size: 29700
+Filename: libavdevice61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libavfilter10
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42), libfreetype6 (>= 2.13.3), libpostproc58 (>= 7.1.1), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
+Provides: libavfilter
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5b6c41a7ad331d17cbd8a5c4a764812b
+SHA256sum: 9cce46767f6d0059746103b3dc80822f843b4949410fa228030949b245278b4a
+Size: 1668916
+Filename: libavfilter10_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libavformat60
+Version: 6.1.1
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode, mux, demux, stream, filter and play pretty much
+ anything that humans and machines have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: ok
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: libavcodec60 (>= 6.1.1), libavutil58 (>= 6.1.1), libbluray (>= v1.3.4), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), libxml2 (>= 2.12.6), libz1 (>= 1.3.1), rtmpdump
+Provides: libavformat
+Source: ffmpeg_6.1.1.bb
+Filename: libavformat60_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 1031236
+MD5Sum: ed9719784b9f8c74ab88a03cb27b7b7d
+
+Package: libavformat61
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6)
+Provides: libavformat
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a525a6ca95c90cd8eed6a0c78c9bd602
+SHA256sum: 51c975d77111bb39f72aa83f5bcbbfb74deb2dec3d4f600cb5fcfb8c96eec639
+Size: 1109834
+Filename: libavformat61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libavutil58
+Version: 6.1.1
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode, mux, demux, stream, filter and play pretty much
+ anything that humans and machines have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: ok
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0)
+Provides: libavutil
+Source: ffmpeg_6.1.1.bb
+Filename: libavutil58_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 339958
+MD5Sum: 187db2b911b4a313b0d8efc4e72ec0f7
+
+Package: libavutil59
+Version: 7.1.1-r1
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.6.0)
+Provides: libavutil
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a87a74b0f0012db770bce8361e54f97f
+SHA256sum: 61f29ab25c707a0c00fbe0dc97a865d167af67254d2f38f1705c4bc3b754d3ca
+Size: 339486
+Filename: libavutil59_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcrypto1.0.2
+Version: 1.0.2u-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: open
+License: OpenSSL
+Architecture: dm920
+OE: openssl10
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.42+git0+e34453cd6a)
+Recommends: openssl10-conf
+Provides: libcrypto1.0.2, libcrypto10
+Source: openssl10_1.0.2u.bb
+Filename: libcrypto1.0.2_1.0.2u-r0_dm920.ipk
+Size: 627240
+MD5Sum: e5490e75d0849d39dda195ac0c9d25b5
+
+Package: libcrypto-compat-0.9.7
+Version: 1.0-r0
+Description: Compatibility for packages that link to libcrypto or libssl 0.9.7
+ Compatibility for packages that link to libcrypto or libssl 0.9.7.
+Section: base
+Priority: optional
+Maintainer: open
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libcrypto-compat-0.9.7
+Homepage: https://www.github.com/
+Depends: libcrypto, libssl
+Provides: libcrypto.so.0.9.7, libssl.so.0.9.7
+Replaces: libcrypto-compat
+Conflicts: libcrypto-compat
+Source: libcrypto-compat-0.9.7.bb
+Filename: libcrypto-compat-0.9.7_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 730
+MD5Sum: e0e5331c2f5f2772d32cca62797e83a4
+
+Package: libcrypto-compat-1.0.0
+Version: 1.2-r0
+Description: Compatibility for packages that link to libcrypto or libssl 1.0.0
+ Compatibility for packages that link to libcrypto or libssl 1.0.0.
+Section: base
+Priority: optional
+Maintainer: open
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libcrypto-compat-1.0.0
+Homepage: https://www.github.com/
+Depends: libcrypto10, libssl10
+Provides: libcrypto1.0.0, libssl1.0.0
+Replaces: libcrypto1.0.0, libssl1.0.0
+Conflicts: libcrypto1.0.0, libssl1.0.0
+Source: libcrypto-compat-1.0.0.bb
+Filename: libcrypto-compat-1.0.0_1.2-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 724
+MD5Sum: 420abb05daccb7c1c3de004e5fbf15c7
+
+Package: libfmt11
+Version: 11.1.1-r0
+Description: open-source formatting library for C++
+ {fmt} is an open-source formatting library for C++. It can be used as a
+ safe and fast alternative to (s)printf and iostreams.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: fmt
+Homepage: https://fmt.dev
+Depends: libc6 (>= 2.42), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Provides: fmt
+Source: fmt_11.1.1.bb
+Filename: libfmt11_11.1.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 39906
+MD5Sum: 0bb01742864f89c8bb5e360c804cebd7
+
+Package: libpostproc58
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
+Provides: libpostproc
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dde1ef52deb9195bc2b2e714098204ba
+SHA256sum: 431cdb2e1a28735078f94534533847f801d49b44788a4c9ec400ae5a0c075432
+Size: 24960
+Filename: libpostproc58_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libpython3.12-1.0
+Version: 3.12.9-r0
+Description: The Python Programming Language
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: PSF-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.42), libgcc
+Provides: libpython3
+Source: python3_3.12.9.bb
+Filename: libpython3.12-1.0_3.12.9-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1392068
+MD5Sum: de36dd2726c6bcfa6b0f481c98bc40e3
+
+Package: libspdlog1.15
+Version: 1.15.3-r0
+Depends: libc6 (>= 2.42), libfmt11 (>= 11.2.0), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Provides: spdlog
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e79a0823e2fb66b04a09568ef1f7332f
+SHA256sum: d5dce0a1dd75e5c10a682a00a7f4951eb7b21fdf613f935f40bf348d0a8ddd9d
+Size: 76626
+Filename: libspdlog1.15_1.15.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: spdlog_1.15.3.bb
+Description: spdlog version 1.15.3-r0
+OE: spdlog
+HomePage: https://github.com/gabime/spdlog/wiki
+License: MIT
+Priority: optional
+
+Package: libssl1.0.2
+Version: 1.0.2u-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: open
+License: OpenSSL
+Architecture: dm920
+OE: openssl10
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.42), libcrypto1.0.2 (>= 1.0.2u)
+Provides: libssl1.0.2, libssl10
+Source: openssl10_1.0.2u.bb
+Filename: libssl1.0.2_1.0.2u-r0_dm920.ipk
+Size: 140772
+MD5Sum: 9a9d334cf34409c65294df6e75f2ea0f
+
+Package: libswresample4
+Version: 6.1.1
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode, mux, demux, stream, filter and play pretty much
+ anything that humans and machines have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: ok
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: libavutil58 (>= 6.1.1), libc6 (>= 2.42)
+Provides: libswresample
+Source: ffmpeg_6.1.1.bb
+Filename: libswresample4_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 47054
+MD5Sum: a829b4b80014c17b4ba2bfb5abd39a2b
+
+Package: libswresample5
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
+Provides: libswresample
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a5abcf96f2f4959b65617ae8f55ba7b
+SHA256sum: f429dc04120a5ee6a291b00cf14387ad7ab860d2c422f85e03807e890aeef89d
+Size: 46456
+Filename: libswresample5_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libswscale8
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
+Provides: libswscale
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f61e7999ba6c29a743aa4905c8468e4d
+SHA256sum: 2817b545d0dafdcbc3ffb2b6756b27a41ab911214aca548d7d2c60d5088ac3de
+Size: 176898
+Filename: libswscale8_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: nodejs
+Version: 22.20.0-r0
+Description: nodejs version 22.20.0-r0
+ nodeJS Evented I/O for V8 JavaScript
+Section: base
+Priority: optional
+Maintainer: open
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: brotli (>= 1.1.0), libc6 (>= 2.42), libcares2 (>= 1.34.5), libcrypto3 (>= 3.6.0), libgcc1 (>= 15.2.0), libicui18n77 (>= 77-1), libicuuc77 (>= 77-1), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.1)
+Source: nodejs_22.20.0.bb
+Filename: nodejs_22.20.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 11416386
+MD5Sum: e6899f87ed68f35341f9e3ab616367ad
+
+Package: nodejs-npm
+Version: 22.20.0-r0
+Description: nodejs version 22.20.0-r0
+ nodeJS Evented I/O for V8 JavaScript
+Section: base
+Priority: optional
+Maintainer: open
+License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: bash, python3-core, python3-datetime, python3-misc, python3-multiprocessing, python3-shell
+Source: nodejs_22.20.0.bb
+Filename: nodejs-npm_22.20.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 2605930
+MD5Sum: d9d007cfa1067f542413fb4acdcb787a
+
+Package: python3-httptools
+Version: 0.6.4-r0
+Depends: libc6 (>= 2.42), python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c82fcf891730e0690625b4aed9bec4f
+SHA256sum: 50e856e9fab3647a8ac0f795879f11b7b70c52f4c962037dc2798344ccec0036
+Size: 100868
+Filename: python3-httptools_0.6.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-httptools_0.6.4.bb
+Description: A collection of framework independent HTTP protocol utils.
+OE: python3-httptools
+HomePage: https://github.com/MagicStack/httptools
+License: MIT
+Priority: optional
+
+Package: python3-rapidfuzz
+Version: 3.11.0
+Description: Fuzzy string matching in python
+Section: devel/python
+Priority: optional
+Maintainer: ok
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-rapidfuzz
+Homepage: https://github.com/rapidfuzz/RapidFuzz
+Depends: python3-core
+Source: python3-rapidfuzz_3.11.0.bb
+Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
+Size: 1570088
+MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
+SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
+
+Package: streamlinksrv
+Version: 1.8.6
+Description: streamlinksrv is a helper deamon for streamlink
+Section: devel/python
+Priority: optional
+Maintainer: SatDreamGR
+License: GPL-2.0-or-later
+Architecture: all
+OE: streamlinksrv
+Homepage: www.satdreamgr.com
+Depends: python3-core, streamlink
+Source: streamlinksrv.bb
+Filename: streamlinksrv_1.8.6_all.ipk
+Size: 4532
+MD5Sum: fe10f1c5440b98506a3f0e0ce0935f85
+SHA256sum: 04643dd903bcd9775091705594b4f5daeb5d40e8cab41fd0f291dc9b071b649a
+
+Package: wireguard-module
+Version: 1.0.20200520-r0
+Depends: kernel-module-wireguard-3.14-1.17-dm920
+Recommends: kernel-module-xt-hashlimit
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e6384fe4c829747c7a7064d0704ed775
+SHA256sum: db4e19beb1baf2bf74cd846037a9a9876a0576c501e8319c9009c53989cb618b
+Size: 796
+Filename: wireguard-module_1.0.20200520-r0_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
